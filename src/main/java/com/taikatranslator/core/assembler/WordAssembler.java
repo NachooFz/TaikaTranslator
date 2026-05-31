@@ -1,16 +1,17 @@
 package com.taikatranslator.core.assembler;
 
 import java.io.File;
+import java.util.List;
 import com.taikatranslator.model.DocumentLayout;
 import com.taikatranslator.core.vision.VisionResult;
 
 public interface WordAssembler {
     /**
-     * Generates a .docx representation based on layout, translated text, and visual artifacts.
-     * @param layout The structural document layout.
-     * @param visionResult The visual artifacts extracted from the page.
-     * @param outputFile The file path where the .docx should be written.
+     * Generates a single unified .docx representation based on multiple page layouts, translated texts, and visual artifacts.
+     * @param layouts The list of structural document page layouts.
+     * @param visionResults The list of visual artifacts extracted from each page.
+     * @param outputFile The file path where the unified .docx should be written.
      * @throws AssemblyException If OpenXML assembly failure occurs.
      */
-    void assemble(DocumentLayout layout, VisionResult visionResult, File outputFile) throws AssemblyException;
+    void assemble(List<DocumentLayout> layouts, List<VisionResult> visionResults, File outputFile) throws AssemblyException;
 }

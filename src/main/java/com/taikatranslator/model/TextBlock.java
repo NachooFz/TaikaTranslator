@@ -1,10 +1,14 @@
 package com.taikatranslator.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class TextBlock {
     private String text;
     private BoundingBox boundingBox;
     private TextStyle textStyle;
     private int readingOrder;
+    private List<InlineRun> inlineRuns = new ArrayList<>();
 
     public TextBlock() {}
 
@@ -13,6 +17,21 @@ public class TextBlock {
         this.boundingBox = boundingBox;
         this.textStyle = textStyle;
         this.readingOrder = readingOrder;
+    }
+
+    public List<InlineRun> getInlineRuns() {
+        return inlineRuns;
+    }
+
+    public void setInlineRuns(List<InlineRun> inlineRuns) {
+        this.inlineRuns = inlineRuns;
+    }
+
+    public void addInlineRun(InlineRun run) {
+        if (this.inlineRuns == null) {
+            this.inlineRuns = new ArrayList<>();
+        }
+        this.inlineRuns.add(run);
     }
 
     public String getText() {

@@ -2,6 +2,7 @@ com\taikatranslator\infra\extractor\AzureDocumentExtractor.class
 com\taikatranslator\core\assembler\WordAssembler.class
 com\taikatranslator\model\DocumentLayout.class
 com\taikatranslator\infra\retry\RetryExecutor$RetryableAction.class
+com\taikatranslator\infra\assembler\DocxWordAssembler$RenderableElement$Type.class
 com\taikatranslator\core\translator\TextTranslator.class
 com\taikatranslator\CreateSamplePdf.class
 com\taikatranslator\infra\retry\RetryExecutor.class
@@ -24,5 +25,7 @@ com\taikatranslator\model\TextBlock.class
 com\taikatranslator\infra\vision\ProcessBuilderVisionProcessor.class
 com\taikatranslator\Main$MockTextTranslator.class
 com\taikatranslator\core\extractor\DocumentExtractor.class
+com\taikatranslator\infra\assembler\DocxWordAssembler$RenderableElement.class
 com\taikatranslator\infra\assembler\DocxWordAssembler.class
+com\taikatranslator\model\InlineRun.class
 com\taikatranslator\model\Table.class

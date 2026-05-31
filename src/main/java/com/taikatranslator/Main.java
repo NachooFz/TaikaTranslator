@@ -125,6 +125,10 @@ public class Main {
             WordAssembler assembler = new DocxWordAssembler();
 
             // 4. Run page-by-page pipeline
+            List<DocumentLayout> originalLayouts = new ArrayList<>();
+            List<DocumentLayout> translatedLayouts = new ArrayList<>();
+            List<VisionResult> visionResults = new ArrayList<>();
+
             int pageNum = 1;
             for (File pageImg : pageImages) {
                 log.info("----- Processing Page {}/{} -----", pageNum, pageImages.size());
@@ -133,16 +137,13 @@ public class Main {
 
                 // A. Run Vision Helper
                 VisionResult visionResult = visionProcessor.processPage(pageImg, pageOutputDir);
+                visionResults.add(visionResult);
                 
                 // B. Run Structured Extraction on cleaned image
                 DocumentLayout originalLayout = extractor.extractLayout(visionResult.getCleanImage());
-                
-                // C. Reconstruct English DOCX
-                File engDocx = new File(outputDir, inputPdf.getName().replace(".pdf", "") + "_page_" + pageNum + "_reconstructed.docx");
-                assembler.assemble(originalLayout, visionResult, engDocx);
-                log.info("Generated English DOCX: {}", engDocx.getAbsolutePath());
+                originalLayouts.add(originalLayout);
 
-                // D. Run Translation
+                // C. Run Translation
                 List<String> engTexts = new ArrayList<>();
                 for (TextBlock tb : originalLayout.getTextBlocks()) {
                     engTexts.add(tb.getText());
@@ -151,16 +152,23 @@ public class Main {
                 log.info("Translating {} text blocks...", engTexts.size());
                 List<String> esTexts = translator.translate(engTexts);
 
-                // E. Build Translated Layout model (Spanish)
+                // D. Build Translated Layout model (Spanish)
                 DocumentLayout translatedLayout = cloneLayoutWithSpanish(originalLayout, esTexts);
-                
-                // F. Reconstruct Spanish DOCX
-                File esDocx = new File(outputDir, inputPdf.getName().replace(".pdf", "") + "_page_" + pageNum + "_translated.docx");
-                assembler.assemble(translatedLayout, visionResult, esDocx);
-                log.info("Generated Spanish DOCX: {}", esDocx.getAbsolutePath());
+                translatedLayouts.add(translatedLayout);
 
                 pageNum++;
             }
+
+            // 5. Reconstruct Unified Multi-Page Documents
+            log.info("Assembling final unified multi-page English document...");
+            File engDocx = new File(outputDir, inputPdf.getName().replace(".pdf", "") + "_reconstructed.docx");
+            assembler.assemble(originalLayouts, visionResults, engDocx);
+            log.info("Generated English DOCX: {}", engDocx.getAbsolutePath());
+
+            log.info("Assembling final unified multi-page Spanish document...");
+            File esDocx = new File(outputDir, inputPdf.getName().replace(".pdf", "") + "_translated.docx");
+            assembler.assemble(translatedLayouts, visionResults, esDocx);
+            log.info("Generated Spanish DOCX: {}", esDocx.getAbsolutePath());
 
             long duration = System.currentTimeMillis() - startTime;
             log.info("=================================================");

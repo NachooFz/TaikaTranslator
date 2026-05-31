@@ -79,7 +79,7 @@
       "label": ".renderPdfPages()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L177",
+      "source_location": "L191",
       "id": "taikatranslator_main_main_renderpdfpages",
       "community": 6,
       "norm_label": ".renderpdfpages()"
@@ -88,7 +88,7 @@
       "label": "File",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L177",
+      "source_location": "L191",
       "id": "src_main_java_com_taikatranslator_main_java_file",
       "community": 6,
       "norm_label": "file"
@@ -97,7 +97,7 @@
       "label": "List",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L177",
+      "source_location": "L191",
       "id": "src_main_java_com_taikatranslator_main_java_list",
       "community": 6,
       "norm_label": "list"
@@ -106,7 +106,7 @@
       "label": ".cloneLayoutWithSpanish()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L192",
+      "source_location": "L206",
       "id": "taikatranslator_main_main_clonelayoutwithspanish",
       "community": 6,
       "norm_label": ".clonelayoutwithspanish()"
@@ -115,7 +115,7 @@
       "label": "DocumentLayout",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L192",
+      "source_location": "L206",
       "id": "src_main_java_com_taikatranslator_main_java_documentlayout",
       "community": 6,
       "norm_label": "documentlayout"
@@ -124,7 +124,7 @@
       "label": "MockDocumentExtractor",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L216",
+      "source_location": "L244",
       "id": "taikatranslator_main_mockdocumentextractor",
       "community": 6,
       "norm_label": "mockdocumentextractor"
@@ -133,7 +133,7 @@
       "label": ".extractLayout()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L217",
+      "source_location": "L245",
       "id": "taikatranslator_main_mockdocumentextractor_extractlayout",
       "community": 6,
       "norm_label": ".extractlayout()"
@@ -142,7 +142,7 @@
       "label": "Override",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L217",
+      "source_location": "L245",
       "id": "src_main_java_com_taikatranslator_main_java_override",
       "community": 6,
       "norm_label": "override"
@@ -151,7 +151,7 @@
       "label": "MockTextTranslator",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L239",
+      "source_location": "L267",
       "id": "taikatranslator_main_mocktexttranslator",
       "community": 6,
       "norm_label": "mocktexttranslator"
@@ -160,7 +160,7 @@
       "label": ".translate()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L240",
+      "source_location": "L268",
       "id": "taikatranslator_main_mocktexttranslator_translate",
       "community": 6,
       "norm_label": ".translate()"
@@ -169,7 +169,7 @@
       "label": ".loadEnvFile()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L257",
+      "source_location": "L285",
       "id": "taikatranslator_main_main_loadenvfile",
       "community": 6,
       "norm_label": ".loadenvfile()"
@@ -178,7 +178,7 @@
       "label": "Map",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L257",
+      "source_location": "L285",
       "id": "src_main_java_com_taikatranslator_main_java_map",
       "community": 6,
       "norm_label": "map"
@@ -187,7 +187,7 @@
       "label": ".getEnvOrConfig()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/Main.java",
-      "source_location": "L283",
+      "source_location": "L311",
       "id": "taikatranslator_main_main_getenvorconfig",
       "community": 6,
       "norm_label": ".getenvorconfig()"
@@ -259,25 +259,34 @@
       "label": "WordAssembler",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/core/assembler/WordAssembler.java",
-      "source_location": "L7",
+      "source_location": "L8",
       "id": "assembler_wordassembler_wordassembler",
-      "community": 16,
+      "community": 3,
       "norm_label": "wordassembler"
     },
     {
       "label": ".assemble()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/core/assembler/WordAssembler.java",
-      "source_location": "L15",
+      "source_location": "L16",
       "id": "assembler_wordassembler_wordassembler_assemble",
       "community": 16,
       "norm_label": ".assemble()"
     },
     {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/core/assembler/WordAssembler.java",
+      "source_location": "L16",
+      "id": "src_main_java_com_taikatranslator_core_assembler_wordassembler_java_list",
+      "community": 16,
+      "norm_label": "list"
+    },
+    {
       "label": "DocumentLayout",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/core/assembler/WordAssembler.java",
-      "source_location": "L15",
+      "source_location": "L16",
       "id": "src_main_java_com_taikatranslator_core_assembler_wordassembler_java_documentlayout",
       "community": 16,
       "norm_label": "documentlayout"
@@ -286,7 +295,7 @@
       "label": "VisionResult",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/core/assembler/WordAssembler.java",
-      "source_location": "L15",
+      "source_location": "L16",
       "id": "src_main_java_com_taikatranslator_core_assembler_wordassembler_java_visionresult",
       "community": 16,
       "norm_label": "visionresult"
@@ -295,7 +304,7 @@
       "label": "File",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/core/assembler/WordAssembler.java",
-      "source_location": "L15",
+      "source_location": "L16",
       "id": "src_main_java_com_taikatranslator_core_assembler_wordassembler_java_file",
       "community": 16,
       "norm_label": "file"
@@ -396,7 +405,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_core_translator_texttranslator_java",
-      "community": 6,
+      "community": 4,
       "norm_label": "texttranslator.java"
     },
     {
@@ -405,7 +414,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L5",
       "id": "translator_texttranslator_texttranslator",
-      "community": 6,
+      "community": 4,
       "norm_label": "texttranslator"
     },
     {
@@ -414,7 +423,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L12",
       "id": "translator_texttranslator_texttranslator_translate",
-      "community": 6,
+      "community": 4,
       "norm_label": ".translate()"
     },
     {
@@ -423,7 +432,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L12",
       "id": "src_main_java_com_taikatranslator_core_translator_texttranslator_java_list",
-      "community": 6,
+      "community": 4,
       "norm_label": "list"
     },
     {
@@ -432,7 +441,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L12",
       "id": "src_main_java_com_taikatranslator_core_translator_texttranslator_java_string",
-      "community": 6,
+      "community": 4,
       "norm_label": "string"
     },
     {
@@ -531,7 +540,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/vision/VisionProcessor.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_core_vision_visionprocessor_java",
-      "community": 18,
+      "community": 7,
       "norm_label": "visionprocessor.java"
     },
     {
@@ -540,7 +549,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/vision/VisionProcessor.java",
       "source_location": "L5",
       "id": "vision_visionprocessor_visionprocessor",
-      "community": 18,
+      "community": 7,
       "norm_label": "visionprocessor"
     },
     {
@@ -549,7 +558,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/vision/VisionProcessor.java",
       "source_location": "L13",
       "id": "vision_visionprocessor_visionprocessor_processpage",
-      "community": 18,
+      "community": 7,
       "norm_label": ".processpage()"
     },
     {
@@ -558,7 +567,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/vision/VisionProcessor.java",
       "source_location": "L13",
       "id": "src_main_java_com_taikatranslator_core_vision_visionprocessor_java_file",
-      "community": 18,
+      "community": 7,
       "norm_label": "file"
     },
     {
@@ -567,7 +576,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/vision/VisionProcessor.java",
       "source_location": "L13",
       "id": "src_main_java_com_taikatranslator_core_vision_visionprocessor_java_visionresult",
-      "community": 18,
+      "community": 7,
       "norm_label": "visionresult"
     },
     {
@@ -711,7 +720,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/vision/VisionResult.java",
       "source_location": "L52",
       "id": "vision_visionresult_artifactinfo_getartifactfile",
-      "community": 7,
+      "community": 3,
       "norm_label": ".getartifactfile()"
     },
     {
@@ -790,25 +799,70 @@
       "label": "DocxWordAssembler",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
-      "source_location": "L29",
+      "source_location": "L45",
       "id": "assembler_docxwordassembler_docxwordassembler",
       "community": 3,
       "norm_label": "docxwordassembler"
     },
     {
+      "label": "RenderableElement",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L52",
+      "id": "assembler_docxwordassembler_renderableelement",
+      "community": 21,
+      "norm_label": "renderableelement"
+    },
+    {
+      "label": ".RenderableElement()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L58",
+      "id": "assembler_docxwordassembler_renderableelement_renderableelement",
+      "community": 21,
+      "norm_label": ".renderableelement()"
+    },
+    {
+      "label": "Type",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L58",
+      "id": "type",
+      "community": 21,
+      "norm_label": "type"
+    },
+    {
+      "label": "Object",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L58",
+      "id": "object",
+      "community": 21,
+      "norm_label": "object"
+    },
+    {
       "label": ".assemble()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
-      "source_location": "L36",
+      "source_location": "L65",
       "id": "assembler_docxwordassembler_docxwordassembler_assemble",
       "community": 3,
       "norm_label": ".assemble()"
     },
     {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L65",
+      "id": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_list",
+      "community": 3,
+      "norm_label": "list"
+    },
+    {
       "label": "DocumentLayout",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
-      "source_location": "L36",
+      "source_location": "L65",
       "id": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_documentlayout",
       "community": 3,
       "norm_label": "documentlayout"
@@ -817,7 +871,7 @@
       "label": "VisionResult",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
-      "source_location": "L36",
+      "source_location": "L65",
       "id": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_visionresult",
       "community": 3,
       "norm_label": "visionresult"
@@ -826,7 +880,7 @@
       "label": "File",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
-      "source_location": "L36",
+      "source_location": "L65",
       "id": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_file",
       "community": 3,
       "norm_label": "file"
@@ -835,10 +889,73 @@
       "label": "Override",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
-      "source_location": "L36",
+      "source_location": "L65",
       "id": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_override",
       "community": 3,
       "norm_label": "override"
+    },
+    {
+      "label": ".assemblePage()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L110",
+      "id": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "community": 3,
+      "norm_label": ".assemblepage()"
+    },
+    {
+      "label": "XWPFDocument",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L110",
+      "id": "xwpfdocument",
+      "community": 3,
+      "norm_label": "xwpfdocument"
+    },
+    {
+      "label": ".makePictureFloating()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L327",
+      "id": "assembler_docxwordassembler_docxwordassembler_makepicturefloating",
+      "community": 3,
+      "norm_label": ".makepicturefloating()"
+    },
+    {
+      "label": "XWPFRun",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L327",
+      "id": "xwpfrun",
+      "community": 3,
+      "norm_label": "xwpfrun"
+    },
+    {
+      "label": ".applyRunStyle()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L400",
+      "id": "assembler_docxwordassembler_docxwordassembler_applyrunstyle",
+      "community": 3,
+      "norm_label": ".applyrunstyle()"
+    },
+    {
+      "label": "TextStyle",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L400",
+      "id": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_textstyle",
+      "community": 3,
+      "norm_label": "textstyle"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L400",
+      "id": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_string",
+      "community": 3,
+      "norm_label": "string"
     },
     {
       "label": "AzureDocumentExtractor.java",
@@ -916,7 +1033,7 @@
       "label": ".pollForResults()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
-      "source_location": "L84",
+      "source_location": "L92",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_pollforresults",
       "community": 4,
       "norm_label": ".pollforresults()"
@@ -925,7 +1042,7 @@
       "label": "JsonNode",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
-      "source_location": "L84",
+      "source_location": "L92",
       "id": "jsonnode",
       "community": 4,
       "norm_label": "jsonnode"
@@ -934,16 +1051,25 @@
       "label": ".parseAzureJson()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
-      "source_location": "L116",
+      "source_location": "L124",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_parseazurejson",
       "community": 4,
       "norm_label": ".parseazurejson()"
     },
     {
+      "label": "BufferedImage",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L124",
+      "id": "bufferedimage",
+      "community": 4,
+      "norm_label": "bufferedimage"
+    },
+    {
       "label": ".extractBoundingBox()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
-      "source_location": "L191",
+      "source_location": "L255",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_extractboundingbox",
       "community": 4,
       "norm_label": ".extractboundingbox()"
@@ -952,7 +1078,7 @@
       "label": "BoundingBox",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
-      "source_location": "L191",
+      "source_location": "L255",
       "id": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java_boundingbox",
       "community": 4,
       "norm_label": "boundingbox"
@@ -961,19 +1087,28 @@
       "label": ".extractTextStyle()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
-      "source_location": "L226",
+      "source_location": "L290",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_extracttextstyle",
-      "community": 3,
+      "community": 4,
       "norm_label": ".extracttextstyle()"
     },
     {
       "label": "TextStyle",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
-      "source_location": "L226",
+      "source_location": "L290",
       "id": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java_textstyle",
-      "community": 3,
+      "community": 4,
       "norm_label": "textstyle"
+    },
+    {
+      "label": ".detectBold()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L315",
+      "id": "extractor_azuredocumentextractor_azuredocumentextractor_detectbold",
+      "community": 3,
+      "norm_label": ".detectbold()"
     },
     {
       "label": "HttpClientWrapper.java",
@@ -1161,7 +1296,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/vision/ProcessBuilderVisionProcessor.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_infra_vision_processbuildervisionprocessor_java",
-      "community": 18,
+      "community": 7,
       "norm_label": "processbuildervisionprocessor.java"
     },
     {
@@ -1170,7 +1305,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/vision/ProcessBuilderVisionProcessor.java",
       "source_location": "L18",
       "id": "vision_processbuildervisionprocessor_processbuildervisionprocessor",
-      "community": 18,
+      "community": 7,
       "norm_label": "processbuildervisionprocessor"
     },
     {
@@ -1179,7 +1314,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/vision/ProcessBuilderVisionProcessor.java",
       "source_location": "L24",
       "id": "vision_processbuildervisionprocessor_processbuildervisionprocessor_processbuildervisionprocessor",
-      "community": 18,
+      "community": 7,
       "norm_label": ".processbuildervisionprocessor()"
     },
     {
@@ -1188,7 +1323,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/vision/ProcessBuilderVisionProcessor.java",
       "source_location": "L24",
       "id": "src_main_java_com_taikatranslator_infra_vision_processbuildervisionprocessor_java_string",
-      "community": 18,
+      "community": 7,
       "norm_label": "string"
     },
     {
@@ -1197,7 +1332,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/vision/ProcessBuilderVisionProcessor.java",
       "source_location": "L29",
       "id": "vision_processbuildervisionprocessor_processbuildervisionprocessor_processpage",
-      "community": 18,
+      "community": 7,
       "norm_label": ".processpage()"
     },
     {
@@ -1206,7 +1341,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/vision/ProcessBuilderVisionProcessor.java",
       "source_location": "L29",
       "id": "src_main_java_com_taikatranslator_infra_vision_processbuildervisionprocessor_java_file",
-      "community": 18,
+      "community": 7,
       "norm_label": "file"
     },
     {
@@ -1215,7 +1350,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/vision/ProcessBuilderVisionProcessor.java",
       "source_location": "L29",
       "id": "src_main_java_com_taikatranslator_infra_vision_processbuildervisionprocessor_java_visionresult",
-      "community": 18,
+      "community": 7,
       "norm_label": "visionresult"
     },
     {
@@ -1224,7 +1359,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/vision/ProcessBuilderVisionProcessor.java",
       "source_location": "L29",
       "id": "src_main_java_com_taikatranslator_infra_vision_processbuildervisionprocessor_java_override",
-      "community": 18,
+      "community": 7,
       "norm_label": "override"
     },
     {
@@ -1332,7 +1467,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/BoundingBox.java",
       "source_location": "L50",
       "id": "model_boundingbox_boundingbox_tostring",
-      "community": 3,
+      "community": 22,
       "norm_label": ".tostring()"
     },
     {
@@ -1341,7 +1476,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/BoundingBox.java",
       "source_location": "L50",
       "id": "src_main_java_com_taikatranslator_model_boundingbox_java_string",
-      "community": 3,
+      "community": 22,
       "norm_label": "string"
     },
     {
@@ -1350,7 +1485,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/BoundingBox.java",
       "source_location": "L50",
       "id": "src_main_java_com_taikatranslator_model_boundingbox_java_override",
-      "community": 3,
+      "community": 22,
       "norm_label": "override"
     },
     {
@@ -1467,7 +1602,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L47",
       "id": "model_documentlayout_documentlayout_gettables",
-      "community": 6,
+      "community": 3,
       "norm_label": ".gettables()"
     },
     {
@@ -1476,7 +1611,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L47",
       "id": "table",
-      "community": 6,
+      "community": 3,
       "norm_label": "table"
     },
     {
@@ -1522,6 +1657,114 @@
       "source_location": "L59",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java_override",
       "community": 6,
+      "norm_label": "override"
+    },
+    {
+      "label": "InlineRun.java",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L1",
+      "id": "src_main_java_com_taikatranslator_model_inlinerun_java",
+      "community": 18,
+      "norm_label": "inlinerun.java"
+    },
+    {
+      "label": "InlineRun",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L3",
+      "id": "model_inlinerun_inlinerun",
+      "community": 18,
+      "norm_label": "inlinerun"
+    },
+    {
+      "label": ".InlineRun()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L8",
+      "id": "model_inlinerun_inlinerun_inlinerun",
+      "community": 18,
+      "norm_label": ".inlinerun()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L10",
+      "id": "src_main_java_com_taikatranslator_model_inlinerun_java_string",
+      "community": 18,
+      "norm_label": "string"
+    },
+    {
+      "label": ".getText()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L16",
+      "id": "model_inlinerun_inlinerun_gettext",
+      "community": 18,
+      "norm_label": ".gettext()"
+    },
+    {
+      "label": ".setText()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L20",
+      "id": "model_inlinerun_inlinerun_settext",
+      "community": 18,
+      "norm_label": ".settext()"
+    },
+    {
+      "label": ".isBold()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L24",
+      "id": "model_inlinerun_inlinerun_isbold",
+      "community": 18,
+      "norm_label": ".isbold()"
+    },
+    {
+      "label": ".setBold()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L28",
+      "id": "model_inlinerun_inlinerun_setbold",
+      "community": 18,
+      "norm_label": ".setbold()"
+    },
+    {
+      "label": ".isItalic()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L32",
+      "id": "model_inlinerun_inlinerun_isitalic",
+      "community": 18,
+      "norm_label": ".isitalic()"
+    },
+    {
+      "label": ".setItalic()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L36",
+      "id": "model_inlinerun_inlinerun_setitalic",
+      "community": 18,
+      "norm_label": ".setitalic()"
+    },
+    {
+      "label": ".toString()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L40",
+      "id": "model_inlinerun_inlinerun_tostring",
+      "community": 18,
+      "norm_label": ".tostring()"
+    },
+    {
+      "label": "Override",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L40",
+      "id": "src_main_java_com_taikatranslator_model_inlinerun_java_override",
+      "community": 18,
       "norm_label": "override"
     },
     {
@@ -1933,7 +2176,7 @@
       "label": "TextBlock",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L3",
+      "source_location": "L6",
       "id": "model_textblock_textblock",
       "community": 12,
       "norm_label": "textblock"
@@ -1942,7 +2185,7 @@
       "label": ".TextBlock()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L9",
+      "source_location": "L13",
       "id": "model_textblock_textblock_textblock",
       "community": 12,
       "norm_label": ".textblock()"
@@ -1951,7 +2194,7 @@
       "label": "String",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L11",
+      "source_location": "L15",
       "id": "src_main_java_com_taikatranslator_model_textblock_java_string",
       "community": 12,
       "norm_label": "string"
@@ -1960,7 +2203,7 @@
       "label": "BoundingBox",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L11",
+      "source_location": "L15",
       "id": "src_main_java_com_taikatranslator_model_textblock_java_boundingbox",
       "community": 12,
       "norm_label": "boundingbox"
@@ -1969,16 +2212,61 @@
       "label": "TextStyle",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L11",
+      "source_location": "L15",
       "id": "src_main_java_com_taikatranslator_model_textblock_java_textstyle",
       "community": 12,
       "norm_label": "textstyle"
     },
     {
+      "label": ".getInlineRuns()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L22",
+      "id": "model_textblock_textblock_getinlineruns",
+      "community": 6,
+      "norm_label": ".getinlineruns()"
+    },
+    {
+      "label": "List",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L22",
+      "id": "src_main_java_com_taikatranslator_model_textblock_java_list",
+      "community": 12,
+      "norm_label": "list"
+    },
+    {
+      "label": "InlineRun",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L22",
+      "id": "inlinerun",
+      "community": 12,
+      "norm_label": "inlinerun"
+    },
+    {
+      "label": ".setInlineRuns()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L26",
+      "id": "model_textblock_textblock_setinlineruns",
+      "community": 12,
+      "norm_label": ".setinlineruns()"
+    },
+    {
+      "label": ".addInlineRun()",
+      "file_type": "code",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L30",
+      "id": "model_textblock_textblock_addinlinerun",
+      "community": 12,
+      "norm_label": ".addinlinerun()"
+    },
+    {
       "label": ".getText()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L18",
+      "source_location": "L37",
       "id": "model_textblock_textblock_gettext",
       "community": 12,
       "norm_label": ".gettext()"
@@ -1987,7 +2275,7 @@
       "label": ".setText()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L22",
+      "source_location": "L41",
       "id": "model_textblock_textblock_settext",
       "community": 12,
       "norm_label": ".settext()"
@@ -1996,7 +2284,7 @@
       "label": ".getBoundingBox()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L26",
+      "source_location": "L45",
       "id": "model_textblock_textblock_getboundingbox",
       "community": 12,
       "norm_label": ".getboundingbox()"
@@ -2005,7 +2293,7 @@
       "label": ".setBoundingBox()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L30",
+      "source_location": "L49",
       "id": "model_textblock_textblock_setboundingbox",
       "community": 12,
       "norm_label": ".setboundingbox()"
@@ -2014,16 +2302,16 @@
       "label": ".getTextStyle()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L34",
+      "source_location": "L53",
       "id": "model_textblock_textblock_gettextstyle",
-      "community": 12,
+      "community": 3,
       "norm_label": ".gettextstyle()"
     },
     {
       "label": ".setTextStyle()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L38",
+      "source_location": "L57",
       "id": "model_textblock_textblock_settextstyle",
       "community": 12,
       "norm_label": ".settextstyle()"
@@ -2032,7 +2320,7 @@
       "label": ".getReadingOrder()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L42",
+      "source_location": "L61",
       "id": "model_textblock_textblock_getreadingorder",
       "community": 12,
       "norm_label": ".getreadingorder()"
@@ -2041,7 +2329,7 @@
       "label": ".setReadingOrder()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L46",
+      "source_location": "L65",
       "id": "model_textblock_textblock_setreadingorder",
       "community": 12,
       "norm_label": ".setreadingorder()"
@@ -2050,7 +2338,7 @@
       "label": ".toString()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L50",
+      "source_location": "L69",
       "id": "model_textblock_textblock_tostring",
       "community": 12,
       "norm_label": ".tostring()"
@@ -2059,7 +2347,7 @@
       "label": "Override",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
-      "source_location": "L50",
+      "source_location": "L69",
       "id": "src_main_java_com_taikatranslator_model_textblock_java_override",
       "community": 12,
       "norm_label": "override"
@@ -2227,10 +2515,28 @@
       "norm_label": "parse_args()"
     },
     {
-      "label": "extract_contours_fallback()",
+      "label": "union_or_deduplicate_boxes()",
       "file_type": "code",
       "source_file": "vision/segmenter.py",
       "source_location": "L15",
+      "id": "vision_segmenter_union_or_deduplicate_boxes",
+      "community": 17,
+      "norm_label": "union_or_deduplicate_boxes()"
+    },
+    {
+      "label": "extract_sam_segmentation()",
+      "file_type": "code",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L43",
+      "id": "vision_segmenter_extract_sam_segmentation",
+      "community": 17,
+      "norm_label": "extract_sam_segmentation()"
+    },
+    {
+      "label": "extract_contours_fallback()",
+      "file_type": "code",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L175",
       "id": "vision_segmenter_extract_contours_fallback",
       "community": 17,
       "norm_label": "extract_contours_fallback()"
@@ -2239,19 +2545,28 @@
       "label": "main()",
       "file_type": "code",
       "source_file": "vision/segmenter.py",
-      "source_location": "L103",
+      "source_location": "L286",
       "id": "vision_segmenter_main",
       "community": 17,
       "norm_label": "main()"
     },
     {
-      "label": "Highly robust local fallback using OpenCV contour analysis.     Identifies high-",
+      "label": "High-fidelity segmentation using Segment Anything Model (SAM) from Ultralytics",
       "file_type": "rationale",
       "source_file": "vision/segmenter.py",
-      "source_location": "L16",
-      "id": "vision_segmenter_rationale_16",
+      "source_location": "L44",
+      "id": "vision_segmenter_rationale_44",
       "community": 17,
-      "norm_label": "highly robust local fallback using opencv contour analysis.     identifies high-"
+      "norm_label": "high-fidelity segmentation using segment anything model (sam) from ultralytics"
+    },
+    {
+      "label": "Refined local fallback using OpenCV contour analysis.     Identifies high-varian",
+      "file_type": "rationale",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L176",
+      "id": "vision_segmenter_rationale_176",
+      "community": 17,
+      "norm_label": "refined local fallback using opencv contour analysis.     identifies high-varian"
     },
     {
       "label": "constitution.md",
@@ -3010,6 +3325,42 @@
       "norm_label": "workflow: graphify"
     },
     {
+      "label": "Refined local fallback using OpenCV contour analysis.     Identifies high-varian",
+      "file_type": "rationale",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L172",
+      "community": 17,
+      "norm_label": "refined local fallback using opencv contour analysis.     identifies high-varian",
+      "id": "vision_segmenter_rationale_172"
+    },
+    {
+      "label": "High-fidelity segmentation using Segment Anything Model (SAM) from Ultralytics",
+      "file_type": "rationale",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L16",
+      "community": 17,
+      "norm_label": "high-fidelity segmentation using segment anything model (sam) from ultralytics",
+      "id": "vision_segmenter_rationale_16"
+    },
+    {
+      "label": "Refined local fallback using OpenCV contour analysis.     Identifies high-varian",
+      "file_type": "rationale",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L126",
+      "community": 17,
+      "norm_label": "refined local fallback using opencv contour analysis.     identifies high-varian",
+      "id": "vision_segmenter_rationale_126"
+    },
+    {
+      "label": "Refined local fallback using OpenCV contour analysis.     Identifies high-varian",
+      "file_type": "rationale",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L125",
+      "community": 17,
+      "norm_label": "refined local fallback using opencv contour analysis.     identifies high-varian",
+      "id": "vision_segmenter_rationale_125"
+    },
+    {
       "label": "Map",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/http/HttpClientWrapper.java",
@@ -3240,6 +3591,17 @@
       "weight": 1.0,
       "source": "taikatranslator_main_main_main",
       "target": "model_documentlayout_documentlayout_gettextblocks"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/Main.java",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "taikatranslator_main_main_main",
+      "target": "model_textblock_textblock_getinlineruns"
     },
     {
       "relation": "references",
@@ -3522,6 +3884,28 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/main/java/com/taikatranslator/Main.java",
+      "source_location": "L229",
+      "weight": 1.0,
+      "source": "taikatranslator_main_main_clonelayoutwithspanish",
+      "target": "model_textblock_textblock_addinlinerun"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/Main.java",
+      "source_location": "L222",
+      "weight": 1.0,
+      "source": "taikatranslator_main_main_clonelayoutwithspanish",
+      "target": "model_textblock_textblock_getinlineruns"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/Main.java",
       "source_location": "L197",
       "weight": 1.0,
       "source": "taikatranslator_main_main_clonelayoutwithspanish",
@@ -3785,6 +4169,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/taikatranslator/core/assembler/WordAssembler.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_taikatranslator_core_assembler_wordassembler_java",
+      "target": "src_main_java_com_taikatranslator_core_assembler_wordassembler_java_list"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/core/assembler/WordAssembler.java",
       "source_location": "L5",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3843,6 +4238,17 @@
       "confidence_score": 1.0,
       "source": "assembler_wordassembler_wordassembler_assemble",
       "target": "src_main_java_com_taikatranslator_core_assembler_wordassembler_java_file"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/core/assembler/WordAssembler.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "assembler_wordassembler_wordassembler_assemble",
+      "target": "src_main_java_com_taikatranslator_core_assembler_wordassembler_java_list"
     },
     {
       "relation": "references",
@@ -4497,6 +4903,17 @@
       "context": "call",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "vision_visionresult_visionresult_getartifacts"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
       "source_file": "src/main/java/com/taikatranslator/infra/vision/ProcessBuilderVisionProcessor.java",
       "source_location": "L110",
       "weight": 1.0,
@@ -4705,6 +5122,17 @@
       "target": "vision_visionresult_artifactinfo_getartifactfile"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L221",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "vision_visionresult_artifactinfo_getartifactfile"
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/taikatranslator/core/vision/VisionResult.java",
@@ -4724,6 +5152,16 @@
       "confidence_score": 1.0,
       "source": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java",
       "target": "assembler_docxwordassembler_docxwordassembler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java",
+      "target": "assembler_docxwordassembler_renderableelement"
     },
     {
       "relation": "imports",
@@ -4746,6 +5184,28 @@
       "confidence_score": 1.0,
       "source": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java",
       "target": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_file"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java",
+      "target": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_list"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java",
+      "target": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_textstyle",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4803,6 +5263,38 @@
       "target": "textblock"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java",
+      "target": "xwpfdocument"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java",
+      "target": "xwpfrun"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L400",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler",
+      "target": "assembler_docxwordassembler_docxwordassembler_applyrunstyle",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
@@ -4811,6 +5303,69 @@
       "confidence_score": 1.0,
       "source": "assembler_docxwordassembler_docxwordassembler",
       "target": "assembler_docxwordassembler_docxwordassembler_assemble"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler",
+      "target": "assembler_docxwordassembler_docxwordassembler_assemblepage"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L267",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler",
+      "target": "assembler_docxwordassembler_docxwordassembler_makepicturefloating"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_renderableelement",
+      "target": "assembler_docxwordassembler_renderableelement_renderableelement"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_renderableelement_renderableelement",
+      "target": "object"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_renderableelement_renderableelement",
+      "target": "type"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemble",
+      "target": "assembler_docxwordassembler_docxwordassembler_assemblepage"
     },
     {
       "relation": "calls",
@@ -4851,10 +5406,43 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemble",
+      "target": "model_boundingbox_boundingbox_gettop"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
       "source_location": "L107",
       "weight": 1.0,
       "source": "assembler_docxwordassembler_docxwordassembler_assemble",
       "target": "model_boundingbox_boundingbox_getwidth"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemble",
+      "target": "model_boundingbox_boundingbox_setleft"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemble",
+      "target": "model_boundingbox_boundingbox_settop"
     },
     {
       "relation": "calls",
@@ -5036,6 +5624,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemble",
+      "target": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_list"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
       "source_location": "L36",
       "weight": 1.0,
       "context": "attribute",
@@ -5053,6 +5652,369 @@
       "confidence_score": 1.0,
       "source": "assembler_docxwordassembler_docxwordassembler_assemble",
       "target": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_visionresult"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_documentlayout"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_visionresult"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "assembler_docxwordassembler_docxwordassembler_applyrunstyle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L262",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "assembler_docxwordassembler_docxwordassembler_makepicturefloating"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L198",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "http_httpclientwrapper_httpclientwrapper_get"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L233",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_boundingbox_boundingbox_getheight"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_boundingbox_boundingbox_getleft"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_boundingbox_boundingbox_gettop"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_boundingbox_boundingbox_getwidth"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_boundingbox_boundingbox_setwidth"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_documentlayout_documentlayout_gettables"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_documentlayout_documentlayout_gettextblocks"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_table_table_getrows"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_tablerow_tablerow_getcells"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_textblock_textblock_getinlineruns"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_textblock_textblock_gettextstyle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_textstyle_textstyle_getfontname"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_textstyle_textstyle_getfontsize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_textstyle_textstyle_gethexcolor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_textstyle_textstyle_isbold"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_textstyle_textstyle_isitalic"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_textstyle_textstyle_setbold"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_textstyle_textstyle_setfontsize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "model_textstyle_textstyle_setitalic"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L93",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_assemblepage",
+      "target": "xwpfdocument"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L267",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "confidence_score": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_makepicturefloating",
+      "target": "xwpfrun"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L400",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "assembler_docxwordassembler_docxwordassembler_applyrunstyle",
+      "target": "xwpfrun",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L402",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_applyrunstyle",
+      "target": "model_textstyle_textstyle_getfontname"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L407",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_applyrunstyle",
+      "target": "model_textstyle_textstyle_getfontsize"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L415",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_applyrunstyle",
+      "target": "model_textstyle_textstyle_gethexcolor"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L412",
+      "weight": 1.0,
+      "source": "assembler_docxwordassembler_docxwordassembler_applyrunstyle",
+      "target": "model_textstyle_textstyle_setfontsize"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L400",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "assembler_docxwordassembler_docxwordassembler_applyrunstyle",
+      "target": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
+      "source_location": "L400",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "assembler_docxwordassembler_docxwordassembler_applyrunstyle",
+      "target": "src_main_java_com_taikatranslator_infra_assembler_docxwordassembler_java_textstyle",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5183,6 +6145,16 @@
       "confidence_score": 1.0,
       "source": "extractor_azuredocumentextractor_azuredocumentextractor",
       "target": "extractor_azuredocumentextractor_azuredocumentextractor_azuredocumentextractor"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L315",
+      "weight": 1.0,
+      "source": "extractor_azuredocumentextractor_azuredocumentextractor",
+      "target": "extractor_azuredocumentextractor_azuredocumentextractor_detectbold",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -5400,6 +6372,28 @@
       "target": "jsonnode"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L124",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "extractor_azuredocumentextractor_azuredocumentextractor_parseazurejson",
+      "target": "bufferedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "extractor_azuredocumentextractor_azuredocumentextractor_parseazurejson",
+      "target": "extractor_azuredocumentextractor_azuredocumentextractor_detectbold",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -5482,6 +6476,28 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "extractor_azuredocumentextractor_azuredocumentextractor_parseazurejson",
+      "target": "model_textblock_textblock_addinlinerun"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L315",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "extractor_azuredocumentextractor_azuredocumentextractor_detectbold",
+      "target": "bufferedimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L196",
       "weight": 1.0,
       "source": "extractor_azuredocumentextractor_azuredocumentextractor_extractboundingbox",
@@ -5497,6 +6513,17 @@
       "confidence_score": 1.0,
       "source": "extractor_azuredocumentextractor_azuredocumentextractor_extractboundingbox",
       "target": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java_boundingbox"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L315",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "extractor_azuredocumentextractor_azuredocumentextractor_detectbold",
+      "target": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java_boundingbox",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -5563,6 +6590,50 @@
       "confidence_score": 1.0,
       "source": "extractor_azuredocumentextractor_azuredocumentextractor_extracttextstyle",
       "target": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java_textstyle"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L321",
+      "weight": 1.0,
+      "source": "extractor_azuredocumentextractor_azuredocumentextractor_detectbold",
+      "target": "model_boundingbox_boundingbox_getheight"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L320",
+      "weight": 1.0,
+      "source": "extractor_azuredocumentextractor_azuredocumentextractor_detectbold",
+      "target": "model_boundingbox_boundingbox_getleft"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L321",
+      "weight": 1.0,
+      "source": "extractor_azuredocumentextractor_azuredocumentextractor_detectbold",
+      "target": "model_boundingbox_boundingbox_gettop"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
+      "source_location": "L320",
+      "weight": 1.0,
+      "source": "extractor_azuredocumentextractor_azuredocumentextractor_detectbold",
+      "target": "model_boundingbox_boundingbox_getwidth"
     },
     {
       "relation": "contains",
@@ -6453,6 +7524,151 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main_java_com_taikatranslator_model_inlinerun_java",
+      "target": "model_inlinerun_inlinerun",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "model_inlinerun_inlinerun",
+      "target": "model_inlinerun_inlinerun_gettext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "model_inlinerun_inlinerun",
+      "target": "model_inlinerun_inlinerun_inlinerun",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "model_inlinerun_inlinerun",
+      "target": "model_inlinerun_inlinerun_isbold",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "model_inlinerun_inlinerun",
+      "target": "model_inlinerun_inlinerun_isitalic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "model_inlinerun_inlinerun",
+      "target": "model_inlinerun_inlinerun_setbold",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "model_inlinerun_inlinerun",
+      "target": "model_inlinerun_inlinerun_setitalic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "model_inlinerun_inlinerun",
+      "target": "model_inlinerun_inlinerun_settext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "model_inlinerun_inlinerun",
+      "target": "model_inlinerun_inlinerun_tostring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "model_inlinerun_inlinerun_inlinerun",
+      "target": "src_main_java_com_taikatranslator_model_inlinerun_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "model_inlinerun_inlinerun_gettext",
+      "target": "src_main_java_com_taikatranslator_model_inlinerun_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "model_inlinerun_inlinerun_settext",
+      "target": "src_main_java_com_taikatranslator_model_inlinerun_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "model_inlinerun_inlinerun_tostring",
+      "target": "src_main_java_com_taikatranslator_model_inlinerun_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/InlineRun.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "model_inlinerun_inlinerun_tostring",
+      "target": "src_main_java_com_taikatranslator_model_inlinerun_java_override",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/taikatranslator/model/Table.java",
       "source_location": "L6",
       "weight": 1.0,
@@ -7092,6 +8308,27 @@
       "target": "model_textblock_textblock"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_main_java_com_taikatranslator_model_textblock_java",
+      "target": "src_main_java_com_taikatranslator_model_textblock_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "model_textblock_textblock",
+      "target": "model_textblock_textblock_addinlinerun",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
@@ -7100,6 +8337,16 @@
       "confidence_score": 1.0,
       "source": "model_textblock_textblock",
       "target": "model_textblock_textblock_getboundingbox"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "model_textblock_textblock",
+      "target": "model_textblock_textblock_getinlineruns",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7140,6 +8387,16 @@
       "confidence_score": 1.0,
       "source": "model_textblock_textblock",
       "target": "model_textblock_textblock_setboundingbox"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "model_textblock_textblock",
+      "target": "model_textblock_textblock_setinlineruns",
+      "confidence_score": 1.0
     },
     {
       "relation": "method",
@@ -7300,6 +8557,61 @@
       "confidence_score": 1.0,
       "source": "model_textblock_textblock_settextstyle",
       "target": "src_main_java_com_taikatranslator_model_textblock_java_textstyle"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "model_textblock_textblock_getinlineruns",
+      "target": "inlinerun",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "model_textblock_textblock_getinlineruns",
+      "target": "src_main_java_com_taikatranslator_model_textblock_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "model_textblock_textblock_setinlineruns",
+      "target": "src_main_java_com_taikatranslator_model_textblock_java_list",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "model_textblock_textblock_addinlinerun",
+      "target": "inlinerun",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
+      "source_location": "L26",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "model_textblock_textblock_setinlineruns",
+      "target": "inlinerun",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -7533,6 +8845,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "vision/segmenter.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vision_segmenter_py",
+      "target": "vision_segmenter_extract_sam_segmentation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vision/segmenter.py",
       "source_location": "L103",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -7550,6 +8872,16 @@
       "target": "vision_segmenter_parse_args"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vision_segmenter_py",
+      "target": "vision_segmenter_union_or_deduplicate_boxes"
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -7559,6 +8891,59 @@
       "confidence_score": 1.0,
       "source": "vision_segmenter_main",
       "target": "vision_segmenter_parse_args"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L224",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vision_segmenter_extract_contours_fallback",
+      "target": "vision_segmenter_union_or_deduplicate_boxes"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vision_segmenter_extract_sam_segmentation",
+      "target": "vision_segmenter_union_or_deduplicate_boxes"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L229",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vision_segmenter_main",
+      "target": "vision_segmenter_extract_sam_segmentation"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vision_segmenter_rationale_16",
+      "target": "vision_segmenter_extract_sam_segmentation"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vision_segmenter_rationale_44",
+      "target": "vision_segmenter_extract_sam_segmentation"
     },
     {
       "relation": "calls",
@@ -7575,10 +8960,50 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "vision/segmenter.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vision_segmenter_rationale_125",
+      "target": "vision_segmenter_extract_contours_fallback"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L126",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vision_segmenter_rationale_126",
+      "target": "vision_segmenter_extract_contours_fallback"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "vision/segmenter.py",
       "source_location": "L16",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "vision_segmenter_rationale_16",
+      "target": "vision_segmenter_extract_contours_fallback"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vision_segmenter_rationale_172",
+      "target": "vision_segmenter_extract_contours_fallback"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "vision/segmenter.py",
+      "source_location": "L176",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "vision_segmenter_rationale_176",
       "target": "vision_segmenter_extract_contours_fallback"
     },
     {
@@ -8287,9 +9712,9 @@
       "source_file": "walkthrough.md",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "taikatranslator_walkthrough_walkthrough_e2e_document_extraction_translation_pipeline_taikatranslator",
-      "target": "taikatranslator_walkthrough_5_verification_run_results_may_30_2026",
-      "confidence_score": 1.0
+      "target": "taikatranslator_walkthrough_5_verification_run_results_may_30_2026"
     },
     {
       "relation": "contains",
@@ -8343,5 +9768,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8882adc0d7e69fd6076d09b9099b9b1539a8c0ab"
+  "built_at_commit": "2557c6f5376bbee022c4fbebb8d944bee00cf3ab"
 }

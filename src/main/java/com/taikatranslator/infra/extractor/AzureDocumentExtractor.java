@@ -126,6 +126,34 @@ public class AzureDocumentExtractor implements DocumentExtractor {
         
         DocumentLayout layout = new DocumentLayout(pageWidth, pageHeight);
         
+        // Parse global styles into bold and italic BitSets
+        java.util.BitSet boldOffsets = new java.util.BitSet();
+        java.util.BitSet italicOffsets = new java.util.BitSet();
+        
+        JsonNode stylesNode = analyzeResult.get("styles");
+        if (stylesNode != null) {
+            for (JsonNode styleNode : stylesNode) {
+                boolean isBold = styleNode.has("fontWeight") && "bold".equalsIgnoreCase(styleNode.get("fontWeight").asText());
+                boolean isItalic = styleNode.has("fontStyle") && "italic".equalsIgnoreCase(styleNode.get("fontStyle").asText());
+                
+                if (isBold || isItalic) {
+                    JsonNode spansNode = styleNode.get("spans");
+                    if (spansNode != null) {
+                        for (JsonNode span : spansNode) {
+                            int offset = span.get("offset").asInt();
+                            int length = span.get("length").asInt();
+                            for (int idx = offset; idx < offset + length; idx++) {
+                                if (idx >= 0) {
+                                    if (isBold) boldOffsets.set(idx);
+                                    if (isItalic) italicOffsets.set(idx);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         // Parse paragraphs
         JsonNode paragraphs = analyzeResult.get("paragraphs");
         if (paragraphs != null) {
@@ -139,7 +167,45 @@ public class AzureDocumentExtractor implements DocumentExtractor {
                 // Extract font style (Azure provides some metadata or default fallback)
                 TextStyle style = extractTextStyle(paraNode);
                 
-                layout.addTextBlock(new TextBlock(text, box, style, order++));
+                TextBlock textBlock = new TextBlock(text, box, style, order++);
+                
+                // Segment text into inline runs based on bold/italic bitsets
+                int paraOffset = 0;
+                if (paraNode.has("spans") && paraNode.get("spans").size() > 0) {
+                    paraOffset = paraNode.get("spans").get(0).get("offset").asInt();
+                }
+                
+                if (text.length() > 0) {
+                    StringBuilder currentRunText = new StringBuilder();
+                    boolean lastBold = boldOffsets.get(paraOffset);
+                    boolean lastItalic = italicOffsets.get(paraOffset);
+                    
+                    for (int i = 0; i < text.length(); i++) {
+                        int globalIdx = paraOffset + i;
+                        boolean currentBold = boldOffsets.get(globalIdx);
+                        boolean currentItalic = italicOffsets.get(globalIdx);
+                        
+                        if (currentBold != lastBold || currentItalic != lastItalic) {
+                            if (currentRunText.length() > 0) {
+                                textBlock.addInlineRun(new com.taikatranslator.model.InlineRun(
+                                    currentRunText.toString(), lastBold, lastItalic));
+                                currentRunText.setLength(0);
+                            }
+                            lastBold = currentBold;
+                            lastItalic = currentItalic;
+                        }
+                        currentRunText.append(text.charAt(i));
+                    }
+                    
+                    if (currentRunText.length() > 0) {
+                        textBlock.addInlineRun(new com.taikatranslator.model.InlineRun(
+                            currentRunText.toString(), lastBold, lastItalic));
+                    }
+                } else {
+                    textBlock.addInlineRun(new com.taikatranslator.model.InlineRun("", false, false));
+                }
+                
+                layout.addTextBlock(textBlock);
             }
         }
         
