@@ -1,0 +1,192 @@
+{
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\constitution.md": {
+    "mtime": 1780183803.2651281,
+    "ast_hash": "2fd14670caaf9f8b41c6e5df851d86fa",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\plan.md": {
+    "mtime": 1780184195.8407893,
+    "ast_hash": "abbaefaf460f6d58e62ba89cf14bc81b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\spec.md": {
+    "mtime": 1780183809.191563,
+    "ast_hash": "7cbede7d71e2ec27edfb251c55e827e8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\tasks.md": {
+    "mtime": 1780186006.0165815,
+    "ast_hash": "0b52058a99c527f92743d4a5408f7a50",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\.agents\\rules\\graphify.md": {
+    "mtime": 1780184383.3589656,
+    "ast_hash": "a0e4d192b9e2e17256124dbfc8e24e6a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\.agents\\workflows\\graphify.md": {
+    "mtime": 1780184383.3606389,
+    "ast_hash": "637776aa6f7496d069afe7520c845c8a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\Main.java": {
+    "mtime": 1780185976.3843057,
+    "ast_hash": "3ea2bf070b772252243d72b7ee497aad",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\core\\assembler\\AssemblyException.java": {
+    "mtime": 1780184520.3402932,
+    "ast_hash": "484c6b4886d18745a388272492ca0006",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\core\\assembler\\WordAssembler.java": {
+    "mtime": 1780184531.5054133,
+    "ast_hash": "c69298ca829dd4ac8507a8974ad54c0d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\core\\extractor\\DocumentExtractor.java": {
+    "mtime": 1780184526.1308956,
+    "ast_hash": "ce95465b195543fb63b578166e321a41",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\core\\extractor\\ExtractionException.java": {
+    "mtime": 1780184514.6598961,
+    "ast_hash": "4499264aa9a67f72189a5570deb00ac4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\core\\translator\\TextTranslator.java": {
+    "mtime": 1780184528.7905233,
+    "ast_hash": "e764f1650b973e69b801eb8d367e8c6a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\core\\translator\\TranslationException.java": {
+    "mtime": 1780184517.385233,
+    "ast_hash": "b595b3892e1da1028203058d08871cbc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\core\\vision\\VisionException.java": {
+    "mtime": 1780184511.8537855,
+    "ast_hash": "5d819d78e3b75e5b71dc9c554d4ff152",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\core\\vision\\VisionProcessor.java": {
+    "mtime": 1780184523.3248253,
+    "ast_hash": "91529bb5b1141d796f5d3f78ed191464",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\core\\vision\\VisionResult.java": {
+    "mtime": 1780184509.1005752,
+    "ast_hash": "816a4ba4ddf4a4f224b4b0f0ca26e090",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\infra\\assembler\\DocxWordAssembler.java": {
+    "mtime": 1780184620.8704567,
+    "ast_hash": "bbed522fc38191655b93061a6c7dd08b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\infra\\extractor\\AzureDocumentExtractor.java": {
+    "mtime": 1780184574.0129552,
+    "ast_hash": "412b1424e26ce433201419b98b1bee84",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\infra\\http\\HttpClientWrapper.java": {
+    "mtime": 1780184538.2644687,
+    "ast_hash": "21d95f69728d34fb063399e982e9a41c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\infra\\retry\\RetryExecutor.java": {
+    "mtime": 1780184534.753779,
+    "ast_hash": "073d6222def99230a8d68c26e5885f31",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\infra\\translator\\DeepLTranslator.java": {
+    "mtime": 1780184578.6637316,
+    "ast_hash": "f705107b0b8980b5c4abb8db6cecf475",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\infra\\vision\\ProcessBuilderVisionProcessor.java": {
+    "mtime": 1780184560.1261673,
+    "ast_hash": "63142d972c630b16e35a559c82269dca",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\model\\BoundingBox.java": {
+    "mtime": 1780184487.9974234,
+    "ast_hash": "0cbd80494ae1256eb627f8efb63152fd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\model\\DocumentLayout.java": {
+    "mtime": 1780184505.2645578,
+    "ast_hash": "7f4c4ece8e890aaa7e633a807ae03d28",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\model\\Table.java": {
+    "mtime": 1780184502.414651,
+    "ast_hash": "df6f1837dfbe99e491218e12dee513a6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\model\\TableCell.java": {
+    "mtime": 1780184497.1528833,
+    "ast_hash": "d4bb08f2086dd0bd32a77420cfd4bda7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\model\\TableRow.java": {
+    "mtime": 1780184499.728394,
+    "ast_hash": "f50264ea83ed7c5e6cb05e2636f9396d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\model\\TextBlock.java": {
+    "mtime": 1780184493.6412272,
+    "ast_hash": "d8845f8ebad5d67e4608885c0305b07b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\model\\TextStyle.java": {
+    "mtime": 1780184490.8695912,
+    "ast_hash": "d009a30e9e49a42b186cd94dfaad521b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\vision\\segmenter.py": {
+    "mtime": 1780184554.5434632,
+    "ast_hash": "91f437b11cae353c31ab7511f4efdb6c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\vision\\requirements.txt": {
+    "mtime": 1780184548.3495622,
+    "ast_hash": "04497266cc5e70a1ca1f55cec89bb873",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\README.md": {
+    "mtime": 1780185281.3601968,
+    "ast_hash": "324a5e6710ab83431e1b996ce1e4d5fe",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\walkthrough.md": {
+    "mtime": 1780185999.6965952,
+    "ast_hash": "11eb789eefaca876446e570e270701fd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\CreateSamplePdf.java": {
+    "mtime": 1780185915.0721653,
+    "ast_hash": "1251bef83953d049bd2dafc32c6908d5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\classpath.txt": {
+    "mtime": 1780185940.892143,
+    "ast_hash": "790aba530903e80b920d89feddcfc606",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\samples\\scanned_document.pdf": {
+    "mtime": 1780185956.8096864,
+    "ast_hash": "803bf9f4be45828d81091e62aeabbd0b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\page_1.png": {
+    "mtime": 1780185986.1543274,
+    "ast_hash": "d037a1c2063690bc42b5861ae1c35188",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\page_1\\clean_page.png": {
+    "mtime": 1780185986.66584,
+    "ast_hash": "82c50fbf686107e6e139ae89c72b96ab",
+    "semantic_hash": ""
+  }
+}
