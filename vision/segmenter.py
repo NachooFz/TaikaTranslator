@@ -82,7 +82,12 @@ def extract_sam_segmentation(image_path, output_dir):
         roi_combined = combined[y:y+ch, x:x+cw]
         if cv2.countNonZero(roi_combined) < 150:
             continue
-        boxes.append([x, y, x + cw, y + ch])
+        # Refine bounding box to get a tight fit around actual non-zero colored pixels (strips 35px dilation padding)
+        pts = cv2.findNonZero(roi_combined)
+        if pts is not None:
+            rx, ry, rcw, rch = cv2.boundingRect(pts)
+            bx, by, bcw, bch = x + rx, y + ry, rcw, rch
+            boxes.append([bx, by, bx + bcw, by + bch])
 
     # Mode 2: Spatial Heuristic for B&W circular notary stamps
     dilated_bw = cv2.dilate(thresh, kernel, iterations=1)
@@ -93,7 +98,13 @@ def extract_sam_segmentation(image_path, output_dir):
             aspect_ratio = float(cw) / max(1, ch)
             if 0.75 <= aspect_ratio <= 1.35:
                 if cw < w * 0.9 and ch < h * 0.9:
-                    boxes.append([x, y, x + cw, y + ch])
+                    # Refine to tight coordinates of actual thresholded pixels inside the B&W stamp area
+                    roi_thresh = thresh[y:y+ch, x:x+cw]
+                    pts = cv2.findNonZero(roi_thresh)
+                    if pts is not None:
+                        rx, ry, rcw, rch = cv2.boundingRect(pts)
+                        bx, by, bcw, bch = x + rx, y + ry, rcw, rch
+                        boxes.append([bx, by, bx + bcw, by + bch])
 
     # Deduplicate overlapping boxes
     boxes = union_or_deduplicate_boxes(boxes)
@@ -215,7 +226,12 @@ def extract_contours_fallback(image_path, output_dir):
         roi_combined = combined[y:y+ch, x:x+cw]
         if cv2.countNonZero(roi_combined) < 150:
             continue
-        boxes.append([x, y, x + cw, y + ch])
+        # Refine bounding box to get a tight fit around actual non-zero colored pixels (strips 35px dilation padding)
+        pts = cv2.findNonZero(roi_combined)
+        if pts is not None:
+            rx, ry, rcw, rch = cv2.boundingRect(pts)
+            bx, by, bcw, bch = x + rx, y + ry, rcw, rch
+            boxes.append([bx, by, bx + bcw, by + bch])
 
     # Mode 2: Spatial Heuristic for B&W circular notary stamps
     dilated_bw = cv2.dilate(thresh, kernel, iterations=1)
@@ -226,7 +242,13 @@ def extract_contours_fallback(image_path, output_dir):
             aspect_ratio = float(cw) / max(1, ch)
             if 0.75 <= aspect_ratio <= 1.35:
                 if cw < w * 0.9 and ch < h * 0.9:
-                    boxes.append([x, y, x + cw, y + ch])
+                    # Refine to tight coordinates of actual thresholded pixels inside the B&W stamp area
+                    roi_thresh = thresh[y:y+ch, x:x+cw]
+                    pts = cv2.findNonZero(roi_thresh)
+                    if pts is not None:
+                        rx, ry, rcw, rch = cv2.boundingRect(pts)
+                        bx, by, bcw, bch = x + rx, y + ry, rcw, rch
+                        boxes.append([bx, by, bx + bcw, by + bch])
 
     # Deduplicate overlapping boxes
     boxes = union_or_deduplicate_boxes(boxes)

@@ -1,0 +1,1363 @@
+{
+  "status" : "succeeded",
+  "createdDateTime" : "2026-06-01T02:35:25Z",
+  "lastUpdatedDateTime" : "2026-06-01T02:35:27Z",
+  "analyzeResult" : {
+    "apiVersion" : "2023-07-31",
+    "modelId" : "prebuilt-layout",
+    "stringIndexType" : "textElements",
+    "content" : "GJVR/MXNG/1001307073/20240070\nNORTON ROSE FULBRIGHT\nNorton Rose Fulbright LLP Advocaten, Notarissen & Solicitors 2Amsterdam, 15th floor Eduard Van Beinumstraat 34 1077 CZ Amsterdam PO Box 94142, 1090 GC Amsterdam The Netherlands\nISSUED FOR TRUE COPY in accordance with section 49 paragraph 3 of the Dutch Civil Law Notaries Act (Wet op het Notarisambt) of a document that was used in a closing at our office on 6 January 2025, by me, Geert-Jan van Rijthoven, civil law notary in Amsterdam, the Netherlands. This statement explicitly contains no judgement as to the contents of this document.\nAmsterdam, the Netherlands, 7 May 2026.\n1",
+    "pages" : [ {
+      "pageNumber" : 1,
+      "angle" : -0.16249999403953552,
+      "width" : 2480,
+      "height" : 3505,
+      "unit" : "pixel",
+      "words" : [ {
+        "content" : "GJVR/MXNG/1001307073/20240070",
+        "polygon" : [ 461, 164, 1051, 159, 1052, 201, 462, 203 ],
+        "confidence" : 0.955,
+        "span" : {
+          "offset" : 0,
+          "length" : 29
+        }
+      }, {
+        "content" : "NORTON",
+        "polygon" : [ 1382, 176, 1643, 173, 1640, 238, 1379, 238 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 30,
+          "length" : 6
+        }
+      }, {
+        "content" : "ROSE",
+        "polygon" : [ 1681, 173, 1844, 172, 1842, 237, 1679, 238 ],
+        "confidence" : 0.98,
+        "span" : {
+          "offset" : 37,
+          "length" : 4
+        }
+      }, {
+        "content" : "FULBRIGHT",
+        "polygon" : [ 1874, 171, 2252, 170, 2250, 237, 1872, 237 ],
+        "confidence" : 0.981,
+        "span" : {
+          "offset" : 42,
+          "length" : 9
+        }
+      }, {
+        "content" : "Norton",
+        "polygon" : [ 1379, 310, 1488, 310, 1489, 351, 1381, 351 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 52,
+          "length" : 6
+        }
+      }, {
+        "content" : "Rose",
+        "polygon" : [ 1498, 310, 1584, 310, 1586, 351, 1500, 351 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 59,
+          "length" : 4
+        }
+      }, {
+        "content" : "Fulbright",
+        "polygon" : [ 1592, 310, 1735, 311, 1736, 349, 1593, 351 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 64,
+          "length" : 9
+        }
+      }, {
+        "content" : "LLP",
+        "polygon" : [ 1743, 311, 1805, 311, 1806, 348, 1744, 349 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 74,
+          "length" : 3
+        }
+      }, {
+        "content" : "Advocaten,",
+        "polygon" : [ 1382, 357, 1578, 357, 1579, 396, 1384, 398 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 78,
+          "length" : 10
+        }
+      }, {
+        "content" : "Notarissen",
+        "polygon" : [ 1585, 357, 1768, 357, 1769, 394, 1586, 396 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 89,
+          "length" : 10
+        }
+      }, {
+        "content" : "&",
+        "polygon" : [ 1781, 357, 1806, 356, 1807, 394, 1781, 394 ],
+        "confidence" : 0.972,
+        "span" : {
+          "offset" : 100,
+          "length" : 1
+        }
+      }, {
+        "content" : "Solicitors",
+        "polygon" : [ 1819, 356, 1979, 355, 1979, 394, 1820, 394 ],
+        "confidence" : 0.988,
+        "span" : {
+          "offset" : 102,
+          "length" : 10
+        }
+      }, {
+        "content" : "2Amsterdam,",
+        "polygon" : [ 1382, 402, 1603, 404, 1604, 441, 1384, 445 ],
+        "confidence" : 0.99,
+        "span" : {
+          "offset" : 113,
+          "length" : 11
+        }
+      }, {
+        "content" : "15th",
+        "polygon" : [ 1611, 404, 1676, 404, 1676, 440, 1611, 441 ],
+        "confidence" : 0.986,
+        "span" : {
+          "offset" : 125,
+          "length" : 4
+        }
+      }, {
+        "content" : "floor",
+        "polygon" : [ 1686, 404, 1757, 404, 1757, 440, 1686, 440 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 130,
+          "length" : 5
+        }
+      }, {
+        "content" : "Eduard",
+        "polygon" : [ 1381, 447, 1497, 448, 1498, 488, 1383, 490 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 136,
+          "length" : 6
+        }
+      }, {
+        "content" : "Van",
+        "polygon" : [ 1507, 448, 1569, 448, 1570, 487, 1509, 488 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 143,
+          "length" : 3
+        }
+      }, {
+        "content" : "Beinumstraat",
+        "polygon" : [ 1582, 448, 1797, 447, 1798, 485, 1583, 487 ],
+        "confidence" : 0.981,
+        "span" : {
+          "offset" : 147,
+          "length" : 12
+        }
+      }, {
+        "content" : "34",
+        "polygon" : [ 1804, 447, 1843, 446, 1844, 485, 1805, 485 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 160,
+          "length" : 2
+        }
+      }, {
+        "content" : "1077",
+        "polygon" : [ 1386, 493, 1464, 494, 1465, 533, 1387, 534 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 163,
+          "length" : 4
+        }
+      }, {
+        "content" : "CZ",
+        "polygon" : [ 1472, 494, 1520, 494, 1520, 533, 1473, 533 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 168,
+          "length" : 2
+        }
+      }, {
+        "content" : "Amsterdam",
+        "polygon" : [ 1530, 494, 1704, 496, 1704, 532, 1531, 533 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 171,
+          "length" : 9
+        }
+      }, {
+        "content" : "PO",
+        "polygon" : [ 1381, 539, 1426, 539, 1426, 581, 1381, 581 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 181,
+          "length" : 2
+        }
+      }, {
+        "content" : "Box",
+        "polygon" : [ 1445, 539, 1509, 539, 1509, 580, 1445, 580 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 184,
+          "length" : 3
+        }
+      }, {
+        "content" : "94142,",
+        "polygon" : [ 1517, 539, 1632, 539, 1632, 579, 1517, 580 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 188,
+          "length" : 6
+        }
+      }, {
+        "content" : "1090",
+        "polygon" : [ 1640, 539, 1717, 539, 1717, 579, 1640, 579 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 195,
+          "length" : 4
+        }
+      }, {
+        "content" : "GC",
+        "polygon" : [ 1725, 539, 1776, 539, 1776, 579, 1725, 579 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 200,
+          "length" : 2
+        }
+      }, {
+        "content" : "Amsterdam",
+        "polygon" : [ 1790, 539, 1961, 538, 1961, 580, 1790, 579 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 203,
+          "length" : 9
+        }
+      }, {
+        "content" : "The",
+        "polygon" : [ 1385, 586, 1441, 586, 1443, 626, 1386, 626 ],
+        "confidence" : 0.997,
+        "span" : {
+          "offset" : 213,
+          "length" : 3
+        }
+      }, {
+        "content" : "Netherlands",
+        "polygon" : [ 1452, 586, 1649, 587, 1649, 624, 1453, 626 ],
+        "confidence" : 0.978,
+        "span" : {
+          "offset" : 217,
+          "length" : 11
+        }
+      }, {
+        "content" : "ISSUED",
+        "polygon" : [ 462, 1010, 613, 1009, 613, 1058, 463, 1058 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 229,
+          "length" : 6
+        }
+      }, {
+        "content" : "FOR",
+        "polygon" : [ 633, 1009, 720, 1008, 721, 1059, 634, 1059 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 236,
+          "length" : 3
+        }
+      }, {
+        "content" : "TRUE",
+        "polygon" : [ 747, 1008, 854, 1008, 855, 1059, 748, 1059 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 240,
+          "length" : 4
+        }
+      }, {
+        "content" : "COPY",
+        "polygon" : [ 878, 1007, 999, 1007, 1000, 1059, 879, 1059 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 245,
+          "length" : 4
+        }
+      }, {
+        "content" : "in",
+        "polygon" : [ 1012, 1007, 1049, 1007, 1050, 1059, 1013, 1059 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 250,
+          "length" : 2
+        }
+      }, {
+        "content" : "accordance",
+        "polygon" : [ 1066, 1007, 1284, 1006, 1285, 1059, 1067, 1059 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 253,
+          "length" : 10
+        }
+      }, {
+        "content" : "with",
+        "polygon" : [ 1301, 1005, 1379, 1005, 1379, 1059, 1302, 1059 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 264,
+          "length" : 4
+        }
+      }, {
+        "content" : "section",
+        "polygon" : [ 1395, 1005, 1530, 1005, 1530, 1058, 1396, 1059 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 269,
+          "length" : 7
+        }
+      }, {
+        "content" : "49",
+        "polygon" : [ 1550, 1005, 1600, 1004, 1601, 1058, 1550, 1058 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 277,
+          "length" : 2
+        }
+      }, {
+        "content" : "paragraph",
+        "polygon" : [ 1614, 1004, 1809, 1004, 1809, 1057, 1614, 1058 ],
+        "confidence" : 0.987,
+        "span" : {
+          "offset" : 280,
+          "length" : 9
+        }
+      }, {
+        "content" : "3",
+        "polygon" : [ 1829, 1004, 1856, 1004, 1856, 1056, 1829, 1056 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 290,
+          "length" : 1
+        }
+      }, {
+        "content" : "of",
+        "polygon" : [ 1866, 1004, 1909, 1004, 1910, 1056, 1866, 1056 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 292,
+          "length" : 2
+        }
+      }, {
+        "content" : "the",
+        "polygon" : [ 1919, 1004, 1983, 1004, 1983, 1055, 1920, 1056 ],
+        "confidence" : 0.997,
+        "span" : {
+          "offset" : 295,
+          "length" : 3
+        }
+      }, {
+        "content" : "Dutch",
+        "polygon" : [ 2000, 1004, 2111, 1004, 2111, 1054, 2000, 1055 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 299,
+          "length" : 5
+        }
+      }, {
+        "content" : "Civil",
+        "polygon" : [ 2131, 1004, 2215, 1003, 2215, 1053, 2131, 1054 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 305,
+          "length" : 5
+        }
+      }, {
+        "content" : "Law",
+        "polygon" : [ 2225, 1003, 2299, 1003, 2299, 1052, 2225, 1053 ],
+        "confidence" : 0.99,
+        "span" : {
+          "offset" : 311,
+          "length" : 3
+        }
+      }, {
+        "content" : "Notaries",
+        "polygon" : [ 461, 1084, 621, 1083, 622, 1133, 462, 1133 ],
+        "confidence" : 0.974,
+        "span" : {
+          "offset" : 315,
+          "length" : 8
+        }
+      }, {
+        "content" : "Act",
+        "polygon" : [ 631, 1083, 694, 1082, 695, 1133, 632, 1133 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 324,
+          "length" : 3
+        }
+      }, {
+        "content" : "(Wet",
+        "polygon" : [ 704, 1082, 798, 1082, 798, 1133, 705, 1133 ],
+        "confidence" : 0.983,
+        "span" : {
+          "offset" : 328,
+          "length" : 4
+        }
+      }, {
+        "content" : "op",
+        "polygon" : [ 808, 1081, 854, 1081, 855, 1132, 808, 1133 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 333,
+          "length" : 2
+        }
+      }, {
+        "content" : "het",
+        "polygon" : [ 864, 1081, 928, 1081, 929, 1132, 865, 1132 ],
+        "confidence" : 0.978,
+        "span" : {
+          "offset" : 336,
+          "length" : 3
+        }
+      }, {
+        "content" : "Notarisambt)",
+        "polygon" : [ 938, 1081, 1185, 1079, 1186, 1131, 939, 1132 ],
+        "confidence" : 0.961,
+        "span" : {
+          "offset" : 340,
+          "length" : 12
+        }
+      }, {
+        "content" : "of",
+        "polygon" : [ 1195, 1079, 1235, 1079, 1236, 1131, 1196, 1131 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 353,
+          "length" : 2
+        }
+      }, {
+        "content" : "a",
+        "polygon" : [ 1245, 1079, 1268, 1079, 1269, 1131, 1246, 1131 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 356,
+          "length" : 1
+        }
+      }, {
+        "content" : "document",
+        "polygon" : [ 1278, 1079, 1468, 1078, 1469, 1130, 1279, 1131 ],
+        "confidence" : 0.957,
+        "span" : {
+          "offset" : 358,
+          "length" : 8
+        }
+      }, {
+        "content" : "that",
+        "polygon" : [ 1478, 1078, 1552, 1078, 1553, 1130, 1479, 1130 ],
+        "confidence" : 0.99,
+        "span" : {
+          "offset" : 367,
+          "length" : 4
+        }
+      }, {
+        "content" : "was",
+        "polygon" : [ 1562, 1078, 1642, 1077, 1643, 1129, 1563, 1129 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 372,
+          "length" : 3
+        }
+      }, {
+        "content" : "used",
+        "polygon" : [ 1652, 1077, 1742, 1077, 1743, 1129, 1653, 1129 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 376,
+          "length" : 4
+        }
+      }, {
+        "content" : "in",
+        "polygon" : [ 1752, 1077, 1792, 1077, 1793, 1128, 1753, 1128 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 381,
+          "length" : 2
+        }
+      }, {
+        "content" : "a",
+        "polygon" : [ 1805, 1077, 1829, 1077, 1830, 1128, 1806, 1128 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 384,
+          "length" : 1
+        }
+      }, {
+        "content" : "closing",
+        "polygon" : [ 1839, 1077, 1972, 1076, 1973, 1127, 1840, 1128 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 386,
+          "length" : 7
+        }
+      }, {
+        "content" : "at",
+        "polygon" : [ 1986, 1076, 2022, 1076, 2023, 1127, 1987, 1127 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 394,
+          "length" : 2
+        }
+      }, {
+        "content" : "our",
+        "polygon" : [ 2032, 1076, 2099, 1076, 2100, 1126, 2033, 1127 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 397,
+          "length" : 3
+        }
+      }, {
+        "content" : "office",
+        "polygon" : [ 2109, 1076, 2213, 1076, 2213, 1126, 2110, 1126 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 401,
+          "length" : 6
+        }
+      }, {
+        "content" : "on",
+        "polygon" : [ 2223, 1076, 2269, 1076, 2270, 1125, 2223, 1125 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 408,
+          "length" : 2
+        }
+      }, {
+        "content" : "6",
+        "polygon" : [ 2279, 1076, 2306, 1076, 2307, 1125, 2280, 1125 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 411,
+          "length" : 1
+        }
+      }, {
+        "content" : "January",
+        "polygon" : [ 465, 1158, 615, 1157, 615, 1204, 466, 1205 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 413,
+          "length" : 7
+        }
+      }, {
+        "content" : "2025,",
+        "polygon" : [ 627, 1157, 727, 1157, 727, 1204, 628, 1204 ],
+        "confidence" : 0.978,
+        "span" : {
+          "offset" : 421,
+          "length" : 5
+        }
+      }, {
+        "content" : "by",
+        "polygon" : [ 464, 1230, 506, 1229, 506, 1277, 464, 1277 ],
+        "confidence" : 0.904,
+        "span" : {
+          "offset" : 427,
+          "length" : 2
+        }
+      }, {
+        "content" : "me,",
+        "polygon" : [ 515, 1229, 590, 1228, 590, 1277, 515, 1277 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 430,
+          "length" : 3
+        }
+      }, {
+        "content" : "Geert-Jan",
+        "polygon" : [ 600, 1228, 786, 1226, 786, 1277, 600, 1277 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 434,
+          "length" : 9
+        }
+      }, {
+        "content" : "van",
+        "polygon" : [ 796, 1226, 864, 1226, 864, 1277, 796, 1277 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 444,
+          "length" : 3
+        }
+      }, {
+        "content" : "Rijthoven,",
+        "polygon" : [ 877, 1226, 1063, 1224, 1063, 1276, 877, 1277 ],
+        "confidence" : 0.988,
+        "span" : {
+          "offset" : 448,
+          "length" : 10
+        }
+      }, {
+        "content" : "civil",
+        "polygon" : [ 1073, 1224, 1144, 1224, 1144, 1276, 1073, 1276 ],
+        "confidence" : 0.954,
+        "span" : {
+          "offset" : 459,
+          "length" : 5
+        }
+      }, {
+        "content" : "law",
+        "polygon" : [ 1154, 1224, 1213, 1223, 1213, 1276, 1154, 1276 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 465,
+          "length" : 3
+        }
+      }, {
+        "content" : "notary",
+        "polygon" : [ 1229, 1223, 1346, 1223, 1346, 1275, 1229, 1275 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 469,
+          "length" : 6
+        }
+      }, {
+        "content" : "in",
+        "polygon" : [ 1356, 1223, 1392, 1223, 1392, 1274, 1356, 1275 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 476,
+          "length" : 2
+        }
+      }, {
+        "content" : "Amsterdam,",
+        "polygon" : [ 1405, 1223, 1630, 1222, 1630, 1272, 1405, 1274 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 479,
+          "length" : 10
+        }
+      }, {
+        "content" : "the",
+        "polygon" : [ 1640, 1222, 1702, 1222, 1702, 1271, 1640, 1272 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 490,
+          "length" : 3
+        }
+      }, {
+        "content" : "Netherlands.",
+        "polygon" : [ 1711, 1222, 1950, 1222, 1950, 1268, 1711, 1271 ],
+        "confidence" : 0.972,
+        "span" : {
+          "offset" : 494,
+          "length" : 12
+        }
+      }, {
+        "content" : "This",
+        "polygon" : [ 468, 1372, 542, 1372, 543, 1419, 469, 1419 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 507,
+          "length" : 4
+        }
+      }, {
+        "content" : "statement",
+        "polygon" : [ 552, 1372, 735, 1370, 736, 1419, 552, 1419 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 512,
+          "length" : 9
+        }
+      }, {
+        "content" : "explicitly",
+        "polygon" : [ 745, 1370, 906, 1369, 906, 1419, 746, 1419 ],
+        "confidence" : 0.984,
+        "span" : {
+          "offset" : 522,
+          "length" : 10
+        }
+      }, {
+        "content" : "contains",
+        "polygon" : [ 915, 1369, 1073, 1368, 1074, 1419, 916, 1419 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 533,
+          "length" : 8
+        }
+      }, {
+        "content" : "no",
+        "polygon" : [ 1083, 1368, 1128, 1368, 1128, 1419, 1083, 1419 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 542,
+          "length" : 2
+        }
+      }, {
+        "content" : "judgement",
+        "polygon" : [ 1138, 1368, 1341, 1367, 1341, 1418, 1138, 1419 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 545,
+          "length" : 9
+        }
+      }, {
+        "content" : "as",
+        "polygon" : [ 1350, 1367, 1395, 1366, 1396, 1418, 1351, 1418 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 555,
+          "length" : 2
+        }
+      }, {
+        "content" : "to",
+        "polygon" : [ 1405, 1366, 1444, 1366, 1444, 1417, 1405, 1418 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 558,
+          "length" : 2
+        }
+      }, {
+        "content" : "the",
+        "polygon" : [ 1453, 1366, 1514, 1366, 1515, 1417, 1454, 1417 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 561,
+          "length" : 3
+        }
+      }, {
+        "content" : "contents",
+        "polygon" : [ 1524, 1366, 1685, 1366, 1685, 1415, 1524, 1417 ],
+        "confidence" : 0.99,
+        "span" : {
+          "offset" : 565,
+          "length" : 8
+        }
+      }, {
+        "content" : "of",
+        "polygon" : [ 1695, 1366, 1730, 1366, 1730, 1414, 1695, 1415 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 574,
+          "length" : 2
+        }
+      }, {
+        "content" : "this",
+        "polygon" : [ 1740, 1366, 1807, 1365, 1808, 1413, 1740, 1414 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 577,
+          "length" : 4
+        }
+      }, {
+        "content" : "document.",
+        "polygon" : [ 1817, 1365, 2014, 1365, 2014, 1410, 1817, 1413 ],
+        "confidence" : 0.976,
+        "span" : {
+          "offset" : 582,
+          "length" : 9
+        }
+      }, {
+        "content" : "Amsterdam,",
+        "polygon" : [ 464, 1516, 688, 1514, 689, 1562, 465, 1561 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 592,
+          "length" : 10
+        }
+      }, {
+        "content" : "the",
+        "polygon" : [ 698, 1513, 757, 1513, 757, 1562, 699, 1562 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 603,
+          "length" : 3
+        }
+      }, {
+        "content" : "Netherlands,",
+        "polygon" : [ 766, 1513, 1013, 1510, 1014, 1562, 767, 1562 ],
+        "confidence" : 0.989,
+        "span" : {
+          "offset" : 607,
+          "length" : 12
+        }
+      }, {
+        "content" : "7",
+        "polygon" : [ 1023, 1510, 1043, 1510, 1043, 1562, 1023, 1562 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 620,
+          "length" : 1
+        }
+      }, {
+        "content" : "May",
+        "polygon" : [ 1053, 1510, 1137, 1509, 1137, 1561, 1053, 1562 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 622,
+          "length" : 3
+        }
+      }, {
+        "content" : "2026.",
+        "polygon" : [ 1147, 1509, 1252, 1508, 1252, 1560, 1147, 1561 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 626,
+          "length" : 5
+        }
+      }, {
+        "content" : "1",
+        "polygon" : [ 2290, 3275, 2308, 3275, 2308, 3312, 2290, 3312 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 632,
+          "length" : 1
+        }
+      } ],
+      "lines" : [ {
+        "content" : "GJVR/MXNG/1001307073/20240070",
+        "polygon" : [ 461, 161, 1057, 158, 1057, 201, 461, 203 ],
+        "spans" : [ {
+          "offset" : 0,
+          "length" : 29
+        } ]
+      }, {
+        "content" : "NORTON ROSE FULBRIGHT",
+        "polygon" : [ 1379, 173, 2260, 170, 2261, 236, 1379, 238 ],
+        "spans" : [ {
+          "offset" : 30,
+          "length" : 21
+        } ]
+      }, {
+        "content" : "Norton Rose Fulbright LLP",
+        "polygon" : [ 1379, 310, 1809, 310, 1809, 349, 1379, 350 ],
+        "spans" : [ {
+          "offset" : 52,
+          "length" : 25
+        } ]
+      }, {
+        "content" : "Advocaten, Notarissen & Solicitors",
+        "polygon" : [ 1377, 357, 1980, 354, 1980, 394, 1377, 397 ],
+        "spans" : [ {
+          "offset" : 78,
+          "length" : 34
+        } ]
+      }, {
+        "content" : "2Amsterdam, 15th floor",
+        "polygon" : [ 1377, 401, 1756, 401, 1756, 443, 1377, 444 ],
+        "spans" : [ {
+          "offset" : 113,
+          "length" : 22
+        } ]
+      }, {
+        "content" : "Eduard Van Beinumstraat 34",
+        "polygon" : [ 1380, 447, 1845, 446, 1845, 486, 1381, 489 ],
+        "spans" : [ {
+          "offset" : 136,
+          "length" : 26
+        } ]
+      }, {
+        "content" : "1077 CZ Amsterdam",
+        "polygon" : [ 1381, 492, 1715, 493, 1715, 534, 1381, 533 ],
+        "spans" : [ {
+          "offset" : 163,
+          "length" : 17
+        } ]
+      }, {
+        "content" : "PO Box 94142, 1090 GC Amsterdam",
+        "polygon" : [ 1381, 539, 1974, 538, 1974, 579, 1381, 580 ],
+        "spans" : [ {
+          "offset" : 181,
+          "length" : 31
+        } ]
+      }, {
+        "content" : "The Netherlands",
+        "polygon" : [ 1380, 585, 1650, 585, 1650, 625, 1380, 625 ],
+        "spans" : [ {
+          "offset" : 213,
+          "length" : 15
+        } ]
+      }, {
+        "content" : "ISSUED FOR TRUE COPY in accordance with section 49 paragraph 3 of the Dutch Civil Law",
+        "polygon" : [ 462, 1008, 2308, 1003, 2308, 1054, 462, 1059 ],
+        "spans" : [ {
+          "offset" : 229,
+          "length" : 85
+        } ]
+      }, {
+        "content" : "Notaries Act (Wet op het Notarisambt) of a document that was used in a closing at our office on 6",
+        "polygon" : [ 461, 1082, 2307, 1075, 2307, 1125, 461, 1133 ],
+        "spans" : [ {
+          "offset" : 315,
+          "length" : 97
+        } ]
+      }, {
+        "content" : "January 2025,",
+        "polygon" : [ 464, 1157, 727, 1156, 727, 1203, 464, 1204 ],
+        "spans" : [ {
+          "offset" : 413,
+          "length" : 13
+        } ]
+      }, {
+        "content" : "by me, Geert-Jan van Rijthoven, civil law notary in Amsterdam, the Netherlands.",
+        "polygon" : [ 463, 1227, 1950, 1221, 1950, 1270, 463, 1277 ],
+        "spans" : [ {
+          "offset" : 427,
+          "length" : 79
+        } ]
+      }, {
+        "content" : "This statement explicitly contains no judgement as to the contents of this document.",
+        "polygon" : [ 462, 1370, 2016, 1365, 2016, 1413, 462, 1419 ],
+        "spans" : [ {
+          "offset" : 507,
+          "length" : 84
+        } ]
+      }, {
+        "content" : "Amsterdam, the Netherlands, 7 May 2026.",
+        "polygon" : [ 461, 1512, 1251, 1508, 1252, 1560, 461, 1562 ],
+        "spans" : [ {
+          "offset" : 592,
+          "length" : 39
+        } ]
+      }, {
+        "content" : "1",
+        "polygon" : [ 2288, 3276, 2307, 3275, 2309, 3312, 2290, 3311 ],
+        "spans" : [ {
+          "offset" : 632,
+          "length" : 1
+        } ]
+      } ],
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 633
+      } ]
+    } ],
+    "tables" : [ ],
+    "paragraphs" : [ {
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 29
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 461, 160, 1057, 158, 1057, 201, 461, 203 ]
+      } ],
+      "content" : "GJVR/MXNG/1001307073/20240070"
+    }, {
+      "spans" : [ {
+        "offset" : 30,
+        "length" : 21
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 1379, 172, 2261, 170, 2261, 236, 1379, 238 ]
+      } ],
+      "role" : "title",
+      "content" : "NORTON ROSE FULBRIGHT"
+    }, {
+      "spans" : [ {
+        "offset" : 52,
+        "length" : 176
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 1377, 310, 1980, 310, 1980, 625, 1377, 625 ]
+      } ],
+      "content" : "Norton Rose Fulbright LLP Advocaten, Notarissen & Solicitors 2Amsterdam, 15th floor Eduard Van Beinumstraat 34 1077 CZ Amsterdam PO Box 94142, 1090 GC Amsterdam The Netherlands"
+    }, {
+      "spans" : [ {
+        "offset" : 229,
+        "length" : 362
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 461, 1008, 2308, 1003, 2309, 1414, 462, 1419 ]
+      } ],
+      "content" : "ISSUED FOR TRUE COPY in accordance with section 49 paragraph 3 of the Dutch Civil Law Notaries Act (Wet op het Notarisambt) of a document that was used in a closing at our office on 6 January 2025, by me, Geert-Jan van Rijthoven, civil law notary in Amsterdam, the Netherlands. This statement explicitly contains no judgement as to the contents of this document."
+    }, {
+      "spans" : [ {
+        "offset" : 592,
+        "length" : 39
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 461, 1510, 1252, 1508, 1252, 1560, 461, 1562 ]
+      } ],
+      "content" : "Amsterdam, the Netherlands, 7 May 2026."
+    }, {
+      "spans" : [ {
+        "offset" : 632,
+        "length" : 1
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 2288, 3276, 2307, 3275, 2309, 3312, 2290, 3313 ]
+      } ],
+      "role" : "pageNumber",
+      "content" : "1"
+    } ],
+    "styles" : [ {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 633
+      } ],
+      "isHandwritten" : false
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 619
+      }, {
+        "offset" : 622,
+        "length" : 11
+      } ],
+      "color" : "#151515"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 633
+      } ],
+      "backgroundColor" : "#fefefe"
+    }, {
+      "confidence" : 1,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 327
+      }, {
+        "offset" : 353,
+        "length" : 280
+      } ],
+      "fontStyle" : "normal"
+    }, {
+      "confidence" : 1,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 29
+      }, {
+        "offset" : 52,
+        "length" : 21
+      }, {
+        "offset" : 113,
+        "length" : 176
+      }, {
+        "offset" : 295,
+        "length" : 115
+      }, {
+        "offset" : 413,
+        "length" : 7
+      }, {
+        "offset" : 427,
+        "length" : 204
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 29
+      }, {
+        "offset" : 59,
+        "length" : 4
+      }, {
+        "offset" : 74,
+        "length" : 3
+      }, {
+        "offset" : 89,
+        "length" : 73
+      }, {
+        "offset" : 171,
+        "length" : 28
+      }, {
+        "offset" : 203,
+        "length" : 36
+      }, {
+        "offset" : 253,
+        "length" : 10
+      }, {
+        "offset" : 280,
+        "length" : 11
+      }, {
+        "offset" : 315,
+        "length" : 17
+      }, {
+        "offset" : 336,
+        "length" : 16
+      }, {
+        "offset" : 356,
+        "length" : 1
+      }, {
+        "offset" : 367,
+        "length" : 8
+      }, {
+        "offset" : 384,
+        "length" : 12
+      }, {
+        "offset" : 401,
+        "length" : 6
+      }, {
+        "offset" : 413,
+        "length" : 13
+      }, {
+        "offset" : 434,
+        "length" : 24
+      }, {
+        "offset" : 465,
+        "length" : 10
+      }, {
+        "offset" : 479,
+        "length" : 10
+      }, {
+        "offset" : 494,
+        "length" : 27
+      }, {
+        "offset" : 533,
+        "length" : 8
+      }, {
+        "offset" : 555,
+        "length" : 2
+      }, {
+        "offset" : 561,
+        "length" : 12
+      }, {
+        "offset" : 577,
+        "length" : 42
+      }, {
+        "offset" : 626,
+        "length" : 7
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, sans-serif"
+    }, {
+      "confidence" : 0.5,
+      "spans" : [ {
+        "offset" : 30,
+        "length" : 6
+      } ],
+      "fontWeight" : "bold"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 30,
+        "length" : 6
+      } ],
+      "similarFontFamily" : "Segoe UI, sans-serif"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 37,
+        "length" : 4
+      }, {
+        "offset" : 102,
+        "length" : 10
+      } ],
+      "fontWeight" : "bold"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 37,
+        "length" : 14
+      }, {
+        "offset" : 295,
+        "length" : 3
+      }, {
+        "offset" : 333,
+        "length" : 2
+      }, {
+        "offset" : 397,
+        "length" : 3
+      }, {
+        "offset" : 476,
+        "length" : 2
+      }, {
+        "offset" : 542,
+        "length" : 2
+      }, {
+        "offset" : 558,
+        "length" : 2
+      }, {
+        "offset" : 574,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Segoe UI, sans-serif"
+    }, {
+      "confidence" : 0.7,
+      "spans" : [ {
+        "offset" : 42,
+        "length" : 9
+      } ],
+      "fontWeight" : "bold"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 52,
+        "length" : 6
+      }, {
+        "offset" : 264,
+        "length" : 12
+      }, {
+        "offset" : 311,
+        "length" : 3
+      }, {
+        "offset" : 358,
+        "length" : 8
+      }, {
+        "offset" : 376,
+        "length" : 4
+      }, {
+        "offset" : 522,
+        "length" : 10
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, Segoe UI, sans-serif"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 64,
+        "length" : 9
+      }, {
+        "offset" : 78,
+        "length" : 10
+      }, {
+        "offset" : 163,
+        "length" : 4
+      }, {
+        "offset" : 200,
+        "length" : 2
+      }, {
+        "offset" : 250,
+        "length" : 2
+      }, {
+        "offset" : 305,
+        "length" : 5
+      }, {
+        "offset" : 408,
+        "length" : 4
+      }, {
+        "offset" : 430,
+        "length" : 3
+      }, {
+        "offset" : 545,
+        "length" : 9
+      }, {
+        "offset" : 622,
+        "length" : 3
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, sans-serif"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 74,
+        "length" : 3
+      }, {
+        "offset" : 290,
+        "length" : 1
+      }, {
+        "offset" : 421,
+        "length" : 5
+      }, {
+        "offset" : 632,
+        "length" : 1
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 1,
+      "spans" : [ {
+        "offset" : 78,
+        "length" : 23
+      } ],
+      "fontWeight" : "bold"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 168,
+        "length" : 2
+      }, {
+        "offset" : 245,
+        "length" : 4
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, Courier New, sans-serif"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 240,
+        "length" : 4
+      }, {
+        "offset" : 459,
+        "length" : 5
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, sans-serif"
+    }, {
+      "confidence" : 0.8,
+      "spans" : [ {
+        "offset" : 277,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, sans-serif"
+    }, {
+      "confidence" : 0.8,
+      "spans" : [ {
+        "offset" : 292,
+        "length" : 2
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.6,
+      "spans" : [ {
+        "offset" : 292,
+        "length" : 2
+      }, {
+        "offset" : 299,
+        "length" : 5
+      }, {
+        "offset" : 427,
+        "length" : 2
+      }, {
+        "offset" : 490,
+        "length" : 3
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, sans-serif"
+    }, {
+      "confidence" : 1,
+      "spans" : [ {
+        "offset" : 328,
+        "length" : 24
+      } ],
+      "fontStyle" : "italic"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 353,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 381,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, Segoe UI, sans-serif"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 411,
+        "length" : 1
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 620,
+        "length" : 1
+      } ],
+      "color" : "#212121"
+    }, {
+      "confidence" : 0.4,
+      "spans" : [ {
+        "offset" : 620,
+        "length" : 1
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, sans-serif"
+    } ]
+  }
+}

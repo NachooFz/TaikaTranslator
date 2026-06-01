@@ -31,6 +31,7 @@ public class AzureDocumentExtractor implements DocumentExtractor {
     private final String apiKey;
     private final ObjectMapper mapper = new ObjectMapper();
     private final HttpClient client;
+    private String documentBaseName = "document";
 
     public AzureDocumentExtractor(String endpoint, String apiKey) {
         this.endpoint = endpoint;
@@ -38,6 +39,12 @@ public class AzureDocumentExtractor implements DocumentExtractor {
         this.client = HttpClient.newBuilder()
                 .connectTimeout(Duration.ofSeconds(15))
                 .build();
+    }
+
+    public void setDocumentBaseName(String documentBaseName) {
+        if (documentBaseName != null && !documentBaseName.trim().isEmpty()) {
+            this.documentBaseName = documentBaseName;
+        }
     }
 
     @Override
@@ -48,7 +55,7 @@ public class AzureDocumentExtractor implements DocumentExtractor {
             byte[] fileBytes = Files.readAllBytes(cleanPageImage.toPath());
             
             // 1. Submit Analyze request
-            String requestUrl = endpoint + "/formrecognizer/documentModels/prebuilt-layout:analyze?api-version=2023-07-31";
+            String requestUrl = endpoint + "/formrecognizer/documentModels/prebuilt-layout:analyze?api-version=2023-07-31&features=styleFont";
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create(requestUrl))
                     .header("Ocp-Apim-Subscription-Key", apiKey)
@@ -70,10 +77,25 @@ public class AzureDocumentExtractor implements DocumentExtractor {
             log.info("Azure analysis started. Polling: {}", operationLocation);
 
             // 2. Poll for results
-            JsonNode rootResultNode = pollForResults(operationLocation);
+            JsonNode fullResponseNode = pollForResults(operationLocation);
+            
+            // Log the JSON response to a folder named 'log'
+            try {
+                File logDir = new File("log");
+                if (!logDir.exists()) {
+                    logDir.mkdirs();
+                }
+                String pageIdentifier = cleanPageImage.getParentFile() != null ? cleanPageImage.getParentFile().getName() : "page";
+                File logFile = new File(logDir, documentBaseName + "_" + pageIdentifier + "_azure_response.json");
+                log.info("Saving Azure JSON response to log file: {}", logFile.getAbsolutePath());
+                mapper.writerWithDefaultPrettyPrinter().writeValue(logFile, fullResponseNode);
+            } catch (Exception e) {
+                log.error("Failed to save Azure JSON response to log folder", e);
+            }
+            
             log.info("Azure analysis succeeded. Parsing layout JSON...");
             
-            return parseAzureJson(rootResultNode);
+            return parseAzureJson(fullResponseNode.get("analyzeResult"));
 
         } catch (Exception e) {
             log.error("Azure Document Extraction failed", e);
@@ -102,7 +124,7 @@ public class AzureDocumentExtractor implements DocumentExtractor {
             log.debug("Polling attempt {}/{} - Current Status: {}", i + 1, maxPolls, status);
             
             if ("succeeded".equals(status)) {
-                return node.get("analyzeResult");
+                return node;
             } else if ("failed".equals(status)) {
                 throw new ExtractionException("Azure OCR processing failed on server: " + node.get("error"));
             }

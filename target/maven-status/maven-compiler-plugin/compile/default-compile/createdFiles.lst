@@ -9,6 +9,7 @@ com\taikatranslator\infra\retry\RetryExecutor.class
 com\taikatranslator\infra\http\HttpClientWrapper.class
 com\taikatranslator\model\TextStyle.class
 com\taikatranslator\core\vision\VisionProcessor.class
+com\taikatranslator\infra\assembler\DocxWordAssembler$TextLine.class
 com\taikatranslator\core\assembler\AssemblyException.class
 com\taikatranslator\model\TableCell.class
 com\taikatranslator\infra\translator\DeepLTranslator.class

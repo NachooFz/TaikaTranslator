@@ -78,7 +78,7 @@ public class Main {
 
         // Validate Prereq Configs
         if (inputPdfPath == null || outputDirStr == null) {
-            log.error("Missing mandatory arguments. Usage: java Main --input <path.pdf> --output-dir <path>");
+            log.error("Missing mandatory arguments. Usage: java Main --input <path.pdf|image> --output-dir <path>");
             log.error("Optional arguments: --azure-endpoint <url> --azure-key <key> --deepl-key <key> --python-exe <path>");
             System.exit(1);
         }
@@ -87,7 +87,7 @@ public class Main {
         File outputDir = new File(outputDirStr);
 
         if (!inputPdf.exists()) {
-            log.error("Input PDF file not found: {}", inputPdf.getAbsolutePath());
+            log.error("Input file not found: {}", inputPdf.getAbsolutePath());
             System.exit(1);
         }
 
@@ -107,16 +107,41 @@ public class Main {
         }
 
         try {
-            // 2. Convert PDF to Page Images (using PDFBox)
-            log.info("Rendering PDF pages to high-resolution PNG images...");
-            List<File> pageImages = renderPdfPages(inputPdf, outputDir);
-            log.info("Rendered {} page(s) successfully.", pageImages.size());
+            // 2. Load/Convert Input to Page Images
+            List<File> pageImages;
+            String inputName = inputPdf.getName().toLowerCase();
+            if (inputName.endsWith(".png") || inputName.endsWith(".jpg") || inputName.endsWith(".jpeg")) {
+                log.info("Input file is a direct image. Copying into pipeline...");
+                pageImages = new ArrayList<>();
+                File pageImg = new File(outputDir, "page_1.png");
+                if (pageImg.exists()) {
+                    pageImg.delete();
+                }
+                Files.copy(inputPdf.toPath(), pageImg.toPath());
+                pageImages.add(pageImg);
+            } else {
+                log.info("Rendering PDF pages to high-resolution PNG images...");
+                pageImages = renderPdfPages(inputPdf, outputDir);
+            }
+            log.info("Loaded {} page image(s) successfully.", pageImages.size());
+
+            String baseName = inputPdf.getName();
+            int dotIdx = baseName.lastIndexOf('.');
+            if (dotIdx > 0) {
+                baseName = baseName.substring(0, dotIdx);
+            }
 
             // 3. Initialize Pipeline Components
             VisionProcessor visionProcessor = new ProcessBuilderVisionProcessor(pythonExe, scriptPath);
             DocumentExtractor extractor = hasAzure ? 
                     new AzureDocumentExtractor(azureEndpoint, azureKey) : 
                     new MockDocumentExtractor();
+            
+            if (extractor instanceof AzureDocumentExtractor) {
+                ((AzureDocumentExtractor) extractor).setDocumentBaseName(baseName);
+            } else if (extractor instanceof MockDocumentExtractor) {
+                ((MockDocumentExtractor) extractor).setDocumentBaseName(baseName);
+            }
             
             TextTranslator translator = hasDeepL ? 
                     new DeepLTranslator(deeplKey, deeplEndpoint, 5, 1000) : 
@@ -146,7 +171,7 @@ public class Main {
                 // C. Run Translation
                 List<String> engTexts = new ArrayList<>();
                 for (TextBlock tb : originalLayout.getTextBlocks()) {
-                    engTexts.add(tb.getText());
+                    engTexts.add(buildXmlForBlock(tb));
                 }
                 
                 log.info("Translating {} text blocks...", engTexts.size());
@@ -161,12 +186,12 @@ public class Main {
 
             // 5. Reconstruct Unified Multi-Page Documents
             log.info("Assembling final unified multi-page English document...");
-            File engDocx = new File(outputDir, inputPdf.getName().replace(".pdf", "") + "_reconstructed.docx");
+            File engDocx = new File(outputDir, baseName + "_reconstructed.docx");
             assembler.assemble(originalLayouts, visionResults, engDocx);
             log.info("Generated English DOCX: {}", engDocx.getAbsolutePath());
 
             log.info("Assembling final unified multi-page Spanish document...");
-            File esDocx = new File(outputDir, inputPdf.getName().replace(".pdf", "") + "_translated.docx");
+            File esDocx = new File(outputDir, baseName + "_translated.docx");
             assembler.assemble(translatedLayouts, visionResults, esDocx);
             log.info("Generated Spanish DOCX: {}", esDocx.getAbsolutePath());
 
@@ -204,17 +229,30 @@ public class Main {
         List<TextBlock> originalBlocks = original.getTextBlocks();
         for (int i = 0; i < originalBlocks.size(); i++) {
             TextBlock origBlock = originalBlocks.get(i);
-            String transText = origBlock.getText();
+            String transXmlText = origBlock.getText();
             if (i < translations.size()) {
-                transText = translations.get(i);
+                transXmlText = translations.get(i);
+            }
+            
+            List<com.taikatranslator.model.InlineRun> parsedRuns = parseStyledText(transXmlText);
+            
+            // Build the clean text (without tags)
+            StringBuilder cleanText = new StringBuilder();
+            for (com.taikatranslator.model.InlineRun r : parsedRuns) {
+                cleanText.append(r.getText());
             }
             
             TextBlock transBlock = new TextBlock(
-                    transText, 
+                    cleanText.toString(), 
                     origBlock.getBoundingBox(), 
                     origBlock.getTextStyle(), 
                     origBlock.getReadingOrder()
             );
+            
+            for (com.taikatranslator.model.InlineRun r : parsedRuns) {
+                transBlock.addInlineRun(r);
+            }
+            
             trans.addTextBlock(transBlock);
         }
         return trans;
@@ -222,9 +260,88 @@ public class Main {
 
     // --- Mock Fallbacks for testing without actual cloud API keys ---
     private static class MockDocumentExtractor implements DocumentExtractor {
+        private String documentBaseName = "document";
+
+        public void setDocumentBaseName(String documentBaseName) {
+            if (documentBaseName != null && !documentBaseName.trim().isEmpty()) {
+                this.documentBaseName = documentBaseName;
+            }
+        }
+
         @Override
         public DocumentLayout extractLayout(File cleanPageImage) {
             log.warn("[MOCK] Azure Extractor mock triggered. Generating sample layout.");
+            
+            // Log a mock JSON response to a folder named 'log'
+            try {
+                File logDir = new File("log");
+                if (!logDir.exists()) {
+                    logDir.mkdirs();
+                }
+                String pageIdentifier = cleanPageImage.getParentFile() != null ? cleanPageImage.getParentFile().getName() : "page";
+                File logFile = new File(logDir, documentBaseName + "_" + pageIdentifier + "_azure_response.json");
+                log.info("Saving MOCK Azure JSON response to log file: {}", logFile.getAbsolutePath());
+                
+                String mockJson = "{\n" +
+                        "  \"status\": \"succeeded\",\n" +
+                        "  \"analyzeResult\": {\n" +
+                        "    \"apiVersion\": \"2023-07-31\",\n" +
+                        "    \"modelId\": \"prebuilt-layout\",\n" +
+                        "    \"stringIndexType\": \"textElements\",\n" +
+                        "    \"content\": \"OFFICIAL DOCUMENT CERTIFICATE\\nThis certifies that the digital artifacts generated inside this workspace comply with high-fidelity formatting standards. The system automatically handles signatures and overlapping colored stamps.\",\n" +
+                        "    \"pages\": [\n" +
+                        "      {\n" +
+                        "        \"pageNumber\": 1,\n" +
+                        "        \"angle\": 0.0,\n" +
+                        "        \"width\": 8.5,\n" +
+                        "        \"height\": 11.0,\n" +
+                        "        \"unit\": \"inch\",\n" +
+                        "        \"words\": [],\n" +
+                        "        \"lines\": [],\n" +
+                        "        \"spans\": [\n" +
+                        "          { \"offset\": 0, \"length\": 204 }\n" +
+                        "        ]\n" +
+                        "      }\n" +
+                        "    ],\n" +
+                        "    \"paragraphs\": [\n" +
+                        "      {\n" +
+                        "        \"content\": \"OFFICIAL DOCUMENT CERTIFICATE\",\n" +
+                        "        \"boundingRegions\": [\n" +
+                        "          {\n" +
+                        "            \"pageNumber\": 1,\n" +
+                        "            \"polygon\": [ 1.7, 0.55, 6.8, 0.55, 6.8, 1.1, 1.7, 1.1 ]\n" +
+                        "          }\n" +
+                        "        ],\n" +
+                        "        \"spans\": [\n" +
+                        "          { \"offset\": 0, \"length\": 29 }\n" +
+                        "        ],\n" +
+                        "        \"role\": \"title\"\n" +
+                        "      },\n" +
+                        "      {\n" +
+                        "        \"content\": \"This certifies that the digital artifacts generated inside this workspace comply with high-fidelity formatting standards. The system automatically handles signatures and overlapping colored stamps.\",\n" +
+                        "        \"boundingRegions\": [\n" +
+                        "          {\n" +
+                        "            \"pageNumber\": 1,\n" +
+                        "            \"polygon\": [ 0.85, 1.65, 7.65, 1.65, 7.65, 2.75, 0.85, 2.75 ]\n" +
+                        "          }\n" +
+                        "        ],\n" +
+                        "        \"spans\": [\n" +
+                        "          { \"offset\": 30, \"length\": 174 }\n" +
+                        "        ]\n" +
+                        "      }\n" +
+                        "    ],\n" +
+                        "    \"tables\": [],\n" +
+                        "    \"styles\": []\n" +
+                        "  }\n" +
+                        "}";
+                
+                com.fasterxml.jackson.databind.ObjectMapper mapper = new com.fasterxml.jackson.databind.ObjectMapper();
+                com.fasterxml.jackson.databind.JsonNode node = mapper.readTree(mockJson);
+                mapper.writerWithDefaultPrettyPrinter().writeValue(logFile, node);
+            } catch (Exception e) {
+                log.error("Failed to save MOCK Azure JSON response to log folder", e);
+            }
+
             DocumentLayout l = new DocumentLayout(8.5 * 300, 11 * 300);
             
             // Generate some sample blocks
@@ -294,5 +411,93 @@ public class Main {
             return sysVal;
         }
         return envFileMap.get(key);
+    }
+
+    private static String escapeXml(String text) {
+        if (text == null) return "";
+        return text.replace("&", "&amp;")
+                   .replace("<", "&lt;")
+                   .replace(">", "&gt;")
+                   .replace("\"", "&quot;")
+                   .replace("'", "&apos;");
+    }
+
+    private static String unescapeXml(String text) {
+        if (text == null) return "";
+        return text.replace("&amp;", "&")
+                   .replace("&lt;", "<")
+                   .replace("&gt;", ">")
+                   .replace("&quot;", "\"")
+                   .replace("&apos;", "'");
+    }
+
+    private static String buildXmlForBlock(TextBlock tb) {
+        List<com.taikatranslator.model.InlineRun> runs = tb.getInlineRuns();
+        if (runs == null || runs.isEmpty()) {
+            return escapeXml(tb.getText());
+        }
+        StringBuilder sb = new StringBuilder();
+        for (com.taikatranslator.model.InlineRun run : runs) {
+            String runText = run.getText();
+            if (runText == null) continue;
+            
+            if (run.isBold() && run.isItalic()) {
+                sb.append("<b><i>").append(escapeXml(runText)).append("</i></b>");
+            } else if (run.isBold()) {
+                sb.append("<b>").append(escapeXml(runText)).append("</b>");
+            } else if (run.isItalic()) {
+                sb.append("<i>").append(escapeXml(runText)).append("</i>");
+            } else {
+                sb.append(escapeXml(runText));
+            }
+        }
+        return sb.toString();
+    }
+
+    private static List<com.taikatranslator.model.InlineRun> parseStyledText(String xmlText) {
+        List<com.taikatranslator.model.InlineRun> runs = new ArrayList<>();
+        StringBuilder currentText = new StringBuilder();
+        boolean bold = false;
+        boolean italic = false;
+        
+        int i = 0;
+        while (i < xmlText.length()) {
+            if (xmlText.startsWith("<b>", i)) {
+                if (currentText.length() > 0) {
+                    runs.add(new com.taikatranslator.model.InlineRun(unescapeXml(currentText.toString()), bold, italic));
+                    currentText.setLength(0);
+                }
+                bold = true;
+                i += 3;
+            } else if (xmlText.startsWith("</b>", i)) {
+                if (currentText.length() > 0) {
+                    runs.add(new com.taikatranslator.model.InlineRun(unescapeXml(currentText.toString()), bold, italic));
+                    currentText.setLength(0);
+                }
+                bold = false;
+                i += 4;
+            } else if (xmlText.startsWith("<i>", i)) {
+                if (currentText.length() > 0) {
+                    runs.add(new com.taikatranslator.model.InlineRun(unescapeXml(currentText.toString()), bold, italic));
+                    currentText.setLength(0);
+                }
+                italic = true;
+                i += 3;
+            } else if (xmlText.startsWith("</i>", i)) {
+                if (currentText.length() > 0) {
+                    runs.add(new com.taikatranslator.model.InlineRun(unescapeXml(currentText.toString()), bold, italic));
+                    currentText.setLength(0);
+                }
+                italic = false;
+                i += 4;
+            } else {
+                currentText.append(xmlText.charAt(i));
+                i++;
+            }
+        }
+        if (currentText.length() > 0) {
+            runs.add(new com.taikatranslator.model.InlineRun(unescapeXml(currentText.toString()), bold, italic));
+        }
+        return runs;
     }
 }

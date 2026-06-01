@@ -62,6 +62,17 @@ public class DocxWordAssembler implements WordAssembler {
         }
     }
 
+    private static class TextLine {
+        final double top;
+        final double bottom;
+        final List<TextBlock> blocks = new ArrayList<>();
+        
+        TextLine(double top, double bottom) {
+            this.top = top;
+            this.bottom = bottom;
+        }
+    }
+
     @Override
     public void assemble(List<DocumentLayout> layouts, List<VisionResult> visionResults, File outputFile) throws AssemblyException {
         log.info("Assembling multi-page .docx file: {}", outputFile.getAbsolutePath());
@@ -108,18 +119,68 @@ public class DocxWordAssembler implements WordAssembler {
     }
 
     private void assemblePage(XWPFDocument doc, DocumentLayout layout, VisionResult visionResult) throws Exception {
-        // 1. Collect all layout components on the page
-        List<RenderableElement> elements = new ArrayList<>();
-        
-        // Add TextBlocks
+        // 1. Collect and group text blocks into lines to prevent vertical staggering
+        List<TextBlock> textBlocks = new ArrayList<>();
         if (layout.getTextBlocks() != null) {
-            for (TextBlock block : layout.getTextBlocks()) {
-                double top = block.getBoundingBox() != null ? block.getBoundingBox().getTop() : 0.0;
-                elements.add(new RenderableElement(RenderableElement.Type.TEXT, top, block));
+            textBlocks.addAll(layout.getTextBlocks());
+        }
+        
+        // Sort text blocks by their top coordinate first
+        textBlocks.sort(Comparator.comparingDouble(b -> b.getBoundingBox().getTop()));
+        
+        List<TextLine> lines = new ArrayList<>();
+        for (TextBlock block : textBlocks) {
+            double bTop = block.getBoundingBox().getTop();
+            double bHeight = block.getBoundingBox().getHeight();
+            double bBottom = bTop + bHeight;
+            
+            boolean placed = false;
+            for (TextLine line : lines) {
+                double overlapStart = Math.max(line.top, bTop);
+                double overlapEnd = Math.min(line.bottom, bBottom);
+                double overlap = overlapEnd - overlapStart;
+                
+                // Check if this block horizontally overlaps with any block already in the line
+                boolean horizontallyOverlaps = false;
+                for (TextBlock existing : line.blocks) {
+                    double existingLeft = existing.getBoundingBox().getLeft();
+                    double existingRight = existingLeft + existing.getBoundingBox().getWidth();
+                    double blockLeft = block.getBoundingBox().getLeft();
+                    double blockRight = blockLeft + block.getBoundingBox().getWidth();
+                    
+                    double overlapLeft = Math.max(existingLeft, blockLeft);
+                    double overlapRight = Math.min(existingRight, blockRight);
+                    double horizOverlap = overlapRight - overlapLeft;
+                    
+                    double minWidth = Math.min(existing.getBoundingBox().getWidth(), block.getBoundingBox().getWidth());
+                    if (horizOverlap > 0 && (horizOverlap / minWidth) > 0.10) {
+                        horizontallyOverlaps = true;
+                        break;
+                    }
+                }
+                
+                // If they overlap vertically by more than 40% AND do not overlap horizontally, place on the same line
+                if (overlap > 0 && (overlap / bHeight) > 0.40 && !horizontallyOverlaps) {
+                    line.blocks.add(block);
+                    placed = true;
+                    break;
+                }
+            }
+            
+            if (!placed) {
+                TextLine newLine = new TextLine(bTop, bBottom);
+                newLine.blocks.add(block);
+                lines.add(newLine);
             }
         }
         
-        // Add Tables
+        // 2. Collect all elements on the page (TextLines, Tables, Artifacts)
+        List<RenderableElement> elements = new ArrayList<>();
+        
+        for (TextLine line : lines) {
+            elements.add(new RenderableElement(RenderableElement.Type.TEXT, line.top, line));
+        }
+        
         if (layout.getTables() != null) {
             for (Table table : layout.getTables()) {
                 double top = table.getBoundingBox() != null ? table.getBoundingBox().getTop() : 0.0;
@@ -127,7 +188,6 @@ public class DocxWordAssembler implements WordAssembler {
             }
         }
         
-        // Add Visual Artifacts (Signatures, stamps, seals)
         if (visionResult != null && visionResult.getArtifacts() != null) {
             for (VisionResult.ArtifactInfo artifact : visionResult.getArtifacts()) {
                 double top = artifact.getBoundingBox() != null ? artifact.getBoundingBox().getTop() : 0.0;
@@ -135,7 +195,7 @@ public class DocxWordAssembler implements WordAssembler {
             }
         }
         
-        // 2. Sort all elements dynamically by their vertical position (top coordinate)
+        // Sort all elements dynamically by their vertical position (top coordinate)
         elements.sort(Comparator.comparingDouble(e -> e.top));
         
         // Track the current active paragraph to anchor floating images to
@@ -147,70 +207,78 @@ public class DocxWordAssembler implements WordAssembler {
         // 3. Sequentially reconstruct elements in their natural vertical order
         for (RenderableElement element : elements) {
             if (element.type == RenderableElement.Type.TEXT) {
-                TextBlock block = (TextBlock) element.element;
+                TextLine line = (TextLine) element.element;
                 XWPFParagraph paragraph = doc.createParagraph();
                 anchorPara = paragraph; // update active anchor paragraph
                 
-                // Adjust alignment based on bounding box positioning
-                double leftRatio = block.getBoundingBox() != null ? block.getBoundingBox().getLeft() : 0.0;
-                if (leftRatio > 0.6) {
-                    paragraph.setAlignment(ParagraphAlignment.RIGHT);
-                } else if (leftRatio > 0.3 && leftRatio < 0.6) {
-                    paragraph.setAlignment(ParagraphAlignment.CENTER);
-                } else {
-                    paragraph.setAlignment(ParagraphAlignment.LEFT);
-                }
-                
-                // Set relative margins to match the bounding box left offset (0 margins, so full width)
-                int leftIndentTwips = (int) (leftRatio * PAGE_WIDTH_TWIPS);
-                paragraph.setIndentationLeft(Math.max(0, leftIndentTwips));
+                // Sort blocks on this line left-to-right
+                line.blocks.sort(Comparator.comparingDouble(b -> b.getBoundingBox().getLeft()));
                 
                 // Set absolute vertical positioning using spacing before
-                double targetTop = block.getBoundingBox() != null ? block.getBoundingBox().getTop() : 0.0;
+                double targetTop = line.top;
                 int targetTopTwips = (int) (targetTop * PAGE_HEIGHT_TWIPS);
                 int spacingBefore = targetTopTwips - currentTopTwips;
                 paragraph.setSpacingBefore(Math.max(0, spacingBefore));
                 paragraph.setSpacingAfter(0); // eliminate default swelling
                 
-                // Update cursor to bottom of current block
-                double blockHeight = block.getBoundingBox() != null ? block.getBoundingBox().getHeight() : 0.02;
-                currentTopTwips = targetTopTwips + (int) (blockHeight * PAGE_HEIGHT_TWIPS);
+                // Update cursor to bottom of the line
+                double lineHeight = line.bottom - line.top;
+                currentTopTwips = targetTopTwips + (int) (lineHeight * PAGE_HEIGHT_TWIPS);
                 
-                // Render styled inline runs or fallback to standard text mapping with newline split support
-                List<com.taikatranslator.model.InlineRun> inlineRuns = block.getInlineRuns();
-                if (inlineRuns == null || inlineRuns.isEmpty()) {
-                    XWPFRun run = paragraph.createRun();
-                    String text = block.getText();
-                    if (text != null) {
-                        String[] lines = text.split("\\r?\\n", -1);
-                        for (int i = 0; i < lines.length; i++) {
-                            run.setText(lines[i]);
-                            if (i < lines.length - 1) {
-                                run.addBreak();
+                // Set first block's indentation
+                TextBlock firstBlock = line.blocks.get(0);
+                double firstLeft = firstBlock.getBoundingBox().getLeft();
+                int leftIndentTwips = (int) (firstLeft * PAGE_WIDTH_TWIPS);
+                paragraph.setIndentationLeft(Math.max(0, leftIndentTwips));
+                
+                double currentRight = firstLeft + firstBlock.getBoundingBox().getWidth();
+                
+                for (int bIdx = 0; bIdx < line.blocks.size(); bIdx++) {
+                    TextBlock block = line.blocks.get(bIdx);
+                    
+                    // If not the first block, add spaces to push it horizontally
+                    if (bIdx > 0) {
+                        double blockLeft = block.getBoundingBox().getLeft();
+                        double gap = blockLeft - currentRight;
+                        if (gap > 0.01) {
+                            int gapTwips = (int) (gap * PAGE_WIDTH_TWIPS);
+                            int numSpaces = Math.max(1, gapTwips / 100); // 1 space = ~100 twips in Calibri 11pt
+                            XWPFRun spaceRun = paragraph.createRun();
+                            StringBuilder sb = new StringBuilder();
+                            for (int s = 0; s < numSpaces; s++) {
+                                sb.append(" ");
                             }
+                            spaceRun.setText(sb.toString());
+                            preserveSpaces(spaceRun);
                         }
+                        currentRight = blockLeft + block.getBoundingBox().getWidth();
                     }
-                    applyRunStyle(run, block.getTextStyle(), block.getText());
-                } else {
-                    for (com.taikatranslator.model.InlineRun inlineRun : inlineRuns) {
+                    
+                    // Render the block's styled inline runs
+                    List<com.taikatranslator.model.InlineRun> inlineRuns = block.getInlineRuns();
+                    if (inlineRuns == null || inlineRuns.isEmpty()) {
                         XWPFRun run = paragraph.createRun();
-                        String text = inlineRun.getText();
+                        String text = block.getText();
                         if (text != null) {
-                            String[] lines = text.split("\\r?\\n", -1);
-                            for (int i = 0; i < lines.length; i++) {
-                                run.setText(lines[i]);
-                                if (i < lines.length - 1) {
-                                    run.addBreak();
-                                }
-                            }
+                            run.setText(text.replace("\n", " ").replace("\r", ""));
                         }
-                        
+                        preserveSpaces(run);
                         applyRunStyle(run, block.getTextStyle(), block.getText());
-                        if (inlineRun.isBold()) {
-                            run.setBold(true);
-                        }
-                        if (inlineRun.isItalic()) {
-                            run.setItalic(true);
+                    } else {
+                        for (com.taikatranslator.model.InlineRun inlineRun : inlineRuns) {
+                            XWPFRun run = paragraph.createRun();
+                            String text = inlineRun.getText();
+                            if (text != null) {
+                                run.setText(text.replace("\n", " ").replace("\r", ""));
+                            }
+                            preserveSpaces(run);
+                            applyRunStyle(run, block.getTextStyle(), block.getText());
+                            if (inlineRun.isBold()) {
+                                run.setBold(true);
+                            }
+                            if (inlineRun.isItalic()) {
+                                run.setItalic(true);
+                            }
                         }
                     }
                 }
@@ -226,7 +294,6 @@ public class DocxWordAssembler implements WordAssembler {
                     XWPFParagraph spacingPara = doc.createParagraph();
                     spacingPara.setSpacingBefore(spacingBefore);
                     spacingPara.setSpacingAfter(0);
-                    // Make it tiny
                     XWPFRun r = spacingPara.createRun();
                     r.setFontSize(1);
                 }
@@ -241,14 +308,20 @@ public class DocxWordAssembler implements WordAssembler {
                 
                 XWPFTable table = doc.createTable(rows.size(), maxCols);
                 
+                // Configure beautiful, clean solid black table borders (0.5 pt / 4 twips)
+                table.setInsideHBorder(org.apache.poi.xwpf.usermodel.XWPFTable.XWPFBorderType.SINGLE, 4, 0, "000000");
+                table.setInsideVBorder(org.apache.poi.xwpf.usermodel.XWPFTable.XWPFBorderType.SINGLE, 4, 0, "000000");
+                table.setLeftBorder(org.apache.poi.xwpf.usermodel.XWPFTable.XWPFBorderType.SINGLE, 4, 0, "000000");
+                table.setRightBorder(org.apache.poi.xwpf.usermodel.XWPFTable.XWPFBorderType.SINGLE, 4, 0, "000000");
+                table.setTopBorder(org.apache.poi.xwpf.usermodel.XWPFTable.XWPFBorderType.SINGLE, 4, 0, "000000");
+                table.setBottomBorder(org.apache.poi.xwpf.usermodel.XWPFTable.XWPFBorderType.SINGLE, 4, 0, "000000");
+                
                 // Enforce width relative to page dimensions
                 double normWidth = tableModel.getBoundingBox() != null ? tableModel.getBoundingBox().getWidth() : 1.0;
                 int tableWidthTwips = (int) (normWidth * PAGE_WIDTH_TWIPS);
-                
-                // Set table width (high-level POI API)
                 table.setWidth(tableWidthTwips);
     
-                // Populate cells
+                // Populate cells with clean styling
                 for (int rIdx = 0; rIdx < rows.size(); rIdx++) {
                     XWPFTableRow tableRow = table.getRow(rIdx);
                     TableRow modelRow = rows.get(rIdx);
@@ -261,13 +334,29 @@ public class DocxWordAssembler implements WordAssembler {
                         }
                         
                         TableCell modelCell = modelCells.get(cIdx);
-                        tableCell.setText(modelCell.getText());
                         
-                        // Width configuration for individual cells (based on relative bounding box width)
+                        // Style the cell content center-aligned with Calibri 10pt
+                        XWPFParagraph cellPara = tableCell.getParagraphs().get(0);
+                        if (cellPara == null) {
+                            cellPara = tableCell.addParagraph();
+                        }
+                        cellPara.setAlignment(ParagraphAlignment.CENTER);
+                        cellPara.setSpacingAfter(0);
+                        cellPara.setSpacingBefore(0);
+                        
+                        XWPFRun cellRun = cellPara.createRun();
+                        cellRun.setText(modelCell.getText());
+                        cellRun.setFontFamily("Calibri");
+                        cellRun.setFontSize(10);
+                        
+                        // Bolding the header row
+                        if (rIdx == 0) {
+                            cellRun.setBold(true);
+                        }
+                        
+                        // Width configuration for individual cells
                         double cellWidthRatio = modelCell.getBoundingBox() != null ? modelCell.getBoundingBox().getWidth() : 0.2;
                         int cellWidthTwips = (int) (cellWidthRatio * PAGE_WIDTH_TWIPS);
-                        
-                        // Set cell width (high-level POI API)
                         tableCell.setWidth(String.valueOf(cellWidthTwips));
                     }
                 }
@@ -415,6 +504,17 @@ public class DocxWordAssembler implements WordAssembler {
             String hex = style.getHexColor() != null ? style.getHexColor().replace("#", "") : "";
             if (hex.length() == 6) {
                 run.setColor(hex);
+            }
+        }
+    }
+
+    private void preserveSpaces(XWPFRun run) {
+        if (run != null && run.getCTR() != null) {
+            for (org.openxmlformats.schemas.wordprocessingml.x2006.main.CTText ctText : run.getCTR().getTList()) {
+                org.w3c.dom.Node node = ctText.getDomNode();
+                if (node instanceof org.w3c.dom.Element) {
+                    ((org.w3c.dom.Element) node).setAttribute("xml:space", "preserve");
+                }
             }
         }
     }

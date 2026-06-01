@@ -52,6 +52,7 @@ public class DeepLTranslator implements TextTranslator {
                 requestBody.put("text", textBlocks);
                 requestBody.put("target_lang", "ES");
                 requestBody.put("source_lang", "EN");
+                requestBody.put("tag_handling", "xml");
                 
                 String jsonPayload = mapper.writeValueAsString(requestBody);
                 String requestUrl = endpoint + "/v2/translate";

@@ -1,0 +1,1276 @@
+{
+  "status" : "succeeded",
+  "createdDateTime" : "2026-06-01T02:35:42Z",
+  "lastUpdatedDateTime" : "2026-06-01T02:35:43Z",
+  "analyzeResult" : {
+    "apiVersion" : "2023-07-31",
+    "modelId" : "prebuilt-layout",
+    "stringIndexType" : "textElements",
+    "content" : "APOSTILLE\n(Convention de La Haye du 5 octobre 1961)\n1. Country: THE NETHERLANDS\nThis public document\n2. has been signed by mr. G.J. van Rijthoven\n3. acting in the capacity of notary at Amsterdam\n4. bears the seal/stamp of aforesaid notary\nCertified\n5. in Amsterdam 6. on 08-05-2026\n7. by the registrar of the district court of Amsterdam\n8. no. 11501\n9. Seal/stamp: 10. Signature:",
+    "pages" : [ {
+      "pageNumber" : 1,
+      "angle" : 1.3322479724884033,
+      "width" : 2480,
+      "height" : 3505,
+      "unit" : "pixel",
+      "words" : [ {
+        "content" : "APOSTILLE",
+        "polygon" : [ 681, 255, 951, 262, 952, 300, 681, 294 ],
+        "confidence" : 0.981,
+        "span" : {
+          "offset" : 0,
+          "length" : 9
+        }
+      }, {
+        "content" : "(Convention",
+        "polygon" : [ 471, 332, 660, 338, 661, 379, 472, 375 ],
+        "confidence" : 0.972,
+        "span" : {
+          "offset" : 10,
+          "length" : 11
+        }
+      }, {
+        "content" : "de",
+        "polygon" : [ 669, 338, 711, 339, 711, 380, 669, 379 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 22,
+          "length" : 2
+        }
+      }, {
+        "content" : "La",
+        "polygon" : [ 719, 340, 758, 341, 758, 382, 719, 381 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 25,
+          "length" : 2
+        }
+      }, {
+        "content" : "Haye",
+        "polygon" : [ 767, 341, 851, 343, 850, 384, 767, 382 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 28,
+          "length" : 4
+        }
+      }, {
+        "content" : "du",
+        "polygon" : [ 859, 343, 901, 344, 901, 386, 859, 384 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 33,
+          "length" : 2
+        }
+      }, {
+        "content" : "5",
+        "polygon" : [ 909, 344, 932, 344, 931, 387, 909, 386 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 36,
+          "length" : 1
+        }
+      }, {
+        "content" : "octobre",
+        "polygon" : [ 940, 345, 1060, 347, 1060, 391, 940, 387 ],
+        "confidence" : 0.99,
+        "span" : {
+          "offset" : 38,
+          "length" : 7
+        }
+      }, {
+        "content" : "1961)",
+        "polygon" : [ 1069, 347, 1162, 348, 1161, 395, 1068, 391 ],
+        "confidence" : 0.984,
+        "span" : {
+          "offset" : 46,
+          "length" : 5
+        }
+      }, {
+        "content" : "1.",
+        "polygon" : [ 386, 415, 420, 415, 419, 452, 385, 451 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 52,
+          "length" : 2
+        }
+      }, {
+        "content" : "Country:",
+        "polygon" : [ 452, 414, 594, 417, 594, 458, 453, 455 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 55,
+          "length" : 8
+        }
+      }, {
+        "content" : "THE",
+        "polygon" : [ 601, 417, 664, 418, 665, 459, 602, 458 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 64,
+          "length" : 3
+        }
+      }, {
+        "content" : "NETHERLANDS",
+        "polygon" : [ 675, 418, 942, 425, 942, 462, 675, 459 ],
+        "confidence" : 0.985,
+        "span" : {
+          "offset" : 68,
+          "length" : 11
+        }
+      }, {
+        "content" : "This",
+        "polygon" : [ 455, 455, 520, 457, 521, 496, 456, 495 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 80,
+          "length" : 4
+        }
+      }, {
+        "content" : "public",
+        "polygon" : [ 528, 457, 624, 460, 624, 499, 528, 497 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 85,
+          "length" : 6
+        }
+      }, {
+        "content" : "document",
+        "polygon" : [ 632, 460, 793, 463, 792, 503, 632, 499 ],
+        "confidence" : 0.947,
+        "span" : {
+          "offset" : 92,
+          "length" : 8
+        }
+      }, {
+        "content" : "2.",
+        "polygon" : [ 385, 495, 420, 495, 419, 532, 383, 531 ],
+        "confidence" : 0.895,
+        "span" : {
+          "offset" : 101,
+          "length" : 2
+        }
+      }, {
+        "content" : "has",
+        "polygon" : [ 449, 497, 508, 498, 508, 538, 449, 536 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 104,
+          "length" : 3
+        }
+      }, {
+        "content" : "been",
+        "polygon" : [ 516, 498, 597, 500, 597, 540, 516, 538 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 108,
+          "length" : 4
+        }
+      }, {
+        "content" : "signed",
+        "polygon" : [ 605, 500, 711, 502, 710, 543, 605, 540 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 113,
+          "length" : 6
+        }
+      }, {
+        "content" : "by",
+        "polygon" : [ 719, 502, 757, 503, 756, 544, 719, 543 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 120,
+          "length" : 2
+        }
+      }, {
+        "content" : "mr.",
+        "polygon" : [ 765, 503, 824, 504, 824, 546, 764, 545 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 123,
+          "length" : 3
+        }
+      }, {
+        "content" : "G.J.",
+        "polygon" : [ 832, 504, 900, 506, 900, 548, 832, 546 ],
+        "confidence" : 0.962,
+        "span" : {
+          "offset" : 127,
+          "length" : 4
+        }
+      }, {
+        "content" : "van",
+        "polygon" : [ 908, 506, 968, 507, 967, 550, 908, 548 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 132,
+          "length" : 3
+        }
+      }, {
+        "content" : "Rijthoven",
+        "polygon" : [ 979, 508, 1138, 511, 1137, 553, 978, 550 ],
+        "confidence" : 0.987,
+        "span" : {
+          "offset" : 136,
+          "length" : 9
+        }
+      }, {
+        "content" : "3.",
+        "polygon" : [ 383, 535, 416, 536, 415, 571, 382, 570 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 146,
+          "length" : 2
+        }
+      }, {
+        "content" : "acting",
+        "polygon" : [ 451, 537, 544, 539, 544, 580, 451, 577 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 149,
+          "length" : 6
+        }
+      }, {
+        "content" : "in",
+        "polygon" : [ 552, 539, 582, 540, 582, 581, 552, 580 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 156,
+          "length" : 2
+        }
+      }, {
+        "content" : "the",
+        "polygon" : [ 590, 540, 641, 541, 641, 583, 590, 581 ],
+        "confidence" : 0.984,
+        "span" : {
+          "offset" : 159,
+          "length" : 3
+        }
+      }, {
+        "content" : "capacity",
+        "polygon" : [ 649, 542, 781, 545, 780, 586, 649, 583 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 163,
+          "length" : 8
+        }
+      }, {
+        "content" : "of",
+        "polygon" : [ 789, 545, 818, 545, 818, 587, 788, 587 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 172,
+          "length" : 2
+        }
+      }, {
+        "content" : "notary",
+        "polygon" : [ 826, 546, 931, 548, 931, 590, 826, 587 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 175,
+          "length" : 6
+        }
+      }, {
+        "content" : "at",
+        "polygon" : [ 939, 548, 969, 549, 968, 591, 939, 590 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 182,
+          "length" : 2
+        }
+      }, {
+        "content" : "Amsterdam",
+        "polygon" : [ 977, 549, 1146, 553, 1145, 594, 976, 591 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 185,
+          "length" : 9
+        }
+      }, {
+        "content" : "4.",
+        "polygon" : [ 381, 576, 405, 576, 405, 612, 381, 612 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 195,
+          "length" : 2
+        }
+      }, {
+        "content" : "bears",
+        "polygon" : [ 447, 577, 537, 579, 537, 620, 447, 618 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 198,
+          "length" : 5
+        }
+      }, {
+        "content" : "the",
+        "polygon" : [ 546, 579, 598, 581, 597, 622, 545, 620 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 204,
+          "length" : 3
+        }
+      }, {
+        "content" : "seal/stamp",
+        "polygon" : [ 606, 581, 778, 585, 778, 627, 606, 622 ],
+        "confidence" : 0.98,
+        "span" : {
+          "offset" : 208,
+          "length" : 10
+        }
+      }, {
+        "content" : "of",
+        "polygon" : [ 786, 586, 819, 587, 819, 629, 786, 628 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 219,
+          "length" : 2
+        }
+      }, {
+        "content" : "aforesaid",
+        "polygon" : [ 828, 587, 973, 591, 972, 633, 827, 629 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 222,
+          "length" : 9
+        }
+      }, {
+        "content" : "notary",
+        "polygon" : [ 981, 591, 1083, 594, 1082, 637, 980, 634 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 232,
+          "length" : 6
+        }
+      }, {
+        "content" : "Certified",
+        "polygon" : [ 742, 668, 871, 669, 871, 706, 743, 704 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 239,
+          "length" : 9
+        }
+      }, {
+        "content" : "5.",
+        "polygon" : [ 375, 737, 410, 738, 410, 776, 375, 775 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 249,
+          "length" : 2
+        }
+      }, {
+        "content" : "in",
+        "polygon" : [ 441, 740, 470, 741, 470, 777, 441, 776 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 252,
+          "length" : 2
+        }
+      }, {
+        "content" : "Amsterdam",
+        "polygon" : [ 484, 741, 652, 746, 652, 782, 484, 777 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 255,
+          "length" : 9
+        }
+      }, {
+        "content" : "6.",
+        "polygon" : [ 860, 752, 898, 753, 898, 791, 860, 791 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 265,
+          "length" : 2
+        }
+      }, {
+        "content" : "on",
+        "polygon" : [ 915, 753, 954, 754, 954, 792, 915, 792 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 268,
+          "length" : 2
+        }
+      }, {
+        "content" : "08-05-2026",
+        "polygon" : [ 964, 754, 1145, 755, 1145, 795, 964, 792 ],
+        "confidence" : 0.982,
+        "span" : {
+          "offset" : 271,
+          "length" : 10
+        }
+      }, {
+        "content" : "7.",
+        "polygon" : [ 374, 779, 411, 780, 411, 820, 374, 818 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 282,
+          "length" : 2
+        }
+      }, {
+        "content" : "by",
+        "polygon" : [ 442, 781, 481, 782, 481, 822, 442, 821 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 285,
+          "length" : 2
+        }
+      }, {
+        "content" : "the",
+        "polygon" : [ 489, 782, 542, 783, 541, 824, 489, 822 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 288,
+          "length" : 3
+        }
+      }, {
+        "content" : "registrar",
+        "polygon" : [ 550, 784, 681, 787, 680, 828, 549, 824 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 292,
+          "length" : 9
+        }
+      }, {
+        "content" : "of",
+        "polygon" : [ 688, 787, 720, 788, 719, 829, 688, 828 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 302,
+          "length" : 2
+        }
+      }, {
+        "content" : "the",
+        "polygon" : [ 728, 788, 780, 789, 780, 830, 727, 829 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 305,
+          "length" : 3
+        }
+      }, {
+        "content" : "district",
+        "polygon" : [ 788, 789, 893, 792, 892, 833, 788, 830 ],
+        "confidence" : 0.979,
+        "span" : {
+          "offset" : 309,
+          "length" : 8
+        }
+      }, {
+        "content" : "court",
+        "polygon" : [ 901, 792, 979, 794, 979, 835, 900, 833 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 318,
+          "length" : 5
+        }
+      }, {
+        "content" : "of",
+        "polygon" : [ 987, 794, 1021, 795, 1021, 835, 987, 835 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 324,
+          "length" : 2
+        }
+      }, {
+        "content" : "Amsterdam",
+        "polygon" : [ 1029, 796, 1197, 800, 1196, 838, 1028, 835 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 327,
+          "length" : 9
+        }
+      }, {
+        "content" : "8.",
+        "polygon" : [ 374, 821, 409, 822, 410, 859, 374, 858 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 337,
+          "length" : 2
+        }
+      }, {
+        "content" : "no.",
+        "polygon" : [ 443, 822, 500, 824, 501, 860, 444, 859 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 340,
+          "length" : 3
+        }
+      }, {
+        "content" : "11501",
+        "polygon" : [ 507, 824, 599, 826, 599, 861, 508, 860 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 344,
+          "length" : 5
+        }
+      }, {
+        "content" : "9.",
+        "polygon" : [ 370, 899, 408, 901, 409, 942, 371, 940 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 350,
+          "length" : 2
+        }
+      }, {
+        "content" : "Seal/stamp:",
+        "polygon" : [ 440, 902, 630, 910, 630, 949, 441, 943 ],
+        "confidence" : 0.948,
+        "span" : {
+          "offset" : 353,
+          "length" : 11
+        }
+      }, {
+        "content" : "10.",
+        "polygon" : [ 859, 913, 904, 914, 904, 957, 859, 956 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 365,
+          "length" : 3
+        }
+      }, {
+        "content" : "Signature:",
+        "polygon" : [ 913, 915, 1074, 917, 1074, 962, 913, 957 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 369,
+          "length" : 10
+        }
+      } ],
+      "lines" : [ {
+        "content" : "APOSTILLE",
+        "polygon" : [ 679, 255, 956, 261, 955, 300, 679, 294 ],
+        "spans" : [ {
+          "offset" : 0,
+          "length" : 9
+        } ]
+      }, {
+        "content" : "(Convention de La Haye du 5 octobre 1961)",
+        "polygon" : [ 470, 332, 1163, 348, 1162, 394, 470, 375 ],
+        "spans" : [ {
+          "offset" : 10,
+          "length" : 41
+        } ]
+      }, {
+        "content" : "1.",
+        "polygon" : [ 384, 415, 426, 415, 425, 452, 385, 450 ],
+        "spans" : [ {
+          "offset" : 52,
+          "length" : 2
+        } ]
+      }, {
+        "content" : "Country: THE NETHERLANDS",
+        "polygon" : [ 442, 414, 943, 423, 943, 462, 442, 454 ],
+        "spans" : [ {
+          "offset" : 55,
+          "length" : 24
+        } ]
+      }, {
+        "content" : "This public document",
+        "polygon" : [ 453, 454, 792, 462, 791, 502, 453, 494 ],
+        "spans" : [ {
+          "offset" : 80,
+          "length" : 20
+        } ]
+      }, {
+        "content" : "2.",
+        "polygon" : [ 380, 495, 448, 495, 447, 533, 380, 528 ],
+        "spans" : [ {
+          "offset" : 101,
+          "length" : 2
+        } ]
+      }, {
+        "content" : "has been signed by mr. G.J. van Rijthoven",
+        "polygon" : [ 449, 497, 1143, 511, 1142, 553, 449, 536 ],
+        "spans" : [ {
+          "offset" : 104,
+          "length" : 41
+        } ]
+      }, {
+        "content" : "3.",
+        "polygon" : [ 379, 535, 427, 536, 427, 571, 379, 570 ],
+        "spans" : [ {
+          "offset" : 146,
+          "length" : 2
+        } ]
+      }, {
+        "content" : "acting in the capacity of notary at Amsterdam",
+        "polygon" : [ 450, 537, 1160, 553, 1159, 594, 450, 577 ],
+        "spans" : [ {
+          "offset" : 149,
+          "length" : 45
+        } ]
+      }, {
+        "content" : "4.",
+        "polygon" : [ 381, 577, 407, 576, 407, 612, 381, 611 ],
+        "spans" : [ {
+          "offset" : 195,
+          "length" : 2
+        } ]
+      }, {
+        "content" : "bears the seal/stamp of aforesaid notary",
+        "polygon" : [ 444, 576, 1083, 593, 1081, 636, 444, 617 ],
+        "spans" : [ {
+          "offset" : 198,
+          "length" : 40
+        } ]
+      }, {
+        "content" : "Certified",
+        "polygon" : [ 741, 667, 876, 669, 875, 705, 741, 703 ],
+        "spans" : [ {
+          "offset" : 239,
+          "length" : 9
+        } ]
+      }, {
+        "content" : "5. in Amsterdam",
+        "polygon" : [ 372, 737, 667, 746, 666, 783, 372, 774 ],
+        "spans" : [ {
+          "offset" : 249,
+          "length" : 15
+        } ]
+      }, {
+        "content" : "6. on 08-05-2026",
+        "polygon" : [ 859, 751, 1149, 755, 1148, 794, 859, 790 ],
+        "spans" : [ {
+          "offset" : 265,
+          "length" : 16
+        } ]
+      }, {
+        "content" : "7. by the registrar of the district court of Amsterdam",
+        "polygon" : [ 371, 779, 1206, 799, 1205, 838, 371, 819 ],
+        "spans" : [ {
+          "offset" : 282,
+          "length" : 54
+        } ]
+      }, {
+        "content" : "8. no. 11501",
+        "polygon" : [ 371, 820, 600, 825, 599, 861, 371, 857 ],
+        "spans" : [ {
+          "offset" : 337,
+          "length" : 12
+        } ]
+      }, {
+        "content" : "9. Seal/stamp:",
+        "polygon" : [ 368, 899, 633, 909, 632, 949, 368, 939 ],
+        "spans" : [ {
+          "offset" : 350,
+          "length" : 14
+        } ]
+      }, {
+        "content" : "10. Signature:",
+        "polygon" : [ 859, 913, 1076, 917, 1075, 961, 859, 955 ],
+        "spans" : [ {
+          "offset" : 365,
+          "length" : 14
+        } ]
+      } ],
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 379
+      } ]
+    } ],
+    "tables" : [ ],
+    "paragraphs" : [ {
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 9
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 679, 255, 956, 261, 955, 300, 678, 294 ]
+      } ],
+      "role" : "title",
+      "content" : "APOSTILLE"
+    }, {
+      "spans" : [ {
+        "offset" : 10,
+        "length" : 41
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 470, 332, 1163, 348, 1162, 394, 469, 378 ]
+      } ],
+      "content" : "(Convention de La Haye du 5 octobre 1961)"
+    }, {
+      "spans" : [ {
+        "offset" : 52,
+        "length" : 27
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 384, 413, 944, 422, 943, 462, 383, 453 ]
+      } ],
+      "content" : "1. Country: THE NETHERLANDS"
+    }, {
+      "spans" : [ {
+        "offset" : 80,
+        "length" : 20
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 453, 454, 792, 462, 791, 502, 452, 494 ]
+      } ],
+      "content" : "This public document"
+    }, {
+      "spans" : [ {
+        "offset" : 101,
+        "length" : 44
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 380, 493, 1143, 511, 1142, 553, 379, 535 ]
+      } ],
+      "content" : "2. has been signed by mr. G.J. van Rijthoven"
+    }, {
+      "spans" : [ {
+        "offset" : 146,
+        "length" : 48
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 379, 535, 1160, 553, 1159, 594, 378, 576 ]
+      } ],
+      "content" : "3. acting in the capacity of notary at Amsterdam"
+    }, {
+      "spans" : [ {
+        "offset" : 195,
+        "length" : 43
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 381, 574, 1083, 593, 1082, 636, 380, 617 ]
+      } ],
+      "content" : "4. bears the seal/stamp of aforesaid notary"
+    }, {
+      "spans" : [ {
+        "offset" : 239,
+        "length" : 9
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 741, 667, 876, 669, 875, 705, 740, 703 ]
+      } ],
+      "content" : "Certified"
+    }, {
+      "spans" : [ {
+        "offset" : 249,
+        "length" : 32
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 372, 737, 1149, 755, 1148, 797, 371, 779 ]
+      } ],
+      "content" : "5. in Amsterdam 6. on 08-05-2026"
+    }, {
+      "spans" : [ {
+        "offset" : 282,
+        "length" : 54
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 371, 779, 1206, 799, 1205, 839, 370, 819 ]
+      } ],
+      "content" : "7. by the registrar of the district court of Amsterdam"
+    }, {
+      "spans" : [ {
+        "offset" : 337,
+        "length" : 12
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 371, 820, 600, 825, 599, 862, 370, 857 ]
+      } ],
+      "content" : "8. no. 11501"
+    }, {
+      "spans" : [ {
+        "offset" : 350,
+        "length" : 29
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 368, 899, 1076, 917, 1075, 961, 367, 943 ]
+      } ],
+      "content" : "9. Seal/stamp: 10. Signature:"
+    } ],
+    "styles" : [ {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 379
+      } ],
+      "isHandwritten" : false
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 51
+      }, {
+        "offset" : 55,
+        "length" : 45
+      }, {
+        "offset" : 104,
+        "length" : 15
+      }, {
+        "offset" : 149,
+        "length" : 13
+      }, {
+        "offset" : 195,
+        "length" : 23
+      }, {
+        "offset" : 239,
+        "length" : 31
+      }, {
+        "offset" : 282,
+        "length" : 41
+      }, {
+        "offset" : 327,
+        "length" : 52
+      } ],
+      "color" : "#313131"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 119
+      }, {
+        "offset" : 146,
+        "length" : 16
+      }, {
+        "offset" : 195,
+        "length" : 12
+      }, {
+        "offset" : 239,
+        "length" : 31
+      }, {
+        "offset" : 282,
+        "length" : 41
+      }, {
+        "offset" : 337,
+        "length" : 42
+      } ],
+      "backgroundColor" : "#fefefe"
+    }, {
+      "confidence" : 1,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 281
+      }, {
+        "offset" : 285,
+        "length" : 51
+      }, {
+        "offset" : 340,
+        "length" : 39
+      } ],
+      "fontStyle" : "normal"
+    }, {
+      "confidence" : 1,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 122
+      }, {
+        "offset" : 127,
+        "length" : 8
+      }, {
+        "offset" : 146,
+        "length" : 203
+      }, {
+        "offset" : 353,
+        "length" : 26
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 9
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 10,
+        "length" : 14
+      }, {
+        "offset" : 55,
+        "length" : 8
+      }, {
+        "offset" : 120,
+        "length" : 2
+      }, {
+        "offset" : 172,
+        "length" : 9
+      }, {
+        "offset" : 232,
+        "length" : 6
+      }, {
+        "offset" : 252,
+        "length" : 2
+      }, {
+        "offset" : 268,
+        "length" : 2
+      }, {
+        "offset" : 288,
+        "length" : 3
+      }, {
+        "offset" : 318,
+        "length" : 5
+      }, {
+        "offset" : 327,
+        "length" : 9
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, Segoe UI, sans-serif"
+    }, {
+      "confidence" : 0.8,
+      "spans" : [ {
+        "offset" : 25,
+        "length" : 2
+      }, {
+        "offset" : 38,
+        "length" : 7
+      }, {
+        "offset" : 182,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, sans-serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 28,
+        "length" : 7
+      }, {
+        "offset" : 68,
+        "length" : 32
+      }, {
+        "offset" : 104,
+        "length" : 15
+      }, {
+        "offset" : 127,
+        "length" : 4
+      }, {
+        "offset" : 146,
+        "length" : 9
+      }, {
+        "offset" : 159,
+        "length" : 12
+      }, {
+        "offset" : 185,
+        "length" : 9
+      }, {
+        "offset" : 198,
+        "length" : 20
+      }, {
+        "offset" : 239,
+        "length" : 9
+      }, {
+        "offset" : 255,
+        "length" : 9
+      }, {
+        "offset" : 292,
+        "length" : 9
+      }, {
+        "offset" : 305,
+        "length" : 12
+      }, {
+        "offset" : 344,
+        "length" : 35
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, sans-serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 36,
+        "length" : 1
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 46,
+        "length" : 5
+      }, {
+        "offset" : 64,
+        "length" : 3
+      }, {
+        "offset" : 156,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, sans-serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 52,
+        "length" : 2
+      }, {
+        "offset" : 101,
+        "length" : 2
+      }, {
+        "offset" : 146,
+        "length" : 2
+      } ],
+      "color" : "#353535"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 52,
+        "length" : 2
+      }, {
+        "offset" : 271,
+        "length" : 10
+      }, {
+        "offset" : 302,
+        "length" : 2
+      }, {
+        "offset" : 340,
+        "length" : 3
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, sans-serif"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 101,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 120,
+        "length" : 2
+      }, {
+        "offset" : 232,
+        "length" : 6
+      } ],
+      "color" : "#494949"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 120,
+        "length" : 2
+      }, {
+        "offset" : 136,
+        "length" : 9
+      }, {
+        "offset" : 172,
+        "length" : 2
+      } ],
+      "backgroundColor" : "#fafcfa"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 123,
+        "length" : 3
+      } ],
+      "color" : "#1d1d1d"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 123,
+        "length" : 3
+      } ],
+      "backgroundColor" : "#fefcfe"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 123,
+        "length" : 3
+      }, {
+        "offset" : 136,
+        "length" : 9
+      }, {
+        "offset" : 350,
+        "length" : 2
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 123,
+        "length" : 3
+      } ],
+      "similarFontFamily" : "Segoe UI, sans-serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 127,
+        "length" : 4
+      } ],
+      "color" : "#191919"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 127,
+        "length" : 8
+      }, {
+        "offset" : 163,
+        "length" : 8
+      }, {
+        "offset" : 175,
+        "length" : 9
+      }, {
+        "offset" : 208,
+        "length" : 10
+      }, {
+        "offset" : 232,
+        "length" : 6
+      }, {
+        "offset" : 324,
+        "length" : 12
+      } ],
+      "backgroundColor" : "#fcfcfc"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 132,
+        "length" : 3
+      } ],
+      "color" : "#292d29"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 132,
+        "length" : 13
+      }, {
+        "offset" : 219,
+        "length" : 2
+      }, {
+        "offset" : 324,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Segoe UI, sans-serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 136,
+        "length" : 9
+      } ],
+      "color" : "#1d211d"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 163,
+        "length" : 8
+      }, {
+        "offset" : 185,
+        "length" : 9
+      }, {
+        "offset" : 222,
+        "length" : 9
+      }, {
+        "offset" : 271,
+        "length" : 10
+      } ],
+      "color" : "#393939"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 172,
+        "length" : 2
+      }, {
+        "offset" : 182,
+        "length" : 2
+      } ],
+      "color" : "#454545"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 175,
+        "length" : 6
+      } ],
+      "color" : "#3d3d3d"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 185,
+        "length" : 9
+      }, {
+        "offset" : 222,
+        "length" : 9
+      } ],
+      "backgroundColor" : "#fafcfc"
+    }, {
+      "confidence" : 0.5,
+      "spans" : [ {
+        "offset" : 195,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Segoe UI, sans-serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 219,
+        "length" : 2
+      } ],
+      "color" : "#394941"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 219,
+        "length" : 2
+      }, {
+        "offset" : 271,
+        "length" : 10
+      } ],
+      "backgroundColor" : "#fafafa"
+    }, {
+      "confidence" : 0.7,
+      "spans" : [ {
+        "offset" : 222,
+        "length" : 9
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, sans-serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 249,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, Baskerville, sans-serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 265,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, Courier New, sans-serif"
+    }, {
+      "confidence" : 0.8,
+      "spans" : [ {
+        "offset" : 282,
+        "length" : 2
+      } ],
+      "fontStyle" : "normal"
+    }, {
+      "confidence" : 0.6,
+      "spans" : [ {
+        "offset" : 282,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.8,
+      "spans" : [ {
+        "offset" : 285,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, Segoe UI, sans-serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 324,
+        "length" : 2
+      } ],
+      "color" : "#414141"
+    }, {
+      "confidence" : 0.6,
+      "spans" : [ {
+        "offset" : 337,
+        "length" : 2
+      } ],
+      "fontStyle" : "italic"
+    }, {
+      "confidence" : 0.7,
+      "spans" : [ {
+        "offset" : 337,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Arial, Helvetica, Segoe UI, sans-serif"
+    } ]
+  }
+}
