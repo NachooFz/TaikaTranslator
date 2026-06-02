@@ -41,6 +41,36 @@ public class Main {
         // Load env file if present
         Map<String, String> envFileMap = loadEnvFile(new File(".env"));
 
+        // Check if we should run in server mode (default unless --input is specified)
+        boolean runServer = true;
+        for (String arg : args) {
+            if ("--input".equals(arg)) {
+                runServer = false;
+                break;
+            }
+        }
+        for (String arg : args) {
+            if ("--server".equals(arg)) {
+                runServer = true;
+                break;
+            }
+        }
+
+        if (runServer) {
+            int port = 8080;
+            String portEnv = getEnvOrConfig("PORT", envFileMap);
+            if (portEnv != null) {
+                try {
+                    port = Integer.parseInt(portEnv);
+                } catch (NumberFormatException e) {
+                    log.warn("Invalid PORT env value: {}, using 8080", portEnv);
+                }
+            }
+            log.info("Starting in Web Server Mode on port {}...", port);
+            com.taikatranslator.infra.server.TranslationServer.start(port);
+            return;
+        }
+
         // 1. Parsing Arguments
         String inputPdfPath = getEnvOrConfig("INPUT_PDF", envFileMap);
         String outputDirStr = getEnvOrConfig("OUTPUT_DIR", envFileMap);

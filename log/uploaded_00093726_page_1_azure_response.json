@@ -1,0 +1,5451 @@
+{
+  "status" : "succeeded",
+  "createdDateTime" : "2026-06-02T21:18:03Z",
+  "lastUpdatedDateTime" : "2026-06-02T21:18:06Z",
+  "analyzeResult" : {
+    "apiVersion" : "2023-07-31",
+    "modelId" : "prebuilt-layout",
+    "stringIndexType" : "textElements",
+    "content" : "Date:\nSeptember 21, 1976\nSample No.\n6030\nType of Cigarette\n85 mm Filter :selected:\nBatch Size\n50 1bs.\nOriginal Request Made By\nDr. A. W. Spears\non\nSeptember 21, 1976\nSample Specifications Written By\nW. E. Routh\nBLEND\nCASING\nOGS\nRECASING\nOGS\nOGS\nCigarettes\nMaker\nAMF\nLength\n85 mm\nCircumference 25.0\nWeight To be det. (803 mq tobacco) Pressure Drop To be determined\nFilter Length\n20 mm\nPaper\n554\nTipping Paper\n30 mm\npping\nLabels\nWhite\nClosures\nBlue\n.Tear Tape\nWhite\nCartons\nMarkings\nSample No. on\noverwrap\nRequirements\nLaboratory\n3 cartons\nOther\n20,000 cigts.\nLaboratory Analysis\nSmoke Analysis PMO Analysis\nReports\nAdditional Spray\nFINAL FLAVOR\nOGS\n3.4% PMO in EtoH\nFilters\nKind 20 mm True plastic rod\nProcess\nRod Length\nPressure Drop\nCircumference\nweight\nPlasticizer\nPlug Wrap\n·Responsibility\nTobacco Blend\nAmmons\nFilter Production\nWicker\nMaking & Packing\nBrown/Routh\nShipping\nRouth\nSample Requisition [Form 02:02:06]\nSpecial Requirements\nSpray 50 lbs. tobacco with solution of 880 g (= 1.94 lbs. ) PMO in 1175 ml of 'denatured alcohol. This should give 3.4% PMO add-on (3.3% PMO contained) assuming 88% spraying efficiency. PMO delivery from 85 mm cigarette smoked to 30 mm butt should be 6.5 mg/cig.\nWritten by P. D. Schickedantz Original to Dr. A. W. Spears\nCopies to\nDr. F. J. Schultz\n00093726\nDr. H. J. Minnemeyer\nManager, Productxxxxxxxxprenx\nH.g. minnemeyer\nResearch",
+    "pages" : [ {
+      "pageNumber" : 1,
+      "angle" : 0,
+      "width" : 779,
+      "height" : 1000,
+      "unit" : "pixel",
+      "words" : [ {
+        "content" : "Date:",
+        "polygon" : [ 457, 12, 504, 12, 504, 27, 457, 27 ],
+        "confidence" : 0.983,
+        "span" : {
+          "offset" : 0,
+          "length" : 5
+        }
+      }, {
+        "content" : "September",
+        "polygon" : [ 524, 12, 607, 13, 607, 28, 524, 29 ],
+        "confidence" : 0.915,
+        "span" : {
+          "offset" : 6,
+          "length" : 9
+        }
+      }, {
+        "content" : "21,",
+        "polygon" : [ 617, 12, 646, 12, 647, 28, 617, 28 ],
+        "confidence" : 0.977,
+        "span" : {
+          "offset" : 16,
+          "length" : 3
+        }
+      }, {
+        "content" : "1976",
+        "polygon" : [ 656, 12, 691, 12, 691, 27, 656, 27 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 20,
+          "length" : 4
+        }
+      }, {
+        "content" : "Sample",
+        "polygon" : [ 273, 46, 328, 46, 328, 62, 274, 62 ],
+        "confidence" : 0.903,
+        "span" : {
+          "offset" : 25,
+          "length" : 6
+        }
+      }, {
+        "content" : "No.",
+        "polygon" : [ 337, 46, 367, 46, 366, 62, 337, 62 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 32,
+          "length" : 3
+        }
+      }, {
+        "content" : "6030",
+        "polygon" : [ 388, 46, 422, 46, 422, 60, 388, 60 ],
+        "confidence" : 0.99,
+        "span" : {
+          "offset" : 36,
+          "length" : 4
+        }
+      }, {
+        "content" : "Type",
+        "polygon" : [ 200, 77, 236, 77, 237, 95, 201, 96 ],
+        "confidence" : 0.989,
+        "span" : {
+          "offset" : 41,
+          "length" : 4
+        }
+      }, {
+        "content" : "of",
+        "polygon" : [ 246, 77, 266, 77, 266, 95, 246, 95 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 46,
+          "length" : 2
+        }
+      }, {
+        "content" : "Cigarette",
+        "polygon" : [ 273, 77, 357, 77, 357, 94, 273, 94 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 49,
+          "length" : 9
+        }
+      }, {
+        "content" : "85",
+        "polygon" : [ 389, 76, 405, 76, 405, 91, 389, 91 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 59,
+          "length" : 2
+        }
+      }, {
+        "content" : "mm",
+        "polygon" : [ 413, 76, 431, 76, 431, 91, 414, 91 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 62,
+          "length" : 2
+        }
+      }, {
+        "content" : "Filter",
+        "polygon" : [ 442, 75, 498, 76, 498, 91, 443, 91 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 65,
+          "length" : 6
+        }
+      }, {
+        "content" : "Batch",
+        "polygon" : [ 263, 108, 308, 107, 309, 124, 264, 124 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 83,
+          "length" : 5
+        }
+      }, {
+        "content" : "Size",
+        "polygon" : [ 320, 107, 356, 107, 355, 123, 320, 124 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 89,
+          "length" : 4
+        }
+      }, {
+        "content" : "50",
+        "polygon" : [ 388, 107, 405, 107, 405, 122, 388, 122 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 94,
+          "length" : 2
+        }
+      }, {
+        "content" : "1bs.",
+        "polygon" : [ 417, 107, 451, 107, 451, 123, 417, 122 ],
+        "confidence" : 0.776,
+        "span" : {
+          "offset" : 97,
+          "length" : 4
+        }
+      }, {
+        "content" : "Original",
+        "polygon" : [ 8, 141, 84, 140, 84, 158, 9, 158 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 102,
+          "length" : 8
+        }
+      }, {
+        "content" : "Request",
+        "polygon" : [ 91, 140, 156, 140, 156, 158, 91, 158 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 111,
+          "length" : 7
+        }
+      }, {
+        "content" : "Made",
+        "polygon" : [ 163, 140, 200, 140, 200, 157, 163, 158 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 119,
+          "length" : 4
+        }
+      }, {
+        "content" : "By",
+        "polygon" : [ 209, 140, 228, 140, 228, 157, 210, 157 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 124,
+          "length" : 2
+        }
+      }, {
+        "content" : "Dr.",
+        "polygon" : [ 258, 138, 286, 138, 286, 154, 259, 154 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 127,
+          "length" : 3
+        }
+      }, {
+        "content" : "A.",
+        "polygon" : [ 295, 138, 314, 138, 314, 154, 296, 154 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 131,
+          "length" : 2
+        }
+      }, {
+        "content" : "W.",
+        "polygon" : [ 323, 138, 342, 138, 343, 154, 323, 154 ],
+        "confidence" : 0.986,
+        "span" : {
+          "offset" : 134,
+          "length" : 2
+        }
+      }, {
+        "content" : "Spears",
+        "polygon" : [ 352, 138, 406, 139, 406, 154, 352, 154 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 137,
+          "length" : 6
+        }
+      }, {
+        "content" : "on",
+        "polygon" : [ 497, 138, 512, 138, 512, 152, 496, 151 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 144,
+          "length" : 2
+        }
+      }, {
+        "content" : "September",
+        "polygon" : [ 536, 137, 618, 136, 618, 153, 536, 153 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 147,
+          "length" : 9
+        }
+      }, {
+        "content" : "21,",
+        "polygon" : [ 628, 136, 656, 136, 656, 152, 629, 153 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 157,
+          "length" : 3
+        }
+      }, {
+        "content" : "1976",
+        "polygon" : [ 666, 136, 701, 136, 702, 152, 666, 152 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 161,
+          "length" : 4
+        }
+      }, {
+        "content" : "Sample",
+        "polygon" : [ 9, 173, 64, 171, 64, 190, 9, 190 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 166,
+          "length" : 6
+        }
+      }, {
+        "content" : "Specifications",
+        "polygon" : [ 73, 171, 201, 170, 201, 188, 73, 189 ],
+        "confidence" : 0.974,
+        "span" : {
+          "offset" : 173,
+          "length" : 14
+        }
+      }, {
+        "content" : "Written",
+        "polygon" : [ 209, 170, 273, 171, 273, 187, 209, 188 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 188,
+          "length" : 7
+        }
+      }, {
+        "content" : "By",
+        "polygon" : [ 283, 171, 302, 171, 302, 186, 283, 187 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 196,
+          "length" : 2
+        }
+      }, {
+        "content" : "W.",
+        "polygon" : [ 341, 168, 360, 168, 361, 184, 341, 184 ],
+        "confidence" : 0.97,
+        "span" : {
+          "offset" : 199,
+          "length" : 2
+        }
+      }, {
+        "content" : "E.",
+        "polygon" : [ 369, 168, 388, 168, 389, 184, 369, 184 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 202,
+          "length" : 2
+        }
+      }, {
+        "content" : "Routh",
+        "polygon" : [ 397, 168, 441, 168, 442, 184, 397, 184 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 205,
+          "length" : 5
+        }
+      }, {
+        "content" : "BLEND",
+        "polygon" : [ 9, 205, 52, 204, 52, 218, 9, 218 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 211,
+          "length" : 5
+        }
+      }, {
+        "content" : "CASING",
+        "polygon" : [ 145, 202, 200, 202, 200, 219, 146, 218 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 217,
+          "length" : 6
+        }
+      }, {
+        "content" : "OGS",
+        "polygon" : [ 158, 223, 185, 223, 186, 236, 159, 237 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 224,
+          "length" : 3
+        }
+      }, {
+        "content" : "RECASING",
+        "polygon" : [ 291, 202, 365, 201, 365, 216, 292, 216 ],
+        "confidence" : 0.982,
+        "span" : {
+          "offset" : 228,
+          "length" : 8
+        }
+      }, {
+        "content" : "OGS",
+        "polygon" : [ 13, 224, 40, 224, 41, 238, 14, 238 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 237,
+          "length" : 3
+        }
+      }, {
+        "content" : "OGS",
+        "polygon" : [ 314, 223, 342, 223, 341, 237, 313, 237 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 241,
+          "length" : 3
+        }
+      }, {
+        "content" : "Cigarettes",
+        "polygon" : [ 8, 280, 99, 279, 99, 297, 8, 297 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 245,
+          "length" : 10
+        }
+      }, {
+        "content" : "Maker",
+        "polygon" : [ 34, 312, 81, 312, 82, 327, 34, 327 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 256,
+          "length" : 5
+        }
+      }, {
+        "content" : "AMF",
+        "polygon" : [ 126, 312, 151, 312, 151, 326, 126, 326 ],
+        "confidence" : 0.988,
+        "span" : {
+          "offset" : 262,
+          "length" : 3
+        }
+      }, {
+        "content" : "Length",
+        "polygon" : [ 35, 328, 89, 327, 89, 343, 35, 343 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 266,
+          "length" : 6
+        }
+      }, {
+        "content" : "85",
+        "polygon" : [ 125, 328, 142, 328, 143, 342, 126, 342 ],
+        "confidence" : 0.99,
+        "span" : {
+          "offset" : 273,
+          "length" : 2
+        }
+      }, {
+        "content" : "mm",
+        "polygon" : [ 151, 328, 168, 328, 169, 343, 152, 343 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 276,
+          "length" : 2
+        }
+      }, {
+        "content" : "Circumference",
+        "polygon" : [ 35, 342, 154, 343, 154, 358, 35, 359 ],
+        "confidence" : 0.983,
+        "span" : {
+          "offset" : 279,
+          "length" : 13
+        }
+      }, {
+        "content" : "25.0",
+        "polygon" : [ 173, 343, 207, 344, 207, 358, 173, 358 ],
+        "confidence" : 0.975,
+        "span" : {
+          "offset" : 293,
+          "length" : 4
+        }
+      }, {
+        "content" : "Weight",
+        "polygon" : [ 34, 358, 90, 359, 91, 375, 35, 376 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 298,
+          "length" : 6
+        }
+      }, {
+        "content" : "To",
+        "polygon" : [ 107, 359, 124, 359, 124, 375, 107, 375 ],
+        "confidence" : 0.99,
+        "span" : {
+          "offset" : 305,
+          "length" : 2
+        }
+      }, {
+        "content" : "be",
+        "polygon" : [ 133, 359, 152, 359, 152, 374, 133, 374 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 308,
+          "length" : 2
+        }
+      }, {
+        "content" : "det.",
+        "polygon" : [ 161, 359, 198, 359, 198, 374, 161, 374 ],
+        "confidence" : 0.977,
+        "span" : {
+          "offset" : 311,
+          "length" : 4
+        }
+      }, {
+        "content" : "(803",
+        "polygon" : [ 210, 359, 245, 359, 245, 374, 210, 374 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 316,
+          "length" : 4
+        }
+      }, {
+        "content" : "mq",
+        "polygon" : [ 252, 359, 270, 359, 270, 373, 252, 374 ],
+        "confidence" : 0.951,
+        "span" : {
+          "offset" : 321,
+          "length" : 2
+        }
+      }, {
+        "content" : "tobacco)",
+        "polygon" : [ 281, 359, 352, 358, 352, 373, 281, 373 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 324,
+          "length" : 8
+        }
+      }, {
+        "content" : "Pressure",
+        "polygon" : [ 35, 375, 108, 375, 108, 390, 35, 390 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 333,
+          "length" : 8
+        }
+      }, {
+        "content" : "Drop",
+        "polygon" : [ 118, 375, 153, 374, 153, 389, 118, 390 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 342,
+          "length" : 4
+        }
+      }, {
+        "content" : "To",
+        "polygon" : [ 171, 374, 188, 374, 188, 389, 171, 389 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 347,
+          "length" : 2
+        }
+      }, {
+        "content" : "be",
+        "polygon" : [ 197, 374, 216, 374, 216, 389, 197, 389 ],
+        "confidence" : 0.988,
+        "span" : {
+          "offset" : 350,
+          "length" : 2
+        }
+      }, {
+        "content" : "determined",
+        "polygon" : [ 226, 374, 316, 373, 316, 389, 226, 389 ],
+        "confidence" : 0.987,
+        "span" : {
+          "offset" : 353,
+          "length" : 10
+        }
+      }, {
+        "content" : "Filter",
+        "polygon" : [ 34, 389, 91, 390, 91, 406, 34, 407 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 364,
+          "length" : 6
+        }
+      }, {
+        "content" : "Length",
+        "polygon" : [ 99, 390, 154, 390, 154, 406, 100, 406 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 371,
+          "length" : 6
+        }
+      }, {
+        "content" : "20",
+        "polygon" : [ 172, 390, 188, 390, 188, 405, 173, 405 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 378,
+          "length" : 2
+        }
+      }, {
+        "content" : "mm",
+        "polygon" : [ 197, 390, 214, 391, 214, 405, 198, 405 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 381,
+          "length" : 2
+        }
+      }, {
+        "content" : "Paper",
+        "polygon" : [ 35, 406, 81, 407, 81, 422, 35, 421 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 384,
+          "length" : 5
+        }
+      }, {
+        "content" : "554",
+        "polygon" : [ 171, 405, 198, 405, 198, 418, 172, 419 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 390,
+          "length" : 3
+        }
+      }, {
+        "content" : "Tipping",
+        "polygon" : [ 36, 421, 101, 421, 101, 439, 36, 439 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 394,
+          "length" : 7
+        }
+      }, {
+        "content" : "Paper",
+        "polygon" : [ 109, 421, 155, 422, 155, 438, 109, 439 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 402,
+          "length" : 5
+        }
+      }, {
+        "content" : "30",
+        "polygon" : [ 172, 421, 187, 421, 188, 436, 172, 435 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 408,
+          "length" : 2
+        }
+      }, {
+        "content" : "mm",
+        "polygon" : [ 197, 422, 214, 422, 214, 436, 198, 436 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 411,
+          "length" : 2
+        }
+      }, {
+        "content" : "pping",
+        "polygon" : [ 35, 484, 83, 484, 84, 502, 36, 503 ],
+        "confidence" : 0.727,
+        "span" : {
+          "offset" : 414,
+          "length" : 5
+        }
+      }, {
+        "content" : "Labels",
+        "polygon" : [ 36, 517, 91, 517, 91, 531, 36, 531 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 420,
+          "length" : 6
+        }
+      }, {
+        "content" : "White",
+        "polygon" : [ 161, 515, 206, 515, 207, 530, 161, 529 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 427,
+          "length" : 5
+        }
+      }, {
+        "content" : "Closures",
+        "polygon" : [ 36, 532, 109, 533, 109, 546, 37, 545 ],
+        "confidence" : 0.974,
+        "span" : {
+          "offset" : 433,
+          "length" : 8
+        }
+      }, {
+        "content" : "Blue",
+        "polygon" : [ 163, 533, 198, 533, 198, 546, 163, 545 ],
+        "confidence" : 0.99,
+        "span" : {
+          "offset" : 442,
+          "length" : 4
+        }
+      }, {
+        "content" : ".Tear",
+        "polygon" : [ 29, 548, 72, 547, 73, 562, 29, 561 ],
+        "confidence" : 0.683,
+        "span" : {
+          "offset" : 447,
+          "length" : 5
+        }
+      }, {
+        "content" : "Tape",
+        "polygon" : [ 85, 548, 118, 548, 118, 563, 85, 562 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 453,
+          "length" : 4
+        }
+      }, {
+        "content" : "White",
+        "polygon" : [ 162, 548, 206, 548, 206, 561, 162, 561 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 458,
+          "length" : 5
+        }
+      }, {
+        "content" : "Cartons",
+        "polygon" : [ 37, 563, 100, 563, 100, 577, 37, 577 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 464,
+          "length" : 7
+        }
+      }, {
+        "content" : "Markings",
+        "polygon" : [ 35, 578, 110, 579, 110, 593, 36, 593 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 472,
+          "length" : 8
+        }
+      }, {
+        "content" : "Sample",
+        "polygon" : [ 136, 575, 189, 576, 189, 591, 136, 591 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 481,
+          "length" : 6
+        }
+      }, {
+        "content" : "No.",
+        "polygon" : [ 198, 576, 226, 576, 227, 591, 198, 591 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 488,
+          "length" : 3
+        }
+      }, {
+        "content" : "on",
+        "polygon" : [ 236, 576, 253, 576, 253, 591, 236, 591 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 492,
+          "length" : 2
+        }
+      }, {
+        "content" : "overwrap",
+        "polygon" : [ 134, 593, 206, 593, 206, 607, 135, 607 ],
+        "confidence" : 0.922,
+        "span" : {
+          "offset" : 495,
+          "length" : 8
+        }
+      }, {
+        "content" : "Requirements",
+        "polygon" : [ 9, 639, 120, 639, 120, 655, 10, 655 ],
+        "confidence" : 0.864,
+        "span" : {
+          "offset" : 504,
+          "length" : 12
+        }
+      }, {
+        "content" : "Laboratory",
+        "polygon" : [ 37, 670, 129, 671, 130, 686, 37, 685 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 517,
+          "length" : 10
+        }
+      }, {
+        "content" : "3",
+        "polygon" : [ 155, 669, 164, 669, 164, 685, 154, 685 ],
+        "confidence" : 0.965,
+        "span" : {
+          "offset" : 528,
+          "length" : 1
+        }
+      }, {
+        "content" : "cartons",
+        "polygon" : [ 173, 669, 237, 669, 237, 685, 172, 685 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 530,
+          "length" : 7
+        }
+      }, {
+        "content" : "Other",
+        "polygon" : [ 37, 686, 82, 686, 82, 701, 37, 700 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 538,
+          "length" : 5
+        }
+      }, {
+        "content" : "20,000",
+        "polygon" : [ 155, 685, 208, 684, 208, 700, 155, 700 ],
+        "confidence" : 0.928,
+        "span" : {
+          "offset" : 544,
+          "length" : 6
+        }
+      }, {
+        "content" : "cigts.",
+        "polygon" : [ 218, 684, 273, 685, 273, 700, 218, 700 ],
+        "confidence" : 0.948,
+        "span" : {
+          "offset" : 551,
+          "length" : 6
+        }
+      }, {
+        "content" : "Laboratory",
+        "polygon" : [ 9, 730, 101, 730, 101, 747, 9, 747 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 558,
+          "length" : 10
+        }
+      }, {
+        "content" : "Analysis",
+        "polygon" : [ 110, 730, 184, 728, 185, 746, 110, 747 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 569,
+          "length" : 8
+        }
+      }, {
+        "content" : "Smoke",
+        "polygon" : [ 191, 745, 235, 745, 235, 761, 191, 761 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 578,
+          "length" : 5
+        }
+      }, {
+        "content" : "Analysis",
+        "polygon" : [ 245, 745, 319, 745, 319, 761, 245, 761 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 584,
+          "length" : 8
+        }
+      }, {
+        "content" : "PMO",
+        "polygon" : [ 191, 762, 218, 762, 218, 778, 191, 779 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 593,
+          "length" : 3
+        }
+      }, {
+        "content" : "Analysis",
+        "polygon" : [ 227, 762, 301, 762, 301, 777, 227, 778 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 597,
+          "length" : 8
+        }
+      }, {
+        "content" : "Reports",
+        "polygon" : [ 9, 793, 73, 794, 74, 809, 10, 808 ],
+        "confidence" : 0.985,
+        "span" : {
+          "offset" : 606,
+          "length" : 7
+        }
+      }, {
+        "content" : "Additional",
+        "polygon" : [ 606, 181, 699, 181, 699, 198, 607, 197 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 614,
+          "length" : 10
+        }
+      }, {
+        "content" : "Spray",
+        "polygon" : [ 708, 181, 754, 182, 754, 199, 709, 198 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 625,
+          "length" : 5
+        }
+      }, {
+        "content" : "FINAL",
+        "polygon" : [ 467, 200, 513, 200, 514, 215, 467, 215 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 631,
+          "length" : 5
+        }
+      }, {
+        "content" : "FLAVOR",
+        "polygon" : [ 524, 200, 580, 200, 580, 215, 525, 215 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 637,
+          "length" : 6
+        }
+      }, {
+        "content" : "OGS",
+        "polygon" : [ 507, 222, 533, 222, 533, 235, 507, 235 ],
+        "confidence" : 0.937,
+        "span" : {
+          "offset" : 644,
+          "length" : 3
+        }
+      }, {
+        "content" : "3.4%",
+        "polygon" : [ 608, 218, 643, 219, 643, 234, 608, 234 ],
+        "confidence" : 0.961,
+        "span" : {
+          "offset" : 648,
+          "length" : 4
+        }
+      }, {
+        "content" : "PMO",
+        "polygon" : [ 652, 219, 679, 219, 679, 234, 652, 234 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 653,
+          "length" : 3
+        }
+      }, {
+        "content" : "in",
+        "polygon" : [ 690, 219, 706, 219, 707, 234, 690, 234 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 657,
+          "length" : 2
+        }
+      }, {
+        "content" : "EtoH",
+        "polygon" : [ 716, 219, 751, 219, 752, 233, 717, 234 ],
+        "confidence" : 0.973,
+        "span" : {
+          "offset" : 660,
+          "length" : 4
+        }
+      }, {
+        "content" : "Filters",
+        "polygon" : [ 384, 278, 449, 278, 449, 294, 384, 294 ],
+        "confidence" : 0.978,
+        "span" : {
+          "offset" : 665,
+          "length" : 7
+        }
+      }, {
+        "content" : "Kind",
+        "polygon" : [ 412, 308, 449, 308, 449, 324, 412, 324 ],
+        "confidence" : 0.988,
+        "span" : {
+          "offset" : 673,
+          "length" : 4
+        }
+      }, {
+        "content" : "20",
+        "polygon" : [ 472, 310, 489, 310, 490, 326, 472, 326 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 678,
+          "length" : 2
+        }
+      }, {
+        "content" : "mm",
+        "polygon" : [ 498, 310, 515, 310, 515, 326, 498, 326 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 681,
+          "length" : 2
+        }
+      }, {
+        "content" : "True",
+        "polygon" : [ 528, 309, 563, 309, 563, 325, 528, 326 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 684,
+          "length" : 4
+        }
+      }, {
+        "content" : "plastic",
+        "polygon" : [ 572, 309, 637, 307, 637, 324, 572, 325 ],
+        "confidence" : 0.951,
+        "span" : {
+          "offset" : 689,
+          "length" : 7
+        }
+      }, {
+        "content" : "rod",
+        "polygon" : [ 647, 307, 673, 307, 674, 323, 647, 324 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 697,
+          "length" : 3
+        }
+      }, {
+        "content" : "Process",
+        "polygon" : [ 412, 341, 478, 341, 478, 356, 412, 356 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 701,
+          "length" : 7
+        }
+      }, {
+        "content" : "Rod",
+        "polygon" : [ 412, 356, 439, 356, 440, 372, 413, 372 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 709,
+          "length" : 3
+        }
+      }, {
+        "content" : "Length",
+        "polygon" : [ 450, 356, 505, 357, 505, 372, 450, 372 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 713,
+          "length" : 6
+        }
+      }, {
+        "content" : "Pressure",
+        "polygon" : [ 412, 372, 487, 372, 487, 388, 412, 388 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 720,
+          "length" : 8
+        }
+      }, {
+        "content" : "Drop",
+        "polygon" : [ 497, 372, 533, 372, 533, 388, 497, 388 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 729,
+          "length" : 4
+        }
+      }, {
+        "content" : "Circumference",
+        "polygon" : [ 412, 386, 533, 388, 533, 402, 412, 403 ],
+        "confidence" : 0.968,
+        "span" : {
+          "offset" : 734,
+          "length" : 13
+        }
+      }, {
+        "content" : "weight",
+        "polygon" : [ 413, 402, 470, 402, 470, 417, 413, 417 ],
+        "confidence" : 0.988,
+        "span" : {
+          "offset" : 748,
+          "length" : 6
+        }
+      }, {
+        "content" : "Plasticizer",
+        "polygon" : [ 414, 417, 517, 417, 517, 432, 415, 432 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 755,
+          "length" : 11
+        }
+      }, {
+        "content" : "Plug",
+        "polygon" : [ 413, 432, 450, 433, 450, 449, 414, 449 ],
+        "confidence" : 0.989,
+        "span" : {
+          "offset" : 767,
+          "length" : 4
+        }
+      }, {
+        "content" : "Wrap",
+        "polygon" : [ 460, 433, 498, 433, 497, 450, 460, 449 ],
+        "confidence" : 0.599,
+        "span" : {
+          "offset" : 772,
+          "length" : 4
+        }
+      }, {
+        "content" : "·Responsibility",
+        "polygon" : [ 380, 482, 517, 481, 517, 499, 380, 499 ],
+        "confidence" : 0.554,
+        "span" : {
+          "offset" : 777,
+          "length" : 15
+        }
+      }, {
+        "content" : "Tobacco",
+        "polygon" : [ 414, 513, 479, 512, 479, 529, 415, 530 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 793,
+          "length" : 7
+        }
+      }, {
+        "content" : "Blend",
+        "polygon" : [ 488, 512, 535, 511, 535, 527, 489, 528 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 801,
+          "length" : 5
+        }
+      }, {
+        "content" : "Ammons",
+        "polygon" : [ 586, 514, 639, 514, 639, 527, 586, 526 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 807,
+          "length" : 6
+        }
+      }, {
+        "content" : "Filter",
+        "polygon" : [ 413, 528, 469, 528, 469, 544, 414, 545 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 814,
+          "length" : 6
+        }
+      }, {
+        "content" : "Production",
+        "polygon" : [ 479, 528, 571, 528, 571, 543, 479, 544 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 821,
+          "length" : 10
+        }
+      }, {
+        "content" : "Wicker",
+        "polygon" : [ 584, 528, 640, 528, 640, 543, 585, 543 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 832,
+          "length" : 6
+        }
+      }, {
+        "content" : "Making",
+        "polygon" : [ 412, 545, 468, 544, 468, 560, 413, 560 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 839,
+          "length" : 6
+        }
+      }, {
+        "content" : "&",
+        "polygon" : [ 479, 544, 489, 544, 489, 560, 480, 560 ],
+        "confidence" : 0.951,
+        "span" : {
+          "offset" : 846,
+          "length" : 1
+        }
+      }, {
+        "content" : "Packing",
+        "polygon" : [ 498, 543, 563, 544, 563, 559, 499, 560 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 848,
+          "length" : 7
+        }
+      }, {
+        "content" : "Brown/Routh",
+        "polygon" : [ 586, 543, 685, 542, 685, 557, 586, 558 ],
+        "confidence" : 0.953,
+        "span" : {
+          "offset" : 856,
+          "length" : 11
+        }
+      }, {
+        "content" : "Shipping",
+        "polygon" : [ 414, 559, 487, 561, 488, 576, 415, 575 ],
+        "confidence" : 0.982,
+        "span" : {
+          "offset" : 868,
+          "length" : 8
+        }
+      }, {
+        "content" : "Routh",
+        "polygon" : [ 585, 559, 630, 559, 631, 573, 586, 573 ],
+        "confidence" : 0.98,
+        "span" : {
+          "offset" : 877,
+          "length" : 5
+        }
+      }, {
+        "content" : "Sample",
+        "polygon" : [ 415, 575, 469, 575, 469, 591, 415, 591 ],
+        "confidence" : 0.986,
+        "span" : {
+          "offset" : 883,
+          "length" : 6
+        }
+      }, {
+        "content" : "Requisition",
+        "polygon" : [ 479, 575, 580, 574, 580, 588, 479, 591 ],
+        "confidence" : 0.982,
+        "span" : {
+          "offset" : 890,
+          "length" : 11
+        }
+      }, {
+        "content" : "[Form",
+        "polygon" : [ 425, 590, 468, 590, 468, 605, 426, 606 ],
+        "confidence" : 0.961,
+        "span" : {
+          "offset" : 902,
+          "length" : 5
+        }
+      }, {
+        "content" : "02:02:06]",
+        "polygon" : [ 479, 589, 563, 588, 563, 605, 480, 605 ],
+        "confidence" : 0.914,
+        "span" : {
+          "offset" : 908,
+          "length" : 9
+        }
+      }, {
+        "content" : "Special",
+        "polygon" : [ 387, 636, 453, 635, 453, 652, 388, 654 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 918,
+          "length" : 7
+        }
+      }, {
+        "content" : "Requirements",
+        "polygon" : [ 460, 635, 574, 635, 574, 651, 461, 652 ],
+        "confidence" : 0.984,
+        "span" : {
+          "offset" : 926,
+          "length" : 12
+        }
+      }, {
+        "content" : "Spray",
+        "polygon" : [ 387, 672, 432, 672, 433, 688, 387, 689 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 939,
+          "length" : 5
+        }
+      }, {
+        "content" : "50",
+        "polygon" : [ 442, 672, 459, 671, 460, 688, 443, 688 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 945,
+          "length" : 2
+        }
+      }, {
+        "content" : "lbs.",
+        "polygon" : [ 470, 671, 506, 671, 506, 687, 471, 687 ],
+        "confidence" : 0.734,
+        "span" : {
+          "offset" : 948,
+          "length" : 4
+        }
+      }, {
+        "content" : "tobacco",
+        "polygon" : [ 516, 671, 578, 670, 579, 686, 516, 687 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 953,
+          "length" : 7
+        }
+      }, {
+        "content" : "with",
+        "polygon" : [ 587, 670, 624, 670, 624, 686, 587, 686 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 961,
+          "length" : 4
+        }
+      }, {
+        "content" : "solution",
+        "polygon" : [ 634, 670, 706, 669, 706, 686, 635, 686 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 966,
+          "length" : 8
+        }
+      }, {
+        "content" : "of",
+        "polygon" : [ 716, 669, 735, 669, 735, 686, 717, 686 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 975,
+          "length" : 2
+        }
+      }, {
+        "content" : "880",
+        "polygon" : [ 388, 687, 414, 687, 414, 703, 388, 704 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 978,
+          "length" : 3
+        }
+      }, {
+        "content" : "g",
+        "polygon" : [ 424, 687, 432, 687, 433, 703, 424, 703 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 982,
+          "length" : 1
+        }
+      }, {
+        "content" : "(=",
+        "polygon" : [ 445, 687, 459, 687, 459, 703, 445, 703 ],
+        "confidence" : 0.961,
+        "span" : {
+          "offset" : 984,
+          "length" : 2
+        }
+      }, {
+        "content" : "1.94",
+        "polygon" : [ 470, 687, 506, 686, 506, 702, 471, 702 ],
+        "confidence" : 0.976,
+        "span" : {
+          "offset" : 987,
+          "length" : 4
+        }
+      }, {
+        "content" : "lbs.",
+        "polygon" : [ 517, 686, 549, 686, 549, 702, 517, 702 ],
+        "confidence" : 0.552,
+        "span" : {
+          "offset" : 992,
+          "length" : 4
+        }
+      }, {
+        "content" : ")",
+        "polygon" : [ 552, 686, 560, 686, 561, 702, 552, 702 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 997,
+          "length" : 1
+        }
+      }, {
+        "content" : "PMO",
+        "polygon" : [ 570, 686, 597, 686, 597, 701, 570, 702 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 999,
+          "length" : 3
+        }
+      }, {
+        "content" : "in",
+        "polygon" : [ 608, 686, 623, 686, 624, 701, 608, 701 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1003,
+          "length" : 2
+        }
+      }, {
+        "content" : "1175",
+        "polygon" : [ 636, 686, 671, 686, 671, 701, 636, 701 ],
+        "confidence" : 0.962,
+        "span" : {
+          "offset" : 1006,
+          "length" : 4
+        }
+      }, {
+        "content" : "ml",
+        "polygon" : [ 679, 685, 699, 685, 699, 701, 680, 701 ],
+        "confidence" : 0.926,
+        "span" : {
+          "offset" : 1011,
+          "length" : 2
+        }
+      }, {
+        "content" : "of",
+        "polygon" : [ 707, 685, 727, 685, 727, 701, 708, 701 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1014,
+          "length" : 2
+        }
+      }, {
+        "content" : "'denatured",
+        "polygon" : [ 377, 702, 467, 702, 468, 717, 378, 718 ],
+        "confidence" : 0.802,
+        "span" : {
+          "offset" : 1017,
+          "length" : 10
+        }
+      }, {
+        "content" : "alcohol.",
+        "polygon" : [ 479, 702, 552, 701, 552, 717, 479, 717 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 1028,
+          "length" : 8
+        }
+      }, {
+        "content" : "This",
+        "polygon" : [ 571, 701, 606, 701, 606, 716, 572, 716 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1037,
+          "length" : 4
+        }
+      }, {
+        "content" : "should",
+        "polygon" : [ 616, 701, 670, 701, 670, 716, 616, 716 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1042,
+          "length" : 6
+        }
+      }, {
+        "content" : "give",
+        "polygon" : [ 680, 701, 716, 700, 716, 716, 680, 716 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1049,
+          "length" : 4
+        }
+      }, {
+        "content" : "3.4%",
+        "polygon" : [ 389, 717, 424, 717, 424, 732, 389, 733 ],
+        "confidence" : 0.967,
+        "span" : {
+          "offset" : 1054,
+          "length" : 4
+        }
+      }, {
+        "content" : "PMO",
+        "polygon" : [ 433, 717, 459, 717, 459, 732, 433, 732 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1059,
+          "length" : 3
+        }
+      }, {
+        "content" : "add-on",
+        "polygon" : [ 470, 717, 523, 716, 523, 732, 470, 732 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1063,
+          "length" : 6
+        }
+      }, {
+        "content" : "(3.3%",
+        "polygon" : [ 536, 716, 580, 716, 580, 731, 536, 732 ],
+        "confidence" : 0.908,
+        "span" : {
+          "offset" : 1070,
+          "length" : 5
+        }
+      }, {
+        "content" : "PMO",
+        "polygon" : [ 589, 716, 615, 716, 615, 731, 589, 731 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1076,
+          "length" : 3
+        }
+      }, {
+        "content" : "contained)",
+        "polygon" : [ 625, 716, 715, 716, 716, 732, 625, 731 ],
+        "confidence" : 0.987,
+        "span" : {
+          "offset" : 1080,
+          "length" : 10
+        }
+      }, {
+        "content" : "assuming",
+        "polygon" : [ 388, 733, 460, 732, 461, 748, 389, 748 ],
+        "confidence" : 0.968,
+        "span" : {
+          "offset" : 1091,
+          "length" : 8
+        }
+      }, {
+        "content" : "88%",
+        "polygon" : [ 470, 732, 497, 732, 498, 748, 470, 748 ],
+        "confidence" : 0.687,
+        "span" : {
+          "offset" : 1100,
+          "length" : 3
+        }
+      }, {
+        "content" : "spraying",
+        "polygon" : [ 507, 732, 579, 731, 579, 748, 507, 748 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1104,
+          "length" : 8
+        }
+      }, {
+        "content" : "efficiency.",
+        "polygon" : [ 590, 731, 690, 731, 691, 747, 590, 748 ],
+        "confidence" : 0.983,
+        "span" : {
+          "offset" : 1113,
+          "length" : 11
+        }
+      }, {
+        "content" : "PMO",
+        "polygon" : [ 708, 731, 735, 731, 735, 747, 709, 747 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 1125,
+          "length" : 3
+        }
+      }, {
+        "content" : "delivery",
+        "polygon" : [ 387, 747, 460, 748, 461, 763, 387, 764 ],
+        "confidence" : 0.977,
+        "span" : {
+          "offset" : 1129,
+          "length" : 8
+        }
+      }, {
+        "content" : "from",
+        "polygon" : [ 471, 748, 504, 748, 504, 762, 472, 763 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1138,
+          "length" : 4
+        }
+      }, {
+        "content" : "85",
+        "polygon" : [ 516, 748, 533, 748, 533, 762, 517, 762 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1143,
+          "length" : 2
+        }
+      }, {
+        "content" : "mm",
+        "polygon" : [ 542, 748, 559, 748, 560, 762, 542, 762 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 1146,
+          "length" : 2
+        }
+      }, {
+        "content" : "cigarette",
+        "polygon" : [ 570, 748, 651, 747, 652, 762, 570, 762 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1149,
+          "length" : 9
+        }
+      }, {
+        "content" : "smoked",
+        "polygon" : [ 662, 747, 716, 747, 716, 762, 663, 762 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1159,
+          "length" : 6
+        }
+      }, {
+        "content" : "to",
+        "polygon" : [ 388, 764, 405, 763, 405, 778, 389, 779 ],
+        "confidence" : 0.996,
+        "span" : {
+          "offset" : 1166,
+          "length" : 2
+        }
+      }, {
+        "content" : "30",
+        "polygon" : [ 416, 763, 433, 763, 433, 778, 416, 778 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1169,
+          "length" : 2
+        }
+      }, {
+        "content" : "mm",
+        "polygon" : [ 441, 763, 459, 763, 460, 778, 441, 778 ],
+        "confidence" : 0.991,
+        "span" : {
+          "offset" : 1172,
+          "length" : 2
+        }
+      }, {
+        "content" : "butt",
+        "polygon" : [ 469, 763, 506, 762, 506, 777, 469, 778 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1175,
+          "length" : 4
+        }
+      }, {
+        "content" : "should",
+        "polygon" : [ 516, 762, 570, 762, 570, 777, 517, 777 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1180,
+          "length" : 6
+        }
+      }, {
+        "content" : "be",
+        "polygon" : [ 579, 762, 597, 762, 597, 778, 580, 778 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1187,
+          "length" : 2
+        }
+      }, {
+        "content" : "6.5",
+        "polygon" : [ 608, 762, 635, 762, 635, 778, 608, 778 ],
+        "confidence" : 0.886,
+        "span" : {
+          "offset" : 1190,
+          "length" : 3
+        }
+      }, {
+        "content" : "mg/cig.",
+        "polygon" : [ 643, 762, 708, 762, 708, 779, 644, 778 ],
+        "confidence" : 0.983,
+        "span" : {
+          "offset" : 1194,
+          "length" : 7
+        }
+      }, {
+        "content" : "Written",
+        "polygon" : [ 37, 823, 101, 823, 101, 838, 37, 839 ],
+        "confidence" : 0.994,
+        "span" : {
+          "offset" : 1202,
+          "length" : 7
+        }
+      }, {
+        "content" : "by",
+        "polygon" : [ 110, 822, 129, 822, 129, 838, 110, 838 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1210,
+          "length" : 2
+        }
+      }, {
+        "content" : "P.",
+        "polygon" : [ 155, 822, 172, 822, 173, 838, 155, 838 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1213,
+          "length" : 2
+        }
+      }, {
+        "content" : "D.",
+        "polygon" : [ 182, 822, 200, 822, 201, 838, 182, 838 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1216,
+          "length" : 2
+        }
+      }, {
+        "content" : "Schickedantz",
+        "polygon" : [ 210, 822, 320, 822, 321, 837, 210, 838 ],
+        "confidence" : 0.98,
+        "span" : {
+          "offset" : 1219,
+          "length" : 12
+        }
+      }, {
+        "content" : "Original",
+        "polygon" : [ 37, 838, 110, 838, 111, 854, 37, 854 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1232,
+          "length" : 8
+        }
+      }, {
+        "content" : "to",
+        "polygon" : [ 121, 838, 137, 838, 138, 853, 122, 853 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1241,
+          "length" : 2
+        }
+      }, {
+        "content" : "Dr.",
+        "polygon" : [ 153, 838, 182, 838, 182, 853, 154, 853 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1244,
+          "length" : 3
+        }
+      }, {
+        "content" : "A.",
+        "polygon" : [ 191, 838, 208, 837, 209, 852, 191, 853 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1248,
+          "length" : 2
+        }
+      }, {
+        "content" : "W.",
+        "polygon" : [ 218, 837, 237, 837, 238, 852, 219, 852 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1251,
+          "length" : 2
+        }
+      }, {
+        "content" : "Spears",
+        "polygon" : [ 247, 837, 300, 836, 301, 850, 247, 852 ],
+        "confidence" : 0.922,
+        "span" : {
+          "offset" : 1254,
+          "length" : 6
+        }
+      }, {
+        "content" : "Copies",
+        "polygon" : [ 38, 854, 92, 854, 93, 869, 38, 869 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1261,
+          "length" : 6
+        }
+      }, {
+        "content" : "to",
+        "polygon" : [ 103, 854, 120, 854, 120, 869, 103, 869 ],
+        "confidence" : 0.993,
+        "span" : {
+          "offset" : 1268,
+          "length" : 2
+        }
+      }, {
+        "content" : "Dr.",
+        "polygon" : [ 155, 854, 183, 854, 183, 869, 155, 870 ],
+        "confidence" : 0.92,
+        "span" : {
+          "offset" : 1271,
+          "length" : 3
+        }
+      }, {
+        "content" : "F.",
+        "polygon" : [ 190, 854, 210, 854, 211, 869, 190, 869 ],
+        "confidence" : 0.918,
+        "span" : {
+          "offset" : 1275,
+          "length" : 2
+        }
+      }, {
+        "content" : "J.",
+        "polygon" : [ 220, 854, 238, 854, 238, 869, 220, 869 ],
+        "confidence" : 0.987,
+        "span" : {
+          "offset" : 1278,
+          "length" : 2
+        }
+      }, {
+        "content" : "Schultz",
+        "polygon" : [ 247, 854, 311, 854, 311, 869, 248, 869 ],
+        "confidence" : 0.93,
+        "span" : {
+          "offset" : 1281,
+          "length" : 7
+        }
+      }, {
+        "content" : "00093726",
+        "polygon" : [ 672, 806, 671, 900, 649, 899, 650, 806 ],
+        "confidence" : 0.995,
+        "span" : {
+          "offset" : 1289,
+          "length" : 8
+        }
+      }, {
+        "content" : "Dr.",
+        "polygon" : [ 154, 870, 182, 870, 183, 885, 154, 885 ],
+        "confidence" : 0.96,
+        "span" : {
+          "offset" : 1298,
+          "length" : 3
+        }
+      }, {
+        "content" : "H.",
+        "polygon" : [ 191, 870, 210, 870, 211, 885, 192, 885 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 1302,
+          "length" : 2
+        }
+      }, {
+        "content" : "J.",
+        "polygon" : [ 219, 870, 237, 870, 237, 885, 220, 885 ],
+        "confidence" : 0.985,
+        "span" : {
+          "offset" : 1305,
+          "length" : 2
+        }
+      }, {
+        "content" : "Minnemeyer",
+        "polygon" : [ 245, 870, 337, 870, 338, 884, 246, 885 ],
+        "confidence" : 0.936,
+        "span" : {
+          "offset" : 1308,
+          "length" : 10
+        }
+      }, {
+        "content" : "Manager,",
+        "polygon" : [ 415, 960, 492, 960, 492, 974, 415, 977 ],
+        "confidence" : 0.626,
+        "span" : {
+          "offset" : 1319,
+          "length" : 8
+        }
+      }, {
+        "content" : "Productxxxxxxxxprenx",
+        "polygon" : [ 499, 960, 681, 958, 682, 974, 500, 974 ],
+        "confidence" : 0.182,
+        "span" : {
+          "offset" : 1328,
+          "length" : 20
+        }
+      }, {
+        "content" : "H.g.",
+        "polygon" : [ 440, 925, 509, 927, 508, 959, 440, 959 ],
+        "confidence" : 0.617,
+        "span" : {
+          "offset" : 1349,
+          "length" : 4
+        }
+      }, {
+        "content" : "minnemeyer",
+        "polygon" : [ 523, 927, 691, 934, 691, 961, 523, 959 ],
+        "confidence" : 0.688,
+        "span" : {
+          "offset" : 1354,
+          "length" : 10
+        }
+      }, {
+        "content" : "Research",
+        "polygon" : [ 499, 977, 570, 976, 570, 989, 500, 989 ],
+        "confidence" : 0.992,
+        "span" : {
+          "offset" : 1365,
+          "length" : 8
+        }
+      } ],
+      "selectionMarks" : [ {
+        "state" : "selected",
+        "polygon" : [ 11, 94, 36, 94, 36, 119, 11, 119 ],
+        "confidence" : 0.583,
+        "span" : {
+          "offset" : 72,
+          "length" : 10
+        }
+      } ],
+      "lines" : [ {
+        "content" : "Date:",
+        "polygon" : [ 455, 11, 505, 12, 504, 27, 455, 26 ],
+        "spans" : [ {
+          "offset" : 0,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "September 21, 1976",
+        "polygon" : [ 523, 12, 691, 11, 691, 27, 523, 28 ],
+        "spans" : [ {
+          "offset" : 6,
+          "length" : 18
+        } ]
+      }, {
+        "content" : "Sample No.",
+        "polygon" : [ 271, 45, 366, 45, 366, 62, 271, 61 ],
+        "spans" : [ {
+          "offset" : 25,
+          "length" : 10
+        } ]
+      }, {
+        "content" : "6030",
+        "polygon" : [ 386, 46, 424, 46, 424, 60, 386, 60 ],
+        "spans" : [ {
+          "offset" : 36,
+          "length" : 4
+        } ]
+      }, {
+        "content" : "Type of Cigarette",
+        "polygon" : [ 198, 76, 357, 76, 357, 94, 198, 95 ],
+        "spans" : [ {
+          "offset" : 41,
+          "length" : 17
+        } ]
+      }, {
+        "content" : "85 mm Filter",
+        "polygon" : [ 387, 75, 499, 75, 500, 91, 387, 91 ],
+        "spans" : [ {
+          "offset" : 59,
+          "length" : 12
+        } ]
+      }, {
+        "content" : "Batch Size",
+        "polygon" : [ 262, 107, 358, 107, 358, 123, 262, 123 ],
+        "spans" : [ {
+          "offset" : 83,
+          "length" : 10
+        } ]
+      }, {
+        "content" : "50 1bs.",
+        "polygon" : [ 387, 106, 452, 106, 451, 122, 387, 122 ],
+        "spans" : [ {
+          "offset" : 94,
+          "length" : 7
+        } ]
+      }, {
+        "content" : "Original Request Made By",
+        "polygon" : [ 8, 140, 232, 139, 233, 156, 8, 158 ],
+        "spans" : [ {
+          "offset" : 102,
+          "length" : 24
+        } ]
+      }, {
+        "content" : "Dr. A. W. Spears",
+        "polygon" : [ 257, 138, 407, 138, 407, 154, 257, 154 ],
+        "spans" : [ {
+          "offset" : 127,
+          "length" : 16
+        } ]
+      }, {
+        "content" : "on",
+        "polygon" : [ 494, 138, 514, 139, 515, 152, 494, 152 ],
+        "spans" : [ {
+          "offset" : 144,
+          "length" : 2
+        } ]
+      }, {
+        "content" : "September 21, 1976",
+        "polygon" : [ 534, 136, 702, 135, 702, 151, 534, 153 ],
+        "spans" : [ {
+          "offset" : 147,
+          "length" : 18
+        } ]
+      }, {
+        "content" : "Sample Specifications Written By",
+        "polygon" : [ 8, 171, 302, 169, 302, 187, 8, 189 ],
+        "spans" : [ {
+          "offset" : 166,
+          "length" : 32
+        } ]
+      }, {
+        "content" : "W. E. Routh",
+        "polygon" : [ 340, 167, 444, 167, 444, 184, 340, 183 ],
+        "spans" : [ {
+          "offset" : 199,
+          "length" : 11
+        } ]
+      }, {
+        "content" : "BLEND",
+        "polygon" : [ 8, 204, 55, 204, 55, 218, 8, 218 ],
+        "spans" : [ {
+          "offset" : 211,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "CASING",
+        "polygon" : [ 142, 201, 202, 201, 202, 218, 142, 218 ],
+        "spans" : [ {
+          "offset" : 217,
+          "length" : 6
+        } ]
+      }, {
+        "content" : "OGS",
+        "polygon" : [ 157, 224, 186, 223, 187, 237, 158, 237 ],
+        "spans" : [ {
+          "offset" : 224,
+          "length" : 3
+        } ]
+      }, {
+        "content" : "RECASING",
+        "polygon" : [ 290, 200, 367, 200, 367, 216, 290, 216 ],
+        "spans" : [ {
+          "offset" : 228,
+          "length" : 8
+        } ]
+      }, {
+        "content" : "OGS",
+        "polygon" : [ 11, 225, 41, 224, 42, 238, 11, 238 ],
+        "spans" : [ {
+          "offset" : 237,
+          "length" : 3
+        } ]
+      }, {
+        "content" : "OGS",
+        "polygon" : [ 312, 223, 342, 223, 342, 237, 312, 236 ],
+        "spans" : [ {
+          "offset" : 241,
+          "length" : 3
+        } ]
+      }, {
+        "content" : "Cigarettes",
+        "polygon" : [ 5, 279, 101, 279, 101, 296, 5, 296 ],
+        "spans" : [ {
+          "offset" : 245,
+          "length" : 10
+        } ]
+      }, {
+        "content" : "Maker",
+        "polygon" : [ 33, 311, 83, 311, 83, 326, 33, 326 ],
+        "spans" : [ {
+          "offset" : 256,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "AMF",
+        "polygon" : [ 122, 312, 152, 312, 153, 326, 122, 326 ],
+        "spans" : [ {
+          "offset" : 262,
+          "length" : 3
+        } ]
+      }, {
+        "content" : "Length",
+        "polygon" : [ 33, 327, 92, 327, 92, 342, 34, 343 ],
+        "spans" : [ {
+          "offset" : 266,
+          "length" : 6
+        } ]
+      }, {
+        "content" : "85 mm",
+        "polygon" : [ 119, 328, 172, 328, 172, 342, 119, 341 ],
+        "spans" : [ {
+          "offset" : 273,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "Circumference 25.0",
+        "polygon" : [ 33, 341, 208, 342, 208, 359, 33, 358 ],
+        "spans" : [ {
+          "offset" : 279,
+          "length" : 18
+        } ]
+      }, {
+        "content" : "Weight To be det. (803 mq tobacco)",
+        "polygon" : [ 34, 358, 352, 357, 352, 374, 34, 375 ],
+        "spans" : [ {
+          "offset" : 298,
+          "length" : 34
+        } ]
+      }, {
+        "content" : "Pressure Drop To be determined",
+        "polygon" : [ 32, 374, 322, 373, 322, 388, 32, 390 ],
+        "spans" : [ {
+          "offset" : 333,
+          "length" : 30
+        } ]
+      }, {
+        "content" : "Filter Length",
+        "polygon" : [ 32, 388, 155, 388, 156, 406, 32, 406 ],
+        "spans" : [ {
+          "offset" : 364,
+          "length" : 13
+        } ]
+      }, {
+        "content" : "20 mm",
+        "polygon" : [ 168, 389, 219, 390, 219, 405, 168, 404 ],
+        "spans" : [ {
+          "offset" : 378,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "Paper",
+        "polygon" : [ 33, 406, 82, 406, 82, 422, 33, 421 ],
+        "spans" : [ {
+          "offset" : 384,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "554",
+        "polygon" : [ 170, 406, 198, 405, 198, 419, 170, 419 ],
+        "spans" : [ {
+          "offset" : 390,
+          "length" : 3
+        } ]
+      }, {
+        "content" : "Tipping Paper",
+        "polygon" : [ 34, 420, 156, 420, 156, 438, 34, 438 ],
+        "spans" : [ {
+          "offset" : 394,
+          "length" : 13
+        } ]
+      }, {
+        "content" : "30 mm",
+        "polygon" : [ 170, 420, 219, 421, 219, 436, 170, 435 ],
+        "spans" : [ {
+          "offset" : 408,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "pping",
+        "polygon" : [ 27, 484, 84, 484, 84, 502, 28, 503 ],
+        "spans" : [ {
+          "offset" : 414,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "Labels",
+        "polygon" : [ 33, 516, 93, 516, 93, 531, 33, 530 ],
+        "spans" : [ {
+          "offset" : 420,
+          "length" : 6
+        } ]
+      }, {
+        "content" : "White",
+        "polygon" : [ 161, 514, 209, 515, 209, 529, 161, 529 ],
+        "spans" : [ {
+          "offset" : 427,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "Closures",
+        "polygon" : [ 34, 531, 111, 532, 111, 546, 34, 545 ],
+        "spans" : [ {
+          "offset" : 433,
+          "length" : 8
+        } ]
+      }, {
+        "content" : "Blue",
+        "polygon" : [ 162, 532, 201, 532, 200, 545, 162, 545 ],
+        "spans" : [ {
+          "offset" : 442,
+          "length" : 4
+        } ]
+      }, {
+        "content" : ".Tear Tape",
+        "polygon" : [ 19, 547, 119, 547, 119, 562, 19, 561 ],
+        "spans" : [ {
+          "offset" : 447,
+          "length" : 10
+        } ]
+      }, {
+        "content" : "White",
+        "polygon" : [ 161, 547, 209, 548, 209, 561, 161, 560 ],
+        "spans" : [ {
+          "offset" : 458,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "Cartons",
+        "polygon" : [ 35, 562, 101, 562, 101, 576, 35, 576 ],
+        "spans" : [ {
+          "offset" : 464,
+          "length" : 7
+        } ]
+      }, {
+        "content" : "Markings",
+        "polygon" : [ 34, 577, 111, 578, 111, 593, 34, 592 ],
+        "spans" : [ {
+          "offset" : 472,
+          "length" : 8
+        } ]
+      }, {
+        "content" : "Sample No. on",
+        "polygon" : [ 133, 575, 256, 575, 256, 590, 133, 590 ],
+        "spans" : [ {
+          "offset" : 481,
+          "length" : 13
+        } ]
+      }, {
+        "content" : "overwrap",
+        "polygon" : [ 132, 592, 210, 592, 210, 606, 132, 606 ],
+        "spans" : [ {
+          "offset" : 495,
+          "length" : 8
+        } ]
+      }, {
+        "content" : "Requirements",
+        "polygon" : [ 8, 638, 121, 638, 121, 654, 8, 654 ],
+        "spans" : [ {
+          "offset" : 504,
+          "length" : 12
+        } ]
+      }, {
+        "content" : "Laboratory",
+        "polygon" : [ 35, 669, 132, 670, 131, 686, 35, 685 ],
+        "spans" : [ {
+          "offset" : 517,
+          "length" : 10
+        } ]
+      }, {
+        "content" : "3 cartons",
+        "polygon" : [ 153, 668, 239, 668, 239, 684, 153, 684 ],
+        "spans" : [ {
+          "offset" : 528,
+          "length" : 9
+        } ]
+      }, {
+        "content" : "Other",
+        "polygon" : [ 35, 685, 84, 686, 84, 700, 35, 700 ],
+        "spans" : [ {
+          "offset" : 538,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "20,000 cigts.",
+        "polygon" : [ 153, 684, 273, 684, 273, 700, 153, 700 ],
+        "spans" : [ {
+          "offset" : 544,
+          "length" : 13
+        } ]
+      }, {
+        "content" : "Laboratory Analysis",
+        "polygon" : [ 6, 729, 185, 727, 185, 745, 6, 748 ],
+        "spans" : [ {
+          "offset" : 558,
+          "length" : 19
+        } ]
+      }, {
+        "content" : "Smoke Analysis",
+        "polygon" : [ 189, 744, 320, 744, 320, 760, 190, 761 ],
+        "spans" : [ {
+          "offset" : 578,
+          "length" : 14
+        } ]
+      }, {
+        "content" : "PMO Analysis",
+        "polygon" : [ 189, 761, 302, 761, 302, 777, 190, 778 ],
+        "spans" : [ {
+          "offset" : 593,
+          "length" : 12
+        } ]
+      }, {
+        "content" : "Reports",
+        "polygon" : [ 8, 792, 75, 793, 75, 808, 8, 808 ],
+        "spans" : [ {
+          "offset" : 606,
+          "length" : 7
+        } ]
+      }, {
+        "content" : "Additional Spray",
+        "polygon" : [ 605, 180, 754, 181, 754, 198, 605, 197 ],
+        "spans" : [ {
+          "offset" : 614,
+          "length" : 16
+        } ]
+      }, {
+        "content" : "FINAL FLAVOR",
+        "polygon" : [ 466, 199, 582, 199, 582, 215, 466, 214 ],
+        "spans" : [ {
+          "offset" : 631,
+          "length" : 12
+        } ]
+      }, {
+        "content" : "OGS",
+        "polygon" : [ 505, 222, 535, 222, 536, 235, 505, 235 ],
+        "spans" : [ {
+          "offset" : 644,
+          "length" : 3
+        } ]
+      }, {
+        "content" : "3.4% PMO in EtoH",
+        "polygon" : [ 607, 218, 755, 218, 755, 233, 607, 234 ],
+        "spans" : [ {
+          "offset" : 648,
+          "length" : 16
+        } ]
+      }, {
+        "content" : "Filters",
+        "polygon" : [ 382, 277, 451, 277, 451, 293, 382, 294 ],
+        "spans" : [ {
+          "offset" : 665,
+          "length" : 7
+        } ]
+      }, {
+        "content" : "Kind",
+        "polygon" : [ 411, 309, 451, 308, 452, 324, 411, 324 ],
+        "spans" : [ {
+          "offset" : 673,
+          "length" : 4
+        } ]
+      }, {
+        "content" : "20 mm True plastic rod",
+        "polygon" : [ 471, 309, 675, 306, 675, 323, 471, 326 ],
+        "spans" : [ {
+          "offset" : 678,
+          "length" : 22
+        } ]
+      }, {
+        "content" : "Process",
+        "polygon" : [ 411, 340, 478, 340, 478, 355, 411, 355 ],
+        "spans" : [ {
+          "offset" : 701,
+          "length" : 7
+        } ]
+      }, {
+        "content" : "Rod Length",
+        "polygon" : [ 411, 355, 507, 356, 507, 372, 411, 371 ],
+        "spans" : [ {
+          "offset" : 709,
+          "length" : 10
+        } ]
+      }, {
+        "content" : "Pressure Drop",
+        "polygon" : [ 411, 371, 535, 372, 535, 388, 411, 387 ],
+        "spans" : [ {
+          "offset" : 720,
+          "length" : 13
+        } ]
+      }, {
+        "content" : "Circumference",
+        "polygon" : [ 410, 386, 534, 386, 534, 403, 410, 402 ],
+        "spans" : [ {
+          "offset" : 734,
+          "length" : 13
+        } ]
+      }, {
+        "content" : "weight",
+        "polygon" : [ 412, 401, 472, 401, 472, 417, 412, 416 ],
+        "spans" : [ {
+          "offset" : 748,
+          "length" : 6
+        } ]
+      }, {
+        "content" : "Plasticizer",
+        "polygon" : [ 412, 416, 517, 416, 517, 431, 412, 432 ],
+        "spans" : [ {
+          "offset" : 755,
+          "length" : 11
+        } ]
+      }, {
+        "content" : "Plug Wrap",
+        "polygon" : [ 412, 432, 500, 433, 500, 449, 412, 449 ],
+        "spans" : [ {
+          "offset" : 767,
+          "length" : 9
+        } ]
+      }, {
+        "content" : "·Responsibility",
+        "polygon" : [ 379, 481, 518, 481, 518, 498, 379, 498 ],
+        "spans" : [ {
+          "offset" : 777,
+          "length" : 15
+        } ]
+      }, {
+        "content" : "Tobacco Blend",
+        "polygon" : [ 412, 513, 536, 511, 537, 527, 412, 529 ],
+        "spans" : [ {
+          "offset" : 793,
+          "length" : 13
+        } ]
+      }, {
+        "content" : "Ammons",
+        "polygon" : [ 584, 513, 641, 513, 641, 526, 584, 525 ],
+        "spans" : [ {
+          "offset" : 807,
+          "length" : 6
+        } ]
+      }, {
+        "content" : "Filter Production",
+        "polygon" : [ 412, 528, 572, 527, 573, 543, 412, 544 ],
+        "spans" : [ {
+          "offset" : 814,
+          "length" : 17
+        } ]
+      }, {
+        "content" : "Wicker",
+        "polygon" : [ 583, 527, 641, 527, 641, 542, 583, 542 ],
+        "spans" : [ {
+          "offset" : 832,
+          "length" : 6
+        } ]
+      }, {
+        "content" : "Making & Packing",
+        "polygon" : [ 412, 543, 564, 543, 564, 559, 412, 559 ],
+        "spans" : [ {
+          "offset" : 839,
+          "length" : 16
+        } ]
+      }, {
+        "content" : "Brown/Routh",
+        "polygon" : [ 583, 543, 690, 542, 690, 556, 584, 557 ],
+        "spans" : [ {
+          "offset" : 856,
+          "length" : 11
+        } ]
+      }, {
+        "content" : "Shipping",
+        "polygon" : [ 413, 559, 488, 560, 488, 576, 413, 574 ],
+        "spans" : [ {
+          "offset" : 868,
+          "length" : 8
+        } ]
+      }, {
+        "content" : "Routh",
+        "polygon" : [ 584, 558, 633, 558, 633, 573, 584, 573 ],
+        "spans" : [ {
+          "offset" : 877,
+          "length" : 5
+        } ]
+      }, {
+        "content" : "Sample Requisition",
+        "polygon" : [ 412, 575, 584, 574, 584, 589, 413, 591 ],
+        "spans" : [ {
+          "offset" : 883,
+          "length" : 18
+        } ]
+      }, {
+        "content" : "[Form 02:02:06]",
+        "polygon" : [ 425, 589, 563, 588, 563, 604, 425, 606 ],
+        "spans" : [ {
+          "offset" : 902,
+          "length" : 15
+        } ]
+      }, {
+        "content" : "Special Requirements",
+        "polygon" : [ 385, 635, 575, 635, 575, 652, 385, 654 ],
+        "spans" : [ {
+          "offset" : 918,
+          "length" : 20
+        } ]
+      }, {
+        "content" : "Spray 50 lbs. tobacco with solution of",
+        "polygon" : [ 386, 671, 735, 668, 736, 685, 386, 688 ],
+        "spans" : [ {
+          "offset" : 939,
+          "length" : 38
+        } ]
+      }, {
+        "content" : "880 g (= 1.94 lbs. ) PMO in 1175 ml of",
+        "polygon" : [ 385, 687, 728, 685, 728, 701, 385, 703 ],
+        "spans" : [ {
+          "offset" : 978,
+          "length" : 38
+        } ]
+      }, {
+        "content" : "'denatured alcohol. This should give",
+        "polygon" : [ 377, 702, 719, 700, 719, 716, 377, 717 ],
+        "spans" : [ {
+          "offset" : 1017,
+          "length" : 36
+        } ]
+      }, {
+        "content" : "3.4% PMO add-on (3.3% PMO contained)",
+        "polygon" : [ 387, 716, 716, 715, 716, 731, 387, 732 ],
+        "spans" : [ {
+          "offset" : 1054,
+          "length" : 36
+        } ]
+      }, {
+        "content" : "assuming 88% spraying efficiency. PMO",
+        "polygon" : [ 386, 732, 737, 730, 737, 746, 386, 748 ],
+        "spans" : [ {
+          "offset" : 1091,
+          "length" : 37
+        } ]
+      }, {
+        "content" : "delivery from 85 mm cigarette smoked",
+        "polygon" : [ 386, 747, 718, 746, 718, 762, 386, 763 ],
+        "spans" : [ {
+          "offset" : 1129,
+          "length" : 36
+        } ]
+      }, {
+        "content" : "to 30 mm butt should be 6.5 mg/cig.",
+        "polygon" : [ 386, 762, 707, 761, 707, 778, 386, 779 ],
+        "spans" : [ {
+          "offset" : 1166,
+          "length" : 35
+        } ]
+      }, {
+        "content" : "Written by P. D. Schickedantz",
+        "polygon" : [ 35, 822, 325, 822, 325, 837, 35, 838 ],
+        "spans" : [ {
+          "offset" : 1202,
+          "length" : 29
+        } ]
+      }, {
+        "content" : "Original to Dr. A. W. Spears",
+        "polygon" : [ 36, 838, 303, 836, 304, 851, 36, 854 ],
+        "spans" : [ {
+          "offset" : 1232,
+          "length" : 28
+        } ]
+      }, {
+        "content" : "Copies to",
+        "polygon" : [ 37, 854, 122, 854, 122, 869, 37, 868 ],
+        "spans" : [ {
+          "offset" : 1261,
+          "length" : 9
+        } ]
+      }, {
+        "content" : "Dr. F. J. Schultz",
+        "polygon" : [ 134, 854, 318, 853, 318, 869, 134, 870 ],
+        "spans" : [ {
+          "offset" : 1271,
+          "length" : 17
+        } ]
+      }, {
+        "content" : "00093726",
+        "polygon" : [ 672, 803, 671, 899, 649, 899, 649, 803 ],
+        "spans" : [ {
+          "offset" : 1289,
+          "length" : 8
+        } ]
+      }, {
+        "content" : "Dr. H. J. Minnemeyer",
+        "polygon" : [ 153, 870, 339, 869, 339, 883, 153, 884 ],
+        "spans" : [ {
+          "offset" : 1298,
+          "length" : 20
+        } ]
+      }, {
+        "content" : "Manager, Productxxxxxxxxprenx",
+        "polygon" : [ 414, 959, 683, 957, 683, 974, 414, 976 ],
+        "spans" : [ {
+          "offset" : 1319,
+          "length" : 29
+        } ]
+      }, {
+        "content" : "H.g. minnemeyer",
+        "polygon" : [ 439, 925, 701, 930, 700, 961, 438, 958 ],
+        "spans" : [ {
+          "offset" : 1349,
+          "length" : 15
+        } ]
+      }, {
+        "content" : "Research",
+        "polygon" : [ 496, 975, 573, 975, 573, 988, 496, 988 ],
+        "spans" : [ {
+          "offset" : 1365,
+          "length" : 8
+        } ]
+      } ],
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 1373
+      } ]
+    } ],
+    "tables" : [ ],
+    "paragraphs" : [ {
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 455, 11, 505, 12, 504, 27, 455, 26 ]
+      } ],
+      "content" : "Date:"
+    }, {
+      "spans" : [ {
+        "offset" : 6,
+        "length" : 18
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 523, 12, 691, 11, 691, 27, 523, 28 ]
+      } ],
+      "content" : "September 21, 1976"
+    }, {
+      "spans" : [ {
+        "offset" : 25,
+        "length" : 10
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 271, 45, 366, 45, 366, 62, 271, 61 ]
+      } ],
+      "content" : "Sample No."
+    }, {
+      "spans" : [ {
+        "offset" : 36,
+        "length" : 4
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 386, 46, 424, 46, 424, 60, 386, 60 ]
+      } ],
+      "content" : "6030"
+    }, {
+      "spans" : [ {
+        "offset" : 41,
+        "length" : 17
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 198, 76, 357, 76, 357, 94, 198, 95 ]
+      } ],
+      "content" : "Type of Cigarette"
+    }, {
+      "spans" : [ {
+        "offset" : 59,
+        "length" : 12
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 387, 75, 499, 75, 500, 91, 387, 91 ]
+      } ],
+      "content" : "85 mm Filter"
+    }, {
+      "spans" : [ {
+        "offset" : 72,
+        "length" : 10
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 11, 94, 36, 94, 36, 119, 11, 119 ]
+      } ],
+      "content" : ":selected:"
+    }, {
+      "spans" : [ {
+        "offset" : 83,
+        "length" : 10
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 262, 107, 358, 107, 358, 123, 262, 123 ]
+      } ],
+      "content" : "Batch Size"
+    }, {
+      "spans" : [ {
+        "offset" : 94,
+        "length" : 7
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 387, 106, 452, 106, 451, 122, 387, 122 ]
+      } ],
+      "content" : "50 1bs."
+    }, {
+      "spans" : [ {
+        "offset" : 102,
+        "length" : 24
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 8, 140, 232, 139, 233, 156, 8, 158 ]
+      } ],
+      "content" : "Original Request Made By"
+    }, {
+      "spans" : [ {
+        "offset" : 127,
+        "length" : 16
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 257, 138, 407, 138, 407, 154, 257, 154 ]
+      } ],
+      "content" : "Dr. A. W. Spears"
+    }, {
+      "spans" : [ {
+        "offset" : 144,
+        "length" : 2
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 494, 138, 514, 139, 515, 152, 494, 152 ]
+      } ],
+      "content" : "on"
+    }, {
+      "spans" : [ {
+        "offset" : 147,
+        "length" : 18
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 534, 136, 702, 135, 702, 152, 534, 153 ]
+      } ],
+      "content" : "September 21, 1976"
+    }, {
+      "spans" : [ {
+        "offset" : 166,
+        "length" : 32
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 8, 171, 302, 169, 302, 187, 8, 189 ]
+      } ],
+      "content" : "Sample Specifications Written By"
+    }, {
+      "spans" : [ {
+        "offset" : 199,
+        "length" : 11
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 340, 167, 444, 167, 444, 184, 340, 183 ]
+      } ],
+      "content" : "W. E. Routh"
+    }, {
+      "spans" : [ {
+        "offset" : 211,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 8, 204, 55, 204, 55, 218, 8, 218 ]
+      } ],
+      "content" : "BLEND"
+    }, {
+      "spans" : [ {
+        "offset" : 217,
+        "length" : 6
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 142, 201, 202, 201, 202, 218, 142, 218 ]
+      } ],
+      "content" : "CASING"
+    }, {
+      "spans" : [ {
+        "offset" : 224,
+        "length" : 3
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 157, 224, 186, 223, 187, 237, 158, 237 ]
+      } ],
+      "content" : "OGS"
+    }, {
+      "spans" : [ {
+        "offset" : 228,
+        "length" : 8
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 290, 200, 367, 200, 367, 216, 290, 216 ]
+      } ],
+      "content" : "RECASING"
+    }, {
+      "spans" : [ {
+        "offset" : 237,
+        "length" : 3
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 11, 224, 42, 224, 42, 238, 11, 238 ]
+      } ],
+      "content" : "OGS"
+    }, {
+      "spans" : [ {
+        "offset" : 241,
+        "length" : 3
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 312, 223, 342, 223, 342, 237, 312, 237 ]
+      } ],
+      "content" : "OGS"
+    }, {
+      "spans" : [ {
+        "offset" : 245,
+        "length" : 10
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 5, 279, 101, 279, 101, 296, 5, 296 ]
+      } ],
+      "content" : "Cigarettes"
+    }, {
+      "spans" : [ {
+        "offset" : 256,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 33, 311, 83, 311, 83, 326, 33, 326 ]
+      } ],
+      "content" : "Maker"
+    }, {
+      "spans" : [ {
+        "offset" : 262,
+        "length" : 3
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 122, 312, 152, 312, 153, 326, 122, 326 ]
+      } ],
+      "content" : "AMF"
+    }, {
+      "spans" : [ {
+        "offset" : 266,
+        "length" : 6
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 33, 327, 92, 327, 92, 342, 34, 343 ]
+      } ],
+      "content" : "Length"
+    }, {
+      "spans" : [ {
+        "offset" : 273,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 119, 328, 172, 328, 172, 342, 119, 341 ]
+      } ],
+      "content" : "85 mm"
+    }, {
+      "spans" : [ {
+        "offset" : 279,
+        "length" : 18
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 33, 341, 208, 342, 208, 359, 33, 358 ]
+      } ],
+      "content" : "Circumference 25.0"
+    }, {
+      "spans" : [ {
+        "offset" : 298,
+        "length" : 65
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 32, 358, 352, 357, 352, 389, 32, 390 ]
+      } ],
+      "content" : "Weight To be det. (803 mq tobacco) Pressure Drop To be determined"
+    }, {
+      "spans" : [ {
+        "offset" : 364,
+        "length" : 13
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 32, 388, 155, 388, 156, 406, 32, 406 ]
+      } ],
+      "content" : "Filter Length"
+    }, {
+      "spans" : [ {
+        "offset" : 378,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 168, 389, 219, 390, 219, 405, 168, 404 ]
+      } ],
+      "content" : "20 mm"
+    }, {
+      "spans" : [ {
+        "offset" : 384,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 33, 406, 82, 406, 82, 422, 33, 421 ]
+      } ],
+      "content" : "Paper"
+    }, {
+      "spans" : [ {
+        "offset" : 390,
+        "length" : 3
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 170, 406, 198, 405, 198, 419, 170, 419 ]
+      } ],
+      "content" : "554"
+    }, {
+      "spans" : [ {
+        "offset" : 394,
+        "length" : 13
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 34, 420, 156, 420, 156, 438, 34, 438 ]
+      } ],
+      "content" : "Tipping Paper"
+    }, {
+      "spans" : [ {
+        "offset" : 408,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 170, 420, 219, 421, 219, 436, 170, 435 ]
+      } ],
+      "content" : "30 mm"
+    }, {
+      "spans" : [ {
+        "offset" : 414,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 27, 484, 84, 484, 84, 503, 27, 503 ]
+      } ],
+      "content" : "pping"
+    }, {
+      "spans" : [ {
+        "offset" : 420,
+        "length" : 6
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 33, 516, 93, 516, 93, 531, 33, 530 ]
+      } ],
+      "content" : "Labels"
+    }, {
+      "spans" : [ {
+        "offset" : 427,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 161, 514, 209, 515, 209, 529, 161, 529 ]
+      } ],
+      "content" : "White"
+    }, {
+      "spans" : [ {
+        "offset" : 433,
+        "length" : 8
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 34, 531, 111, 532, 111, 546, 34, 545 ]
+      } ],
+      "content" : "Closures"
+    }, {
+      "spans" : [ {
+        "offset" : 442,
+        "length" : 4
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 162, 532, 201, 532, 200, 545, 162, 545 ]
+      } ],
+      "content" : "Blue"
+    }, {
+      "spans" : [ {
+        "offset" : 447,
+        "length" : 10
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 19, 547, 119, 547, 119, 562, 19, 561 ]
+      } ],
+      "content" : ".Tear Tape"
+    }, {
+      "spans" : [ {
+        "offset" : 458,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 161, 547, 209, 548, 209, 561, 161, 560 ]
+      } ],
+      "content" : "White"
+    }, {
+      "spans" : [ {
+        "offset" : 464,
+        "length" : 7
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 35, 562, 101, 562, 101, 576, 35, 576 ]
+      } ],
+      "content" : "Cartons"
+    }, {
+      "spans" : [ {
+        "offset" : 472,
+        "length" : 8
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 34, 577, 111, 578, 111, 593, 34, 592 ]
+      } ],
+      "content" : "Markings"
+    }, {
+      "spans" : [ {
+        "offset" : 481,
+        "length" : 13
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 133, 575, 256, 575, 256, 590, 133, 590 ]
+      } ],
+      "content" : "Sample No. on"
+    }, {
+      "spans" : [ {
+        "offset" : 495,
+        "length" : 8
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 132, 592, 210, 592, 210, 606, 132, 606 ]
+      } ],
+      "content" : "overwrap"
+    }, {
+      "spans" : [ {
+        "offset" : 504,
+        "length" : 12
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 8, 638, 121, 638, 121, 654, 8, 654 ]
+      } ],
+      "content" : "Requirements"
+    }, {
+      "spans" : [ {
+        "offset" : 517,
+        "length" : 10
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 35, 669, 132, 670, 131, 686, 35, 685 ]
+      } ],
+      "content" : "Laboratory"
+    }, {
+      "spans" : [ {
+        "offset" : 528,
+        "length" : 9
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 153, 668, 239, 668, 239, 684, 153, 684 ]
+      } ],
+      "content" : "3 cartons"
+    }, {
+      "spans" : [ {
+        "offset" : 538,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 35, 685, 84, 686, 84, 700, 35, 700 ]
+      } ],
+      "content" : "Other"
+    }, {
+      "spans" : [ {
+        "offset" : 544,
+        "length" : 13
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 153, 684, 273, 684, 273, 700, 153, 700 ]
+      } ],
+      "content" : "20,000 cigts."
+    }, {
+      "spans" : [ {
+        "offset" : 558,
+        "length" : 19
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 6, 729, 185, 727, 185, 745, 6, 748 ]
+      } ],
+      "content" : "Laboratory Analysis"
+    }, {
+      "spans" : [ {
+        "offset" : 578,
+        "length" : 27
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 189, 744, 320, 744, 320, 778, 189, 778 ]
+      } ],
+      "content" : "Smoke Analysis PMO Analysis"
+    }, {
+      "spans" : [ {
+        "offset" : 606,
+        "length" : 7
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 8, 792, 75, 792, 75, 808, 8, 808 ]
+      } ],
+      "content" : "Reports"
+    }, {
+      "spans" : [ {
+        "offset" : 614,
+        "length" : 16
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 605, 180, 754, 181, 754, 198, 605, 197 ]
+      } ],
+      "content" : "Additional Spray"
+    }, {
+      "spans" : [ {
+        "offset" : 631,
+        "length" : 12
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 466, 199, 582, 199, 582, 215, 466, 214 ]
+      } ],
+      "content" : "FINAL FLAVOR"
+    }, {
+      "spans" : [ {
+        "offset" : 644,
+        "length" : 3
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 505, 222, 536, 222, 536, 235, 505, 235 ]
+      } ],
+      "content" : "OGS"
+    }, {
+      "spans" : [ {
+        "offset" : 648,
+        "length" : 16
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 607, 218, 755, 218, 755, 234, 607, 234 ]
+      } ],
+      "content" : "3.4% PMO in EtoH"
+    }, {
+      "spans" : [ {
+        "offset" : 665,
+        "length" : 7
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 382, 277, 451, 277, 451, 294, 382, 294 ]
+      } ],
+      "content" : "Filters"
+    }, {
+      "spans" : [ {
+        "offset" : 673,
+        "length" : 27
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 411, 308, 675, 306, 675, 324, 411, 327 ]
+      } ],
+      "content" : "Kind 20 mm True plastic rod"
+    }, {
+      "spans" : [ {
+        "offset" : 701,
+        "length" : 7
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 411, 340, 478, 340, 478, 355, 411, 355 ]
+      } ],
+      "content" : "Process"
+    }, {
+      "spans" : [ {
+        "offset" : 709,
+        "length" : 10
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 411, 355, 507, 356, 507, 372, 411, 371 ]
+      } ],
+      "content" : "Rod Length"
+    }, {
+      "spans" : [ {
+        "offset" : 720,
+        "length" : 13
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 411, 371, 535, 372, 535, 388, 411, 387 ]
+      } ],
+      "content" : "Pressure Drop"
+    }, {
+      "spans" : [ {
+        "offset" : 734,
+        "length" : 13
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 410, 386, 534, 386, 534, 403, 410, 402 ]
+      } ],
+      "content" : "Circumference"
+    }, {
+      "spans" : [ {
+        "offset" : 748,
+        "length" : 6
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 412, 401, 472, 401, 472, 417, 412, 417 ]
+      } ],
+      "content" : "weight"
+    }, {
+      "spans" : [ {
+        "offset" : 755,
+        "length" : 11
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 412, 416, 517, 416, 517, 432, 412, 432 ]
+      } ],
+      "content" : "Plasticizer"
+    }, {
+      "spans" : [ {
+        "offset" : 767,
+        "length" : 9
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 412, 432, 500, 432, 500, 449, 412, 449 ]
+      } ],
+      "content" : "Plug Wrap"
+    }, {
+      "spans" : [ {
+        "offset" : 777,
+        "length" : 15
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 379, 481, 518, 481, 518, 498, 379, 498 ]
+      } ],
+      "content" : "·Responsibility"
+    }, {
+      "spans" : [ {
+        "offset" : 793,
+        "length" : 13
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 412, 513, 536, 511, 537, 527, 412, 529 ]
+      } ],
+      "content" : "Tobacco Blend"
+    }, {
+      "spans" : [ {
+        "offset" : 807,
+        "length" : 6
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 584, 513, 641, 513, 641, 526, 584, 525 ]
+      } ],
+      "content" : "Ammons"
+    }, {
+      "spans" : [ {
+        "offset" : 814,
+        "length" : 17
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 412, 528, 572, 527, 573, 543, 412, 544 ]
+      } ],
+      "content" : "Filter Production"
+    }, {
+      "spans" : [ {
+        "offset" : 832,
+        "length" : 6
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 583, 527, 641, 527, 641, 542, 583, 542 ]
+      } ],
+      "content" : "Wicker"
+    }, {
+      "spans" : [ {
+        "offset" : 839,
+        "length" : 16
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 412, 543, 564, 543, 564, 559, 412, 559 ]
+      } ],
+      "content" : "Making & Packing"
+    }, {
+      "spans" : [ {
+        "offset" : 856,
+        "length" : 11
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 583, 543, 690, 542, 690, 556, 584, 557 ]
+      } ],
+      "content" : "Brown/Routh"
+    }, {
+      "spans" : [ {
+        "offset" : 868,
+        "length" : 8
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 413, 559, 488, 560, 488, 576, 413, 574 ]
+      } ],
+      "content" : "Shipping"
+    }, {
+      "spans" : [ {
+        "offset" : 877,
+        "length" : 5
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 584, 558, 633, 558, 633, 573, 584, 573 ]
+      } ],
+      "content" : "Routh"
+    }, {
+      "spans" : [ {
+        "offset" : 883,
+        "length" : 34
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 412, 575, 584, 574, 584, 605, 412, 606 ]
+      } ],
+      "content" : "Sample Requisition [Form 02:02:06]"
+    }, {
+      "spans" : [ {
+        "offset" : 918,
+        "length" : 20
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 385, 635, 575, 635, 575, 654, 385, 654 ]
+      } ],
+      "content" : "Special Requirements"
+    }, {
+      "spans" : [ {
+        "offset" : 939,
+        "length" : 262
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 377, 671, 736, 668, 737, 778, 378, 781 ]
+      } ],
+      "content" : "Spray 50 lbs. tobacco with solution of 880 g (= 1.94 lbs. ) PMO in 1175 ml of 'denatured alcohol. This should give 3.4% PMO add-on (3.3% PMO contained) assuming 88% spraying efficiency. PMO delivery from 85 mm cigarette smoked to 30 mm butt should be 6.5 mg/cig."
+    }, {
+      "spans" : [ {
+        "offset" : 1202,
+        "length" : 58
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 35, 822, 325, 822, 325, 854, 35, 854 ]
+      } ],
+      "content" : "Written by P. D. Schickedantz Original to Dr. A. W. Spears"
+    }, {
+      "spans" : [ {
+        "offset" : 1261,
+        "length" : 9
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 37, 854, 122, 854, 122, 869, 37, 868 ]
+      } ],
+      "content" : "Copies to"
+    }, {
+      "spans" : [ {
+        "offset" : 1271,
+        "length" : 17
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 134, 854, 318, 853, 318, 869, 134, 870 ]
+      } ],
+      "content" : "Dr. F. J. Schultz"
+    }, {
+      "spans" : [ {
+        "offset" : 1289,
+        "length" : 8
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 649, 803, 672, 803, 672, 899, 649, 899 ]
+      } ],
+      "content" : "00093726"
+    }, {
+      "spans" : [ {
+        "offset" : 1298,
+        "length" : 20
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 153, 870, 339, 869, 339, 883, 153, 884 ]
+      } ],
+      "content" : "Dr. H. J. Minnemeyer"
+    }, {
+      "spans" : [ {
+        "offset" : 1319,
+        "length" : 29
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 414, 959, 683, 957, 683, 974, 414, 976 ]
+      } ],
+      "content" : "Manager, Productxxxxxxxxprenx"
+    }, {
+      "spans" : [ {
+        "offset" : 1349,
+        "length" : 15
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 439, 925, 701, 930, 700, 961, 438, 958 ]
+      } ],
+      "content" : "H.g. minnemeyer"
+    }, {
+      "spans" : [ {
+        "offset" : 1365,
+        "length" : 8
+      } ],
+      "boundingRegions" : [ {
+        "pageNumber" : 1,
+        "polygon" : [ 496, 975, 573, 975, 573, 988, 496, 988 ]
+      } ],
+      "content" : "Research"
+    } ],
+    "styles" : [ {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 71
+      }, {
+        "offset" : 83,
+        "length" : 1187
+      }, {
+        "offset" : 1289,
+        "length" : 59
+      }, {
+        "offset" : 1365,
+        "length" : 8
+      } ],
+      "isHandwritten" : false
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 5
+      }, {
+        "offset" : 131,
+        "length" : 2
+      }, {
+        "offset" : 394,
+        "length" : 7
+      }, {
+        "offset" : 558,
+        "length" : 10
+      }, {
+        "offset" : 1349,
+        "length" : 4
+      } ],
+      "color" : "#454545"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 5
+      }, {
+        "offset" : 25,
+        "length" : 33
+      }, {
+        "offset" : 62,
+        "length" : 9
+      }, {
+        "offset" : 83,
+        "length" : 10
+      }, {
+        "offset" : 97,
+        "length" : 36
+      }, {
+        "offset" : 144,
+        "length" : 12
+      }, {
+        "offset" : 161,
+        "length" : 49
+      }, {
+        "offset" : 245,
+        "length" : 16
+      }, {
+        "offset" : 266,
+        "length" : 6
+      }, {
+        "offset" : 279,
+        "length" : 13
+      }, {
+        "offset" : 298,
+        "length" : 12
+      }, {
+        "offset" : 324,
+        "length" : 17
+      }, {
+        "offset" : 364,
+        "length" : 13
+      }, {
+        "offset" : 384,
+        "length" : 5
+      }, {
+        "offset" : 394,
+        "length" : 7
+      }, {
+        "offset" : 420,
+        "length" : 21
+      }, {
+        "offset" : 447,
+        "length" : 10
+      }, {
+        "offset" : 464,
+        "length" : 16
+      }, {
+        "offset" : 504,
+        "length" : 23
+      }, {
+        "offset" : 530,
+        "length" : 13
+      }, {
+        "offset" : 558,
+        "length" : 10
+      }, {
+        "offset" : 578,
+        "length" : 27
+      }, {
+        "offset" : 614,
+        "length" : 16
+      }, {
+        "offset" : 637,
+        "length" : 6
+      }, {
+        "offset" : 648,
+        "length" : 29
+      }, {
+        "offset" : 697,
+        "length" : 109
+      }, {
+        "offset" : 814,
+        "length" : 17
+      }, {
+        "offset" : 839,
+        "length" : 16
+      }, {
+        "offset" : 868,
+        "length" : 8
+      }, {
+        "offset" : 883,
+        "length" : 42
+      }, {
+        "offset" : 939,
+        "length" : 42
+      }, {
+        "offset" : 984,
+        "length" : 228
+      }, {
+        "offset" : 1216,
+        "length" : 2
+      }, {
+        "offset" : 1232,
+        "length" : 11
+      }, {
+        "offset" : 1261,
+        "length" : 9
+      }, {
+        "offset" : 1281,
+        "length" : 16
+      }, {
+        "offset" : 1319,
+        "length" : 8
+      }, {
+        "offset" : 1349,
+        "length" : 24
+      } ],
+      "backgroundColor" : "#fefefe"
+    }, {
+      "confidence" : 1,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 71
+      }, {
+        "offset" : 89,
+        "length" : 34
+      }, {
+        "offset" : 127,
+        "length" : 3
+      }, {
+        "offset" : 137,
+        "length" : 58
+      }, {
+        "offset" : 202,
+        "length" : 70
+      }, {
+        "offset" : 276,
+        "length" : 170
+      }, {
+        "offset" : 453,
+        "length" : 41
+      }, {
+        "offset" : 504,
+        "length" : 64
+      }, {
+        "offset" : 578,
+        "length" : 260
+      }, {
+        "offset" : 848,
+        "length" : 135
+      }, {
+        "offset" : 987,
+        "length" : 9
+      }, {
+        "offset" : 999,
+        "length" : 213
+      }, {
+        "offset" : 1216,
+        "length" : 15
+      }, {
+        "offset" : 1241,
+        "length" : 9
+      }, {
+        "offset" : 1254,
+        "length" : 47
+      }, {
+        "offset" : 1305,
+        "length" : 13
+      }, {
+        "offset" : 1365,
+        "length" : 8
+      } ],
+      "fontStyle" : "normal"
+    }, {
+      "confidence" : 1,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 15
+      }, {
+        "offset" : 20,
+        "length" : 4
+      }, {
+        "offset" : 59,
+        "length" : 2
+      }, {
+        "offset" : 124,
+        "length" : 6
+      }, {
+        "offset" : 137,
+        "length" : 6
+      }, {
+        "offset" : 147,
+        "length" : 9
+      }, {
+        "offset" : 217,
+        "length" : 6
+      }, {
+        "offset" : 273,
+        "length" : 2
+      }, {
+        "offset" : 293,
+        "length" : 4
+      }, {
+        "offset" : 316,
+        "length" : 7
+      }, {
+        "offset" : 353,
+        "length" : 10
+      }, {
+        "offset" : 378,
+        "length" : 2
+      }, {
+        "offset" : 504,
+        "length" : 12
+      }, {
+        "offset" : 530,
+        "length" : 7
+      }, {
+        "offset" : 544,
+        "length" : 33
+      }, {
+        "offset" : 637,
+        "length" : 6
+      }, {
+        "offset" : 684,
+        "length" : 4
+      }, {
+        "offset" : 697,
+        "length" : 3
+      }, {
+        "offset" : 777,
+        "length" : 15
+      }, {
+        "offset" : 801,
+        "length" : 5
+      }, {
+        "offset" : 856,
+        "length" : 11
+      }, {
+        "offset" : 877,
+        "length" : 5
+      }, {
+        "offset" : 918,
+        "length" : 29
+      }, {
+        "offset" : 982,
+        "length" : 1
+      }, {
+        "offset" : 992,
+        "length" : 4
+      }, {
+        "offset" : 999,
+        "length" : 3
+      }, {
+        "offset" : 1063,
+        "length" : 6
+      }, {
+        "offset" : 1113,
+        "length" : 11
+      }, {
+        "offset" : 1169,
+        "length" : 2
+      }, {
+        "offset" : 1213,
+        "length" : 18
+      }, {
+        "offset" : 1271,
+        "length" : 6
+      }, {
+        "offset" : 1281,
+        "length" : 7
+      }, {
+        "offset" : 1302,
+        "length" : 16
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 0,
+        "length" : 5
+      } ],
+      "similarFontFamily" : "Georgia, serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 6,
+        "length" : 18
+      }, {
+        "offset" : 134,
+        "length" : 9
+      }, {
+        "offset" : 157,
+        "length" : 3
+      }, {
+        "offset" : 293,
+        "length" : 4
+      }, {
+        "offset" : 311,
+        "length" : 9
+      }, {
+        "offset" : 342,
+        "length" : 21
+      }, {
+        "offset" : 378,
+        "length" : 2
+      }, {
+        "offset" : 402,
+        "length" : 5
+      }, {
+        "offset" : 488,
+        "length" : 6
+      }, {
+        "offset" : 528,
+        "length" : 1
+      }, {
+        "offset" : 544,
+        "length" : 13
+      }, {
+        "offset" : 569,
+        "length" : 8
+      }, {
+        "offset" : 681,
+        "length" : 15
+      }, {
+        "offset" : 832,
+        "length" : 6
+      }, {
+        "offset" : 856,
+        "length" : 11
+      }, {
+        "offset" : 877,
+        "length" : 5
+      }, {
+        "offset" : 926,
+        "length" : 12
+      }, {
+        "offset" : 1213,
+        "length" : 2
+      }, {
+        "offset" : 1219,
+        "length" : 12
+      }, {
+        "offset" : 1244,
+        "length" : 9
+      }, {
+        "offset" : 1271,
+        "length" : 9
+      }, {
+        "offset" : 1298,
+        "length" : 9
+      } ],
+      "color" : "#fdfdfd"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 6,
+        "length" : 9
+      }, {
+        "offset" : 134,
+        "length" : 2
+      } ],
+      "backgroundColor" : "#7a7a7a"
+    }, {
+      "confidence" : 0.6,
+      "spans" : [ {
+        "offset" : 6,
+        "length" : 9
+      } ],
+      "similarFontFamily" : "Baskerville, serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 16,
+        "length" : 3
+      } ],
+      "backgroundColor" : "#5e5e5e"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 16,
+        "length" : 3
+      }, {
+        "offset" : 25,
+        "length" : 6
+      }, {
+        "offset" : 228,
+        "length" : 8
+      }, {
+        "offset" : 256,
+        "length" : 5
+      }, {
+        "offset" : 678,
+        "length" : 2
+      }, {
+        "offset" : 975,
+        "length" : 2
+      }, {
+        "offset" : 1028,
+        "length" : 8
+      }, {
+        "offset" : 1298,
+        "length" : 3
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 16,
+        "length" : 3
+      } ],
+      "similarFontFamily" : "Baskerville, Courier New, serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 20,
+        "length" : 4
+      }, {
+        "offset" : 528,
+        "length" : 1
+      }, {
+        "offset" : 544,
+        "length" : 6
+      }, {
+        "offset" : 569,
+        "length" : 8
+      }, {
+        "offset" : 684,
+        "length" : 4
+      }, {
+        "offset" : 1278,
+        "length" : 2
+      } ],
+      "backgroundColor" : "#787878"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 20,
+        "length" : 4
+      } ],
+      "similarFontFamily" : "Baskerville, Georgia, serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 25,
+        "length" : 6
+      }, {
+        "offset" : 89,
+        "length" : 4
+      }, {
+        "offset" : 124,
+        "length" : 6
+      }, {
+        "offset" : 298,
+        "length" : 6
+      }, {
+        "offset" : 308,
+        "length" : 2
+      }, {
+        "offset" : 384,
+        "length" : 5
+      }, {
+        "offset" : 472,
+        "length" : 8
+      }, {
+        "offset" : 517,
+        "length" : 10
+      }, {
+        "offset" : 606,
+        "length" : 7
+      }, {
+        "offset" : 631,
+        "length" : 5
+      }, {
+        "offset" : 793,
+        "length" : 7
+      }, {
+        "offset" : 839,
+        "length" : 6
+      }, {
+        "offset" : 1232,
+        "length" : 8
+      } ],
+      "color" : "#515151"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 25,
+        "length" : 15
+      }, {
+        "offset" : 46,
+        "length" : 12
+      }, {
+        "offset" : 62,
+        "length" : 9
+      }, {
+        "offset" : 83,
+        "length" : 5
+      }, {
+        "offset" : 94,
+        "length" : 49
+      }, {
+        "offset" : 147,
+        "length" : 51
+      }, {
+        "offset" : 202,
+        "length" : 34
+      }, {
+        "offset" : 241,
+        "length" : 51
+      }, {
+        "offset" : 298,
+        "length" : 12
+      }, {
+        "offset" : 316,
+        "length" : 4
+      }, {
+        "offset" : 324,
+        "length" : 25
+      }, {
+        "offset" : 353,
+        "length" : 27
+      }, {
+        "offset" : 384,
+        "length" : 5
+      }, {
+        "offset" : 402,
+        "length" : 5
+      }, {
+        "offset" : 411,
+        "length" : 69
+      }, {
+        "offset" : 488,
+        "length" : 3
+      }, {
+        "offset" : 504,
+        "length" : 39
+      }, {
+        "offset" : 551,
+        "length" : 79
+      }, {
+        "offset" : 637,
+        "length" : 40
+      }, {
+        "offset" : 689,
+        "length" : 512
+      }, {
+        "offset" : 1210,
+        "length" : 33
+      }, {
+        "offset" : 1261,
+        "length" : 9
+      }, {
+        "offset" : 1275,
+        "length" : 2
+      }, {
+        "offset" : 1308,
+        "length" : 19
+      }, {
+        "offset" : 1365,
+        "length" : 8
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 32,
+        "length" : 3
+      }, {
+        "offset" : 111,
+        "length" : 7
+      }, {
+        "offset" : 173,
+        "length" : 14
+      }, {
+        "offset" : 202,
+        "length" : 14
+      }, {
+        "offset" : 276,
+        "length" : 2
+      }, {
+        "offset" : 321,
+        "length" : 2
+      }, {
+        "offset" : 447,
+        "length" : 5
+      }, {
+        "offset" : 464,
+        "length" : 7
+      }, {
+        "offset" : 578,
+        "length" : 5
+      }, {
+        "offset" : 625,
+        "length" : 5
+      }, {
+        "offset" : 678,
+        "length" : 2
+      }, {
+        "offset" : 720,
+        "length" : 8
+      }, {
+        "offset" : 748,
+        "length" : 18
+      }, {
+        "offset" : 772,
+        "length" : 4
+      }, {
+        "offset" : 846,
+        "length" : 1
+      }, {
+        "offset" : 1003,
+        "length" : 2
+      }, {
+        "offset" : 1011,
+        "length" : 2
+      }, {
+        "offset" : 1210,
+        "length" : 2
+      }, {
+        "offset" : 1319,
+        "length" : 8
+      } ],
+      "color" : "#555555"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 32,
+        "length" : 3
+      }, {
+        "offset" : 46,
+        "length" : 2
+      }, {
+        "offset" : 188,
+        "length" : 10
+      }, {
+        "offset" : 205,
+        "length" : 5
+      }, {
+        "offset" : 224,
+        "length" : 3
+      }, {
+        "offset" : 237,
+        "length" : 7
+      }, {
+        "offset" : 342,
+        "length" : 4
+      }, {
+        "offset" : 394,
+        "length" : 7
+      }, {
+        "offset" : 420,
+        "length" : 6
+      }, {
+        "offset" : 458,
+        "length" : 13
+      }, {
+        "offset" : 528,
+        "length" : 1
+      }, {
+        "offset" : 614,
+        "length" : 10
+      }, {
+        "offset" : 648,
+        "length" : 8
+      }, {
+        "offset" : 665,
+        "length" : 7
+      }, {
+        "offset" : 767,
+        "length" : 4
+      }, {
+        "offset" : 839,
+        "length" : 6
+      }, {
+        "offset" : 984,
+        "length" : 7
+      }, {
+        "offset" : 997,
+        "length" : 1
+      }, {
+        "offset" : 1003,
+        "length" : 2
+      }, {
+        "offset" : 1017,
+        "length" : 10
+      }, {
+        "offset" : 1080,
+        "length" : 10
+      }, {
+        "offset" : 1100,
+        "length" : 3
+      }, {
+        "offset" : 1149,
+        "length" : 9
+      }, {
+        "offset" : 1172,
+        "length" : 2
+      }, {
+        "offset" : 1244,
+        "length" : 6
+      }, {
+        "offset" : 1319,
+        "length" : 8
+      } ],
+      "fontWeight" : "bold"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 36,
+        "length" : 4
+      }, {
+        "offset" : 147,
+        "length" : 9
+      }, {
+        "offset" : 224,
+        "length" : 3
+      }, {
+        "offset" : 408,
+        "length" : 2
+      }, {
+        "offset" : 453,
+        "length" : 4
+      }, {
+        "offset" : 648,
+        "length" : 8
+      }, {
+        "offset" : 713,
+        "length" : 6
+      }, {
+        "offset" : 984,
+        "length" : 2
+      }, {
+        "offset" : 1017,
+        "length" : 10
+      }, {
+        "offset" : 1042,
+        "length" : 6
+      }, {
+        "offset" : 1054,
+        "length" : 4
+      }, {
+        "offset" : 1194,
+        "length" : 7
+      }, {
+        "offset" : 1365,
+        "length" : 8
+      } ],
+      "color" : "#656565"
+    }, {
+      "confidence" : 0.8,
+      "spans" : [ {
+        "offset" : 36,
+        "length" : 4
+      }, {
+        "offset" : 62,
+        "length" : 2
+      }, {
+        "offset" : 131,
+        "length" : 2
+      }, {
+        "offset" : 157,
+        "length" : 3
+      }, {
+        "offset" : 199,
+        "length" : 2
+      }, {
+        "offset" : 276,
+        "length" : 2
+      }, {
+        "offset" : 701,
+        "length" : 7
+      }, {
+        "offset" : 734,
+        "length" : 13
+      }, {
+        "offset" : 832,
+        "length" : 6
+      }, {
+        "offset" : 848,
+        "length" : 7
+      }, {
+        "offset" : 1241,
+        "length" : 2
+      } ],
+      "fontWeight" : "bold"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 41,
+        "length" : 7
+      }, {
+        "offset" : 166,
+        "length" : 6
+      }, {
+        "offset" : 188,
+        "length" : 7
+      }, {
+        "offset" : 199,
+        "length" : 2
+      }, {
+        "offset" : 217,
+        "length" : 6
+      }, {
+        "offset" : 245,
+        "length" : 16
+      }, {
+        "offset" : 538,
+        "length" : 5
+      }, {
+        "offset" : 657,
+        "length" : 2
+      }, {
+        "offset" : 902,
+        "length" : 5
+      }, {
+        "offset" : 918,
+        "length" : 7
+      } ],
+      "color" : "#494949"
+    }, {
+      "confidence" : 0.6,
+      "spans" : [ {
+        "offset" : 41,
+        "length" : 4
+      }, {
+        "offset" : 134,
+        "length" : 2
+      }, {
+        "offset" : 311,
+        "length" : 4
+      }, {
+        "offset" : 625,
+        "length" : 5
+      }, {
+        "offset" : 814,
+        "length" : 6
+      }, {
+        "offset" : 1138,
+        "length" : 4
+      } ],
+      "fontWeight" : "bold"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 41,
+        "length" : 4
+      } ],
+      "similarFontFamily" : "Courier New, Baskerville, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 49,
+        "length" : 9
+      }, {
+        "offset" : 94,
+        "length" : 2
+      }, {
+        "offset" : 161,
+        "length" : 4
+      }, {
+        "offset" : 228,
+        "length" : 8
+      }, {
+        "offset" : 273,
+        "length" : 2
+      }, {
+        "offset" : 333,
+        "length" : 8
+      }, {
+        "offset" : 427,
+        "length" : 5
+      }, {
+        "offset" : 481,
+        "length" : 6
+      }, {
+        "offset" : 584,
+        "length" : 8
+      }, {
+        "offset" : 637,
+        "length" : 6
+      }, {
+        "offset" : 734,
+        "length" : 13
+      }, {
+        "offset" : 801,
+        "length" : 5
+      }, {
+        "offset" : 821,
+        "length" : 10
+      }, {
+        "offset" : 868,
+        "length" : 8
+      }, {
+        "offset" : 883,
+        "length" : 6
+      }, {
+        "offset" : 908,
+        "length" : 9
+      }, {
+        "offset" : 945,
+        "length" : 2
+      }, {
+        "offset" : 1006,
+        "length" : 4
+      }, {
+        "offset" : 1014,
+        "length" : 2
+      }, {
+        "offset" : 1166,
+        "length" : 2
+      }, {
+        "offset" : 1175,
+        "length" : 4
+      }, {
+        "offset" : 1268,
+        "length" : 2
+      }, {
+        "offset" : 1308,
+        "length" : 10
+      } ],
+      "color" : "#5d5d5d"
+    }, {
+      "confidence" : 1,
+      "spans" : [ {
+        "offset" : 49,
+        "length" : 9
+      }, {
+        "offset" : 94,
+        "length" : 2
+      }, {
+        "offset" : 102,
+        "length" : 8
+      }, {
+        "offset" : 144,
+        "length" : 2
+      }, {
+        "offset" : 166,
+        "length" : 21
+      }, {
+        "offset" : 202,
+        "length" : 2
+      }, {
+        "offset" : 262,
+        "length" : 3
+      }, {
+        "offset" : 279,
+        "length" : 13
+      }, {
+        "offset" : 298,
+        "length" : 6
+      }, {
+        "offset" : 333,
+        "length" : 8
+      }, {
+        "offset" : 347,
+        "length" : 2
+      }, {
+        "offset" : 371,
+        "length" : 6
+      }, {
+        "offset" : 384,
+        "length" : 5
+      }, {
+        "offset" : 402,
+        "length" : 5
+      }, {
+        "offset" : 411,
+        "length" : 2
+      }, {
+        "offset" : 433,
+        "length" : 8
+      }, {
+        "offset" : 447,
+        "length" : 10
+      }, {
+        "offset" : 472,
+        "length" : 8
+      }, {
+        "offset" : 495,
+        "length" : 8
+      }, {
+        "offset" : 517,
+        "length" : 10
+      }, {
+        "offset" : 538,
+        "length" : 5
+      }, {
+        "offset" : 593,
+        "length" : 3
+      }, {
+        "offset" : 657,
+        "length" : 7
+      }, {
+        "offset" : 673,
+        "length" : 4
+      }, {
+        "offset" : 709,
+        "length" : 3
+      }, {
+        "offset" : 720,
+        "length" : 13
+      }, {
+        "offset" : 755,
+        "length" : 11
+      }, {
+        "offset" : 846,
+        "length" : 1
+      }, {
+        "offset" : 883,
+        "length" : 24
+      }, {
+        "offset" : 948,
+        "length" : 4
+      }, {
+        "offset" : 961,
+        "length" : 13
+      }, {
+        "offset" : 978,
+        "length" : 3
+      }, {
+        "offset" : 1011,
+        "length" : 2
+      }, {
+        "offset" : 1037,
+        "length" : 4
+      }, {
+        "offset" : 1125,
+        "length" : 3
+      }, {
+        "offset" : 1146,
+        "length" : 2
+      }, {
+        "offset" : 1166,
+        "length" : 2
+      }, {
+        "offset" : 1175,
+        "length" : 11
+      }, {
+        "offset" : 1251,
+        "length" : 2
+      }, {
+        "offset" : 1289,
+        "length" : 8
+      }, {
+        "offset" : 1328,
+        "length" : 20
+      } ],
+      "fontWeight" : "bold"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 59,
+        "length" : 2
+      }, {
+        "offset" : 65,
+        "length" : 6
+      }, {
+        "offset" : 97,
+        "length" : 4
+      }, {
+        "offset" : 241,
+        "length" : 3
+      }, {
+        "offset" : 305,
+        "length" : 2
+      }, {
+        "offset" : 371,
+        "length" : 6
+      }, {
+        "offset" : 530,
+        "length" : 7
+      }, {
+        "offset" : 848,
+        "length" : 7
+      }, {
+        "offset" : 939,
+        "length" : 5
+      }, {
+        "offset" : 948,
+        "length" : 12
+      }, {
+        "offset" : 975,
+        "length" : 2
+      }, {
+        "offset" : 1028,
+        "length" : 13
+      }, {
+        "offset" : 1049,
+        "length" : 4
+      }, {
+        "offset" : 1059,
+        "length" : 10
+      }, {
+        "offset" : 1080,
+        "length" : 10
+      }, {
+        "offset" : 1104,
+        "length" : 33
+      }, {
+        "offset" : 1180,
+        "length" : 6
+      } ],
+      "color" : "#616161"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 59,
+        "length" : 2
+      }, {
+        "offset" : 94,
+        "length" : 2
+      }, {
+        "offset" : 217,
+        "length" : 6
+      }, {
+        "offset" : 228,
+        "length" : 8
+      }, {
+        "offset" : 262,
+        "length" : 3
+      }, {
+        "offset" : 414,
+        "length" : 5
+      }, {
+        "offset" : 458,
+        "length" : 5
+      }, {
+        "offset" : 495,
+        "length" : 8
+      }, {
+        "offset" : 606,
+        "length" : 7
+      }, {
+        "offset" : 631,
+        "length" : 5
+      }, {
+        "offset" : 644,
+        "length" : 3
+      }, {
+        "offset" : 678,
+        "length" : 2
+      }, {
+        "offset" : 982,
+        "length" : 1
+      } ],
+      "backgroundColor" : "#fcfcfc"
+    }, {
+      "confidence" : 0.7,
+      "spans" : [ {
+        "offset" : 59,
+        "length" : 2
+      }, {
+        "offset" : 89,
+        "length" : 4
+      }, {
+        "offset" : 311,
+        "length" : 4
+      }, {
+        "offset" : 1271,
+        "length" : 3
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 62,
+        "length" : 2
+      }, {
+        "offset" : 997,
+        "length" : 1
+      }, {
+        "offset" : 1281,
+        "length" : 7
+      } ],
+      "color" : "#717171"
+    }, {
+      "confidence" : 0.8,
+      "spans" : [ {
+        "offset" : 65,
+        "length" : 6
+      }, {
+        "offset" : 245,
+        "length" : 10
+      }, {
+        "offset" : 305,
+        "length" : 2
+      }, {
+        "offset" : 488,
+        "length" : 3
+      }, {
+        "offset" : 681,
+        "length" : 2
+      }, {
+        "offset" : 713,
+        "length" : 6
+      }, {
+        "offset" : 748,
+        "length" : 6
+      }, {
+        "offset" : 807,
+        "length" : 6
+      }, {
+        "offset" : 868,
+        "length" : 8
+      }, {
+        "offset" : 953,
+        "length" : 7
+      }, {
+        "offset" : 1091,
+        "length" : 8
+      }, {
+        "offset" : 1159,
+        "length" : 6
+      }, {
+        "offset" : 1232,
+        "length" : 8
+      }, {
+        "offset" : 1278,
+        "length" : 2
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 83,
+        "length" : 5
+      }, {
+        "offset" : 266,
+        "length" : 6
+      }, {
+        "offset" : 364,
+        "length" : 6
+      }, {
+        "offset" : 665,
+        "length" : 7
+      }, {
+        "offset" : 697,
+        "length" : 3
+      }, {
+        "offset" : 709,
+        "length" : 3
+      }, {
+        "offset" : 814,
+        "length" : 6
+      }, {
+        "offset" : 1202,
+        "length" : 7
+      }, {
+        "offset" : 1261,
+        "length" : 6
+      } ],
+      "color" : "#4d4d4d"
+    }, {
+      "confidence" : 0.5,
+      "spans" : [ {
+        "offset" : 83,
+        "length" : 5
+      }, {
+        "offset" : 131,
+        "length" : 2
+      }, {
+        "offset" : 447,
+        "length" : 5
+      } ],
+      "fontStyle" : "normal"
+    }, {
+      "confidence" : 0.7,
+      "spans" : [ {
+        "offset" : 83,
+        "length" : 5
+      }, {
+        "offset" : 111,
+        "length" : 7
+      }, {
+        "offset" : 308,
+        "length" : 2
+      }, {
+        "offset" : 364,
+        "length" : 6
+      }, {
+        "offset" : 381,
+        "length" : 2
+      }, {
+        "offset" : 414,
+        "length" : 5
+      }, {
+        "offset" : 442,
+        "length" : 4
+      }, {
+        "offset" : 492,
+        "length" : 2
+      }, {
+        "offset" : 772,
+        "length" : 4
+      }, {
+        "offset" : 821,
+        "length" : 10
+      }, {
+        "offset" : 1049,
+        "length" : 4
+      }, {
+        "offset" : 1104,
+        "length" : 8
+      }, {
+        "offset" : 1210,
+        "length" : 2
+      } ],
+      "fontWeight" : "bold"
+    }, {
+      "confidence" : 0.5,
+      "spans" : [ {
+        "offset" : 89,
+        "length" : 4
+      }, {
+        "offset" : 324,
+        "length" : 8
+      }, {
+        "offset" : 578,
+        "length" : 14
+      }, {
+        "offset" : 606,
+        "length" : 7
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.5,
+      "spans" : [ {
+        "offset" : 97,
+        "length" : 4
+      }, {
+        "offset" : 408,
+        "length" : 2
+      }, {
+        "offset" : 793,
+        "length" : 7
+      }, {
+        "offset" : 1129,
+        "length" : 8
+      }, {
+        "offset" : 1190,
+        "length" : 3
+      } ],
+      "fontWeight" : "bold"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 102,
+        "length" : 8
+      }, {
+        "offset" : 1328,
+        "length" : 20
+      } ],
+      "color" : "#414141"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 119,
+        "length" : 4
+      }, {
+        "offset" : 196,
+        "length" : 2
+      }, {
+        "offset" : 262,
+        "length" : 3
+      }, {
+        "offset" : 279,
+        "length" : 13
+      }, {
+        "offset" : 324,
+        "length" : 8
+      }, {
+        "offset" : 420,
+        "length" : 6
+      }, {
+        "offset" : 433,
+        "length" : 8
+      }, {
+        "offset" : 504,
+        "length" : 12
+      }, {
+        "offset" : 593,
+        "length" : 12
+      }, {
+        "offset" : 614,
+        "length" : 10
+      }, {
+        "offset" : 644,
+        "length" : 3
+      }, {
+        "offset" : 660,
+        "length" : 4
+      }, {
+        "offset" : 673,
+        "length" : 4
+      }, {
+        "offset" : 701,
+        "length" : 7
+      }, {
+        "offset" : 777,
+        "length" : 15
+      }, {
+        "offset" : 961,
+        "length" : 4
+      }, {
+        "offset" : 982,
+        "length" : 1
+      }, {
+        "offset" : 987,
+        "length" : 9
+      }, {
+        "offset" : 1091,
+        "length" : 8
+      }, {
+        "offset" : 1216,
+        "length" : 2
+      }, {
+        "offset" : 1241,
+        "length" : 2
+      } ],
+      "color" : "#595959"
+    }, {
+      "confidence" : 0.6,
+      "spans" : [ {
+        "offset" : 119,
+        "length" : 4
+      }, {
+        "offset" : 161,
+        "length" : 4
+      }, {
+        "offset" : 597,
+        "length" : 8
+      }, {
+        "offset" : 644,
+        "length" : 3
+      }, {
+        "offset" : 1006,
+        "length" : 4
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 124,
+        "length" : 2
+      }, {
+        "offset" : 569,
+        "length" : 8
+      }, {
+        "offset" : 997,
+        "length" : 1
+      }, {
+        "offset" : 1232,
+        "length" : 8
+      }, {
+        "offset" : 1251,
+        "length" : 2
+      }, {
+        "offset" : 1302,
+        "length" : 2
+      } ],
+      "fontStyle" : "normal"
+    }, {
+      "confidence" : 1,
+      "spans" : [ {
+        "offset" : 134,
+        "length" : 2
+      } ],
+      "fontStyle" : "italic"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 137,
+        "length" : 6
+      }, {
+        "offset" : 293,
+        "length" : 4
+      }, {
+        "offset" : 378,
+        "length" : 2
+      }, {
+        "offset" : 402,
+        "length" : 5
+      }, {
+        "offset" : 1219,
+        "length" : 12
+      }, {
+        "offset" : 1244,
+        "length" : 3
+      } ],
+      "backgroundColor" : "#808080"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 144,
+        "length" : 2
+      }, {
+        "offset" : 442,
+        "length" : 4
+      }, {
+        "offset" : 458,
+        "length" : 5
+      }, {
+        "offset" : 890,
+        "length" : 11
+      }, {
+        "offset" : 978,
+        "length" : 3
+      }, {
+        "offset" : 999,
+        "length" : 3
+      }, {
+        "offset" : 1070,
+        "length" : 9
+      }, {
+        "offset" : 1100,
+        "length" : 3
+      }, {
+        "offset" : 1149,
+        "length" : 9
+      }, {
+        "offset" : 1172,
+        "length" : 2
+      }, {
+        "offset" : 1254,
+        "length" : 6
+      } ],
+      "color" : "#6d6d6d"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 144,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Segoe UI, sans-serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 157,
+        "length" : 3
+      }, {
+        "offset" : 681,
+        "length" : 2
+      } ],
+      "backgroundColor" : "#7c7c7c"
+    }, {
+      "confidence" : 0.6,
+      "spans" : [ {
+        "offset" : 196,
+        "length" : 2
+      }, {
+        "offset" : 495,
+        "length" : 8
+      } ],
+      "fontStyle" : "normal"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 199,
+        "length" : 2
+      } ],
+      "fontStyle" : "italic"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 199,
+        "length" : 2
+      }, {
+        "offset" : 394,
+        "length" : 7
+      }, {
+        "offset" : 1248,
+        "length" : 5
+      }, {
+        "offset" : 1298,
+        "length" : 3
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 211,
+        "length" : 5
+      }, {
+        "offset" : 224,
+        "length" : 3
+      }, {
+        "offset" : 237,
+        "length" : 3
+      }, {
+        "offset" : 276,
+        "length" : 2
+      }, {
+        "offset" : 381,
+        "length" : 2
+      }, {
+        "offset" : 408,
+        "length" : 5
+      }, {
+        "offset" : 481,
+        "length" : 6
+      } ],
+      "backgroundColor" : "#f8f8f8"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 211,
+        "length" : 5
+      }, {
+        "offset" : 390,
+        "length" : 3
+      }, {
+        "offset" : 427,
+        "length" : 5
+      }, {
+        "offset" : 631,
+        "length" : 5
+      }, {
+        "offset" : 1054,
+        "length" : 4
+      }, {
+        "offset" : 1070,
+        "length" : 5
+      }, {
+        "offset" : 1202,
+        "length" : 7
+      }, {
+        "offset" : 1268,
+        "length" : 2
+      }, {
+        "offset" : 1365,
+        "length" : 8
+      } ],
+      "fontWeight" : "bold"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 237,
+        "length" : 3
+      }, {
+        "offset" : 381,
+        "length" : 2
+      }, {
+        "offset" : 411,
+        "length" : 8
+      }, {
+        "offset" : 495,
+        "length" : 8
+      }, {
+        "offset" : 729,
+        "length" : 4
+      }, {
+        "offset" : 807,
+        "length" : 6
+      }, {
+        "offset" : 966,
+        "length" : 8
+      }, {
+        "offset" : 1138,
+        "length" : 4
+      }, {
+        "offset" : 1146,
+        "length" : 2
+      }, {
+        "offset" : 1159,
+        "length" : 6
+      }, {
+        "offset" : 1169,
+        "length" : 2
+      }, {
+        "offset" : 1187,
+        "length" : 6
+      } ],
+      "color" : "#696969"
+    }, {
+      "confidence" : 0.6,
+      "spans" : [ {
+        "offset" : 237,
+        "length" : 3
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 241,
+        "length" : 3
+      }, {
+        "offset" : 273,
+        "length" : 2
+      } ],
+      "backgroundColor" : "#f6f6f6"
+    }, {
+      "confidence" : 0.7,
+      "spans" : [ {
+        "offset" : 266,
+        "length" : 6
+      }, {
+        "offset" : 1014,
+        "length" : 2
+      }, {
+        "offset" : 1042,
+        "length" : 6
+      }, {
+        "offset" : 1076,
+        "length" : 3
+      }, {
+        "offset" : 1194,
+        "length" : 7
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 273,
+        "length" : 2
+      } ],
+      "fontStyle" : "italic"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 293,
+        "length" : 4
+      } ],
+      "similarFontFamily" : "Courier New, Tahoma, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 311,
+        "length" : 4
+      }, {
+        "offset" : 926,
+        "length" : 12
+      }, {
+        "offset" : 1213,
+        "length" : 2
+      }, {
+        "offset" : 1275,
+        "length" : 2
+      } ],
+      "backgroundColor" : "#7e7e7e"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 316,
+        "length" : 4
+      }, {
+        "offset" : 353,
+        "length" : 10
+      }, {
+        "offset" : 877,
+        "length" : 5
+      } ],
+      "backgroundColor" : "#848484"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 321,
+        "length" : 2
+      }, {
+        "offset" : 442,
+        "length" : 4
+      }, {
+        "offset" : 807,
+        "length" : 6
+      }, {
+        "offset" : 1254,
+        "length" : 6
+      }, {
+        "offset" : 1308,
+        "length" : 10
+      }, {
+        "offset" : 1328,
+        "length" : 20
+      } ],
+      "backgroundColor" : "#fafafa"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 321,
+        "length" : 2
+      }, {
+        "offset" : 381,
+        "length" : 2
+      }, {
+        "offset" : 408,
+        "length" : 2
+      }, {
+        "offset" : 492,
+        "length" : 11
+      }, {
+        "offset" : 544,
+        "length" : 6
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 342,
+        "length" : 4
+      } ],
+      "backgroundColor" : "#8e8e8e"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 347,
+        "length" : 5
+      }, {
+        "offset" : 1251,
+        "length" : 2
+      } ],
+      "backgroundColor" : "#8a8a8a"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 350,
+        "length" : 2
+      }, {
+        "offset" : 481,
+        "length" : 6
+      }, {
+        "offset" : 689,
+        "length" : 7
+      }, {
+        "offset" : 908,
+        "length" : 9
+      }, {
+        "offset" : 1059,
+        "length" : 3
+      }, {
+        "offset" : 1143,
+        "length" : 2
+      }, {
+        "offset" : 1187,
+        "length" : 2
+      }, {
+        "offset" : 1254,
+        "length" : 13
+      } ],
+      "fontWeight" : "normal"
+    }, {
+      "confidence" : 0.5,
+      "spans" : [ {
+        "offset" : 350,
+        "length" : 2
+      }, {
+        "offset" : 1328,
+        "length" : 20
+      } ],
+      "similarFontFamily" : "Tahoma, sans-serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 390,
+        "length" : 3
+      } ],
+      "color" : "#797979"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 390,
+        "length" : 3
+      } ],
+      "backgroundColor" : "#f2f2f2"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 390,
+        "length" : 3
+      } ],
+      "similarFontFamily" : "Tahoma, sans-serif"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 481,
+        "length" : 6
+      } ],
+      "similarFontFamily" : "Courier New, Tahoma, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 488,
+        "length" : 6
+      }, {
+        "offset" : 551,
+        "length" : 6
+      }, {
+        "offset" : 1271,
+        "length" : 3
+      } ],
+      "backgroundColor" : "#828282"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 631,
+        "length" : 5
+      } ],
+      "similarFontFamily" : "Courier New, Georgia, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 678,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Courier New, Times New Roman, monospace"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 681,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Courier New, Times New Roman, monospace"
+    }, {
+      "confidence" : 0.3,
+      "spans" : [ {
+        "offset" : 684,
+        "length" : 4
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 689,
+        "length" : 7
+      } ],
+      "backgroundColor" : "#747474"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 767,
+        "length" : 4
+      } ],
+      "color" : "#3d3d3d"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 832,
+        "length" : 6
+      }, {
+        "offset" : 856,
+        "length" : 11
+      } ],
+      "backgroundColor" : "#949494"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 839,
+        "length" : 8
+      }, {
+        "offset" : 1328,
+        "length" : 20
+      } ],
+      "fontStyle" : "normal"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 984,
+        "length" : 2
+      } ],
+      "fontStyle" : "normal"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 1143,
+        "length" : 2
+      } ],
+      "color" : "#757575"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 1202,
+        "length" : 7
+      } ],
+      "similarFontFamily" : "Courier New, Georgia, monospace"
+    }, {
+      "confidence" : 0.7,
+      "spans" : [ {
+        "offset" : 1213,
+        "length" : 2
+      } ],
+      "fontStyle" : "normal"
+    }, {
+      "confidence" : 0.5,
+      "spans" : [ {
+        "offset" : 1244,
+        "length" : 3
+      } ],
+      "similarFontFamily" : "Courier New, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 1248,
+        "length" : 2
+      } ],
+      "backgroundColor" : "#727272"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 1254,
+        "length" : 6
+      } ],
+      "similarFontFamily" : "Courier New, Arial, Helvetica, monospace"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 1271,
+        "length" : 17
+      } ],
+      "isHandwritten" : false
+    }, {
+      "confidence" : 0.8,
+      "spans" : [ {
+        "offset" : 1278,
+        "length" : 2
+      }, {
+        "offset" : 1305,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Courier New, Georgia, monospace"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 1281,
+        "length" : 7
+      } ],
+      "similarFontFamily" : "Courier New, Georgia, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 1289,
+        "length" : 8
+      } ],
+      "color" : "#151515"
+    }, {
+      "confidence" : 0.95,
+      "spans" : [ {
+        "offset" : 1289,
+        "length" : 8
+      } ],
+      "similarFontFamily" : "Baskerville, serif"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 1298,
+        "length" : 3
+      } ],
+      "backgroundColor" : "#767676"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 1302,
+        "length" : 2
+      } ],
+      "backgroundColor" : "#6c6c6c"
+    }, {
+      "confidence" : 0.7,
+      "spans" : [ {
+        "offset" : 1302,
+        "length" : 2
+      } ],
+      "similarFontFamily" : "Courier New, Times New Roman, monospace"
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 1305,
+        "length" : 2
+      } ],
+      "backgroundColor" : "#707070"
+    }, {
+      "confidence" : 0.6,
+      "spans" : [ {
+        "offset" : 1319,
+        "length" : 8
+      } ],
+      "fontStyle" : "italic"
+    }, {
+      "confidence" : 1,
+      "spans" : [ {
+        "offset" : 1349,
+        "length" : 15
+      } ],
+      "isHandwritten" : true
+    }, {
+      "confidence" : 0.99,
+      "spans" : [ {
+        "offset" : 1354,
+        "length" : 10
+      } ],
+      "color" : "#393939"
+    } ]
+  }
+}

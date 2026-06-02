@@ -1,5 +1,6 @@
 com\taikatranslator\infra\extractor\AzureDocumentExtractor.class
 com\taikatranslator\core\assembler\WordAssembler.class
+com\taikatranslator\core\pipeline\TranslationPipeline$MockDocumentExtractor.class
 com\taikatranslator\model\DocumentLayout.class
 com\taikatranslator\infra\retry\RetryExecutor$RetryableAction.class
 com\taikatranslator\infra\assembler\DocxWordAssembler$RenderableElement$Type.class
@@ -9,9 +10,12 @@ com\taikatranslator\infra\retry\RetryExecutor.class
 com\taikatranslator\infra\http\HttpClientWrapper.class
 com\taikatranslator\model\TextStyle.class
 com\taikatranslator\core\vision\VisionProcessor.class
+com\taikatranslator\core\pipeline\TranslationPipeline.class
 com\taikatranslator\infra\assembler\DocxWordAssembler$TextLine.class
 com\taikatranslator\core\assembler\AssemblyException.class
+com\taikatranslator\core\pipeline\TranslationPipeline$MockTextTranslator.class
 com\taikatranslator\model\TableCell.class
+com\taikatranslator\core\pipeline\TranslationPipeline$PipelineResult.class
 com\taikatranslator\infra\translator\DeepLTranslator.class
 com\taikatranslator\core\translator\TranslationException.class
 com\taikatranslator\core\vision\VisionResult.class
@@ -22,6 +26,7 @@ com\taikatranslator\Main.class
 com\taikatranslator\core\vision\VisionResult$ArtifactInfo.class
 com\taikatranslator\model\BoundingBox.class
 com\taikatranslator\Main$MockDocumentExtractor.class
+com\taikatranslator\infra\server\TranslationServer.class
 com\taikatranslator\model\TextBlock.class
 com\taikatranslator\infra\vision\ProcessBuilderVisionProcessor.class
 com\taikatranslator\Main$MockTextTranslator.class

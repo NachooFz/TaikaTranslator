@@ -4,6 +4,8 @@ import argparse
 import json
 import cv2
 import numpy as np
+import torch
+from ultralytics import SAM
 
 def parse_args():
     parser = argparse.ArgumentParser(description="TaikaTranslator Python Vision Helper")
@@ -116,7 +118,6 @@ def extract_sam_segmentation(image_path, output_dir):
         return clean_filename, []
 
     # 2. Load SAM model and predict using the detected boxes as prompts
-    from ultralytics import SAM
     model = SAM("sam2_t.pt")
     
     # Predict using SAM with box prompts (takes less than 0.5s per box on CPU)
@@ -183,128 +184,6 @@ def extract_sam_segmentation(image_path, output_dir):
     
     return clean_filename, artifacts
 
-def extract_contours_fallback(image_path, output_dir):
-    """
-    Refined local fallback using OpenCV contour analysis.
-    Identifies high-variance colored marks (seals, stamps, signatures) and isolates them.
-    """
-    img = cv2.imread(image_path)
-    if img is None:
-        raise ValueError(f"Could not read image: {image_path}")
-
-    h, w, _ = img.shape
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    
-    # Convert to HSV to detect non-neutral colored elements (blue signatures, red stamps)
-    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-    # Raising saturation threshold to 70 to ignore black/grey text and lines
-    lower_gray = np.array([0, 70, 30])
-    upper_gray = np.array([180, 255, 245])
-    color_mask = cv2.inRange(hsv, lower_gray, upper_gray)
-
-    # Combine with adaptive thresholding to detect dark/handwritten strokes
-    thresh = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 15, 8)
-    
-    # Focus on non-background high-density components
-    combined = cv2.bitwise_and(thresh, thresh, mask=color_mask)
-    
-    # Dilation with a larger 35x35 kernel to group adjacent stamp parts into a single block
-    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (35, 35))
-    dilated = cv2.dilate(combined, kernel, iterations=1)
-    
-    contours_color, _ = cv2.findContours(dilated, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    
-    boxes = []
-    
-    # Mode 1: Chromatic Filter (Colored stamps/signatures)
-    for contour in contours_color:
-        x, y, cw, ch = cv2.boundingRect(contour)
-        # Filter out noise or stray letters/words by raising bounds to 60x60
-        if cw < 60 or ch < 60 or cw > w * 0.9 or ch > h * 0.9:
-            continue
-        # Filter out compression halos around standard black text using pixel density threshold
-        roi_combined = combined[y:y+ch, x:x+cw]
-        if cv2.countNonZero(roi_combined) < 150:
-            continue
-        # Refine bounding box to get a tight fit around actual non-zero colored pixels (strips 35px dilation padding)
-        pts = cv2.findNonZero(roi_combined)
-        if pts is not None:
-            rx, ry, rcw, rch = cv2.boundingRect(pts)
-            bx, by, bcw, bch = x + rx, y + ry, rcw, rch
-            boxes.append([bx, by, bx + bcw, by + bch])
-
-    # Mode 2: Spatial Heuristic for B&W circular notary stamps
-    dilated_bw = cv2.dilate(thresh, kernel, iterations=1)
-    contours_bw, _ = cv2.findContours(dilated_bw, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    for contour in contours_bw:
-        x, y, cw, ch = cv2.boundingRect(contour)
-        if 120 <= cw <= 500 and 120 <= ch <= 500:
-            aspect_ratio = float(cw) / max(1, ch)
-            if 0.75 <= aspect_ratio <= 1.35:
-                if cw < w * 0.9 and ch < h * 0.9:
-                    # Refine to tight coordinates of actual thresholded pixels inside the B&W stamp area
-                    roi_thresh = thresh[y:y+ch, x:x+cw]
-                    pts = cv2.findNonZero(roi_thresh)
-                    if pts is not None:
-                        rx, ry, rcw, rch = cv2.boundingRect(pts)
-                        bx, by, bcw, bch = x + rx, y + ry, rcw, rch
-                        boxes.append([bx, by, bx + bcw, by + bch])
-
-    # Deduplicate overlapping boxes
-    boxes = union_or_deduplicate_boxes(boxes)
-    
-    artifacts = []
-    clean_img = img.copy()
-    
-    for i, box in enumerate(boxes):
-        x1, y1, x2, y2 = box
-        cw = x2 - x1
-        ch = y2 - y1
-        
-        artifact_id = f"artifact_{i+1}"
-        
-        # Bounding box in normalized coordinates (0.0 to 1.0)
-        norm_box = {
-            "top": float(y1) / h,
-            "left": float(x1) / w,
-            "width": float(cw) / w,
-            "height": float(ch) / h
-        }
-        
-        # Extract the region from the original image
-        roi = img[y1:y2, x1:x2]
-        
-        # Generate transparent background (Alpha channel)
-        roi_gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
-        _, alpha = cv2.threshold(roi_gray, 240, 255, cv2.THRESH_BINARY_INV)
-        
-        # Smooth alpha mask
-        alpha = cv2.GaussianBlur(alpha, (3, 3), 0)
-        
-        b, g, r = cv2.split(roi)
-        rgba = cv2.merge([b, g, r, alpha])
-        
-        # Save transparent PNG
-        artifact_filename = f"{artifact_id}.png"
-        artifact_path = os.path.join(output_dir, artifact_filename)
-        cv2.imwrite(artifact_path, rgba)
-        
-        # Mask the original image to clear it for OCR (replace with white background)
-        cv2.rectangle(clean_img, (x1, y1), (x2, y2), (255, 255, 255), -1)
-        
-        artifacts.append({
-            "file": artifact_filename,
-            "type": "signature" if cw > ch * 1.5 else "stamp",
-            "boundingBox": norm_box
-        })
-        
-    # Save the cleaned page image
-    clean_filename = "clean_page.png"
-    clean_path = os.path.join(output_dir, clean_filename)
-    cv2.imwrite(clean_path, clean_img)
-    
-    return clean_filename, artifacts
-
 def main():
     args = parse_args()
     os.makedirs(args.output_dir, exist_ok=True)
@@ -312,20 +191,8 @@ def main():
     print(f"[VisionHelper] Starting processing for {args.input}...")
     
     try:
-        dl_available = False
-        try:
-            import torch
-            import ultralytics
-            dl_available = True
-        except ImportError:
-            pass
-            
-        if dl_available:
-            print("[VisionHelper] Running high-fidelity SAM-based segmenter with box prompts...")
-            clean_file, artifacts = extract_sam_segmentation(args.input, args.output_dir)
-        else:
-            print("[VisionHelper] Warning: Deep learning dependencies missing. Falling back to OpenCV contours...")
-            clean_file, artifacts = extract_contours_fallback(args.input, args.output_dir)
+        print("[VisionHelper] Running high-fidelity SAM-based segmenter with box prompts...")
+        clean_file, artifacts = extract_sam_segmentation(args.input, args.output_dir)
         
         result = {
             "status": "SUCCESS",
