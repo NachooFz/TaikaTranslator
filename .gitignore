@@ -1,1 +1,44 @@
+# IDE / IntelliJ / VS Code
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+*.log
+
+# Build files / Maven / Gradle
+target/
+*.class
+dependency-reduced-pom.xml
+classpath.txt
+
+# Environment / Keys (extremely sensitive!)
 .env
+.env.*
+!.env.example
+
+# Models & Large Binaries
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Application Outputs, Logs & Samples
+output/
+output_test/
+samples/
+log/
+logs/
+scratch/
+tmp/
+temp/
+*.pdf
+*.docx
+*.png
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Dockerfile
+Dockerfile

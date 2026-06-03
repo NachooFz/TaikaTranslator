@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y \
 RUN pip3 install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cpu
 RUN pip3 install --no-cache-dir ultralytics opencv-python-headless numpy
 
-# Copiar el ejecutable JAR compilado en la etapa anterior
+# Copiar el ejecutable JAR compilado en la etapa anteriorr
 COPY --from=build /app/target/taika-translator-1.0.0-SNAPSHOT.jar app.jar
 
 # Copiar el script de visión de Python y el checkpoint del modelo SAM
@@ -33,7 +33,7 @@ COPY sam2_t.pt ./sam2_t.pt
 # Exponer el puerto por defecto de Javalin
 EXPOSE 8080
 
-# Definir variables de entorno de rutas para que el contenedor use el Python interno
+# Definir variables de entorno de rutas para que el contenedor use el Python internos
 ENV PYTHON_EXE=python3
 ENV PORT=8080
 ENV AZURE_ENDPOINT="https://taikatranslator.cognitiveservices.azure.com/"
