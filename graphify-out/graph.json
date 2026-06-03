@@ -4,384 +4,6 @@
   "graph": {},
   "nodes": [
     {
-      "label": "Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L1",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_json",
-      "community": 22,
-      "norm_label": "technical test \u2014 document extraction & translation pipeline_page_1_azure_response.json"
-    },
-    {
-      "label": "status",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L2",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_status",
-      "community": 22,
-      "norm_label": "status"
-    },
-    {
-      "label": "createdDateTime",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L3",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_createddatetime",
-      "community": 22,
-      "norm_label": "createddatetime"
-    },
-    {
-      "label": "lastUpdatedDateTime",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L4",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_lastupdateddatetime",
-      "community": 22,
-      "norm_label": "lastupdateddatetime"
-    },
-    {
-      "label": "analyzeResult",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L5",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
-      "community": 22,
-      "norm_label": "analyzeresult"
-    },
-    {
-      "label": "apiVersion",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L6",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_apiversion",
-      "community": 22,
-      "norm_label": "apiversion"
-    },
-    {
-      "label": "modelId",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L7",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_modelid",
-      "community": 22,
-      "norm_label": "modelid"
-    },
-    {
-      "label": "stringIndexType",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L8",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_stringindextype",
-      "community": 22,
-      "norm_label": "stringindextype"
-    },
-    {
-      "label": "content",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L9",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_content",
-      "community": 22,
-      "norm_label": "content"
-    },
-    {
-      "label": "pages",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L10",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_pages",
-      "community": 22,
-      "norm_label": "pages"
-    },
-    {
-      "label": "tables",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L2277",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_tables",
-      "community": 22,
-      "norm_label": "tables"
-    },
-    {
-      "label": "paragraphs",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L2278",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_paragraphs",
-      "community": 22,
-      "norm_label": "paragraphs"
-    },
-    {
-      "label": "styles",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L2411",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_styles",
-      "community": 22,
-      "norm_label": "styles"
-    },
-    {
-      "label": "Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L1",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_json",
-      "community": 23,
-      "norm_label": "technical test \u2014 document extraction & translation pipeline_page_2_azure_response.json"
-    },
-    {
-      "label": "status",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L2",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_status",
-      "community": 23,
-      "norm_label": "status"
-    },
-    {
-      "label": "createdDateTime",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L3",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_createddatetime",
-      "community": 23,
-      "norm_label": "createddatetime"
-    },
-    {
-      "label": "lastUpdatedDateTime",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L4",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_lastupdateddatetime",
-      "community": 23,
-      "norm_label": "lastupdateddatetime"
-    },
-    {
-      "label": "analyzeResult",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L5",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
-      "community": 23,
-      "norm_label": "analyzeresult"
-    },
-    {
-      "label": "apiVersion",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L6",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_apiversion",
-      "community": 23,
-      "norm_label": "apiversion"
-    },
-    {
-      "label": "modelId",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L7",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_modelid",
-      "community": 23,
-      "norm_label": "modelid"
-    },
-    {
-      "label": "stringIndexType",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L8",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_stringindextype",
-      "community": 23,
-      "norm_label": "stringindextype"
-    },
-    {
-      "label": "content",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L9",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_content",
-      "community": 23,
-      "norm_label": "content"
-    },
-    {
-      "label": "pages",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L10",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_pages",
-      "community": 23,
-      "norm_label": "pages"
-    },
-    {
-      "label": "tables",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L2838",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_tables",
-      "community": 23,
-      "norm_label": "tables"
-    },
-    {
-      "label": "paragraphs",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L2901",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_paragraphs",
-      "community": 23,
-      "norm_label": "paragraphs"
-    },
-    {
-      "label": "styles",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L3063",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_styles",
-      "community": 23,
-      "norm_label": "styles"
-    },
-    {
-      "label": "Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L1",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_json",
-      "community": 26,
-      "norm_label": "technical test \u2014 document extraction & translation pipeline_page_3_azure_response.json"
-    },
-    {
-      "label": "status",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L2",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_status",
-      "community": 26,
-      "norm_label": "status"
-    },
-    {
-      "label": "createdDateTime",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L3",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_createddatetime",
-      "community": 26,
-      "norm_label": "createddatetime"
-    },
-    {
-      "label": "lastUpdatedDateTime",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L4",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_lastupdateddatetime",
-      "community": 26,
-      "norm_label": "lastupdateddatetime"
-    },
-    {
-      "label": "analyzeResult",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L5",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
-      "community": 26,
-      "norm_label": "analyzeresult"
-    },
-    {
-      "label": "apiVersion",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L6",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_apiversion",
-      "community": 26,
-      "norm_label": "apiversion"
-    },
-    {
-      "label": "modelId",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L7",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_modelid",
-      "community": 26,
-      "norm_label": "modelid"
-    },
-    {
-      "label": "stringIndexType",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L8",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_stringindextype",
-      "community": 26,
-      "norm_label": "stringindextype"
-    },
-    {
-      "label": "content",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L9",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_content",
-      "community": 26,
-      "norm_label": "content"
-    },
-    {
-      "label": "pages",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L10",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_pages",
-      "community": 26,
-      "norm_label": "pages"
-    },
-    {
-      "label": "tables",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L1968",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_tables",
-      "community": 26,
-      "norm_label": "tables"
-    },
-    {
-      "label": "paragraphs",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L1969",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_paragraphs",
-      "community": 26,
-      "norm_label": "paragraphs"
-    },
-    {
-      "label": "styles",
-      "file_type": "code",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L2101",
-      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_styles",
-      "community": 26,
-      "norm_label": "styles"
-    },
-    {
-      "label": "check_coordinates.py",
-      "file_type": "code",
-      "source_file": "scratch/check_coordinates.py",
-      "source_location": "L1",
-      "id": "scratch_check_coordinates_py",
-      "community": 24,
-      "norm_label": "check_coordinates.py"
-    },
-    {
-      "label": "inspect_log.py",
-      "file_type": "code",
-      "source_file": "scratch/inspect_log.py",
-      "source_location": "L1",
-      "id": "scratch_inspect_log_py",
-      "community": 25,
-      "norm_label": "inspect_log.py"
-    },
-    {
-      "label": "inspect_page.py",
-      "file_type": "code",
-      "source_file": "scratch/inspect_page.py",
-      "source_location": "L1",
-      "id": "scratch_inspect_page_py",
-      "community": 28,
-      "norm_label": "inspect_page.py"
-    },
-    {
       "label": "CreateSamplePdf.java",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/CreateSamplePdf.java",
@@ -756,7 +378,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/extractor/DocumentExtractor.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_core_extractor_documentextractor_java",
-      "community": 6,
+      "community": 16,
       "norm_label": "documentextractor.java"
     },
     {
@@ -765,7 +387,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/extractor/DocumentExtractor.java",
       "source_location": "L6",
       "id": "extractor_documentextractor_documentextractor",
-      "community": 6,
+      "community": 16,
       "norm_label": "documentextractor"
     },
     {
@@ -774,7 +396,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/extractor/DocumentExtractor.java",
       "source_location": "L13",
       "id": "extractor_documentextractor_documentextractor_extractlayout",
-      "community": 6,
+      "community": 16,
       "norm_label": ".extractlayout()"
     },
     {
@@ -783,7 +405,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/extractor/DocumentExtractor.java",
       "source_location": "L13",
       "id": "src_main_java_com_taikatranslator_core_extractor_documentextractor_java_file",
-      "community": 6,
+      "community": 16,
       "norm_label": "file"
     },
     {
@@ -792,7 +414,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/extractor/DocumentExtractor.java",
       "source_location": "L13",
       "id": "src_main_java_com_taikatranslator_core_extractor_documentextractor_java_documentlayout",
-      "community": 6,
+      "community": 16,
       "norm_label": "documentlayout"
     },
     {
@@ -945,7 +567,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/pipeline/TranslationPipeline.java",
       "source_location": "L186",
       "id": "pipeline_translationpipeline_translationpipeline_clonelayoutwithspanish",
-      "community": 3,
+      "community": 12,
       "norm_label": ".clonelayoutwithspanish()"
     },
     {
@@ -1080,7 +702,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_core_translator_texttranslator_java",
-      "community": 4,
+      "community": 12,
       "norm_label": "texttranslator.java"
     },
     {
@@ -1089,7 +711,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L5",
       "id": "translator_texttranslator_texttranslator",
-      "community": 4,
+      "community": 12,
       "norm_label": "texttranslator"
     },
     {
@@ -1098,7 +720,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L12",
       "id": "translator_texttranslator_texttranslator_translate",
-      "community": 4,
+      "community": 12,
       "norm_label": ".translate()"
     },
     {
@@ -1107,7 +729,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L12",
       "id": "src_main_java_com_taikatranslator_core_translator_texttranslator_java_list",
-      "community": 4,
+      "community": 12,
       "norm_label": "list"
     },
     {
@@ -1116,7 +738,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L12",
       "id": "src_main_java_com_taikatranslator_core_translator_texttranslator_java_string",
-      "community": 4,
+      "community": 12,
       "norm_label": "string"
     },
     {
@@ -1665,7 +1287,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java",
-      "community": 4,
+      "community": 16,
       "norm_label": "azuredocumentextractor.java"
     },
     {
@@ -1674,7 +1296,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L28",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor",
-      "community": 4,
+      "community": 16,
       "norm_label": "azuredocumentextractor"
     },
     {
@@ -1683,7 +1305,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L36",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_azuredocumentextractor",
-      "community": 4,
+      "community": 16,
       "norm_label": ".azuredocumentextractor()"
     },
     {
@@ -1692,7 +1314,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L36",
       "id": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java_string",
-      "community": 4,
+      "community": 16,
       "norm_label": "string"
     },
     {
@@ -1701,7 +1323,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L44",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_setdocumentbasename",
-      "community": 4,
+      "community": 16,
       "norm_label": ".setdocumentbasename()"
     },
     {
@@ -1710,7 +1332,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L50",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_extractlayout",
-      "community": 4,
+      "community": 16,
       "norm_label": ".extractlayout()"
     },
     {
@@ -1719,7 +1341,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L50",
       "id": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java_file",
-      "community": 4,
+      "community": 16,
       "norm_label": "file"
     },
     {
@@ -1728,7 +1350,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L50",
       "id": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java_documentlayout",
-      "community": 4,
+      "community": 16,
       "norm_label": "documentlayout"
     },
     {
@@ -1737,7 +1359,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L50",
       "id": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java_override",
-      "community": 4,
+      "community": 16,
       "norm_label": "override"
     },
     {
@@ -1746,7 +1368,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L106",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_pollforresults",
-      "community": 4,
+      "community": 16,
       "norm_label": ".pollforresults()"
     },
     {
@@ -1755,7 +1377,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L106",
       "id": "jsonnode",
-      "community": 4,
+      "community": 16,
       "norm_label": "jsonnode"
     },
     {
@@ -1764,7 +1386,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L138",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_parseazurejson",
-      "community": 4,
+      "community": 16,
       "norm_label": ".parseazurejson()"
     },
     {
@@ -1773,7 +1395,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L279",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_extractboundingbox",
-      "community": 4,
+      "community": 16,
       "norm_label": ".extractboundingbox()"
     },
     {
@@ -1782,7 +1404,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L279",
       "id": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java_boundingbox",
-      "community": 4,
+      "community": 16,
       "norm_label": "boundingbox"
     },
     {
@@ -1791,7 +1413,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L314",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_extracttextstyle",
-      "community": 4,
+      "community": 16,
       "norm_label": ".extracttextstyle()"
     },
     {
@@ -1800,7 +1422,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L314",
       "id": "src_main_java_com_taikatranslator_infra_extractor_azuredocumentextractor_java_textstyle",
-      "community": 4,
+      "community": 16,
       "norm_label": "textstyle"
     },
     {
@@ -1926,7 +1548,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_infra_server_translationserver_java",
-      "community": 21,
+      "community": 4,
       "norm_label": "translationserver.java"
     },
     {
@@ -1935,7 +1557,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L21",
       "id": "server_translationserver_translationserver",
-      "community": 21,
+      "community": 4,
       "norm_label": "translationserver"
     },
     {
@@ -1944,7 +1566,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L26",
       "id": "server_translationserver_translationserver_start",
-      "community": 21,
+      "community": 4,
       "norm_label": ".start()"
     },
     {
@@ -1953,7 +1575,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L146",
       "id": "server_translationserver_translationserver_cleanoldwebruns",
-      "community": 21,
+      "community": 4,
       "norm_label": ".cleanoldwebruns()"
     },
     {
@@ -1962,7 +1584,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L166",
       "id": "server_translationserver_translationserver_deletedir",
-      "community": 21,
+      "community": 4,
       "norm_label": ".deletedir()"
     },
     {
@@ -1971,7 +1593,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L166",
       "id": "src_main_java_com_taikatranslator_infra_server_translationserver_java_file",
-      "community": 21,
+      "community": 4,
       "norm_label": "file"
     },
     {
@@ -1980,7 +1602,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L180",
       "id": "server_translationserver_translationserver_servefile",
-      "community": 21,
+      "community": 4,
       "norm_label": ".servefile()"
     },
     {
@@ -1989,7 +1611,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L180",
       "id": "context",
-      "community": 21,
+      "community": 4,
       "norm_label": "context"
     },
     {
@@ -1998,7 +1620,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L186",
       "id": "server_translationserver_translationserver_errorresponse",
-      "community": 21,
+      "community": 4,
       "norm_label": ".errorresponse()"
     },
     {
@@ -2007,7 +1629,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L186",
       "id": "src_main_java_com_taikatranslator_infra_server_translationserver_java_string",
-      "community": 21,
+      "community": 4,
       "norm_label": "string"
     },
     {
@@ -2016,7 +1638,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L186",
       "id": "src_main_java_com_taikatranslator_infra_server_translationserver_java_map",
-      "community": 21,
+      "community": 4,
       "norm_label": "map"
     },
     {
@@ -2025,7 +1647,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L186",
       "id": "src_main_java_com_taikatranslator_infra_server_translationserver_java_object",
-      "community": 21,
+      "community": 4,
       "norm_label": "object"
     },
     {
@@ -2034,7 +1656,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L193",
       "id": "server_translationserver_translationserver_getparam",
-      "community": 21,
+      "community": 4,
       "norm_label": ".getparam()"
     },
     {
@@ -2043,7 +1665,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L207",
       "id": "server_translationserver_translationserver_hasdefaultkey",
-      "community": 21,
+      "community": 4,
       "norm_label": ".hasdefaultkey()"
     },
     {
@@ -2052,7 +1674,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L214",
       "id": "server_translationserver_translationserver_loadenvfile",
-      "community": 21,
+      "community": 4,
       "norm_label": ".loadenvfile()"
     },
     {
@@ -2322,7 +1944,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java",
-      "community": 3,
+      "community": 6,
       "norm_label": "documentlayout.java"
     },
     {
@@ -2331,7 +1953,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L6",
       "id": "model_documentlayout_documentlayout",
-      "community": 3,
+      "community": 6,
       "norm_label": "documentlayout"
     },
     {
@@ -2340,7 +1962,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L12",
       "id": "model_documentlayout_documentlayout_documentlayout",
-      "community": 3,
+      "community": 6,
       "norm_label": ".documentlayout()"
     },
     {
@@ -2358,7 +1980,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L23",
       "id": "model_documentlayout_documentlayout_setpagewidth",
-      "community": 3,
+      "community": 6,
       "norm_label": ".setpagewidth()"
     },
     {
@@ -2376,7 +1998,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L31",
       "id": "model_documentlayout_documentlayout_setpageheight",
-      "community": 3,
+      "community": 6,
       "norm_label": ".setpageheight()"
     },
     {
@@ -2385,7 +2007,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L35",
       "id": "model_documentlayout_documentlayout_gettextblocks",
-      "community": 3,
+      "community": 6,
       "norm_label": ".gettextblocks()"
     },
     {
@@ -2394,7 +2016,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L35",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java_list",
-      "community": 3,
+      "community": 6,
       "norm_label": "list"
     },
     {
@@ -2403,7 +2025,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L35",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java_textblock",
-      "community": 3,
+      "community": 6,
       "norm_label": "textblock"
     },
     {
@@ -2412,7 +2034,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L39",
       "id": "model_documentlayout_documentlayout_settextblocks",
-      "community": 3,
+      "community": 6,
       "norm_label": ".settextblocks()"
     },
     {
@@ -2448,7 +2070,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L51",
       "id": "model_documentlayout_documentlayout_settables",
-      "community": 3,
+      "community": 6,
       "norm_label": ".settables()"
     },
     {
@@ -2466,7 +2088,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L59",
       "id": "model_documentlayout_documentlayout_tostring",
-      "community": 3,
+      "community": 6,
       "norm_label": ".tostring()"
     },
     {
@@ -2475,7 +2097,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L59",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java_string",
-      "community": 3,
+      "community": 6,
       "norm_label": "string"
     },
     {
@@ -2484,7 +2106,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L59",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java_override",
-      "community": 3,
+      "community": 6,
       "norm_label": "override"
     },
     {
@@ -2997,7 +2619,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_model_textblock_java",
-      "community": 16,
+      "community": 21,
       "norm_label": "textblock.java"
     },
     {
@@ -3006,7 +2628,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L6",
       "id": "model_textblock_textblock",
-      "community": 16,
+      "community": 21,
       "norm_label": "textblock"
     },
     {
@@ -3015,7 +2637,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L13",
       "id": "model_textblock_textblock_textblock",
-      "community": 16,
+      "community": 21,
       "norm_label": ".textblock()"
     },
     {
@@ -3024,7 +2646,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L15",
       "id": "src_main_java_com_taikatranslator_model_textblock_java_string",
-      "community": 16,
+      "community": 21,
       "norm_label": "string"
     },
     {
@@ -3033,7 +2655,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L15",
       "id": "src_main_java_com_taikatranslator_model_textblock_java_boundingbox",
-      "community": 16,
+      "community": 21,
       "norm_label": "boundingbox"
     },
     {
@@ -3042,7 +2664,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L15",
       "id": "src_main_java_com_taikatranslator_model_textblock_java_textstyle",
-      "community": 16,
+      "community": 21,
       "norm_label": "textstyle"
     },
     {
@@ -3051,7 +2673,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L22",
       "id": "model_textblock_textblock_getinlineruns",
-      "community": 16,
+      "community": 6,
       "norm_label": ".getinlineruns()"
     },
     {
@@ -3060,7 +2682,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L22",
       "id": "src_main_java_com_taikatranslator_model_textblock_java_list",
-      "community": 16,
+      "community": 21,
       "norm_label": "list"
     },
     {
@@ -3069,7 +2691,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L22",
       "id": "src_main_java_com_taikatranslator_model_textblock_java_inlinerun",
-      "community": 16,
+      "community": 21,
       "norm_label": "inlinerun"
     },
     {
@@ -3078,7 +2700,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L26",
       "id": "model_textblock_textblock_setinlineruns",
-      "community": 16,
+      "community": 21,
       "norm_label": ".setinlineruns()"
     },
     {
@@ -3087,7 +2709,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L30",
       "id": "model_textblock_textblock_addinlinerun",
-      "community": 16,
+      "community": 21,
       "norm_label": ".addinlinerun()"
     },
     {
@@ -3096,7 +2718,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L37",
       "id": "model_textblock_textblock_gettext",
-      "community": 16,
+      "community": 21,
       "norm_label": ".gettext()"
     },
     {
@@ -3105,7 +2727,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L41",
       "id": "model_textblock_textblock_settext",
-      "community": 16,
+      "community": 21,
       "norm_label": ".settext()"
     },
     {
@@ -3114,7 +2736,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L45",
       "id": "model_textblock_textblock_getboundingbox",
-      "community": 16,
+      "community": 21,
       "norm_label": ".getboundingbox()"
     },
     {
@@ -3123,7 +2745,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L49",
       "id": "model_textblock_textblock_setboundingbox",
-      "community": 16,
+      "community": 21,
       "norm_label": ".setboundingbox()"
     },
     {
@@ -3141,7 +2763,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L57",
       "id": "model_textblock_textblock_settextstyle",
-      "community": 16,
+      "community": 21,
       "norm_label": ".settextstyle()"
     },
     {
@@ -3150,7 +2772,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L61",
       "id": "model_textblock_textblock_getreadingorder",
-      "community": 16,
+      "community": 21,
       "norm_label": ".getreadingorder()"
     },
     {
@@ -3159,7 +2781,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L65",
       "id": "model_textblock_textblock_setreadingorder",
-      "community": 16,
+      "community": 21,
       "norm_label": ".setreadingorder()"
     },
     {
@@ -3168,7 +2790,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L69",
       "id": "model_textblock_textblock_tostring",
-      "community": 16,
+      "community": 21,
       "norm_label": ".tostring()"
     },
     {
@@ -3177,7 +2799,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L69",
       "id": "src_main_java_com_taikatranslator_model_textblock_java_override",
-      "community": 16,
+      "community": 21,
       "norm_label": "override"
     },
     {
@@ -3231,7 +2853,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextStyle.java",
       "source_location": "L24",
       "id": "model_textstyle_textstyle_setfontname",
-      "community": 3,
+      "community": 16,
       "norm_label": ".setfontname()"
     },
     {
@@ -3721,91 +3343,73 @@
       "norm_label": "2. core operational flow"
     },
     {
-      "label": "3. Installation & Setup",
+      "label": "3. Quick Start & Setup",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L39",
-      "id": "taikatranslator_readme_3_installation_setup",
+      "id": "taikatranslator_readme_3_quick_start_setup",
       "community": 19,
-      "norm_label": "3. installation & setup"
+      "norm_label": "3. quick start & setup"
+    },
+    {
+      "label": "Option A: Running via Docker (Recommended)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "id": "taikatranslator_readme_option_a_running_via_docker_recommended",
+      "community": 19,
+      "norm_label": "option a: running via docker (recommended)"
     },
     {
       "label": "Prerequisites",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L41",
+      "source_location": "L44",
       "id": "taikatranslator_readme_prerequisites",
       "community": 19,
       "norm_label": "prerequisites"
     },
     {
-      "label": "Step 1: Clone and Install Python Dependencies",
+      "label": "Steps",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L46",
-      "id": "taikatranslator_readme_step_1_clone_and_install_python_dependencies",
+      "source_location": "L48",
+      "id": "taikatranslator_readme_steps",
       "community": 19,
-      "norm_label": "step 1: clone and install python dependencies"
+      "norm_label": "steps"
     },
     {
-      "label": "Step 2: Configure Environment Variables",
+      "label": "Option B: Local Manual Installation (Developer Mode)",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L52",
-      "id": "taikatranslator_readme_step_2_configure_environment_variables",
+      "source_location": "L72",
+      "id": "taikatranslator_readme_option_b_local_manual_installation_developer_mode",
       "community": 19,
-      "norm_label": "step 2: configure environment variables"
+      "norm_label": "option b: local manual installation (developer mode)"
     },
     {
-      "label": "4. How to Execute the Application",
+      "label": "Prerequisites",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L80",
-      "id": "taikatranslator_readme_4_how_to_execute_the_application",
+      "source_location": "L76",
+      "id": "taikatranslator_readme_prerequisites_76",
       "community": 19,
-      "norm_label": "4. how to execute the application"
+      "norm_label": "prerequisites"
     },
     {
-      "label": "Option A: Web Server Mode (Default)",
+      "label": "Steps",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L82",
-      "id": "taikatranslator_readme_option_a_web_server_mode_default",
+      "source_location": "L81",
+      "id": "taikatranslator_readme_steps_81",
       "community": 19,
-      "norm_label": "option a: web server mode (default)"
-    },
-    {
-      "label": "Option B: CLI Pipeline Mode (Loads from `.env`)",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L93",
-      "id": "taikatranslator_readme_option_b_cli_pipeline_mode_loads_from_env",
-      "community": 19,
-      "norm_label": "option b: cli pipeline mode (loads from `.env`)"
-    },
-    {
-      "label": "Option C: Override Configuration via CLI Arguments",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L100",
-      "id": "taikatranslator_readme_option_c_override_configuration_via_cli_arguments",
-      "community": 19,
-      "norm_label": "option c: override configuration via cli arguments"
-    },
-    {
-      "label": "Option D: Running via Docker Container",
-      "file_type": "document",
-      "source_file": "README.md",
-      "source_location": "L107",
-      "id": "taikatranslator_readme_option_d_running_via_docker_container",
-      "community": 19,
-      "norm_label": "option d: running via docker container"
+      "norm_label": "steps"
     },
     {
       "label": "5. Directory Structure",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L119",
+      "source_location": "L123",
       "id": "taikatranslator_readme_5_directory_structure",
       "community": 19,
       "norm_label": "5. directory structure"
@@ -3814,7 +3418,7 @@
       "label": "6. HTTP API Documentation",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L174",
+      "source_location": "L178",
       "id": "taikatranslator_readme_6_http_api_documentation",
       "community": 19,
       "norm_label": "6. http api documentation"
@@ -3823,7 +3427,7 @@
       "label": "A. Translate Document",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L178",
+      "source_location": "L182",
       "id": "taikatranslator_readme_a_translate_document",
       "community": 19,
       "norm_label": "a. translate document"
@@ -3832,7 +3436,7 @@
       "label": "B. Download Translated Document",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L206",
+      "source_location": "L210",
       "id": "taikatranslator_readme_b_download_translated_document",
       "community": 19,
       "norm_label": "b. download translated document"
@@ -3841,7 +3445,7 @@
       "label": "7. Development & Knowledge Graph Management",
       "file_type": "document",
       "source_file": "README.md",
-      "source_location": "L220",
+      "source_location": "L224",
       "id": "taikatranslator_readme_7_development_knowledge_graph_management",
       "community": 19,
       "norm_label": "7. development & knowledge graph management"
@@ -4180,6 +3784,87 @@
       "norm_label": "workflow: graphify"
     },
     {
+      "label": "3. Installation & Setup",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L39",
+      "community": 19,
+      "norm_label": "3. installation & setup",
+      "id": "taikatranslator_readme_3_installation_setup"
+    },
+    {
+      "label": "Step 1: Install Python Dependencies & SAM2 Weights",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L47",
+      "community": 19,
+      "norm_label": "step 1: install python dependencies & sam2 weights",
+      "id": "taikatranslator_readme_step_1_install_python_dependencies_sam2_weights"
+    },
+    {
+      "label": "Step 2: Configure Environment Variables",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L56",
+      "community": 19,
+      "norm_label": "step 2: configure environment variables",
+      "id": "taikatranslator_readme_step_2_configure_environment_variables"
+    },
+    {
+      "label": "4. How to Execute the Application",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L84",
+      "community": 19,
+      "norm_label": "4. how to execute the application",
+      "id": "taikatranslator_readme_4_how_to_execute_the_application"
+    },
+    {
+      "label": "Option A: Web Server Mode (Default)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L86",
+      "community": 19,
+      "norm_label": "option a: web server mode (default)",
+      "id": "taikatranslator_readme_option_a_web_server_mode_default"
+    },
+    {
+      "label": "Option B: CLI Pipeline Mode (Loads from `.env`)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L97",
+      "community": 19,
+      "norm_label": "option b: cli pipeline mode (loads from `.env`)",
+      "id": "taikatranslator_readme_option_b_cli_pipeline_mode_loads_from_env"
+    },
+    {
+      "label": "Option C: Override Configuration via CLI Arguments",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L104",
+      "community": 19,
+      "norm_label": "option c: override configuration via cli arguments",
+      "id": "taikatranslator_readme_option_c_override_configuration_via_cli_arguments"
+    },
+    {
+      "label": "Option D: Running via Docker Container",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L111",
+      "community": 19,
+      "norm_label": "option d: running via docker container",
+      "id": "taikatranslator_readme_option_d_running_via_docker_container"
+    },
+    {
+      "label": "Step 1: Clone and Install Python Dependencies",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L46",
+      "community": 19,
+      "norm_label": "step 1: clone and install python dependencies",
+      "id": "taikatranslator_readme_step_1_clone_and_install_python_dependencies"
+    },
+    {
       "label": ".renderTextBlockRuns()",
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
@@ -4328,7 +4013,7 @@
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L374",
-      "community": 4,
+      "community": 16,
       "norm_label": ".normalizefontname()",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_normalizefontname"
     },
@@ -4373,7 +4058,7 @@
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L22",
-      "community": 16,
+      "community": 21,
       "norm_label": "inlinerun",
       "id": "inlinerun"
     },
@@ -4451,366 +4136,6 @@
     }
   ],
   "links": [
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_createddatetime",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_lastupdateddatetime",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_status",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_apiversion",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_content",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_modelid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_pages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L2278",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_paragraphs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_stringindextype",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L2411",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_styles",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
-      "source_location": "L2277",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_tables",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_createddatetime",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_lastupdateddatetime",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_status",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_apiversion",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_content",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_modelid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_pages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L2901",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_paragraphs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_stringindextype",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L3063",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_styles",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
-      "source_location": "L2838",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_tables",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_createddatetime",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_lastupdateddatetime",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_json",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_status",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_apiversion",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_content",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_modelid",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L10",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_pages",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L1969",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_paragraphs",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_stringindextype",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L2101",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_styles",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
-      "source_location": "L1968",
-      "weight": 1.0,
-      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
-      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_tables",
-      "confidence_score": 1.0
-    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -12915,6 +12240,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "taikatranslator_readme_taikatranslator_document_extraction_translation_pipeline",
+      "target": "taikatranslator_readme_3_quick_start_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
       "source_location": "L78",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -12965,6 +12300,46 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "taikatranslator_readme_3_quick_start_setup",
+      "target": "taikatranslator_readme_option_a_running_via_docker_recommended",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "taikatranslator_readme_3_quick_start_setup",
+      "target": "taikatranslator_readme_option_b_local_manual_installation_developer_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "taikatranslator_readme_option_a_running_via_docker_recommended",
+      "target": "taikatranslator_readme_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "taikatranslator_readme_option_a_running_via_docker_recommended",
+      "target": "taikatranslator_readme_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
       "source_location": "L39",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -12975,81 +12350,21 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L44",
+      "source_location": "L76",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "taikatranslator_readme_3_installation_setup",
-      "target": "taikatranslator_readme_step_1_clone_and_install_python_dependencies"
+      "source": "taikatranslator_readme_option_b_local_manual_installation_developer_mode",
+      "target": "taikatranslator_readme_prerequisites_76",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L50",
+      "source_location": "L81",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "taikatranslator_readme_3_installation_setup",
-      "target": "taikatranslator_readme_step_2_configure_environment_variables"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L80",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "taikatranslator_readme_4_how_to_execute_the_application",
-      "target": "taikatranslator_readme_option_a_standard_build_execute_loads_from_env"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L82",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "taikatranslator_readme_4_how_to_execute_the_application",
-      "target": "taikatranslator_readme_option_a_web_server_mode_default"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L93",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "taikatranslator_readme_4_how_to_execute_the_application",
-      "target": "taikatranslator_readme_option_b_cli_pipeline_mode_loads_from_env"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L90",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "taikatranslator_readme_4_how_to_execute_the_application",
-      "target": "taikatranslator_readme_option_b_override_configuration_via_cli_arguments"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L100",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "taikatranslator_readme_4_how_to_execute_the_application",
-      "target": "taikatranslator_readme_option_c_override_configuration_via_cli_arguments"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L107",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "taikatranslator_readme_4_how_to_execute_the_application",
-      "target": "taikatranslator_readme_option_d_running_via_docker_container"
+      "source": "taikatranslator_readme_option_b_local_manual_installation_developer_mode",
+      "target": "taikatranslator_readme_steps_81",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -13402,6 +12717,96 @@
       "target": "workflows_graphify_workflow_graphify"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "taikatranslator_readme_3_installation_setup",
+      "target": "taikatranslator_readme_step_1_clone_and_install_python_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "taikatranslator_readme_3_installation_setup",
+      "target": "taikatranslator_readme_step_1_install_python_dependencies_sam2_weights"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "taikatranslator_readme_3_installation_setup",
+      "target": "taikatranslator_readme_step_2_configure_environment_variables"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "taikatranslator_readme_4_how_to_execute_the_application",
+      "target": "taikatranslator_readme_option_a_standard_build_execute_loads_from_env"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "taikatranslator_readme_4_how_to_execute_the_application",
+      "target": "taikatranslator_readme_option_a_web_server_mode_default"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "taikatranslator_readme_4_how_to_execute_the_application",
+      "target": "taikatranslator_readme_option_b_cli_pipeline_mode_loads_from_env"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L90",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "taikatranslator_readme_4_how_to_execute_the_application",
+      "target": "taikatranslator_readme_option_b_override_configuration_via_cli_arguments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "taikatranslator_readme_4_how_to_execute_the_application",
+      "target": "taikatranslator_readme_option_c_override_configuration_via_cli_arguments"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "taikatranslator_readme_4_how_to_execute_the_application",
+      "target": "taikatranslator_readme_option_d_running_via_docker_container"
+    },
+    {
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/com/taikatranslator/infra/assembler/DocxWordAssembler.java",
@@ -13540,5 +12945,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "293f61b594fa13f80cd09e397db66ae11a961f18"
+  "built_at_commit": "2df247ca643d4bc80d4c958cfc90192bd578eecf"
 }

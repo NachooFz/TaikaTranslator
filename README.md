@@ -27,7 +27,7 @@ graph TD
 ## 2. Core Operational Flow
 
 1. **PDF Rendering:** The Java orchestrator renders scanned multi-page PDFs to high-resolution (300 DPI) PNG files page-by-page using **Apache PDFBox**.
-2. **Visual Segmentation (Python Helper):** Runs local OpenCV contour analysis on the rendered page. It isolates and extracts handwritten signatures, verification stamps, and seals as high-fidelity transparent PNGs. It then "whites out" these regions to create a "clean" page image for OCR.
+2. **Visual Segmentation (Python Helper):** Runs high-fidelity visual segmentation using **Meta's Segment Anything Model 2 (SAM2)** via Ultralytics. The helper isolates and extracts handwritten signatures, verification stamps, and seals as high-fidelity transparent PNGs. Bounding boxes are dynamically generated via HSV color masks (chromatic filtering) and spatial heuristics, then passed as prompts to the SAM2 model (`sam2_t.pt`). Once segmented, it "whites out" these regions to create a "clean" page image for OCR.
 3. **Structured OCR Layout (Azure):** Sends the cleaned page image to **Azure Document Intelligence** (Layout model) to extract precise paragraph geometries, table structures, cell indexes, spans, reading orders, and basic styling. All dimensions are parsed and saved in **normalized coordinates** (floats from `0.0` to `1.0`).
 4. **Resilient Translation (DeepL):** Translates all text blocks to Spanish in a single bulk request via **DeepL API**, wrapped in a resilient exponential-backoff retry executor.
 5. **High-Fidelity Assembly (Apache POI):** Constructs parallel Word documents:
@@ -36,83 +36,91 @@ graph TD
 
 ---
 
-## 3. Installation & Setup
+## 3. Quick Start & Setup
 
-### Prerequisites
-* **Java Development Kit (JDK) 17 or 21** (Verify with `java -version`)
-* **Python 3.12+** (Verify with `python --version`)
-* **Apache Maven 3.9+** (Automatically pre-packaged and available locally)
+### Option A: Running via Docker (Recommended)
+This is the easiest and most robust method. The Docker container bundles JRE 17, Python 3, CPU-optimized PyTorch, Ultralytics (SAM2), and OpenCV automatically.
 
-### Step 1: Clone and Install Python Dependencies
-Install the required packages for visual segmentation:
-```bash
-pip install -r vision/requirements.txt
-```
+#### Prerequisites
+* **Docker** installed on your system.
+* **SAM2 Weights Checkpoint:** Download `sam2_t.pt` and place it in the project root folder.
 
-### Step 2: Configure Environment Variables
-Copy the `.env.example` template to a local `.env` file in the project root:
-```bash
-cp .env.example .env
-```
-Open `.env` and fill in your actual cloud credentials:
-```env
-# Input/Output paths
-INPUT_PDF="samples/scanned_document.pdf"
-OUTPUT_DIR="output"
+#### Steps
+1. **Build the Docker Image:**
+   ```bash
+   docker build -t taikatranslator .
+   ```
 
-# Python execution path
-PYTHON_EXE="C:\\Users\\Nacho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
-
-# Azure Document Intelligence Keys
-AZURE_ENDPOINT="https://<your-resource>.cognitiveservices.azure.com/"
-AZURE_KEY="your_azure_api_key"
-
-# DeepL API Keys
-DEEPL_KEY="your_deepl_api_key"
-DEEPL_ENDPOINT="https://api-free.deepl.com"
-```
-
-> [!TIP]
-> **Resilient Self-Healing Stubs:** If no `AZURE_KEY` or `DEEPL_KEY` is provided in `.env`, the pipeline will automatically fall back to mock emulation stubs. This allows you to verify PDF rendering, Python process execution, and Word document assembly immediately without cloud credits.
+2. **Run the Container:**
+   * **Using your Local `.env` (Most convenient):**
+     ```bash
+     docker run -d -p 8080:8080 --env-file .env taikatranslator
+     ```
+   * **Passing Keys directly via CLI:**
+     ```bash
+     docker run -d -p 8080:8080 \
+       -e AZURE_ENDPOINT="https://<your-resource>.cognitiveservices.azure.com/" \
+       -e AZURE_KEY="your_azure_api_key" \
+       -e DEEPL_KEY="your_deepl_api_key" \
+       -e DEEPL_ENDPOINT="https://api-free.deepl.com" \
+       taikatranslator
+     ```
+   * **With Self-Healing Mock Stubs (Offline Testing):** Start the container without environment variables. It will automatically fall back to emulated mock services:
+     ```bash
+     docker run -d -p 8080:8080 taikatranslator
+     ```
+3. Open your browser and navigate to **`http://localhost:8080`**.
 
 ---
 
-## 4. How to Execute the Application
+### Option B: Local Manual Installation (Developer Mode)
 
-### Option A: Web Server Mode (Default)
-Build the Java orchestrator and start the web server, which serves a premium drag-and-drop web UI on port `8080`:
-```powershell
-# Compile and package the application as a shaded fat JAR
-& "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" clean package -DskipTests
+For local development or testing CLI scripts, you can run the pipeline directly on your host machine.
 
-# Start the web server
-& "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" exec:java
-```
-Once online, open your browser and navigate to **`http://localhost:8080`**.
+#### Prerequisites
+* **Java Development Kit (JDK) 17 or 21**
+* **Python 3.12+**
+* **Apache Maven 3.9+**
 
-### Option B: CLI Pipeline Mode (Loads from `.env`)
-If you provide `--input` arguments, the orchestrator automatically runs in CLI-only mode, executing the pipeline using `.env` parameters:
-```powershell
-& "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" exec:java `
-  -Dexec.args="--input samples/document.pdf --output-dir custom_output"
-```
+#### Steps
+1. **Install Python Dependencies & SAM2 Weights:**
+   Install PyTorch (CPU version recommended), Ultralytics, and OpenCV dependencies:
+   ```bash
+   pip install -r vision/requirements.txt
+   ```
+   Download `sam2_t.pt` and place it in the project root directory.
 
-### Option C: Override Configuration via CLI Arguments
-You can explicitly override any `.env` parameters by passing flags directly in CLI mode:
-```powershell
-& "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" exec:java `
-  -Dexec.args="--input samples/document.pdf --output-dir custom_output --azure-endpoint <url> --azure-key <key> --deepl-key <key>"
-```
+2. **Configure Environment Variables:**
+   Copy `.env.example` to `.env` in the project root:
+   ```bash
+   cp .env.example .env
+   ```
+   Open `.env` and fill in your actual cloud credentials:
+   ```env
+   INPUT_PDF="samples/scanned_document.pdf"
+   OUTPUT_DIR="output"
+   PYTHON_EXE="C:\\Users\\Nacho\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" # Path to your Python interpreter
+   AZURE_ENDPOINT="https://<your-resource>.cognitiveservices.azure.com/"
+   AZURE_KEY="your_azure_api_key"
+   DEEPL_KEY="your_deepl_api_key"
+   DEEPL_ENDPOINT="https://api-free.deepl.com"
+   ```
 
-### Option D: Running via Docker Container
-You can build and run the application as a Docker container (incorporating JRE 17, Python 3, PyTorch CPU, and Ultralytics dependencies):
-```bash
-# Build the Docker image
-docker build -t taikatranslator .
+3. **Compile and Run Server Mode:**
+   ```powershell
+   # Build the shaded fat JAR
+   & "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" clean package -DskipTests
+   
+   # Start the Javalin web server (Serves Web UI on http://localhost:8080)
+   & "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" exec:java
+   ```
 
-# Run the container (binds to http://localhost:8080)
-docker run -d -p 8080:8080 taikatranslator
-```
+4. **Run CLI Mode (Alternative):**
+   If you pass `--input` parameters, the pipeline will execute in CLI mode:
+   ```powershell
+   & "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" exec:java `
+     -Dexec.args="--input samples/document.pdf --output-dir custom_output"
+   ```
 
 ---
 
