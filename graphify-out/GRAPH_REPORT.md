@@ -1,16 +1,16 @@
 # Graph Report - TaikaTranslator  (2026-06-02)
 
 ## Corpus Check
-- 42 files · ~281,866 words
+- 43 files · ~320,390 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 494 nodes · 849 edges · 30 communities (27 shown, 3 thin omitted)
-- Extraction: 84% EXTRACTED · 16% INFERRED · 0% AMBIGUOUS · INFERRED: 135 edges (avg confidence: 0.8)
+- 519 nodes · 882 edges · 31 communities (28 shown, 3 thin omitted)
+- Extraction: 84% EXTRACTED · 16% INFERRED · 0% AMBIGUOUS · INFERRED: 137 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2c1d8bda`
+- Built from commit: `a66dd047`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -43,13 +43,14 @@
 - [[_COMMUNITY_Community 27|Community 27]]
 - [[_COMMUNITY_Community 28|Community 28]]
 - [[_COMMUNITY_Community 29|Community 29]]
+- [[_COMMUNITY_Community 30|Community 30]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `TableCell` - 15 edges
 2. `TextBlock` - 14 edges
 3. `DocumentLayout` - 13 edges
 4. `TextStyle` - 13 edges
-5. `DocxWordAssembler` - 11 edges
+5. `DocxWordAssembler` - 12 edges
 6. `AzureDocumentExtractor` - 11 edges
 7. `BoundingBox` - 11 edges
 8. `Main` - 10 edges
@@ -71,7 +72,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (30 total, 3 thin omitted)
+## Communities (31 total, 3 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.11
@@ -87,19 +88,19 @@ Nodes (14): 1. Core Principles, 2. Technology Stack & Component Boundaries, 3. S
 
 ### Community 3 - "Community 3"
 Cohesion: 0.09
-Nodes (19): DocxWordAssembler, TextLine, BufferedImage, BoundingBox, TextStyle, ArtifactInfo, DocumentLayout, File (+11 more)
+Nodes (19): DocxWordAssembler, TextLine, BoundingBox, TextStyle, ArtifactInfo, DocumentLayout, File, List (+11 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.11
-Nodes (17): Context, HttpClientWrapper, Map, RetryableAction, RetryExecutor, TranslationServer, Map, String (+9 more)
+Cohesion: 0.06
+Nodes (28): BufferedImage, Context, AzureDocumentExtractor, HttpClientWrapper, JsonNode, Map, RetryableAction, RetryExecutor (+20 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.29
 Nodes (6): Phase 1: Environment & Tooling Setup, Phase 2: Project Scaffolding & Core Architecture, Phase 3: Vision Helper Development (Python), Phase 4: Integrations & Processing Logic (Java), Phase 5: Pipeline Integration & Verification, SpecKit Tickets: Document Extraction & Translation Pipeline (TaikaTranslator)
 
 ### Community 6 - "Community 6"
-Cohesion: 0.12
-Nodes (17): DocumentExtractor, InlineRun, DocumentLayout, File, DocumentLayout, File, InlineRun, List (+9 more)
+Cohesion: 0.15
+Nodes (14): DocumentExtractor, DocumentLayout, File, DocumentLayout, File, InlineRun, List, Map (+6 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.10
@@ -114,8 +115,8 @@ Cohesion: 0.13
 Nodes (4): TableCell, BoundingBox, Override, String
 
 ### Community 12 - "Community 12"
-Cohesion: 0.11
-Nodes (19): WordAssembler, MockDocumentExtractor, MockTextTranslator, PipelineResult, TranslationPipeline, DocumentLayout, File, List (+11 more)
+Cohesion: 0.14
+Nodes (14): MockDocumentExtractor, MockTextTranslator, PipelineResult, TranslationPipeline, DocumentLayout, File, InlineRun, List (+6 more)
 
 ### Community 13 - "Community 13"
 Cohesion: 0.23
@@ -126,8 +127,8 @@ Cohesion: 0.29
 Nodes (5): TableRow, List, Override, String, TableCell
 
 ### Community 16 - "Community 16"
-Cohesion: 0.16
-Nodes (10): AzureDocumentExtractor, JsonNode, BoundingBox, DocumentLayout, File, Override, String, TextStyle (+2 more)
+Cohesion: 0.15
+Nodes (8): InlineRun, TextBlock, BoundingBox, InlineRun, List, Override, String, TextStyle
 
 ### Community 17 - "Community 17"
 Cohesion: 0.21
@@ -138,15 +139,15 @@ Cohesion: 0.21
 Nodes (3): InlineRun, Override, String
 
 ### Community 19 - "Community 19"
-Cohesion: 0.15
-Nodes (12): 1. System Architecture, 2. Core Operational Flow, 3. Installation & Setup, 4. How to Execute the Application, 5. Directory Structure, 6. Development & Knowledge Graph Management, Option A: Standard Build & Execute (Loads from `.env`), Option B: Override Configuration via CLI Arguments (+4 more)
+Cohesion: 0.10
+Nodes (20): 1. System Architecture, 2. Core Operational Flow, 3. Installation & Setup, 4. How to Execute the Application, 5. Directory Structure, 6. Development & Knowledge Graph Management, 6. HTTP API Documentation, 7. Development & Knowledge Graph Management (+12 more)
 
 ### Community 20 - "Community 20"
 Cohesion: 0.18
 Nodes (10): 1. System Architecture & Codebase Map, 2. Core Implementation Highlights, 3. Compilation & Structural Verification, 4. How to Execute E2E Pipeline, 5. Verification Run Results & Form Formatting Overlay (June 2, 2026), 5. Verification Run Results (May 30, 2026), A. Python Vision Helper (`vision/segmenter.py`), B. Decoupled Java Interfaces (+2 more)
 
 ### Community 21 - "Community 21"
-Cohesion: 0.18
+Cohesion: 0.15
 Nodes (8): DocumentLayout, List, Override, String, Table, TextBlock, Table, TextBlock
 
 ### Community 22 - "Community 22"
@@ -158,8 +159,8 @@ Cohesion: 0.15
 Nodes (12): analyzeResult, apiVersion, content, modelId, pages, paragraphs, stringIndexType, styles (+4 more)
 
 ### Community 26 - "Community 26"
-Cohesion: 0.21
-Nodes (5): TextBlock, BoundingBox, Override, String, TextStyle
+Cohesion: 0.15
+Nodes (12): analyzeResult, apiVersion, content, modelId, pages, paragraphs, stringIndexType, styles (+4 more)
 
 ### Community 27 - "Community 27"
 Cohesion: 0.40
@@ -173,22 +174,26 @@ Nodes (12): analyzeResult, apiVersion, content, modelId, pages, paragraphs, stri
 Cohesion: 0.15
 Nodes (12): analyzeResult, apiVersion, content, modelId, pages, paragraphs, stringIndexType, styles (+4 more)
 
+### Community 30 - "Community 30"
+Cohesion: 0.48
+Nodes (5): WordAssembler, DocumentLayout, File, List, VisionResult
+
 ## Knowledge Gaps
-- **140 isolated node(s):** `status`, `createdDateTime`, `lastUpdatedDateTime`, `apiVersion`, `modelId` (+135 more)
+- **158 isolated node(s):** `status`, `createdDateTime`, `lastUpdatedDateTime`, `apiVersion`, `modelId` (+153 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `TextBlock` connect `Community 26` to `Community 3`, `Community 6`?**
-  _High betweenness centrality (0.027) - this node is a cross-community bridge._
-- **Why does `WordAssembler` connect `Community 12` to `Community 3`, `Community 6`?**
-  _High betweenness centrality (0.023) - this node is a cross-community bridge._
+- **Why does `TextBlock` connect `Community 16` to `Community 3`, `Community 6`?**
+  _High betweenness centrality (0.024) - this node is a cross-community bridge._
+- **Why does `WordAssembler` connect `Community 30` to `Community 3`, `Community 12`, `Community 6`?**
+  _High betweenness centrality (0.021) - this node is a cross-community bridge._
 - **Why does `DocumentLayout` connect `Community 21` to `Community 3`?**
-  _High betweenness centrality (0.017) - this node is a cross-community bridge._
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **What connects `status`, `createdDateTime`, `lastUpdatedDateTime` to the rest of the system?**
-  _147 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _165 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

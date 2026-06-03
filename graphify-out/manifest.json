@@ -80,7 +80,7 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\infra\\assembler\\DocxWordAssembler.java": {
-    "mtime": 1780426936.5901299,
+    "mtime": 1780450519.5863595,
     "ast_hash": "8c446ee1b1bb874efaec882ba9dea218",
     "semantic_hash": ""
   },
@@ -145,7 +145,7 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\vision\\segmenter.py": {
-    "mtime": 1780425687.588407,
+    "mtime": 1780450519.595437,
     "ast_hash": "93ba81360a2eafd63460219e4147f6f2",
     "semantic_hash": ""
   },
@@ -155,8 +155,8 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\README.md": {
-    "mtime": 1780185281.3601968,
-    "ast_hash": "324a5e6710ab83431e1b996ce1e4d5fe",
+    "mtime": 1780449804.248162,
+    "ast_hash": "03742bafbf42a8dcfa6b2af4f227df02",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\walkthrough.md": {
@@ -175,12 +175,12 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\page_1.png": {
-    "mtime": 1780426949.7561345,
+    "mtime": 1780450329.4357176,
     "ast_hash": "6d929ccab955a7be5f33fd6c8a6ddfb6",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\page_1\\clean_page.png": {
-    "mtime": 1780426957.7052307,
+    "mtime": 1780450344.2737472,
     "ast_hash": "12b9d7e30fb40e424024b9922eaa2dab",
     "semantic_hash": ""
   },
@@ -190,38 +190,38 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\page_2.png": {
-    "mtime": 1780426950.1762185,
+    "mtime": 1780450329.9032075,
     "ast_hash": "c77a086cc62323d05f826b59c19d56fc",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\page_1\\artifact_1.png": {
-    "mtime": 1780426957.46704,
+    "mtime": 1780450344.0386744,
     "ast_hash": "3206386c24de74b3981dcc0717665fb4",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\page_1\\artifact_2.png": {
-    "mtime": 1780426957.53016,
+    "mtime": 1780450344.105554,
     "ast_hash": "3731f3e4cbd8eeaba5da9933d8a1c49a",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\page_1\\artifact_3.png": {
-    "mtime": 1780426957.5822117,
+    "mtime": 1780450344.1589043,
     "ast_hash": "cde5cfb5488cc506fb489880fb4b66f9",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\page_2\\artifact_1.png": {
-    "mtime": 1780426974.7052603,
-    "ast_hash": "c92491b1dfb7bf1cfd8578fe0506dcee",
+    "mtime": 1780450361.1044364,
+    "ast_hash": "c7bc9bc25bde04dba9d42fe72b434c27",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\page_2\\artifact_2.png": {
-    "mtime": 1780426974.7561984,
+    "mtime": 1780450361.1582217,
     "ast_hash": "3324b0d1160a90c7d693192dbc88ae24",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\page_2\\clean_page.png": {
-    "mtime": 1780426974.8857884,
-    "ast_hash": "ce5740b73e1019ea2e7d1d9a09328059",
+    "mtime": 1780450361.283881,
+    "ast_hash": "49a8a1d430718c3e85ba37eee3abd4b8",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\Technical Test \u2014 Document Extraction & Translation Pipeline.pdf": {
@@ -250,13 +250,13 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\log\\2026-05-29 - Technical test PRO-003_page_1_azure_response.json": {
-    "mtime": 1780426965.606683,
-    "ast_hash": "a7599edc9a4af16298dfc52af07a8ba0",
+    "mtime": 1780450352.2585936,
+    "ast_hash": "619e4295b752fb5fa9f04bced2fc819b",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\log\\2026-05-29 - Technical test PRO-003_page_2_azure_response.json": {
-    "mtime": 1780426981.3785877,
-    "ast_hash": "dba39009127a8ba2b61c6d8622f74a80",
+    "mtime": 1780450367.7857223,
+    "ast_hash": "671238124090ddbe4385701cd4f4be65",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\scratch\\check_coordinates.py": {
@@ -310,13 +310,13 @@
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\java\\com\\taikatranslator\\infra\\server\\TranslationServer.java": {
-    "mtime": 1780427732.2280946,
-    "ast_hash": "436c3e9b1f88ba7597f5ef7573eb0a4e",
+    "mtime": 1780450768.5589695,
+    "ast_hash": "347a424b168d7639f00bb287c9b6e401",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\src\\main\\resources\\public\\index.html": {
-    "mtime": 1780427751.7360427,
-    "ast_hash": "d121daa94912436eb09805f0c43cf7f3",
+    "mtime": 1780436270.6488109,
+    "ast_hash": "05b9f85bf859146e3d463b2facfce4e8",
     "semantic_hash": ""
   },
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\log\\uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json": {
@@ -377,6 +377,31 @@
   "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\web_runs\\c54afc2c-adf7-44b7-97c2-dcd1b711e243\\page_2\\clean_page.png": {
     "mtime": 1780427892.022707,
     "ast_hash": "ce5740b73e1019ea2e7d1d9a09328059",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\log\\uploaded_00093726_page_1_azure_response.json": {
+    "mtime": 1780435057.4404812,
+    "ast_hash": "d636ad417a1fed8c9b62550877ce106f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\web_runs\\31746d74-3149-4710-bd2b-a5633cc1191d\\page_1.png": {
+    "mtime": 1780435009.7283776,
+    "ast_hash": "b81cf55287d267a13c23e98f279552e0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\web_runs\\31746d74-3149-4710-bd2b-a5633cc1191d\\uploaded_00093726.png": {
+    "mtime": 1780435009.7283776,
+    "ast_hash": "b81cf55287d267a13c23e98f279552e0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\output\\web_runs\\31746d74-3149-4710-bd2b-a5633cc1191d\\page_1\\clean_page.png": {
+    "mtime": 1780435046.652999,
+    "ast_hash": "9d70a44dbee44735c691f523b5a292e8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\Nacho\\Documents\\GitHub\\TaikaTranslator\\samples\\prueba.pdf": {
+    "mtime": 1780449706.4126096,
+    "ast_hash": "a0a0613178227ce687568995a42cfba8",
     "semantic_hash": ""
   }
 }

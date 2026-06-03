@@ -8,16 +8,18 @@ The pipeline is optimized for production environments processing **100+ document
 
 ## 1. System Architecture
 
-The orchestrator utilizes a hybrid, decoupled architecture that pairs a lightweight, fast **Java 17 CLI** application with a local **Python 3.12 Vision Helper**:
+The orchestrator utilizes a hybrid, decoupled architecture that exposes a lightweight **Javalin HTTP API** and a modern **HTML5 Web UI** alongside a local **Python 3.12 Vision Helper**:
 
 ```mermaid
 graph TD
-    A[Scanned PDF] -->|1. Render PDF pages| B[Page-Level PNGs]
-    B -->|2. ProcessBuilder| C[Python Vision Helper]
-    C -->|3. Local HSV & Contours| D[Transparent PNG Artifacts + Masked Page]
-    D -->|4. Azure OCR| E[DocumentLayout Model & Coordinates]
-    E -->|5. DeepL Batch Translate| F[Spanish Text Blocks]
-    F -->|6. Apache POI Assembly| G[English & Spanish .docx]
+    UI[HTML5 Web UI] -->|Upload File & Keys| API[POST /api/translate]
+    API -->|Render PDF pages| B[Page-Level PNGs]
+    B -->|ProcessBuilder| C[Python Vision Helper]
+    C -->|Local HSV & Contours| D[Transparent PNG Artifacts + Clean Page]
+    D -->|Azure OCR| E[DocumentLayout Model & Coordinates]
+    E -->|DeepL Batch Translate| F[Spanish Text Blocks]
+    F -->|Apache POI Assembly| G[English & Spanish .docx]
+    G -->|Serve Downloads| UI
 ```
 
 ---
@@ -77,21 +79,39 @@ DEEPL_ENDPOINT="https://api-free.deepl.com"
 
 ## 4. How to Execute the Application
 
-### Option A: Standard Build & Execute (Loads from `.env`)
-Build the Java orchestrator and run the pipeline using the configured `.env` file parameters:
+### Option A: Web Server Mode (Default)
+Build the Java orchestrator and start the web server, which serves a premium drag-and-drop web UI on port `8080`:
 ```powershell
-# Compile the project
-& "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" clean compile
+# Compile and package the application as a shaded fat JAR
+& "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" clean package -DskipTests
 
-# Execute using .env values
+# Start the web server
 & "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" exec:java
 ```
+Once online, open your browser and navigate to **`http://localhost:8080`**.
 
-### Option B: Override Configuration via CLI Arguments
-You can explicitly override any `.env` parameters by passing flags directly on execution:
+### Option B: CLI Pipeline Mode (Loads from `.env`)
+If you provide `--input` arguments, the orchestrator automatically runs in CLI-only mode, executing the pipeline using `.env` parameters:
+```powershell
+& "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" exec:java `
+  -Dexec.args="--input samples/document.pdf --output-dir custom_output"
+```
+
+### Option C: Override Configuration via CLI Arguments
+You can explicitly override any `.env` parameters by passing flags directly in CLI mode:
 ```powershell
 & "C:\Users\Nacho\AppData\Local\Programs\Maven\apache-maven-3.9.16\bin\mvn.cmd" exec:java `
   -Dexec.args="--input samples/document.pdf --output-dir custom_output --azure-endpoint <url> --azure-key <key> --deepl-key <key>"
+```
+
+### Option D: Running via Docker Container
+You can build and run the application as a Docker container (incorporating JRE 17, Python 3, PyTorch CPU, and Ultralytics dependencies):
+```bash
+# Build the Docker image
+docker build -t taikatranslator .
+
+# Run the container (binds to http://localhost:8080)
+docker run -d -p 8080:8080 taikatranslator
 ```
 
 ---
@@ -101,21 +121,26 @@ You can explicitly override any `.env` parameters by passing flags directly on e
 ```text
 TaikaTranslator/
 │
+├── .github/workflows/
+│   └── deploy.yml                 # CI/CD Action (Builds, Tests, Pushes to Docker Hub)
+│
 ├── .env                           # Local operational configurations (Git ignored)
 ├── .env.example                   # Configuration template for developers
-├── pom.xml                        # Maven project descriptor
+├── Dockerfile                     # Multi-stage production container setup
+├── pom.xml                        # Maven project descriptor (handles shade packaging)
 ├── README.md                      # Pipeline guide & documentation
 │
 ├── src/
 │   ├── main/
 │   │   ├── java/com/taikatranslator/
-│   │   │   ├── Main.java          # E2E Orchestrator CLI entrypoint
+│   │   │   ├── Main.java          # E2E Entrypoint (Launches Server or CLI)
 │   │   │   │
 │   │   │   ├── core/              # Component Interfaces
 │   │   │   │   ├── vision/        # VisionProcessor & VisionResult
 │   │   │   │   ├── extractor/     # DocumentExtractor
 │   │   │   │   ├── translator/    # TextTranslator
-│   │   │   │   └── assembler/     # WordAssembler
+│   │   │   │   ├── assembler/     # WordAssembler
+│   │   │   │   └── pipeline/      # TranslationPipeline orchestrator
 │   │   │   │
 │   │   │   ├── model/             # Geometrical and Styling Models
 │   │   │   │   ├── BoundingBox.java
@@ -129,21 +154,70 @@ TaikaTranslator/
 │   │   │       ├── vision/        # ProcessBuilderVisionProcessor
 │   │   │       ├── extractor/     # AzureDocumentExtractor
 │   │   │       ├── translator/    # DeepLTranslator
-│   │   │       └── assembler/     # DocxWordAssembler (Apache POI)
+│   │   │       ├── assembler/     # DocxWordAssembler (Apache POI)
+│   │   │       └── server/        # TranslationServer (Javalin API)
 │   │   │
 │   │   └── resources/
+│   │       ├── public/
+│   │       │   └── index.html     # Premium glassmorphic Web UI
 │   │       └── logback.xml        # Structured logging configuration
 │   │
 │   └── test/                      # Unit & Integration Tests
 │
 └── vision/                        # Python Vision Helper
     ├── requirements.txt           # Segmenter dependencies
-    └── segmenter.py               # Local contour segmentation CLI
+    └── segmenter.py               # SAM-based segmentation CLI
 ```
 
 ---
 
-## 6. Development & Knowledge Graph Management
+## 6. HTTP API Documentation
+
+You can interact with the translation orchestrator API directly using curl, Postman, or other HTTP clients.
+
+### A. Translate Document
+* **Endpoint:** `POST /api/translate`
+* **Content-Type:** `multipart/form-data`
+* **Form Parameters:**
+  * `file`: The PDF or image file (Required).
+  * `azureEndpoint`: Custom Azure endpoint URL (Optional).
+  * `azureKey`: Custom Azure API Key (Optional).
+  * `deeplKey`: Custom DeepL API Key (Optional).
+  * `deeplEndpoint`: Custom DeepL Endpoint URL (Optional).
+  * `pythonExe`: Custom Python interpreter path (Optional).
+
+**Example cURL Request:**
+```bash
+curl -X POST http://localhost:8080/api/translate \
+  -F "file=@/path/to/document.pdf"
+```
+
+**JSON Response on Success (200 OK):**
+```json
+{
+  "status": "SUCCESS",
+  "runId": "a9536e3e-4d5e-5bab-5aa0-dc20ed21263f",
+  "originalName": "documento.pdf",
+  "englishDownloadUrl": "/api/download?runId=a9536e3e-4d5e-5bab-5aa0-dc20ed21263f&type=reconstructed",
+  "spanishDownloadUrl": "/api/download?runId=a9536e3e-4d5e-5bab-5aa0-dc20ed21263f&type=translated"
+}
+```
+
+### B. Download Translated Document
+* **Endpoint:** `GET /api/download`
+* **Query Parameters:**
+  * `runId`: The unique run identifier returned from the translate response (Required).
+  * `type`: The translation version to download, either `translated` (Spanish) or `reconstructed` (English) (Required).
+
+**Example Download Request:**
+```bash
+# Download Spanish Translated Document
+curl -O "http://localhost:8080/api/download?runId=a9536e3e-4d5e-5bab-5aa0-dc20ed21263f&type=translated"
+```
+
+---
+
+## 7. Development & Knowledge Graph Management
 
 We use **Graphify** to maintain a persistent, queryable knowledge graph of the codebase AST. 
 

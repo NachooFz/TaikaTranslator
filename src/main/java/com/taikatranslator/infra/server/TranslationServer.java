@@ -11,6 +11,9 @@ import java.nio.file.Files;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.taikatranslator.core.pipeline.TranslationPipeline;
@@ -18,6 +21,7 @@ import com.taikatranslator.core.pipeline.TranslationPipeline;
 public class TranslationServer {
     private static final Logger log = LoggerFactory.getLogger(TranslationServer.class);
     private static final Map<String, String> defaultEnv = loadEnvFile(new File(".env"));
+    private static final ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
 
     public static void start(int port) {
         Javalin app = Javalin.create(config -> {
@@ -134,6 +138,43 @@ public class TranslationServer {
         log.info("Starting Javalin Translation Server on port {}...", port);
         app.start(port);
         log.info("Server is online! Access it at http://localhost:{}", port);
+
+        // Iniciar limpieza automática de archivos temporales cada 5 minutos
+        scheduler.scheduleAtFixedRate(TranslationServer::cleanOldWebRuns, 5, 5, TimeUnit.MINUTES);
+    }
+
+    private static void cleanOldWebRuns() {
+        File webRunsDir = new File("output/web_runs");
+        if (!webRunsDir.exists() || !webRunsDir.isDirectory()) return;
+
+        long maxAgeMs = 15 * 60 * 1000; // 15 minutos de gracia
+        long now = System.currentTimeMillis();
+
+        File[] runs = webRunsDir.listFiles();
+        if (runs != null) {
+            for (File runDir : runs) {
+                if (runDir.isDirectory()) {
+                    if (now - runDir.lastModified() > maxAgeMs) {
+                        log.info("Cleaning up expired web run directory: {}", runDir.getName());
+                        deleteDir(runDir);
+                    }
+                }
+            }
+        }
+    }
+
+    private static void deleteDir(File dir) {
+        File[] files = dir.listFiles();
+        if (files != null) {
+            for (File f : files) {
+                if (f.isDirectory()) {
+                    deleteDir(f);
+                } else {
+                    f.delete();
+                }
+            }
+        }
+        dir.delete();
     }
 
     private static void serveFile(Context ctx, File f) throws IOException {

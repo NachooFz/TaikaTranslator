@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,19 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
     <style>
         :root {
             --bg-color: #0b0f19;
             --card-bg: rgba(17, 24, 39, 0.7);
             --border-color: rgba(255, 255, 255, 0.08);
-            --accent-primary: #7c3aed; /* Violet */
-            --accent-secondary: #0ea5e9; /* Sky blue */
+            --accent-primary: #7c3aed;
+            /* Violet */
+            --accent-secondary: #0ea5e9;
+            /* Sky blue */
             --text-main: #f3f4f6;
             --text-muted: #9ca3af;
             --glow-color: rgba(124, 58, 237, 0.15);
@@ -31,7 +36,7 @@
 
         body {
             background-color: var(--bg-color);
-            background-image: 
+            background-image:
                 radial-gradient(circle at 10% 20%, rgba(124, 58, 237, 0.08) 0%, transparent 40%),
                 radial-gradient(circle at 90% 80%, rgba(14, 165, 233, 0.08) 0%, transparent 40%);
             background-attachment: fixed;
@@ -103,7 +108,8 @@
             position: relative;
         }
 
-        .dropzone:hover, .dropzone.dragover {
+        .dropzone:hover,
+        .dropzone.dragover {
             border-color: var(--accent-secondary);
             background: rgba(14, 165, 233, 0.03);
             transform: scale(1.01);
@@ -301,8 +307,13 @@
         }
 
         @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
 
         .progress-title {
@@ -362,8 +373,15 @@
         }
 
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .results-success {
@@ -478,6 +496,7 @@
         }
     </style>
 </head>
+
 <body>
 
     <div class="container">
@@ -491,9 +510,12 @@
             <div id="upload-panel">
                 <form id="translate-form" enctype="multipart/form-data">
                     <div class="dropzone" id="dropzone">
-                        <input type="file" id="file-input" name="file" accept=".pdf,.png,.jpg,.jpeg" style="display: none;">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                        <input type="file" id="file-input" name="file" accept=".pdf,.png,.jpg,.jpeg"
+                            style="display: none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
                         </svg>
                         <div class="dropzone-text">Arrastra tu documento aquí o haz clic para buscar</div>
                         <div class="dropzone-subtext">Archivos soportados: PDF, PNG, JPG, JPEG</div>
@@ -512,7 +534,8 @@
 
                     <!-- Collapsible Config -->
                     <div class="advanced-trigger" id="advanced-trigger">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" width="14" height="14">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5"
+                            stroke="currentColor" width="14" height="14">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                         </svg>
                         Configuración Avanzada (Opcional)
@@ -521,19 +544,23 @@
                     <div class="advanced-panel" id="advanced-panel">
                         <div class="form-group">
                             <label for="azureEndpoint">Azure Endpoint</label>
-                            <input type="text" id="azureEndpoint" name="azureEndpoint" placeholder="https://mi-recurso.cognitiveservices.azure.com/">
+                            <input type="text" id="azureEndpoint" name="azureEndpoint"
+                                placeholder="https://mi-recurso.cognitiveservices.azure.com/">
                         </div>
                         <div class="form-group">
                             <label for="azureKey">Azure API Key</label>
-                            <input type="password" id="azureKey" name="azureKey" placeholder="Llave de Azure Document Intelligence">
+                            <input type="password" id="azureKey" name="azureKey"
+                                placeholder="Llave de Azure Document Intelligence">
                         </div>
                         <div class="form-group">
                             <label for="deeplKey">DeepL API Key</label>
-                            <input type="password" id="deeplKey" name="deeplKey" placeholder="Llave de traducción DeepL">
+                            <input type="password" id="deeplKey" name="deeplKey"
+                                placeholder="Llave de traducción DeepL">
                         </div>
                         <div class="form-group">
                             <label for="deeplEndpoint">DeepL Endpoint</label>
-                            <input type="text" id="deeplEndpoint" name="deeplEndpoint" placeholder="https://api-free.deepl.com">
+                            <input type="text" id="deeplEndpoint" name="deeplEndpoint"
+                                placeholder="https://api-free.deepl.com">
                         </div>
                         <div class="form-group">
                             <label for="pythonExe">Ruta Python (python.exe)</label>
@@ -551,7 +578,7 @@
             <div class="progress-view" id="progress-panel">
                 <div class="spinner"></div>
                 <div class="progress-title">Procesando Documento...</div>
-                
+
                 <div class="steps">
                     <div class="step" id="step-1">
                         <span class="step-icon" id="icon-1">✓</span>
@@ -581,21 +608,26 @@
                 <div class="results-success">
                     <div class="success-badge">✓</div>
                     <h2>¡Traducción Completada!</h2>
-                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.25rem;">El documento se ha analizado y reconstruido exitosamente.</p>
+                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.25rem;">El documento se ha
+                        analizado y reconstruido exitosamente.</p>
                 </div>
 
                 <div class="results-grid">
                     <a class="btn-download" id="link-english" href="#" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
                         </svg>
                         <span>Original Reconstruido</span>
                         <span class="lang-badge">Inglés</span>
                     </a>
-                    
+
                     <a class="btn-download" id="link-spanish" href="#" target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m.75 12l3 3m0 0l3-3m-3 3v-6m-1.5-9H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
                         </svg>
                         <span>Documento Traducido</span>
                         <span class="lang-badge">Español</span>
@@ -613,7 +645,7 @@
         </div>
 
         <footer>
-            Desarrollado con inteligencia artificial — TaikaTranslator
+            Desarrollado por Ignacio Frugoni Zavala - TaikaTranslator
         </footer>
     </div>
 
@@ -628,14 +660,14 @@
         const btnSubmit = document.getElementById('btn-submit');
         const advancedTrigger = document.getElementById('advanced-trigger');
         const advancedPanel = document.getElementById('advanced-panel');
-        
+
         const uploadPanel = document.getElementById('upload-panel');
         const progressPanel = document.getElementById('progress-panel');
         const resultsPanel = document.getElementById('results-panel');
         const errorPanel = document.getElementById('error-panel');
         const errorMessage = document.getElementById('error-message');
         const translateForm = document.getElementById('translate-form');
-        
+
         const linkEnglish = document.getElementById('link-english');
         const linkSpanish = document.getElementById('link-spanish');
         const btnReset = document.getElementById('btn-reset');
@@ -654,7 +686,7 @@
 
         // Drag & Drop handlers
         dropzone.addEventListener('click', () => fileInput.click());
-        
+
         dropzone.addEventListener('dragover', (e) => {
             e.preventDefault();
             dropzone.classList.add('dragover');
@@ -691,7 +723,7 @@
             selectedFile = file;
             selectedFileName.textContent = file.name;
             selectedFileSize.textContent = formatBytes(file.size);
-            
+
             dropzone.style.display = 'none';
             fileInfo.style.display = 'flex';
             btnSubmit.disabled = false;
@@ -716,12 +748,12 @@
             uploadPanel.style.display = 'none';
             progressPanel.style.display = 'flex';
             errorPanel.style.display = 'none';
-            
+
             // Initial steps setup
             updateSteps(1);
 
             const formData = new FormData(translateForm);
-            
+
             // Simulated steps progress indicator
             let currentStep = 1;
             const stepInterval = setInterval(() => {
@@ -745,7 +777,7 @@
                 }
 
                 const result = await response.json();
-                
+
                 // Show completion
                 updateSteps(5, true);
                 setTimeout(() => {
@@ -768,7 +800,7 @@
             for (let i = 1; i <= 5; i++) {
                 const stepEl = document.getElementById(`step-${i}`);
                 const iconEl = document.getElementById(`icon-${i}`);
-                
+
                 if (isDoneAll || i < activeStepNum) {
                     stepEl.className = 'step done';
                     iconEl.textContent = '✓';
@@ -788,11 +820,12 @@
             fileInfo.style.display = 'none';
             dropzone.style.display = 'block';
             btnSubmit.disabled = true;
-            
+
             resultsPanel.style.display = 'none';
             uploadPanel.style.display = 'block';
             errorPanel.style.display = 'none';
         });
     </script>
 </body>
+
 </html>

@@ -1,7 +1,7 @@
 {
   "status" : "succeeded",
-  "createdDateTime" : "2026-06-02T19:03:26Z",
-  "lastUpdatedDateTime" : "2026-06-02T19:03:31Z",
+  "createdDateTime" : "2026-06-03T01:33:15Z",
+  "lastUpdatedDateTime" : "2026-06-03T01:33:16Z",
   "analyzeResult" : {
     "apiVersion" : "2023-07-31",
     "modelId" : "prebuilt-layout",
@@ -9,7 +9,7 @@
     "content" : "APOSTILLE\n(Convention de La Haye du 5 octobre 1961)\n1. Country: THE NETHERLANDS\nThis public document\n2. has been signed by mr. G.J. van Rijthoven\n3. acting in the capacity of notary at Amsterdam\n4. bears the seal/stamp of aforesaid notary\nCertified\n5. in Amsterdam 6. on 08-05-2026\n7. by the registrar of the district court of Amsterdam\n8. no. 11501\n9. Seal/stamp: 10. Signature:",
     "pages" : [ {
       "pageNumber" : 1,
-      "angle" : 1.3322479724884033,
+      "angle" : 1.2804540395736694,
       "width" : 2480,
       "height" : 3505,
       "unit" : "pixel",
@@ -479,31 +479,31 @@
         }
       }, {
         "content" : "8.",
-        "polygon" : [ 374, 821, 409, 822, 410, 859, 374, 858 ],
-        "confidence" : 0.995,
+        "polygon" : [ 373, 821, 408, 821, 408, 859, 373, 858 ],
+        "confidence" : 0.993,
         "span" : {
           "offset" : 337,
           "length" : 2
         }
       }, {
         "content" : "no.",
-        "polygon" : [ 443, 822, 500, 824, 501, 860, 444, 859 ],
-        "confidence" : 0.993,
+        "polygon" : [ 441, 822, 498, 824, 498, 860, 441, 859 ],
+        "confidence" : 0.995,
         "span" : {
           "offset" : 340,
           "length" : 3
         }
       }, {
         "content" : "11501",
-        "polygon" : [ 507, 824, 599, 826, 599, 861, 508, 860 ],
-        "confidence" : 0.995,
+        "polygon" : [ 508, 824, 599, 827, 599, 861, 508, 861 ],
+        "confidence" : 0.994,
         "span" : {
           "offset" : 344,
           "length" : 5
         }
       }, {
         "content" : "9.",
-        "polygon" : [ 370, 899, 408, 901, 409, 942, 371, 940 ],
+        "polygon" : [ 371, 895, 411, 895, 411, 942, 370, 942 ],
         "confidence" : 0.995,
         "span" : {
           "offset" : 350,
@@ -511,8 +511,8 @@
         }
       }, {
         "content" : "Seal/stamp:",
-        "polygon" : [ 440, 902, 630, 910, 630, 949, 441, 943 ],
-        "confidence" : 0.948,
+        "polygon" : [ 441, 896, 633, 903, 631, 955, 439, 950 ],
+        "confidence" : 0.99,
         "span" : {
           "offset" : 353,
           "length" : 11
@@ -527,8 +527,8 @@
         }
       }, {
         "content" : "Signature:",
-        "polygon" : [ 913, 915, 1074, 917, 1074, 962, 913, 957 ],
-        "confidence" : 0.993,
+        "polygon" : [ 913, 915, 1074, 917, 1074, 962, 913, 958 ],
+        "confidence" : 0.992,
         "span" : {
           "offset" : 369,
           "length" : 10
@@ -641,21 +641,28 @@
         } ]
       }, {
         "content" : "8. no. 11501",
-        "polygon" : [ 371, 820, 600, 825, 599, 861, 371, 857 ],
+        "polygon" : [ 372, 820, 600, 825, 599, 861, 372, 857 ],
         "spans" : [ {
           "offset" : 337,
           "length" : 12
         } ]
       }, {
-        "content" : "9. Seal/stamp:",
-        "polygon" : [ 368, 899, 633, 909, 632, 949, 368, 939 ],
+        "content" : "9.",
+        "polygon" : [ 363, 895, 416, 895, 417, 942, 362, 941 ],
         "spans" : [ {
           "offset" : 350,
-          "length" : 14
+          "length" : 2
+        } ]
+      }, {
+        "content" : "Seal/stamp:",
+        "polygon" : [ 427, 895, 633, 901, 631, 955, 426, 949 ],
+        "spans" : [ {
+          "offset" : 353,
+          "length" : 11
         } ]
       }, {
         "content" : "10. Signature:",
-        "polygon" : [ 859, 913, 1076, 917, 1075, 961, 859, 955 ],
+        "polygon" : [ 859, 913, 1076, 917, 1075, 961, 859, 956 ],
         "spans" : [ {
           "offset" : 365,
           "length" : 14
@@ -775,7 +782,7 @@
       } ],
       "boundingRegions" : [ {
         "pageNumber" : 1,
-        "polygon" : [ 371, 820, 600, 825, 599, 862, 370, 857 ]
+        "polygon" : [ 372, 820, 600, 825, 599, 862, 371, 857 ]
       } ],
       "content" : "8. no. 11501"
     }, {
@@ -785,7 +792,7 @@
       } ],
       "boundingRegions" : [ {
         "pageNumber" : 1,
-        "polygon" : [ 368, 899, 1076, 917, 1075, 961, 367, 943 ]
+        "polygon" : [ 363, 893, 1076, 914, 1075, 968, 361, 947 ]
       } ],
       "content" : "9. Seal/stamp: 10. Signature:"
     } ],
@@ -793,7 +800,10 @@
       "confidence" : 0.95,
       "spans" : [ {
         "offset" : 0,
-        "length" : 379
+        "length" : 349
+      }, {
+        "offset" : 353,
+        "length" : 26
       } ],
       "isHandwritten" : false
     }, {
@@ -821,7 +831,10 @@
         "length" : 41
       }, {
         "offset" : 327,
-        "length" : 52
+        "length" : 22
+      }, {
+        "offset" : 353,
+        "length" : 26
       } ],
       "color" : "#313131"
     }, {
@@ -853,10 +866,7 @@
         "length" : 281
       }, {
         "offset" : 285,
-        "length" : 51
-      }, {
-        "offset" : 340,
-        "length" : 39
+        "length" : 94
       } ],
       "fontStyle" : "normal"
     }, {
@@ -968,8 +978,11 @@
         "offset" : 305,
         "length" : 12
       }, {
-        "offset" : 344,
-        "length" : 35
+        "offset" : 340,
+        "length" : 12
+      }, {
+        "offset" : 365,
+        "length" : 14
       } ],
       "similarFontFamily" : "Arial, Helvetica, sans-serif"
     }, {
@@ -1003,6 +1016,9 @@
       }, {
         "offset" : 146,
         "length" : 2
+      }, {
+        "offset" : 350,
+        "length" : 2
       } ],
       "color" : "#353535"
     }, {
@@ -1016,9 +1032,6 @@
       }, {
         "offset" : 302,
         "length" : 2
-      }, {
-        "offset" : 340,
-        "length" : 3
       } ],
       "similarFontFamily" : "Arial, Helvetica, sans-serif"
     }, {
@@ -1258,19 +1271,26 @@
       } ],
       "color" : "#414141"
     }, {
-      "confidence" : 0.6,
-      "spans" : [ {
-        "offset" : 337,
-        "length" : 2
-      } ],
-      "fontStyle" : "italic"
-    }, {
-      "confidence" : 0.7,
+      "confidence" : 0.9,
       "spans" : [ {
         "offset" : 337,
         "length" : 2
       } ],
       "similarFontFamily" : "Arial, Helvetica, Segoe UI, sans-serif"
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 350,
+        "length" : 2
+      } ],
+      "isHandwritten" : false
+    }, {
+      "confidence" : 0.9,
+      "spans" : [ {
+        "offset" : 353,
+        "length" : 11
+      } ],
+      "similarFontFamily" : "Segoe UI, sans-serif"
     } ]
   }
 }
