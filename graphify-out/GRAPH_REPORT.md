@@ -1,16 +1,16 @@
 # Graph Report - TaikaTranslator  (2026-06-02)
 
 ## Corpus Check
-- 43 files · ~320,390 words
+- 42 files · ~485,023 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 519 nodes · 882 edges · 31 communities (28 shown, 3 thin omitted)
+- 494 nodes · 858 edges · 30 communities (27 shown, 3 thin omitted)
 - Extraction: 84% EXTRACTED · 16% INFERRED · 0% AMBIGUOUS · INFERRED: 137 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `a66dd047`
+- Built from commit: `293f61b5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -41,8 +41,6 @@
 - [[_COMMUNITY_Community 23|Community 23]]
 - [[_COMMUNITY_Community 26|Community 26]]
 - [[_COMMUNITY_Community 27|Community 27]]
-- [[_COMMUNITY_Community 28|Community 28]]
-- [[_COMMUNITY_Community 29|Community 29]]
 - [[_COMMUNITY_Community 30|Community 30]]
 
 ## God Nodes (most connected - your core abstractions)
@@ -66,13 +64,13 @@
   src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java → src/main/java/com/taikatranslator/core/extractor/DocumentExtractor.java
 - `MockDocumentExtractor` --implements--> `DocumentExtractor`  [EXTRACTED]
   src/main/java/com/taikatranslator/core/pipeline/TranslationPipeline.java → src/main/java/com/taikatranslator/core/extractor/DocumentExtractor.java
-- `DeepLTranslator` --implements--> `TextTranslator`  [EXTRACTED]
-  src/main/java/com/taikatranslator/infra/translator/DeepLTranslator.java → src/main/java/com/taikatranslator/core/translator/TextTranslator.java
+- `MockTextTranslator` --implements--> `TextTranslator`  [EXTRACTED]
+  src/main/java/com/taikatranslator/core/pipeline/TranslationPipeline.java → src/main/java/com/taikatranslator/core/translator/TextTranslator.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (31 total, 3 thin omitted)
+## Communities (30 total, 3 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.11
@@ -87,12 +85,12 @@ Cohesion: 0.13
 Nodes (14): 1. Core Principles, 2. Technology Stack & Component Boundaries, 3. Strict Architectural Rules (.cursorrules baseline), A. Core Orchestrator (Java), A. Dynamic Layouts (No Hardcoding), B. Idempotency & Scalability, B. Vision Helper (Python), C. Resilient API Integrations (Retry Pattern) (+6 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.09
-Nodes (19): DocxWordAssembler, TextLine, BoundingBox, TextStyle, ArtifactInfo, DocumentLayout, File, List (+11 more)
+Cohesion: 0.06
+Nodes (29): DocxWordAssembler, TextLine, BufferedImage, BoundingBox, DocumentLayout, TextStyle, ArtifactInfo, DocumentLayout (+21 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.06
-Nodes (28): BufferedImage, Context, AzureDocumentExtractor, HttpClientWrapper, JsonNode, Map, RetryableAction, RetryExecutor (+20 more)
+Cohesion: 0.09
+Nodes (22): AzureDocumentExtractor, HttpClientWrapper, JsonNode, Map, RetryableAction, RetryExecutor, List, String (+14 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.29
@@ -100,7 +98,7 @@ Nodes (6): Phase 1: Environment & Tooling Setup, Phase 2: Project Scaffolding & 
 
 ### Community 6 - "Community 6"
 Cohesion: 0.15
-Nodes (14): DocumentExtractor, DocumentLayout, File, DocumentLayout, File, InlineRun, List, Map (+6 more)
+Nodes (15): DocumentExtractor, DocumentLayout, File, DocumentLayout, File, InlineRun, List, Map (+7 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.10
@@ -115,8 +113,8 @@ Cohesion: 0.13
 Nodes (4): TableCell, BoundingBox, Override, String
 
 ### Community 12 - "Community 12"
-Cohesion: 0.14
-Nodes (14): MockDocumentExtractor, MockTextTranslator, PipelineResult, TranslationPipeline, DocumentLayout, File, InlineRun, List (+6 more)
+Cohesion: 0.17
+Nodes (11): MockDocumentExtractor, MockTextTranslator, PipelineResult, TranslationPipeline, DocumentLayout, File, InlineRun, List (+3 more)
 
 ### Community 13 - "Community 13"
 Cohesion: 0.23
@@ -147,8 +145,8 @@ Cohesion: 0.18
 Nodes (10): 1. System Architecture & Codebase Map, 2. Core Implementation Highlights, 3. Compilation & Structural Verification, 4. How to Execute E2E Pipeline, 5. Verification Run Results & Form Formatting Overlay (June 2, 2026), 5. Verification Run Results (May 30, 2026), A. Python Vision Helper (`vision/segmenter.py`), B. Decoupled Java Interfaces (+2 more)
 
 ### Community 21 - "Community 21"
-Cohesion: 0.15
-Nodes (8): DocumentLayout, List, Override, String, Table, TextBlock, Table, TextBlock
+Cohesion: 0.28
+Nodes (6): Context, TranslationServer, File, Map, Object, String
 
 ### Community 22 - "Community 22"
 Cohesion: 0.15
@@ -166,34 +164,26 @@ Nodes (12): analyzeResult, apiVersion, content, modelId, pages, paragraphs, stri
 Cohesion: 0.40
 Nodes (4): RenderableElement, Object, Object, Type
 
-### Community 28 - "Community 28"
-Cohesion: 0.15
-Nodes (12): analyzeResult, apiVersion, content, modelId, pages, paragraphs, stringIndexType, styles (+4 more)
-
-### Community 29 - "Community 29"
-Cohesion: 0.15
-Nodes (12): analyzeResult, apiVersion, content, modelId, pages, paragraphs, stringIndexType, styles (+4 more)
-
 ### Community 30 - "Community 30"
 Cohesion: 0.48
 Nodes (5): WordAssembler, DocumentLayout, File, List, VisionResult
 
 ## Knowledge Gaps
-- **158 isolated node(s):** `status`, `createdDateTime`, `lastUpdatedDateTime`, `apiVersion`, `modelId` (+153 more)
+- **136 isolated node(s):** `status`, `createdDateTime`, `lastUpdatedDateTime`, `apiVersion`, `modelId` (+131 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **3 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `TextBlock` connect `Community 16` to `Community 3`, `Community 6`?**
-  _High betweenness centrality (0.024) - this node is a cross-community bridge._
+- **Why does `TextBlock` connect `Community 16` to `Community 3`?**
+  _High betweenness centrality (0.027) - this node is a cross-community bridge._
 - **Why does `WordAssembler` connect `Community 30` to `Community 3`, `Community 12`, `Community 6`?**
-  _High betweenness centrality (0.021) - this node is a cross-community bridge._
-- **Why does `DocumentLayout` connect `Community 21` to `Community 3`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+  _High betweenness centrality (0.023) - this node is a cross-community bridge._
+- **Why does `DocumentLayout` connect `Community 3` to `Community 6`?**
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
 - **What connects `status`, `createdDateTime`, `lastUpdatedDateTime` to the rest of the system?**
-  _165 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _143 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.10526315789473684 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**

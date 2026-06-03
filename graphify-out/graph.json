@@ -4,588 +4,354 @@
   "graph": {},
   "nodes": [
     {
-      "label": "2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "label": "Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L1",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_json",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_json",
       "community": 22,
-      "norm_label": "2026-05-29 - technical test pro-003_page_1_azure_response.json"
+      "norm_label": "technical test \u2014 document extraction & translation pipeline_page_1_azure_response.json"
     },
     {
       "label": "status",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L2",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_status",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_status",
       "community": 22,
       "norm_label": "status"
     },
     {
       "label": "createdDateTime",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L3",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_createddatetime",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_createddatetime",
       "community": 22,
       "norm_label": "createddatetime"
     },
     {
       "label": "lastUpdatedDateTime",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L4",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_lastupdateddatetime",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_lastupdateddatetime",
       "community": 22,
       "norm_label": "lastupdateddatetime"
     },
     {
       "label": "analyzeResult",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L5",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
       "community": 22,
       "norm_label": "analyzeresult"
     },
     {
       "label": "apiVersion",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L6",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_apiversion",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_apiversion",
       "community": 22,
       "norm_label": "apiversion"
     },
     {
       "label": "modelId",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L7",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_modelid",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_modelid",
       "community": 22,
       "norm_label": "modelid"
     },
     {
       "label": "stringIndexType",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L8",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_stringindextype",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_stringindextype",
       "community": 22,
       "norm_label": "stringindextype"
     },
     {
       "label": "content",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L9",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_content",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_content",
       "community": 22,
       "norm_label": "content"
     },
     {
       "label": "pages",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L10",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_pages",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_pages",
       "community": 22,
       "norm_label": "pages"
     },
     {
       "label": "tables",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L935",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_tables",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
+      "source_location": "L2277",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_tables",
       "community": 22,
       "norm_label": "tables"
     },
     {
       "label": "paragraphs",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L936",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_paragraphs",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
+      "source_location": "L2278",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_paragraphs",
       "community": 22,
       "norm_label": "paragraphs"
     },
     {
       "label": "styles",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L999",
-      "id": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_styles",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
+      "source_location": "L2411",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_styles",
       "community": 22,
       "norm_label": "styles"
     },
     {
-      "label": "2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "label": "Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L1",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_json",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_json",
       "community": 23,
-      "norm_label": "2026-05-29 - technical test pro-003_page_2_azure_response.json"
+      "norm_label": "technical test \u2014 document extraction & translation pipeline_page_2_azure_response.json"
     },
     {
       "label": "status",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L2",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_status",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_status",
       "community": 23,
       "norm_label": "status"
     },
     {
       "label": "createdDateTime",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L3",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_createddatetime",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_createddatetime",
       "community": 23,
       "norm_label": "createddatetime"
     },
     {
       "label": "lastUpdatedDateTime",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L4",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_lastupdateddatetime",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_lastupdateddatetime",
       "community": 23,
       "norm_label": "lastupdateddatetime"
     },
     {
       "label": "analyzeResult",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L5",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
       "community": 23,
       "norm_label": "analyzeresult"
     },
     {
       "label": "apiVersion",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L6",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_apiversion",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_apiversion",
       "community": 23,
       "norm_label": "apiversion"
     },
     {
       "label": "modelId",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L7",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_modelid",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_modelid",
       "community": 23,
       "norm_label": "modelid"
     },
     {
       "label": "stringIndexType",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L8",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_stringindextype",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_stringindextype",
       "community": 23,
       "norm_label": "stringindextype"
     },
     {
       "label": "content",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L9",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_content",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_content",
       "community": 23,
       "norm_label": "content"
     },
     {
       "label": "pages",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L10",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_pages",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_pages",
       "community": 23,
       "norm_label": "pages"
     },
     {
       "label": "tables",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L676",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_tables",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
+      "source_location": "L2838",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_tables",
       "community": 23,
       "norm_label": "tables"
     },
     {
       "label": "paragraphs",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L677",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_paragraphs",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
+      "source_location": "L2901",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_paragraphs",
       "community": 23,
       "norm_label": "paragraphs"
     },
     {
       "label": "styles",
       "file_type": "code",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L799",
-      "id": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_styles",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
+      "source_location": "L3063",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_styles",
       "community": 23,
       "norm_label": "styles"
     },
     {
-      "label": "uploaded_00093726_page_1_azure_response.json",
+      "label": "Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L1",
-      "id": "log_uploaded_00093726_page_1_azure_response_json",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_json",
       "community": 26,
-      "norm_label": "uploaded_00093726_page_1_azure_response.json"
+      "norm_label": "technical test \u2014 document extraction & translation pipeline_page_3_azure_response.json"
     },
     {
       "label": "status",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L2",
-      "id": "log_uploaded_00093726_page_1_azure_response_status",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_status",
       "community": 26,
       "norm_label": "status"
     },
     {
       "label": "createdDateTime",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L3",
-      "id": "log_uploaded_00093726_page_1_azure_response_createddatetime",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_createddatetime",
       "community": 26,
       "norm_label": "createddatetime"
     },
     {
       "label": "lastUpdatedDateTime",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L4",
-      "id": "log_uploaded_00093726_page_1_azure_response_lastupdateddatetime",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_lastupdateddatetime",
       "community": 26,
       "norm_label": "lastupdateddatetime"
     },
     {
       "label": "analyzeResult",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L5",
-      "id": "log_uploaded_00093726_page_1_azure_response_analyzeresult",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
       "community": 26,
       "norm_label": "analyzeresult"
     },
     {
       "label": "apiVersion",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L6",
-      "id": "log_uploaded_00093726_page_1_azure_response_analyzeresult_apiversion",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_apiversion",
       "community": 26,
       "norm_label": "apiversion"
     },
     {
       "label": "modelId",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L7",
-      "id": "log_uploaded_00093726_page_1_azure_response_analyzeresult_modelid",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_modelid",
       "community": 26,
       "norm_label": "modelid"
     },
     {
       "label": "stringIndexType",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L8",
-      "id": "log_uploaded_00093726_page_1_azure_response_analyzeresult_stringindextype",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_stringindextype",
       "community": 26,
       "norm_label": "stringindextype"
     },
     {
       "label": "content",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L9",
-      "id": "log_uploaded_00093726_page_1_azure_response_analyzeresult_content",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_content",
       "community": 26,
       "norm_label": "content"
     },
     {
       "label": "pages",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L10",
-      "id": "log_uploaded_00093726_page_1_azure_response_analyzeresult_pages",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_pages",
       "community": 26,
       "norm_label": "pages"
     },
     {
       "label": "tables",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
-      "source_location": "L2464",
-      "id": "log_uploaded_00093726_page_1_azure_response_analyzeresult_tables",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
+      "source_location": "L1968",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_tables",
       "community": 26,
       "norm_label": "tables"
     },
     {
       "label": "paragraphs",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
-      "source_location": "L2465",
-      "id": "log_uploaded_00093726_page_1_azure_response_analyzeresult_paragraphs",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
+      "source_location": "L1969",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_paragraphs",
       "community": 26,
       "norm_label": "paragraphs"
     },
     {
       "label": "styles",
       "file_type": "code",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
-      "source_location": "L3326",
-      "id": "log_uploaded_00093726_page_1_azure_response_analyzeresult_styles",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
+      "source_location": "L2101",
+      "id": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_styles",
       "community": 26,
-      "norm_label": "styles"
-    },
-    {
-      "label": "uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L1",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_json",
-      "community": 28,
-      "norm_label": "uploaded_2026-05-29 - technical test pro-003_page_1_azure_response.json"
-    },
-    {
-      "label": "status",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L2",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_status",
-      "community": 28,
-      "norm_label": "status"
-    },
-    {
-      "label": "createdDateTime",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L3",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_createddatetime",
-      "community": 28,
-      "norm_label": "createddatetime"
-    },
-    {
-      "label": "lastUpdatedDateTime",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L4",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_lastupdateddatetime",
-      "community": 28,
-      "norm_label": "lastupdateddatetime"
-    },
-    {
-      "label": "analyzeResult",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L5",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "community": 28,
-      "norm_label": "analyzeresult"
-    },
-    {
-      "label": "apiVersion",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L6",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_apiversion",
-      "community": 28,
-      "norm_label": "apiversion"
-    },
-    {
-      "label": "modelId",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L7",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_modelid",
-      "community": 28,
-      "norm_label": "modelid"
-    },
-    {
-      "label": "stringIndexType",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L8",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_stringindextype",
-      "community": 28,
-      "norm_label": "stringindextype"
-    },
-    {
-      "label": "content",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L9",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_content",
-      "community": 28,
-      "norm_label": "content"
-    },
-    {
-      "label": "pages",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L10",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_pages",
-      "community": 28,
-      "norm_label": "pages"
-    },
-    {
-      "label": "tables",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L935",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_tables",
-      "community": 28,
-      "norm_label": "tables"
-    },
-    {
-      "label": "paragraphs",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L936",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_paragraphs",
-      "community": 28,
-      "norm_label": "paragraphs"
-    },
-    {
-      "label": "styles",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L999",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_styles",
-      "community": 28,
-      "norm_label": "styles"
-    },
-    {
-      "label": "uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L1",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_json",
-      "community": 29,
-      "norm_label": "uploaded_2026-05-29 - technical test pro-003_page_2_azure_response.json"
-    },
-    {
-      "label": "status",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L2",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_status",
-      "community": 29,
-      "norm_label": "status"
-    },
-    {
-      "label": "createdDateTime",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L3",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_createddatetime",
-      "community": 29,
-      "norm_label": "createddatetime"
-    },
-    {
-      "label": "lastUpdatedDateTime",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L4",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_lastupdateddatetime",
-      "community": 29,
-      "norm_label": "lastupdateddatetime"
-    },
-    {
-      "label": "analyzeResult",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L5",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "community": 29,
-      "norm_label": "analyzeresult"
-    },
-    {
-      "label": "apiVersion",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L6",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_apiversion",
-      "community": 29,
-      "norm_label": "apiversion"
-    },
-    {
-      "label": "modelId",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L7",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_modelid",
-      "community": 29,
-      "norm_label": "modelid"
-    },
-    {
-      "label": "stringIndexType",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L8",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_stringindextype",
-      "community": 29,
-      "norm_label": "stringindextype"
-    },
-    {
-      "label": "content",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L9",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_content",
-      "community": 29,
-      "norm_label": "content"
-    },
-    {
-      "label": "pages",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L10",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_pages",
-      "community": 29,
-      "norm_label": "pages"
-    },
-    {
-      "label": "tables",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L669",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_tables",
-      "community": 29,
-      "norm_label": "tables"
-    },
-    {
-      "label": "paragraphs",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L670",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_paragraphs",
-      "community": 29,
-      "norm_label": "paragraphs"
-    },
-    {
-      "label": "styles",
-      "file_type": "code",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L792",
-      "id": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_styles",
-      "community": 29,
       "norm_label": "styles"
     },
     {
@@ -605,6 +371,15 @@
       "id": "scratch_inspect_log_py",
       "community": 25,
       "norm_label": "inspect_log.py"
+    },
+    {
+      "label": "inspect_page.py",
+      "file_type": "code",
+      "source_file": "scratch/inspect_page.py",
+      "source_location": "L1",
+      "id": "scratch_inspect_page_py",
+      "community": 28,
+      "norm_label": "inspect_page.py"
     },
     {
       "label": "CreateSamplePdf.java",
@@ -1170,7 +945,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/pipeline/TranslationPipeline.java",
       "source_location": "L186",
       "id": "pipeline_translationpipeline_translationpipeline_clonelayoutwithspanish",
-      "community": 12,
+      "community": 3,
       "norm_label": ".clonelayoutwithspanish()"
     },
     {
@@ -1305,7 +1080,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_core_translator_texttranslator_java",
-      "community": 12,
+      "community": 4,
       "norm_label": "texttranslator.java"
     },
     {
@@ -1314,7 +1089,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L5",
       "id": "translator_texttranslator_texttranslator",
-      "community": 12,
+      "community": 4,
       "norm_label": "texttranslator"
     },
     {
@@ -1323,7 +1098,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L12",
       "id": "translator_texttranslator_texttranslator_translate",
-      "community": 12,
+      "community": 4,
       "norm_label": ".translate()"
     },
     {
@@ -1332,7 +1107,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L12",
       "id": "src_main_java_com_taikatranslator_core_translator_texttranslator_java_list",
-      "community": 12,
+      "community": 4,
       "norm_label": "list"
     },
     {
@@ -1341,7 +1116,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/translator/TextTranslator.java",
       "source_location": "L12",
       "id": "src_main_java_com_taikatranslator_core_translator_texttranslator_java_string",
-      "community": 12,
+      "community": 4,
       "norm_label": "string"
     },
     {
@@ -1620,7 +1395,7 @@
       "source_file": "src/main/java/com/taikatranslator/core/vision/VisionResult.java",
       "source_location": "L52",
       "id": "vision_visionresult_artifactinfo_getartifactfile",
-      "community": 7,
+      "community": 3,
       "norm_label": ".getartifactfile()"
     },
     {
@@ -2016,7 +1791,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L314",
       "id": "extractor_azuredocumentextractor_azuredocumentextractor_extracttextstyle",
-      "community": 3,
+      "community": 4,
       "norm_label": ".extracttextstyle()"
     },
     {
@@ -2151,7 +1926,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_infra_server_translationserver_java",
-      "community": 4,
+      "community": 21,
       "norm_label": "translationserver.java"
     },
     {
@@ -2160,7 +1935,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L21",
       "id": "server_translationserver_translationserver",
-      "community": 4,
+      "community": 21,
       "norm_label": "translationserver"
     },
     {
@@ -2169,7 +1944,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L26",
       "id": "server_translationserver_translationserver_start",
-      "community": 4,
+      "community": 21,
       "norm_label": ".start()"
     },
     {
@@ -2178,7 +1953,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L146",
       "id": "server_translationserver_translationserver_cleanoldwebruns",
-      "community": 4,
+      "community": 21,
       "norm_label": ".cleanoldwebruns()"
     },
     {
@@ -2187,7 +1962,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L166",
       "id": "server_translationserver_translationserver_deletedir",
-      "community": 4,
+      "community": 21,
       "norm_label": ".deletedir()"
     },
     {
@@ -2196,7 +1971,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L166",
       "id": "src_main_java_com_taikatranslator_infra_server_translationserver_java_file",
-      "community": 4,
+      "community": 21,
       "norm_label": "file"
     },
     {
@@ -2205,7 +1980,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L180",
       "id": "server_translationserver_translationserver_servefile",
-      "community": 4,
+      "community": 21,
       "norm_label": ".servefile()"
     },
     {
@@ -2214,7 +1989,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L180",
       "id": "context",
-      "community": 4,
+      "community": 21,
       "norm_label": "context"
     },
     {
@@ -2223,7 +1998,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L186",
       "id": "server_translationserver_translationserver_errorresponse",
-      "community": 4,
+      "community": 21,
       "norm_label": ".errorresponse()"
     },
     {
@@ -2232,7 +2007,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L186",
       "id": "src_main_java_com_taikatranslator_infra_server_translationserver_java_string",
-      "community": 4,
+      "community": 21,
       "norm_label": "string"
     },
     {
@@ -2241,7 +2016,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L186",
       "id": "src_main_java_com_taikatranslator_infra_server_translationserver_java_map",
-      "community": 4,
+      "community": 21,
       "norm_label": "map"
     },
     {
@@ -2250,7 +2025,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L186",
       "id": "src_main_java_com_taikatranslator_infra_server_translationserver_java_object",
-      "community": 4,
+      "community": 21,
       "norm_label": "object"
     },
     {
@@ -2259,7 +2034,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L193",
       "id": "server_translationserver_translationserver_getparam",
-      "community": 4,
+      "community": 21,
       "norm_label": ".getparam()"
     },
     {
@@ -2268,7 +2043,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L207",
       "id": "server_translationserver_translationserver_hasdefaultkey",
-      "community": 4,
+      "community": 21,
       "norm_label": ".hasdefaultkey()"
     },
     {
@@ -2277,7 +2052,7 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L214",
       "id": "server_translationserver_translationserver_loadenvfile",
-      "community": 4,
+      "community": 21,
       "norm_label": ".loadenvfile()"
     },
     {
@@ -2547,7 +2322,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L1",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java",
-      "community": 21,
+      "community": 3,
       "norm_label": "documentlayout.java"
     },
     {
@@ -2556,7 +2331,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L6",
       "id": "model_documentlayout_documentlayout",
-      "community": 21,
+      "community": 3,
       "norm_label": "documentlayout"
     },
     {
@@ -2565,7 +2340,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L12",
       "id": "model_documentlayout_documentlayout_documentlayout",
-      "community": 21,
+      "community": 3,
       "norm_label": ".documentlayout()"
     },
     {
@@ -2574,7 +2349,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L19",
       "id": "model_documentlayout_documentlayout_getpagewidth",
-      "community": 21,
+      "community": 3,
       "norm_label": ".getpagewidth()"
     },
     {
@@ -2583,7 +2358,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L23",
       "id": "model_documentlayout_documentlayout_setpagewidth",
-      "community": 21,
+      "community": 3,
       "norm_label": ".setpagewidth()"
     },
     {
@@ -2592,7 +2367,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L27",
       "id": "model_documentlayout_documentlayout_getpageheight",
-      "community": 21,
+      "community": 3,
       "norm_label": ".getpageheight()"
     },
     {
@@ -2601,7 +2376,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L31",
       "id": "model_documentlayout_documentlayout_setpageheight",
-      "community": 21,
+      "community": 3,
       "norm_label": ".setpageheight()"
     },
     {
@@ -2610,7 +2385,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L35",
       "id": "model_documentlayout_documentlayout_gettextblocks",
-      "community": 21,
+      "community": 3,
       "norm_label": ".gettextblocks()"
     },
     {
@@ -2619,7 +2394,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L35",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java_list",
-      "community": 21,
+      "community": 3,
       "norm_label": "list"
     },
     {
@@ -2628,7 +2403,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L35",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java_textblock",
-      "community": 21,
+      "community": 3,
       "norm_label": "textblock"
     },
     {
@@ -2637,7 +2412,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L39",
       "id": "model_documentlayout_documentlayout_settextblocks",
-      "community": 21,
+      "community": 3,
       "norm_label": ".settextblocks()"
     },
     {
@@ -2646,7 +2421,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L43",
       "id": "model_documentlayout_documentlayout_addtextblock",
-      "community": 21,
+      "community": 6,
       "norm_label": ".addtextblock()"
     },
     {
@@ -2664,7 +2439,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L47",
       "id": "table",
-      "community": 21,
+      "community": 3,
       "norm_label": "table"
     },
     {
@@ -2673,7 +2448,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L51",
       "id": "model_documentlayout_documentlayout_settables",
-      "community": 21,
+      "community": 3,
       "norm_label": ".settables()"
     },
     {
@@ -2682,7 +2457,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L55",
       "id": "model_documentlayout_documentlayout_addtable",
-      "community": 21,
+      "community": 3,
       "norm_label": ".addtable()"
     },
     {
@@ -2691,7 +2466,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L59",
       "id": "model_documentlayout_documentlayout_tostring",
-      "community": 21,
+      "community": 3,
       "norm_label": ".tostring()"
     },
     {
@@ -2700,7 +2475,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L59",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java_string",
-      "community": 21,
+      "community": 3,
       "norm_label": "string"
     },
     {
@@ -2709,7 +2484,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L59",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java_override",
-      "community": 21,
+      "community": 3,
       "norm_label": "override"
     },
     {
@@ -2898,7 +2673,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/Table.java",
       "source_location": "L25",
       "id": "model_table_table_getrows",
-      "community": 13,
+      "community": 3,
       "norm_label": ".getrows()"
     },
     {
@@ -3276,7 +3051,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextBlock.java",
       "source_location": "L22",
       "id": "model_textblock_textblock_getinlineruns",
-      "community": 6,
+      "community": 16,
       "norm_label": ".getinlineruns()"
     },
     {
@@ -3429,7 +3204,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextStyle.java",
       "source_location": "L10",
       "id": "model_textstyle_textstyle_textstyle",
-      "community": 4,
+      "community": 3,
       "norm_label": ".textstyle()"
     },
     {
@@ -3438,7 +3213,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextStyle.java",
       "source_location": "L12",
       "id": "src_main_java_com_taikatranslator_model_textstyle_java_string",
-      "community": 4,
+      "community": 3,
       "norm_label": "string"
     },
     {
@@ -3456,7 +3231,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextStyle.java",
       "source_location": "L24",
       "id": "model_textstyle_textstyle_setfontname",
-      "community": 4,
+      "community": 3,
       "norm_label": ".setfontname()"
     },
     {
@@ -3528,7 +3303,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextStyle.java",
       "source_location": "L56",
       "id": "model_textstyle_textstyle_sethexcolor",
-      "community": 4,
+      "community": 3,
       "norm_label": ".sethexcolor()"
     },
     {
@@ -3537,7 +3312,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextStyle.java",
       "source_location": "L60",
       "id": "model_textstyle_textstyle_tostring",
-      "community": 4,
+      "community": 3,
       "norm_label": ".tostring()"
     },
     {
@@ -3546,7 +3321,7 @@
       "source_file": "src/main/java/com/taikatranslator/model/TextStyle.java",
       "source_location": "L60",
       "id": "src_main_java_com_taikatranslator_model_textstyle_java_override",
-      "community": 4,
+      "community": 3,
       "norm_label": "override"
     },
     {
@@ -3589,7 +3364,7 @@
       "label": "main()",
       "file_type": "code",
       "source_file": "vision/segmenter.py",
-      "source_location": "L187",
+      "source_location": "L195",
       "id": "vision_segmenter_main",
       "community": 17,
       "norm_label": "main()"
@@ -4535,7 +4310,7 @@
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L47",
-      "community": 21,
+      "community": 3,
       "norm_label": "table",
       "id": "src_main_java_com_taikatranslator_model_documentlayout_java_table"
     },
@@ -4589,7 +4364,7 @@
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/model/DocumentLayout.java",
       "source_location": "L35",
-      "community": 21,
+      "community": 6,
       "norm_label": "textblock",
       "id": "textblock"
     },
@@ -4616,7 +4391,7 @@
       "file_type": "code",
       "source_file": "src/main/java/com/taikatranslator/infra/extractor/AzureDocumentExtractor.java",
       "source_location": "L124",
-      "community": 4,
+      "community": 3,
       "norm_label": "bufferedimage",
       "id": "bufferedimage"
     },
@@ -4679,602 +4454,362 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_json",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_json",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_createddatetime"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_createddatetime",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_json",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_lastupdateddatetime"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_lastupdateddatetime",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_json",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_status"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_status",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_apiversion"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_apiversion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_content"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_content",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_modelid"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_modelid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_pages"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_pages",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L936",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
+      "source_location": "L2278",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_paragraphs"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_paragraphs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_stringindextype"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_stringindextype",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L999",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
+      "source_location": "L2411",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_styles"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_styles",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L935",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_1_azure_response.json",
+      "source_location": "L2277",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_tables"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_1_azure_response_analyzeresult_tables",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_json",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_json",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_createddatetime"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_createddatetime",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_json",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_lastupdateddatetime"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_lastupdateddatetime",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_json",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_status"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_status",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_apiversion"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_apiversion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_content"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_content",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_modelid"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_modelid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_pages"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_pages",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L670",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
+      "source_location": "L2901",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_paragraphs"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_paragraphs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_stringindextype"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_stringindextype",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L792",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
+      "source_location": "L3063",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_styles"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_styles",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L669",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_2_azure_response.json",
+      "source_location": "L2838",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_tables"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_2_azure_response_analyzeresult_tables",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_json",
-      "target": "log_uploaded_00093726_page_1_azure_response_analyzeresult"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L3",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_json",
-      "target": "log_uploaded_00093726_page_1_azure_response_createddatetime"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_createddatetime",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L4",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_json",
-      "target": "log_uploaded_00093726_page_1_azure_response_lastupdateddatetime"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_lastupdateddatetime",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L2",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_json",
-      "target": "log_uploaded_00093726_page_1_azure_response_status"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_json",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_status",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L6",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_00093726_page_1_azure_response_analyzeresult_apiversion"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_apiversion",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L9",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_00093726_page_1_azure_response_analyzeresult_content"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_content",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L7",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_00093726_page_1_azure_response_analyzeresult_modelid"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_modelid",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L10",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_00093726_page_1_azure_response_analyzeresult_pages"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_pages",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
-      "source_location": "L2465",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
+      "source_location": "L1969",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_00093726_page_1_azure_response_analyzeresult_paragraphs"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_paragraphs",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
       "source_location": "L8",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_00093726_page_1_azure_response_analyzeresult_stringindextype"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_stringindextype",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
-      "source_location": "L3326",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
+      "source_location": "L2101",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_00093726_page_1_azure_response_analyzeresult_styles"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_styles",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_00093726_page_1_azure_response.json",
-      "source_location": "L2464",
+      "source_file": "log/Technical Test \u2014 Document Extraction & Translation Pipeline_page_3_azure_response.json",
+      "source_location": "L1968",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_00093726_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_00093726_page_1_azure_response_analyzeresult_tables"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_json",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_json",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_createddatetime"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_json",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_lastupdateddatetime"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_json",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_status"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_apiversion"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_content"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_modelid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_pages"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L936",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_paragraphs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_stringindextype"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L999",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_styles"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_1_azure_response.json",
-      "source_location": "L935",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_1_azure_response_analyzeresult_tables"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_json",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_json",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_createddatetime"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_json",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_lastupdateddatetime"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_json",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_status"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_apiversion"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_content"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_modelid"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_pages"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L670",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_paragraphs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_stringindextype"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L792",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_styles"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "log/uploaded_2026-05-29 - Technical test PRO-003_page_2_azure_response.json",
-      "source_location": "L669",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult",
-      "target": "log_uploaded_2026_05_29_technical_test_pro_003_page_2_azure_response_analyzeresult_tables"
+      "source": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult",
+      "target": "log_technical_test_document_extraction_translation_pipeline_page_3_azure_response_analyzeresult_tables",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -10372,9 +9907,9 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L146",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_translationserver_translationserver",
-      "target": "server_translationserver_translationserver_cleanoldwebruns",
-      "confidence_score": 1.0
+      "target": "server_translationserver_translationserver_cleanoldwebruns"
     },
     {
       "relation": "method",
@@ -10382,9 +9917,9 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L166",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_translationserver_translationserver",
-      "target": "server_translationserver_translationserver_deletedir",
-      "confidence_score": 1.0
+      "target": "server_translationserver_translationserver_deletedir"
     },
     {
       "relation": "method",
@@ -10508,9 +10043,9 @@
       "source_file": "src/main/java/com/taikatranslator/infra/server/TranslationServer.java",
       "source_location": "L159",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_translationserver_translationserver_cleanoldwebruns",
-      "target": "server_translationserver_translationserver_deletedir",
-      "confidence_score": 1.0
+      "target": "server_translationserver_translationserver_deletedir"
     },
     {
       "relation": "references",
@@ -10519,9 +10054,9 @@
       "source_location": "L166",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "server_translationserver_translationserver_deletedir",
-      "target": "src_main_java_com_taikatranslator_infra_server_translationserver_java_file",
-      "confidence_score": 1.0
+      "target": "src_main_java_com_taikatranslator_infra_server_translationserver_java_file"
     },
     {
       "relation": "references",
@@ -14005,5 +13540,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a66dd047475101f0647b6c54a18176c9511f089f"
+  "built_at_commit": "293f61b594fa13f80cd09e397db66ae11a961f18"
 }

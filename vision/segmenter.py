@@ -89,6 +89,14 @@ def extract_sam_segmentation(image_path, output_dir):
         if pts is not None:
             rx, ry, rcw, rch = cv2.boundingRect(pts)
             bx, by, bcw, bch = x + rx, y + ry, rcw, rch
+            
+            # Filter out printed text rows using aspect ratio and sub-contour density
+            sub_roi = combined[by:by+bch, bx:bx+bcw]
+            sub_cnts, _ = cv2.findContours(sub_roi, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+            aspect_ratio = bcw / float(max(1, bch))
+            if aspect_ratio > 4.0 and len(sub_cnts) > 8:
+                continue
+                
             boxes.append([bx, by, bx + bcw, by + bch])
 
     # Mode 2: Spatial Heuristic for B&W circular notary stamps
