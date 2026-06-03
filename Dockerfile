@@ -37,7 +37,6 @@ EXPOSE 8080
 ENV PYTHON_EXE=python3
 ENV PORT=8080
 ENV AZURE_ENDPOINT="https://taikatranslator.cognitiveservices.azure.com/"
-ENV AZURE_KEY="GHn8ohksGacAieIz11e7EWfCMyAGSIl03RaBmLmQJqEOwAAF4uomJQQJ99CEACYeBjFXJ3w3AAALACOGNj5c"
 ENV DEEPL_KEY="d32f63dd-63a4-4f3e-b79f-67fae91434f4:fx"
 ENV DEEPL_ENDPOINT="https://api-free.deepl.com"
 
