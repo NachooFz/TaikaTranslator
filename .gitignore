@@ -19,7 +19,6 @@ classpath.txt
 !.env.example
 
 # Models & Large Binaries
-*.pt
 *.pth
 *.bin
 *.onnx
