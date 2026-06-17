@@ -48,13 +48,13 @@ This is the easiest and most robust method. The Docker container bundles JRE 17,
 #### Steps
 1. **Build the Docker Image:**
    ```bash
-   docker build -t taikatranslator .
+   docker build -t UDocMachine .
    ```
 
 2. **Run the Container:**
    * **Using your Local `.env` (Most convenient):**
      ```bash
-     docker run -d -p 8080:8080 --env-file .env taikatranslator
+     docker run -d -p 8080:8080 --env-file .env UDocMachine
      ```
    * **Passing Keys directly via CLI:**
      ```bash
@@ -63,11 +63,11 @@ This is the easiest and most robust method. The Docker container bundles JRE 17,
        -e AZURE_KEY="your_azure_api_key" \
        -e DEEPL_KEY="your_deepl_api_key" \
        -e DEEPL_ENDPOINT="https://api-free.deepl.com" \
-       taikatranslator
+       UDocMachine
      ```
    * **With Self-Healing Mock Stubs (Offline Testing):** Start the container without environment variables. It will automatically fall back to emulated mock services:
      ```bash
-     docker run -d -p 8080:8080 taikatranslator
+     docker run -d -p 8080:8080 UDocMachine
      ```
 3. Open your browser and navigate to **`http://localhost:8080`**.
 
@@ -127,7 +127,7 @@ For local development or testing CLI scripts, you can run the pipeline directly 
 ## 5. Directory Structure
 
 ```text
-TaikaTranslator/
+UDocMachine/
 │
 ├── .github/workflows/
 │   └── deploy.yml                 # CI/CD Action (Builds, Tests, Pushes to Docker Hub)
@@ -140,7 +140,7 @@ TaikaTranslator/
 │
 ├── src/
 │   ├── main/
-│   │   ├── java/com/taikatranslator/
+│   │   ├── java/com/UDocMachine/
 │   │   │   ├── Main.java          # E2E Entrypoint (Launches Server or CLI)
 │   │   │   │
 │   │   │   ├── core/              # Component Interfaces
