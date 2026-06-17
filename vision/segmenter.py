@@ -8,7 +8,7 @@ import torch
 from ultralytics import SAM
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="TaikaTranslator Python Vision Helper")
+    parser = argparse.ArgumentParser(description="UDocMachine Python Vision Helper")
     parser.add_argument("--input", required=True, help="Path to input page image (PNG/JPG)")
     parser.add_argument("--output-dir", required=True, help="Directory to save clean image and extracted artifacts")
     parser.add_argument("--confidence", type=float, default=0.5, help="Confidence threshold for YOLO/SAM")

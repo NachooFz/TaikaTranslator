@@ -24,7 +24,7 @@ RUN pip3 install --no-cache-dir torch torchvision --index-url https://download.p
 RUN pip3 install --no-cache-dir ultralytics opencv-python-headless numpy
 
 # Copiar el ejecutable JAR compilado en la etapa anteriorr
-COPY --from=build /app/target/taika-translator-1.0.0-SNAPSHOT.jar app.jar
+COPY --from=build /app/target/udocmachine-1.0.0-SNAPSHOT.jar app.jar
 
 # Copiar el script de visión de Python y el checkpoint del modelo SAM
 COPY vision ./vision

@@ -3,8 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.taikatranslator</groupId>
-    <artifactId>taika-translator</artifactId>
+    <groupId>com.udocmachine</groupId>
+    <artifactId>udocmachine</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <properties>
@@ -91,7 +91,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.1</version>
                 <configuration>
-                    <mainClass>com.taikatranslator.Main</mainClass>
+                    <mainClass>com.udocmachine.Main</mainClass>
                 </configuration>
             </plugin>
             <!-- Maven Shade Plugin to package all dependencies into a runnable fat JAR -->
@@ -108,7 +108,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.taikatranslator.Main</mainClass>
+                                    <mainClass>com.udocmachine.Main</mainClass>
                                 </transformer>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                             </transformers>

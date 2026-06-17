@@ -1,4 +1,4 @@
-# Constitution: Document Extraction & Translation Pipeline (TaikaTranslator)
+# Constitution: Document Extraction & Translation Pipeline (UDocMachine)
 
 This constitution defines the core principles, strict technology stack, architectural constraints, and development guidelines for the automated Document Extraction & Translation Pipeline. Every component and contribution to this codebase must adhere strictly to these principles.
 
