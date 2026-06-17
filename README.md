@@ -1,4 +1,4 @@
-# TaikaTranslator: Document Extraction & Translation Pipeline
+# UDocMachine: Document Extraction & Translation Pipeline
 
 An automated, enterprise-grade, high-fidelity **Document Extraction & Translation Pipeline** designed to process scanned PDFs, extract structured layouts (paragraphs and tables), segment complex visual components (colored stamps, seals, and ink signatures), translate the contents from English to Spanish, and generate visually identical `.docx` files.
 
